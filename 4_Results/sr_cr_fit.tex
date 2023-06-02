@@ -1,0 +1,114 @@
+\section{Combined likelihood fit}
+\label{sec:sr_cr_fit}
+
+% Directory with the result plots
+\newcommand\resultPlotDir{merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit}
+
+\graphicspath{{4_Results/Figures}}
+
+To get the best-fit value of the signal strength $\mu=\sigmabr$, a maximum-likelihood fit is performed
+across all different signal and control regions in the analysis, using the likelihood function given 
+in Eq.~\ref{eq:fit_likelihood_func}. In this fit, data from 2017 and 2018 are combined. Theoretical uncertainties
+are treated as correlated between different years, while some experimental uncertainties, such as the jet energy
+scale uncertainties, are partially correlated between different years, depending on the uncertainty source.
+The partial correlation scheme is in accordance with the recommendations from the relevant POGs.
+The theoretical and experimental uncertainties are discussed in depth in Sec.~\ref{subsec:sys_uncertainties}.
+
+Figs.~\ref{fig:pre_postfit_sr_and_gamma}, \ref{fig:pre_postfit_dilepton_regions}, \ref{fig:pre_postfit_single_lepton_regions}
+show the results of the 2017+2018 combined fit in all control regions and the signal region of the analysis.
+Data observed in each region is compared to the background predictions from simulation and data-driven estimates (pre-fit) and
+background predictions after the fit (post-fit). Overall, it can be observed that post-fit background
+estimates are in very good agreement with the observed data, and no significant pulls 
+($data - prediction / uncertainty > 2\sigma$) are observed when fitting the data. 
+
+For the signal region plots in Fig.~\ref{fig:pre_postfit_sr_and_gamma} (top row), two data-driven multijet background estimates
+have been shown, which represent the events where $\ptmiss$ arises from mismeasured jets. The first multijet estimate, labeled as ``HF Estimate", 
+represents the noise estimation related to events with forward jets in Forward HCAL (HF) detector, where the mismeasured jet is balanced
+with $\ptmiss$, therefore $\Delta\phi$($\ptvecjet$,$\ptvecmiss$) is large. The derivation of this estimate is explained in Sec.~\ref{subsubsec:hf_noise_est}.
+
+The second data-driven estimate is labeled as ``QCD", which is an independent estimate of events where the mismeasured jet is aligned with $\ptmiss$,
+therefore $\Delta\phi$($\ptvecjet$,$\ptvecmiss$) is small. This background is estimated from another control region, where the $\Delta\phi$($\ptvecjet$,$\ptvecmiss$)
+$> 0.5$ selection (listed in Table.~\ref{tab:selection_mtr}) is inverted, as explained in ~\cite{VBFHinvAnalysisPaper}.
+
+The observed event yields for each $\mjj$ bin, and the corresponding expected event yields from each background process are summarized in Tables~\ref{tab:yields_MTR_2017} and
+\ref{tab:yields_MTR_2018}.
+
+\begin{figure}[htbp]
+    \centering
+        \includegraphics[width=0.45\textwidth]{\resultPlotDir/combined/vbf_2017_PULLS_MASKED_prefit_postfit_signal_2017.pdf}
+        \includegraphics[width=0.45\textwidth]{\resultPlotDir/combined/vbf_2018_PULLS_MASKED_prefit_postfit_signal_2018.pdf} \\
+        \includegraphics[width=0.45\textwidth]{\resultPlotDir/combined/vbf_2017_PULLS_MASKED_prefit_postfit_gjets_2017.pdf}
+        \includegraphics[width=0.45\textwidth]{\resultPlotDir/combined/vbf_2018_PULLS_MASKED_prefit_postfit_gjets_2018.pdf}
+    \caption{Comparison between data and background estimation in VBF SR (top) and $\gamma$ + jets CR (bottom),
+    before and after the simultaneous fit. The fit includes the data in all CRs and the signal region. The resulting
+    distributions are shown separately for 2017 (left) and 2018 (right). In the ratio pads, ratios of data and background
+    estimation are shown before (red) and after (blue) the fit. The gray band indicates the post-fit uncertainty.
+    Finally, the distribution of the difference between data and post-fit background prediction relative to the quadrature sum of
+    the uncertainties in the prediction and in data is shown in the lowest panel.}
+    \label{fig:pre_postfit_sr_and_gamma}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+        \includegraphics[width=0.45\textwidth]{\resultPlotDir/combined/vbf_2017_PULLS_MASKED_prefit_postfit_dielectron_2017.pdf}
+        \includegraphics[width=0.45\textwidth]{\resultPlotDir/combined/vbf_2018_PULLS_MASKED_prefit_postfit_dielectron_2018.pdf} \\
+        \includegraphics[width=0.45\textwidth]{\resultPlotDir/combined/vbf_2017_PULLS_MASKED_prefit_postfit_dimuon_2017.pdf}
+        \includegraphics[width=0.45\textwidth]{\resultPlotDir/combined/vbf_2018_PULLS_MASKED_prefit_postfit_dimuon_2018.pdf}
+    \caption{Same as Fig.~\ref{fig:pre_postfit_sr_and_gamma} but with dilepton CRs. The other backgrounds include top 
+    quark and diboson processes.}
+    \label{fig:pre_postfit_dilepton_regions}
+\end{figure}
+
+\begin{figure}[htbp]
+    \centering
+        \includegraphics[width=0.45\textwidth]{\resultPlotDir/combined/vbf_2017_PULLS_MASKED_prefit_postfit_singleelectron_2017.pdf}
+        \includegraphics[width=0.45\textwidth]{\resultPlotDir/combined/vbf_2018_PULLS_MASKED_prefit_postfit_singleelectron_2018.pdf} \\
+        \includegraphics[width=0.45\textwidth]{\resultPlotDir/combined/vbf_2017_PULLS_MASKED_prefit_postfit_singlemuon_2017.pdf}
+        \includegraphics[width=0.45\textwidth]{\resultPlotDir/combined/vbf_2018_PULLS_MASKED_prefit_postfit_singlemuon_2018.pdf}
+    \caption{Same as Fig.~\ref{fig:pre_postfit_sr_and_gamma} but with single lepton CRs. The other backgrounds include top 
+    quark and diboson processes.}
+    \label{fig:pre_postfit_single_lepton_regions}
+\end{figure}
+
+\clearpage
+
+\begin{sidewaystable}[h!]
+    \centering
+    \caption{
+        Expected event yields in each $\mjj$ bin for the different background
+        processes in the VBF signal region, with the 2017 samples. The
+        background yields and the corresponding uncertainties are obtained
+        after performing a combined fit across all of the CRs and SR. The
+        expected signal contributions for a Higgs boson, produced in the non-VBF
+        and VBF modes, decaying to invisible particles with a branching
+        fraction of $\brinv = 1$, and the observed event yields are also
+        reported.}
+        \cmsTable{
+            \renewcommand{\arraystretch}{1.2}
+            \input{4_Results/Tables/srcrfit_MTR_2017.tex}
+        }
+    \label{tab:yields_MTR_2017}
+   
+\end{sidewaystable}
+
+\begin{sidewaystable}[h!]
+    \centering
+    \caption{
+    Expected event yields in each $\mjj$ bin for the different background
+    processes in the VBF signal region, with the 2018 samples. The
+    background yields and the corresponding uncertainties are obtained
+    after performing a combined fit across all of the CRs and SR. The
+    expected signal contributions for a Higgs boson, produced in the non-VBF
+    and VBF modes, decaying to invisible particles with a branching
+    fraction of $\brinv = 1$, and the observed event yields are also
+    reported.}
+    \label{tab:yields_MTR_2018}
+    \cmsTable{
+        \renewcommand{\arraystretch}{1.2}
+        \input{4_Results/Tables/srcrfit_MTR_2018.tex}
+    }
+\end{sidewaystable}
+
+\clearpage
+
+

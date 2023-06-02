@@ -1,0 +1,587 @@
+\begin{thebibliography}{100}
+
+\bibitem{CMS-JME-TWIKI-FILTER}
+{CMS JME POG}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/MissingETOptionalFiltersRun2}.
+
+\bibitem{Cowan:2010js}
+Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
+\newblock Asymptotic formulae for likelihood-based tests of new physics.
+\newblock {\em Eur. Phys. J. C}, 71:1554, 2011.
+
+\bibitem{Bertone:2004pz}
+Gianfranco Bertone, Dan Hooper, and Joseph Silk.
+\newblock {Particle dark matter: Evidence, candidates and constraints}.
+\newblock {\em Phys. Rept.}, 405:279--390, 2005.
+
+\bibitem{VBFHinvAnalysisPaper}
+CMS Collaboration.
+\newblock {Search for invisible decays of the Higgs boson produced via vector
+  boson fusion in proton-proton collisions at $\sqrt{s}=13\text{ }\text{
+  }\mathrm{TeV}$}.
+\newblock {\em Phys. Rev. D}, 105:092007, May 2022.
+
+\bibitem{Argyropoulos:2021sav}
+Spyros Argyropoulos, Oleg Brandt, and Ulrich Haisch.
+\newblock {Collider Searches for Dark Matter through the Higgs Lens}.
+\newblock {\em Symmetry}, 13(12):2406, 2021.
+
+\bibitem{LHCAcceleratorComplex}
+CERN.
+\newblock Cern accelerator complex.
+\newblock \url{https://home.cern/science/accelerators/accelerator-complex}.
+
+\bibitem{detector:cms_overall}
+CMS Collaboration.
+\newblock Cms detector design.
+\newblock \url{https://cms.cern/news/cms-detector-design}.
+
+\bibitem{cms:tracker_upgrade}
+CMS Collaboration.
+\newblock The {CMS} phase-1 pixel detector upgrade.
+\newblock {\em Journal of Instrumentation}, 16(P02027), 2021.
+
+\bibitem{cms:cms_experiment}
+CMS Collaboration.
+\newblock The {CMS} experiment at the {CERN LHC}.
+\newblock {\em Journal of Instrumentation}, 3(S08004), 2008.
+
+\bibitem{Thomson:2013zua}
+Mark Thomson.
+\newblock {\em {Modern particle physics}}.
+\newblock Cambridge University Press, New York, 2013.
+
+\bibitem{Aprile:2018dbl}
+E.~Aprile et~al.
+\newblock Dark matter search results from a one ton-year exposure of {XENON1T}.
+\newblock {\em Phys. Rev. Lett.}, 121:111302, 2018.
+
+\bibitem{Angloher:2015ewa}
+G.~Angloher et~al.
+\newblock Results on light dark matter particles with a low-threshold
+  {CRESST-II} detector.
+\newblock {\em Eur. Phys. J. C}, 76:25, 2016.
+
+\bibitem{Agnese:2015nto}
+R.~Agnese et~al.
+\newblock New results from the search for low-mass weakly interacting massive
+  particles with the {CDMS} low ionization threshold experiment.
+\newblock {\em Phys. Rev. Lett.}, 116:071301, 2016.
+
+\bibitem{Akerib:2016vxi}
+D.~S. Akerib et~al.
+\newblock Results from a search for dark matter in the complete {LUX} exposure.
+\newblock {\em Phys. Rev. Lett.}, 118:021303, 2017.
+
+\bibitem{PandaX-4T:2021bab}
+Yue Meng et~al.
+\newblock {Dark Matter Search Results from the PandaX-4T Commissioning Run}.
+\newblock 7 2021.
+
+\bibitem{Agnes:2018ves}
+P.~Agnes et~al.
+\newblock Low-mass dark matter search with the {DarkSide-50 Experiment}.
+\newblock {\em Phys. Rev. Lett.}, 121:081307, 2018.
+
+\bibitem{CMS:Phase2TrackerUpgrade}
+CMS Collaboration.
+\newblock The cms tracker for the high luminosity lhc.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 1048, 2023.
+
+\bibitem{CMS:TrackerUpgradeStatus}
+Luigi~C. CMS~Collaboration.
+\newblock {Status of the Phase-2 Tracker Upgrade of the CMS experiment at the
+  HL-LHC}.
+\newblock {\em J. Phys.: Conf. Ser.}, (1690), 2020.
+
+\bibitem{CMS:ApolloPaper}
+A.~Albert et. al.
+\newblock {The Apollo ATCA Platform}.
+\newblock {\em arXiv:1911.06452}, 2020.
+
+\bibitem{CMS:ParticleNetPaper}
+Loukas~Gouskos Huilin~Qu.
+\newblock {ParticleNet: Jet Tagging via Particle Clouds}.
+\newblock {\em arXiv:1902.08570}, 2020.
+
+\bibitem{Thomson:1897cm}
+J.~J. Thomson.
+\newblock {Cathode rays}.
+\newblock {\em Phil. Mag. Ser. 5}, 44:293--316, 1897.
+
+\bibitem{Rutherford:1911zz}
+E.~Rutherford.
+\newblock {The scattering of alpha and beta particles by matter and the
+  structure of the atom}.
+\newblock {\em Phil. Mag. Ser. 6}, 21:669--688, 1911.
+
+\bibitem{Rutherford:1919fnt}
+E.~Rutherford.
+\newblock {Collision of \ensuremath{\alpha} particles with light atoms. IV. An
+  anomalous effect in nitrogen}.
+\newblock {\em Phil. Mag. Ser. 6}, 37:581--587, 1919.
+
+\bibitem{Chadwick:1932ma}
+J.~Chadwick.
+\newblock {Possible Existence of a Neutron}.
+\newblock {\em Nature}, 129:312, 1932.
+
+\bibitem{Einstein:1905cc}
+Albert Einstein.
+\newblock {Concerning an heuristic point of view toward the emission and
+  transformation of light}.
+\newblock {\em Annalen Phys.}, 17:132--148, 1905.
+
+\bibitem{deBroglie:1924ldk}
+Louis Victor Pierre~Raymond de~Broglie.
+\newblock {Recherches sur la th\'eorie des quanta}.
+\newblock {\em Annals Phys.}, 2:22--128, 1925.
+
+\bibitem{Schrodinger:1926gei}
+E.~Schr\"odinger.
+\newblock {Quantisierung als Eigenwertproblem}.
+\newblock {\em Annalen Phys.}, 384(4):361--376, 1926.
+
+\bibitem{Born:1926uzf}
+M.~Born, W.~Heisenberg, and P.~Jordan.
+\newblock {Zur Quantenmechanik. II.}
+\newblock {\em Z. Phys.}, 35(8-9):557--615, 1926.
+
+\bibitem{Einstein:1905ve}
+Albert Einstein.
+\newblock {On the electrodynamics of moving bodies}.
+\newblock {\em Annalen Phys.}, 17:891--921, 1905.
+
+\bibitem{Dirac:1928hu}
+Paul A.~M. Dirac.
+\newblock {The quantum theory of the electron}.
+\newblock {\em Proc. Roy. Soc. Lond. A}, 117:610--624, 1928.
+
+\bibitem{Weyl:1929fm}
+H.~Weyl.
+\newblock {Electron and Gravitation. 1. (In German)}.
+\newblock {\em Z. Phys.}, 56:330--352, 1929.
+
+\bibitem{Dirac:1930ek}
+P.~A.~M. Dirac.
+\newblock {A Theory of Electrons and Protons}.
+\newblock {\em Proc. Roy. Soc. Lond. A}, 126(801):360--365, 1930.
+
+\bibitem{Anderson:1932zz}
+Carl~D. Anderson.
+\newblock {The Apparent Existence of Easily Deflectable Positives}.
+\newblock {\em Science}, 76:238--239, 1932.
+
+\bibitem{Riordan:1992hr}
+E.~M. Riordan.
+\newblock {The Discovery of quarks}.
+\newblock {\em Science}, 256:1287--1293, 1992.
+
+\bibitem{Gell-Mann:1964ewy}
+Murray Gell-Mann.
+\newblock {A Schematic Model of Baryons and Mesons}.
+\newblock {\em Phys. Lett.}, 8:214--215, 1964.
+
+\bibitem{E598:1974sol}
+J.~J. Aubert et~al.
+\newblock {Experimental Observation of a Heavy Particle $J$}.
+\newblock {\em Phys. Rev. Lett.}, 33:1404--1406, 1974.
+
+\bibitem{E288:1977xhf}
+S.~W. Herb et~al.
+\newblock {Observation of a Dimuon Resonance at 9.5-GeV in 400-GeV
+  Proton-Nucleus Collisions}.
+\newblock {\em Phys. Rev. Lett.}, 39:252--255, 1977.
+
+\bibitem{D0:1995jca}
+S.~Abachi et~al.
+\newblock {Observation of the top quark}.
+\newblock {\em Phys. Rev. Lett.}, 74:2632--2637, 1995.
+
+\bibitem{CMS:WeakMixingAngleMeasurement}
+CMS Collaboration.
+\newblock {Measurement of the weak mixing angle using the forward-backward
+  asymmetry of Drell-Yan events in pp collisions at 8 TeV}.
+\newblock {\em arXiv:1806.00863}, 2018.
+
+\bibitem{Wu:1957my}
+C.~S. Wu, E.~Ambler, R.~W. Hayward, D.~D. Hoppes, and R.~P. Hudson.
+\newblock {Experimental Test of Parity Conservation in $\beta$ Decay}.
+\newblock {\em Phys. Rev.}, 105:1413--1414, 1957.
+
+\bibitem{UA1:WBosonDiscovery}
+UA1 Collaboration.
+\newblock {Experimental observation of isolated large transverse energy
+  electrons with associated missing energy at $\sqrt{s} = 540$ GeV}.
+\newblock {\em Physics Letters B}, 122, 1983.
+
+\bibitem{ATLAS:WMassMeasurement}
+{Improved W boson Mass Measurement using 7 TeV Proton-Proton Collisions with
+  the ATLAS Detector}.
+\newblock 2023.
+
+\bibitem{CMS:ZMassMeasurement}
+{W-like measurement of the Z boson mass using dimuon events collected in pp
+  collisions at $\sqrt{s} = 7~\mathrm{TeV}$}.
+\newblock 2016.
+
+\bibitem{Nisati:2015iwc}
+A.~Nisati and G.~Tonelli.
+\newblock {The discovery of the Higgs boson at the Large Hadron Collider}.
+\newblock {\em Riv. Nuovo Cim.}, 38(11):507--573, 2015.
+
+\bibitem{CMS:2022dwd}
+Armen Tumasyan et~al.
+\newblock {A portrait of the Higgs boson by the CMS experiment ten years after
+  the discovery}.
+\newblock {\em Nature}, 607(7917):60--68, 2022.
+
+\bibitem{Zwicky:1933gu}
+F.~Zwicky.
+\newblock {Die Rotverschiebung von extragalaktischen Nebeln}.
+\newblock {\em Helv. Phys. Acta}, 6:110--127, 1933.
+
+\bibitem{Mellier:1998pk}
+Yannick Mellier.
+\newblock {Probing the universe with weak lensing}.
+\newblock {\em Ann. Rev. Astron. Astrophys.}, 37:127--189, 1999.
+
+\bibitem{1988ApJ...332...75N}
+D.~{Narasimha} and S.~M. {Chitre}.
+\newblock {Giant Luminous Arcs in Galaxy Clusters}.
+\newblock {\em The Astrophysical Journal}, 332:75, September 1988.
+
+\bibitem{Hu:1995kot}
+Wayne Hu, Naoshi Sugiyama, and Joseph Silk.
+\newblock {The Physics of microwave background anisotropies}.
+\newblock {\em Nature}, 386:37--43, 1997.
+
+\bibitem{Profumo:2017hqp}
+Stefano Profumo.
+\newblock {\em {An Introduction to Particle Dark Matter}}.
+\newblock World Scientific, 2017.
+
+\bibitem{Jungman:1995df}
+Gerard Jungman, Marc Kamionkowski, and Kim Griest.
+\newblock {Supersymmetric dark matter}.
+\newblock {\em Phys. Rept.}, 267:195--373, 1996.
+
+\bibitem{Dienes:1998vh}
+Keith~R. Dienes, Emilian Dudas, and Tony Gherghetta.
+\newblock {Extra space-time dimensions and unification}.
+\newblock {\em Phys. Lett. B}, 436:55--65, 1998.
+
+\bibitem{Arkani-Hamed:2002ikv}
+N.~Arkani-Hamed, A.~G. Cohen, E.~Katz, and A.~E. Nelson.
+\newblock {The Littlest Higgs}.
+\newblock {\em JHEP}, 07:034, 2002.
+
+\bibitem{XENON:2017vdw}
+E.~Aprile et~al.
+\newblock {First Dark Matter Search Results from the XENON1T Experiment}.
+\newblock {\em Phys. Rev. Lett.}, 119(18):181301, 2017.
+
+\bibitem{Angloher:2011uu}
+G.~Angloher et~al.
+\newblock {Results from 730 kg days of the CRESST-II Dark Matter Search}.
+\newblock {\em Eur. Phys. J. C}, 72:1971, 2012.
+
+\bibitem{SuperCDMS:2017nns}
+R.~Agnese et~al.
+\newblock {Low-mass dark matter search with CDMSlite}.
+\newblock {\em Phys. Rev. D}, 97(2):022002, 2018.
+
+\bibitem{LUX:2015abn}
+D.~S. Akerib et~al.
+\newblock {Improved Limits on Scattering of Weakly Interacting Massive
+  Particles from Reanalysis of 2013 LUX Data}.
+\newblock {\em Phys. Rev. Lett.}, 116(16):161301, 2016.
+
+\bibitem{PandaX-II:2016vec}
+Andi Tan et~al.
+\newblock {Dark Matter Results from First 98.7 Days of Data from the PandaX-II
+  Experiment}.
+\newblock {\em Phys. Rev. Lett.}, 117(12):121303, 2016.
+
+\bibitem{Fermi-LAT:2011vow}
+M.~Ackermann et~al.
+\newblock {Constraining Dark Matter Models from a Combined Analysis of Milky
+  Way Satellites with the Fermi Large Area Telescope}.
+\newblock {\em Phys. Rev. Lett.}, 107:241302, 2011.
+
+\bibitem{Iovine:2022aiw}
+Nad\`ege Iovine.
+\newblock {Dark matter searches in the centre of the Milky Way with IceCube}.
+\newblock {\em PoS}, ICHEP2022:311, 2022.
+
+\bibitem{Djouadi:2011aa}
+Abdelhak Djouadi, Oleg Lebedev, Yann Mambrini, and Jeremie Quevillon.
+\newblock {Implications of LHC searches for Higgs--portal dark matter}.
+\newblock {\em Phys. Lett. B}, 709:65--69, 2012.
+
+\bibitem{Djouadi:2005gi}
+Abdelhak Djouadi.
+\newblock {The Anatomy of electro-weak symmetry breaking. I: The Higgs boson in
+  the standard model}.
+\newblock {\em Phys. Rept.}, 457:1--216, 2008.
+
+\bibitem{CMS:2021far}
+Armen Tumasyan et~al.
+\newblock {Search for new particles in events with energetic jets and large
+  missing transverse momentum in proton-proton collisions at $ \sqrt{s} $ = 13
+  TeV}.
+\newblock {\em JHEP}, 11:153, 2021.
+
+\bibitem{CMS:2023sdw}
+{A search for decays of the Higgs boson to invisible particles in events with a
+  top-antitop quark pair or a vector boson in proton-proton collisions at
+  $\sqrt{s}$ = 13 TeV}.
+\newblock 3 2023.
+
+\bibitem{CMS:2018yfx}
+Albert~M Sirunyan et~al.
+\newblock {Search for invisible decays of a Higgs boson produced through vector
+  boson fusion in proton-proton collisions at $\sqrt{s} =$ 13 TeV}.
+\newblock {\em Phys. Lett. B}, 793:520--551, 2019.
+
+\bibitem{lumi:2018}
+CMS Collaboration.
+\newblock {CMS} luminosity measurement for the 2018 data-taking period at
+  $\sqrt{s} = 13 \ {TeV}$.
+\newblock \url{https://cds.cern.ch/record/2676164}, 2019.
+
+\bibitem{lumi:2017}
+CMS Collaboration.
+\newblock {CMS} luminosity measurement for the 2017 data-taking period at
+  $\sqrt{s} = 13 \ {TeV}$.
+\newblock \url{https://cds.cern.ch/record/2621960}, 2018.
+
+\bibitem{lumi:2016}
+CMS Collaboration.
+\newblock Precision luminosity measurement in proton-proton collisions at
+  $\sqrt{s}$ = 13 {TeV} in 2015 and 2016 at {CMS}.
+\newblock {\em European Physical Journal C}, 81(800 (2021)), 2021.
+
+\bibitem{cms:l1_paper}
+CMS Collaboration.
+\newblock Performance of the {CMS} {Level-1} trigger in proton-proton
+  collisions at $\sqrt{s} = 13 \ {TeV}$.
+\newblock {\em Journal of Instrumentation}, 15(P10017), 2020.
+
+\bibitem{cms:hlt_paper}
+CMS Collaboration.
+\newblock The {CMS} trigger system.
+\newblock {\em Journal of Instrumentation}, 12(P01020), 2017.
+
+\bibitem{cms:elepho_paper}
+CMS Collaboration.
+\newblock Electron and photon reconstruction and identification with the {CMS}
+  experiment at the {CERN LHC}.
+\newblock {\em Journal of Instrumentation}, 16(P05014), 2021.
+
+\bibitem{cms:muon_paper}
+CMS Collaboration.
+\newblock Performance of the {CMS} muon detector and muon reconstruction with
+  proton-proton collisions at $\sqrt{s} = 13 \ {TeV}$.
+\newblock {\em Journal of Instrumentation}, 13(P06015), 2018.
+
+\bibitem{cms:vertex_paper}
+CMS Collaboration.
+\newblock Description and performance of track and primary-vertex
+  reconstruction with the {CMS} tracker.
+\newblock {\em Journal of Instrumentation}, 9(P10009), 2014.
+
+\bibitem{cms:particle_flow}
+CMS Collaboration.
+\newblock Particle-flow reconstruction and global event description with the
+  {CMS} detector.
+\newblock {\em Journal of Instrumentation}, 12(P10003), 2017.
+
+\bibitem{cms:phase2_upgrade}
+CMS Collaboration.
+\newblock Technical proposal for the phase-{II} upgrade of the {CMS} detector.
+\newblock \url{http://cds.cern.ch/record/2020886}, 2015.
+
+\bibitem{Cacciari:2008gp}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock The anti-$k_t$ jet clustering algorithm.
+\newblock {\em JHEP}, 04:063, 2008.
+
+\bibitem{Khachatryan:2016kdb}
+Vardan Khachatryan et~al.
+\newblock {Jet energy scale and resolution in the CMS experiment in pp
+  collisions at 8 TeV}.
+\newblock {\em JINST}, 12:P02014, 2017.
+
+\bibitem{JME:JECRecommendations}
+{CMS JetMET POG}.
+\newblock \url{https://twiki.cern.ch/twiki/bin/view/CMS/JECDataMC}.
+
+\bibitem{CMS:JME_jetId}
+CMS~JME POG.
+\newblock Jet identification for the 13 {TeV} {UL} data.
+\newblock \url{https://twiki.cern.ch/twiki/bin/view/CMS/JetID13TeVUL}.
+
+\bibitem{CMS:JME_jetPuID}
+CMS~JME POG.
+\newblock Jet identification in high pile-up environment.
+\newblock \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/PileupJetID}.
+
+\bibitem{Sirunyan:2017ezt}
+A.~M. Sirunyan et~al.
+\newblock Identification of heavy-flavour jets with the {CMS} detector in pp
+  collisions at 13 {TeV}.
+\newblock {\em JINST}, 13(05):P05011, 2018.
+
+\bibitem{CMS-MUO-TWIKI-IDLOOSE}
+{CMS Muon POG}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideMuonIdRun2#Loose\_Muon}.
+
+\bibitem{CMS-MUO-TWIKI-IDTIGHT}
+{CMS Muon POG}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideMuonIdRun2#Tight\_Muon}.
+
+\bibitem{CMS-DP-2019-033}
+{CMS Collaboration}.
+\newblock {Performance of the DeepTau algorithm for the discrimination of taus
+  against jets, electron, and muons}.
+\newblock CMS Physics Analysis Summary, CMS-DP-2019-033, 2019.
+
+\bibitem{taupog_twiki}
+{CMS Tau POG}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/TauIDRecommendation13TeV#Measurement_in_Z_tautau_events}.
+
+\bibitem{CMS:EGM-14-001}
+Vardan Khachatryan et~al.
+\newblock {Performance of photon reconstruction and identification with the CMS
+  detector in proton-proton collisions at $\sqrt{s} = 8$ TeV}.
+\newblock {\em JINST}, 10:P08010, 2015.
+
+\bibitem{CMS-EGM-TWIKI-GAMID}
+{CMS EGamma POG}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/CutBasedPhotonIdentificationRun2#SPRING15\_selections\_bunch\_crossi}.
+
+\bibitem{pileup_twiki}
+{CMS Lumi POG}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/PileupJSONFileforData#Pileup_JSON_Files_For_Run_II}.
+
+\bibitem{CMS-MUO-TWIKI-SF}
+{CMS Muon POG}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/MuonReferenceSelectionAndCalibrationsRun2}.
+
+\bibitem{CMS:PrefiringTwiki}
+{CMS JME POG}.
+\newblock {Reweighting recipe to emulate Level 1 ECAL prefiring}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/L1ECALPrefiringWeightRecipe}.
+
+\bibitem{CMS:PrefiringNanoAODTools}
+{Prefiring correction implementation in NanoAOD-Tools}.
+\newblock
+  \url{https://github.com/cms-nanoAOD/nanoAOD-tools/blob/master/python/postprocessing/modules/common/PrefireCorr.py}.
+
+\bibitem{DMTheory}
+J.~M. Lindert et~al.
+\newblock {Precise predictions for V+jets dark matter backgrounds}.
+\newblock 2017.
+
+\bibitem{AN-2017-267}
+{Search for VBF Higgs boson decays to invisible particles with 2016 dataset},
+  2017.
+\newblock CMS Analysis Note : AN-17-267.
+
+\bibitem{HAWKGenerator}
+{A Monte Carlo generator for the production of Higgs bosons attached to weak
+  bosons (HAWK)}.
+
+\bibitem{Sirunyan:2019kia}
+Albert~M Sirunyan et~al.
+\newblock {Performance of missing transverse momentum reconstruction in
+  proton-proton collisions at $\sqrt{s} =$ 13 TeV using the CMS detector}.
+\newblock {\em Submitted to: JINST}, 2019.
+
+\bibitem{CMS_NOTE_2018-323}
+Pierguilio Lenzi, Christopher~A. Palmer, Joshuha Thomas-Wilsker, et~al.
+\newblock Performance of flavour tagging algorithms at 13 tev with 2018 data.
+\newblock CMS Note 2018/323, 2019.
+
+\bibitem{paper:PDF4LHC}
+Jon~Butterworth et~al.
+\newblock {PDF4LHC recommendations for LHC Run II}.
+\newblock {\em Journal of Physics G: Nuclear and Particle Physics}, 43(023001),
+  2016.
+
+\bibitem{Khachatryan:2014gga}
+Vardan Khachatryan et~al.
+\newblock {Performance of the CMS missing transverse momentum reconstruction in
+  pp data at $\sqrt{s}$ = 8 TeV}.
+\newblock {\em JINST}, 10:P02006, 2015.
+
+\bibitem{jetMET_twiki}
+{CMS JME}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/JECUncertaintySources#Run_2_reduced_set_of_uncertainty}.
+
+\bibitem{paper:VBF_HToInv_2016}
+CMS Collaboration.
+\newblock {Search for invisible decays of a Higgs boson produced through vector
+  boson fusion in proton-proton collisions at $\sqrt{s} = 13 \ TeV$}.
+\newblock {\em Physics Letters B}, 793, 2019.
+
+\bibitem{CMS:2021xjt}
+Albert~M Sirunyan et~al.
+\newblock {Precision luminosity measurement in proton-proton collisions at
+  $\sqrt{s} =$ 13 TeV in 2015 and 2016 at CMS}.
+\newblock {\em Eur. Phys. J. C}, 81:800, 2021.
+
+\bibitem{Junk:1999kv}
+Thomas Junk.
+\newblock Confidence level computation for combining searches with small
+  statistics.
+\newblock {\em Nucl. Instrum. Meth. A}, 434:435, 1999.
+
+\bibitem{Read:2002av}
+A.~L. Read.
+\newblock Presentation of search results: the ${\textrm{cl}_{\textrm{s}}}$
+  technique.
+\newblock {\em J. Phys. G}, 28:2693, 2002.
+
+\bibitem{Hoferichter:2017olk}
+Martin Hoferichter, Philipp Klos, Javier Men{\'e}ndez, and Achim Schwenk.
+\newblock Improved limits for {H}iggs-portal dark matter from {LHC} searches.
+\newblock {\em Phys. Rev. Lett.}, 119:181803, 2017.
+
+\bibitem{Heinemeyer:2013tqa}
+{LHC Higgs Cross Section Working Group}.
+\newblock Handbook of {LHC} {H}iggs cross sections: 3. {H}iggs properties.
+\newblock 2013.
+
+\bibitem{CMS:SerenityPaper}
+A.~Rose et. al.
+\newblock {Serenity: An ATCA prototyping platform for CMS Phase-2}.
+\newblock {\em PoS Proc. Sci.}, 2019.
+
+\bibitem{PICMG:ATCA}
+PICMG.
+\newblock {\em PICMG 3.0 - AdvancedTCA Base Specification}.
+
+\bibitem{Calligaris:OpenIPMC}
+L.~Calligaris et. al.
+\newblock {OpenIPMC: A Free and Open-Source Intelligent Platform Management
+  Controller Software}.
+\newblock {\em IEEE Trans. Nucl. Sci.}, 68(8):2105--2112, 2021.
+
+\bibitem{Wang:DynamicGraphCNNPaper}
+Yue~Wang et. al.
+\newblock {Dynamic Graph CNN for Learning on Point Clouds}.
+\newblock {\em arXiv:1801.07829}, 2019.
+
+\end{thebibliography}

@@ -1,0 +1,12 @@
+Plot script most recently created at: 04/09/2023, 11:04:32
+Command line arguments:
+
+inpath: ../../../submission/2023-04-08_vbfhinv_full_analysis/merged_2023-04-08_vbfhinv_full_analysis/
+region: .*
+distribution: mjj|recoil
+years: [2017, 2018]
+one_fifth_unblind: False
+fformats: ['pdf']
+jes: False
+eoyxs: False
+mcscale: 1.0
