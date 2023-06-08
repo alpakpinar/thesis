@@ -36,7 +36,7 @@ The full set of selections required is listed below:
 \begin{enumerate}
     \item Event must have exactly one tightly-identified muon with $\pt > 40$ GeV.
     \item Veto on additional leptons, photons, b jets, $\tau_{had}$ candidates.
-    \item $\Delta\phi(jet,\ptvecmiss)>0.5$ for the four leading jets with $\pt>30~\GeV$.
+    \item $\Delta\phi(jet,\ptvecmiss)>0.5$ for the four leading jets with $\pt>30$ GeV.
     \item (Calo \ptmiss - PF \ptmiss) / recoil $<$ 0.5
     \item Leading AK4 jet with $\pt>80$ GeV, passing the tight jet ID.
     \item Subleading AK4 jet with $\pt>40$ GeV.
@@ -52,7 +52,7 @@ To smooth out the fluctuations in efficiencies for each case, a sigmoid function
 efficiency curves. The sigmoid function has three parameters and is written in the form $f(x,a,b,c) = \frac{c}{1+e^{-a(x-b)}}$. 
 The factors for correcting the MC simulation are then calculated as the ratio of the best-fit sigmoid curves for data and MC.
 The efficiencies and resulting SFs are shown in Fig.~\ref{fig:sigmoid_fits_eff}. From Fig.~\ref{fig:sigmoid_fits_eff}, 
-it can be seen that the scale factors are mostly $\simeq 1$ for the analysis phase space (i.e. Recoil $> 250~\GeV$).
+it can be seen that the scale factors are mostly $\simeq 1$ for the analysis phase space (i.e. Recoil $> 250$ GeV).
 
 \begin{figure}[ht!]
     \centering

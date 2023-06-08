@@ -176,4 +176,24 @@ it is plausible that this difference can be playing a role in the shape of the p
     \label{fig:cr_ratios_dnn_score}
 \end{figure}
 
-\textit{Comment on sensitivity studies here.}
+\subsection{Outlook}
+
+Introducing powerful classifiers such as ParticleNet to enhance the sensitivity of the VBF $\hinv$ analysis
+is definitely an interesting prospect. As mentioned in the previous sections, it is understood that ParticleNet can perform
+better than a pure-$\mjj$ based classifier (i.e. Fig.~\ref{fig:ggh_vs_vbfh_roc}). However, the question of whether this
+classifier can improve the statistical bounds on the $\brhinv$, hence enhancing the sensitivity of the analysis, is still open.
+
+Application of the ParticleNet classifier to this analysis can be grouped into two different ways:
+
+\begin{itemize}
+    \item Perform the fit on the VBF-like score distribution, where the likelihood is described by Eq.~\ref{eq:fit_likelihood_func}.
+    \item Perform a cut on the VBF-like score to reduce background (i.e. score $> X$), and perform the fit on $\mjj$ as before.
+\end{itemize}
+
+In both cases, the systematic uncertainties described in Sec.~\ref{subsec:sys_uncertainties} have to be recomputed. In the first case,
+they need to be recomputed as a function of the ParticleNet score, while in the second case, they have to be recomputed for the high
+VBF-like score phase space. Through further reduction of background using such a sophisticated classifier can in turn enhance the signal
+to background ratio, resulting in an overall increase in the sensitivity of the analysis. With the Run3 data taking ongoing with Large
+Hadron Collider (LHC) and the high luminosity stage (HL-LHC) on the horizon, much larger volumes of data will be able to analyze to probe
+$\hinv$ decays, and the application of sophisticated classifiers such as ParticleNet remain an interesting variation of the analysis in
+an attempt to enhance the sensitivity of the analysis.
