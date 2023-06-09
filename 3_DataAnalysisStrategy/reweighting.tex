@@ -21,28 +21,27 @@ from the $\ptmiss$ and $\htmiss$ calculations allow these triggers to be used bo
 signal region (high $\ptmiss$), and muon control regions (high \pt muons).
 To simplify the discussion, this trigger will be referred to as the ``MET trigger'' in this text.
 
-The efficiency of MET trigger is calculated as a function of the recoil, where recoil refers to
-the vectorial sum of the transverse momenta of all particles except the vector boson, as defined in 
-Eq.~\ref{eq:recoil_def}. The efficiencies are computed separately for data and MC,
-and the ratio between those two measurements are used to derive scale factors to correct the MC.
-The efficiency measurement procedure is described below.
-
-The performance of the $\ptmissnomu+\htmissnomu$ triggers is measured using $\Wmnjets$ events. The
-events are selected from the data by requiring the \texttt{HLT\_IsoMu27} trigger for 2017, and \texttt{HLT\_IsoMu24} 
-for 2018. In addition, the offline muon is required to be tightly-identified as defined in Sec.~\ref{subsec:muons}, 
-and have $\pt > 40$ GeV. The same requirements are also applied when selecting events from MC.
-The full set of selections required is listed below: 
+The efficiency of MET trigger is calculated using $\Wmnjets$ events, as a function of recoil.
+Here, recoil refers to the vectorial sum of the missing transverse momentum (MET) and the muon transverse momentum,
+as defined in Eq.~\ref{eq:recoil_def}. The $\Wmnjets$ events are selected by requiring 
+the event to pass \texttt{HLT\_IsoMu27} trigger for 2017, and \texttt{HLT\_IsoMu24} 
+for 2018. In addition, the reconstructed muon is required to be tightly-identified as defined in Sec.~\ref{subsec:muons}, 
+and have $\pt > 40$ GeV. The full set of selections is listed below:
 
 \begin{enumerate}
-    \item Event must have exactly one tightly-identified muon with $\pt > 40$ GeV.
-    \item Veto on additional leptons, photons, b jets, $\tau_{had}$ candidates.
-    \item $\Delta\phi(jet,\ptvecmiss)>0.5$ for the four leading jets with $\pt>30$ GeV.
-    \item (Calo \ptmiss - PF \ptmiss) / recoil $<$ 0.5
-    \item Leading AK4 jet with $\pt>80$ GeV, passing the tight jet ID.
-    \item Subleading AK4 jet with $\pt>40$ GeV.
-    \item $\detajj > 1.0$
-    \item $\dphijj < 1.5$
+  \item Event must have exactly one tightly-identified muon with $\pt > 40$ GeV.
+  \item Veto on additional leptons, photons, b jets, $\tau_{had}$ candidates.
+  \item $\Delta\phi(jet,\ptvecmiss)>0.5$ for the four leading jets with $\pt>30$ GeV.
+  \item (Calo \ptmiss - PF \ptmiss) / recoil $<$ 0.5
+  \item Leading AK4 jet with $\pt>80$ GeV, passing the tight jet ID.
+  \item Subleading AK4 jet with $\pt>40$ GeV.
+  \item $\detajj > 1.0$
+  \item $\dphijj < 1.5$
 \end{enumerate}
+
+The efficiency of the MET trigger is computed separately for data and Monte Carlo simulation (MC),
+and the ratio between those two measurements are used to derive scale factors (SF) to correct the MC.
+The efficiency measurement procedure is described below.
 
 To understand the dependence of the efficiencies on the jet kinematics, the efficiencies in data and MC are measured 
 separately for two cases: Events where the two highest-$\pt$ jets are both in the central region of the detector (i.e. $|\eta| < 2.5$), 
@@ -152,7 +151,9 @@ in the analysis to correct MC.
 \subsection{Pileup reweighting}
 \label{subsec:pu_reweighting}
 
-The pileup (PU) conditions in the simulated samples are not identical to the ones observed in data, and a per-event reweighting is applied to remove the difference.
+The pileup (PU) conditions\footnote{The term ``pileup conditions'' refers to the distribution 
+of the number of reconstructed p-p collision vertices in a given p-p bunch crossing.} 
+in the simulated samples are not identical to the ones observed in data, and a per-event reweighting is applied to remove the difference.
 The reweighting is performed by matching the true pileup distribution of each simulated sample
 with the pileup distribution in data. The pileup distribution in data is obtained through 
 the pileupCalc tool, assuming a minimum bias cross section of 69.2$\pm 4.6\%$~mb, following the recommendations in \cite{pileup_twiki}.
@@ -184,7 +185,7 @@ In terms of these two variables, it is observed that PU reweighting improves the
     \caption{
         Distribution of the number of vertices in \Wmn~events in data and
         simulation before pileup re-weighting (left) and after pileup reweighting (right).
-        The Monte Carlo is normalized to the luminosity of 41.53 and 59.7 fb$^{-1}$, respectively for 2017 and 2018.
+        The Monte Carlo is normalized to the luminosity of 41.5 and 59.7 fb$^{-1}$, respectively for 2017 and 2018.
     }
     \label{fig:purwt_npv}
   \end{center}
@@ -199,7 +200,7 @@ In terms of these two variables, it is observed that PU reweighting improves the
     \caption{
         Distribution of the event energy density $\rho$ in \Wmn~events in data and
         simulation before pileup re-weighting (left) and after pileup reweighting (right).
-        The Monte Carlo is normalized to the luminosity of 41.53 and 59.7 fb$^{-1}$, respectively for 2017 and 2018.
+        The Monte Carlo is normalized to the luminosity of 41.5 and 59.7 fb$^{-1}$, respectively for 2017 and 2018.
     }
     \label{fig:purwt_rho}
   \end{center}
@@ -232,7 +233,7 @@ shown in Fig.~\ref{fig:sf_muon_iso}. The corresponding corrections for muons are
 
     \caption{
       Scale factors for the reconstruction efficiency of electrons starting from a super cluster for 2017 (left) and 2018 (right), for electrons with
-      $\pt > 20 \ GeV$ (top) and $\pt < 20 \ GeV$ (bottom).
+      $\pt > 20$ GeV (top) and $\pt < 20$ GeV (bottom).
     }
     \label{fig:sf_electron_reco}
   \end{center}
@@ -345,8 +346,8 @@ of $\mjj$.
 \subsection{Reweighting For HF Noise Cuts}
 \label{subsec:hf_weighting}
 
-As will be explained in Sec.~\ref{subsec:hfnoise}, several noise-cleaning cuts are implmented to reduce the contribution 
-from mis-measured forward jets,
+As will be explained in Sec.~\ref{subsec:hfnoise}, several noise-cleaning cuts are implemented to reduce the contribution 
+from mis-reconstruction of forward jets,
 reconstructed in the Forward HCAL (HF) detector (i.e. $|\eta| > 3.0$). To account for the difference in the impact of these cuts in
 data and MC, a per-jet scale factor is applied to the events in MC. These scale factors are derived by calculating the efficiency 
 of these cuts on $\Zmmjets$ and $\gamma$ + jets events in data and MC, as a function of jet $\pt$ and $\eta$, and taking 
@@ -404,7 +405,12 @@ where $\epsilon_{i}^{pref}$ is the prefiring probability caused by a single phot
 runs over the photons and jets reconstructed in the event.
 The $\mjj$ distributions with the nominal prefiring weight applied to simulation, together with the
 up and down variations of the prefiring weight are shown in Figs.~\ref{fig:prefiring_1} and \ref{fig:prefiring_2}.
-It can be observed that the uncertainty due to the prefiring weight increases with higher $\mjj$. 
+It can be observed that the uncertainty due to the prefiring weight increases with higher $\mjj$. It can be argued
+that this is an expected effect because of the origins of the prefiring problem, which is much more sizable for jets
+in the ECAL endcap region, $2.5 < |\eta| < 3.0$. Therefore, events with at least one forward jet is much likely to
+get impacted by prefiring. Since $\mjj$ is correlated with $\detajj$ (i.e. the $\eta$ separation between the two
+VBF jets), events with higher $\mjj$ are also more impacted, and hence the relevant uncertainty is more pronounced
+at high $\mjj$. 
 
 \begin{figure}[htbp]
   \centering

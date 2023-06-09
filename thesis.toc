@@ -37,11 +37,11 @@
 \contentsline {subsection}{\numberline {3.2.4}Lepton veto efficiency reweighting}{69}{}%
 \contentsline {subsection}{\numberline {3.2.5}Reweighting For HF Noise Cuts}{70}{}%
 \contentsline {subsection}{\numberline {3.2.6}Reweighting for ECAL pre-firing}{72}{}%
-\contentsline {subsection}{\numberline {3.2.7}Higher-order reweighting}{72}{}%
-\contentsline {subsubsection}{Generator-level boson construction}{75}{}%
-\contentsline {subsubsection}{Photon scale factors}{76}{}%
+\contentsline {subsection}{\numberline {3.2.7}Higher-order reweighting}{75}{}%
+\contentsline {subsubsection}{Generator-level boson construction}{76}{}%
+\contentsline {subsubsection}{Photon scale factors}{77}{}%
 \contentsline {subsubsection}{EWK NLO corrections to QCD V processes}{77}{}%
-\contentsline {subsubsection}{QCD NLO corrections to EWK V processes}{77}{}%
+\contentsline {subsubsection}{QCD NLO corrections to EWK V processes}{78}{}%
 \contentsline {subsubsection}{NLO EWK Corrections on VBF Signal}{79}{}%
 \contentsline {section}{\numberline {3.3}Data-quality issues}{79}{}%
 \contentsline {subsection}{\numberline {3.3.1}Forward HCAL (HF) Noise}{79}{}%
