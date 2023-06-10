@@ -63,9 +63,11 @@ The study and the definition of the HF noise cuts, and the residual HF noise est
 
 In order to study the discriminating power of these variables directly in data, two regions enriched in ``physics'' jets and ``noise'' jets are defined. ``Physics'' jets
 refer to HF jets that are recoiling against a well-reconstructed physics object (in this study, a photon), and ``noise'' jets 
-refer to HF jets that recoil against no visible physics object, hence creating $\ptmiss$ in the event. 
+refer to HF jets that recoil against no visible physics object, hence creating $\ptmiss$ in the event. The region where the ``physics'' jets are tagged
+is termed as the physics-enriched region, and the region where the ``noise'' jets are tagged is termed as the noise-enriched region.
 
-The physics-enriched region consists of events where a HF jet recoils against a photon. Jet and photon being back-to-back is ensured by a series of cuts on $\Delta\phi(\gamma, jet)$,
+The physics-enriched region consists of events where a HF jet recoils against a photon. 
+Jet and photon being back-to-back is ensured by a series of cuts on $\Delta\phi(\gamma, jet)$,
 ratio of transverse momenta of the photon and the jet, and also the requirement of low $\ptmiss$ in the event. The selections are listed below: 
 
 \begin{itemize}
@@ -77,11 +79,13 @@ ratio of transverse momenta of the photon and the jet, and also the requirement 
 \end{itemize}
 
 The noise-enriched region includes events with exactly one high $\pt$ HF jet and high $\ptmiss$.
-The aim here is to collect events with a mis-measured HF jet, such that it has very high $\pt$, but there is no other high $\pt$ physics object in the event. 
+The aim here is to collect events with a mis-measured HF jet, such that it has very high $\pt$, but there is no other high $\pt$ physics object in the event,
+giving rise to $\ptmiss$ in the event.
 The complete requirements for this region are listed below:
 
 \begin{itemize}
-    \item Events passing a trigger based on $\ptmiss$ and $\htmiss$. 
+    \item Events passing the MET trigger described in Sec.~\ref{subsubsec:met_trigger_eff}, requiring $\ptmiss > 120$ GeV and $\htmiss > 120$ GeV
+    (as reconstructed by the trigger algorithm). 
     \item $\ptmiss > 100$ GeV
     \item Exactly one HF jet with $\pt > 100$ GeV
     \item No extra jet with $\pt > 30$ GeV
@@ -179,26 +183,48 @@ a noise estimation is done to estimate the leftover noise contribution in
 the analysis signal region. For the noise estimation, a new control region is defined
 in which the HF shape cuts are inverted. Other than the HF shape cuts,
 the same cuts are required in this control region as in the VBF signal region, which are
-discussed in Sec.~\ref{subsec:sr_vbf_selection}.
+discussed in Sec.~\ref{subsec:sr_vbf_selection}. For the remainder of this text, this control
+region will be referred to as HF control region.
 
-With the addition of this new control region (CR), the estimation is done in three steps.
+With the addition of this HF control region (CR), the estimation is done in three steps.
 First, data and MC yields in this CR are computed ($N_{data}$, $N_{MC}$). The excess amount of data over MC 
-in this control region gives the number of noise events: $N_{noise}^{CR} = N_{data} - N_{MC}$. 
+in this control region gives the number of excess events in data with HF noise, not modeled by the 
+simulation: $N_{noise}^{CR} = N_{data} - N_{MC}$. 
 Finally, the noise estimate in analysis signal region is calculated from $N_{noise}^{CR}$ by using $[\pt, \eta]$ dependent transfer factors,
-defined as the relative probability for a noise event to pass the HF shape cuts, relative to failing them. 
-Putting it all together, the noise estimate in VBF signal region becomes the following:
+defined as the relative probability for a noise event to pass the HF shape cuts, relative to failing them.
+This probability is derived from events in a noise-enriched region, where the probability of a jet in such an event
+to pass the HF cuts can be computed as a function of its pseudorapidity and transverse momentum, $\hfprobpass[p_{T}, \eta]$.
+Using these probabilities, the transfer factor $R_{jet}$ for a single jet can be then written as:
 
 \begin{equation}
-    N_{noise}^{SR} = \frac{P(pass | noise)}{P(fail | noise)} \times (N_{data}^{CR} - N_{MC}^{CR})
-    \label{eq:hf_noise_calc}
+    R_{jet} (p_T, \eta) = \frac{\hfprobpass}{\hfprobfail} (p_T, \eta) = \frac{\hfprobpass}{1 - \hfprobpass} (p_T, \eta)
 \end{equation}
 
-In Eq.~\ref{eq:hf_noise_calc}, $P(pass | noise)$ refers to the probability of an event with a noisy HF jet to pass the HF shape cuts, and $P(fail | noise)$ refers to the 
-probability of such an event to fail the HF cuts. By definition, $P(pass | noise) + P(fail | noise) = 1$. It should also be noted that the $N_{noise}^{SR}$ 
-is calculated for each $\mjj$ bin.
+For a given event, the total transfer factor (taking all HF jets into account in the event) can be then computed as
 
-In Fig.~\ref{fig:hf_estimation_mtr}, the HF noise estimation results are shown as a function of $\mjj$. Plots on the left column show the data and total MC
-yields in the HF noise CR, already scaled by the transfer factor as defined above. Plots on the right column show the resulting HF noise estimation in the analysis
+\begin{equation}
+    R_{event} = \prod_{jet} R_{jet} (p_T, \eta)
+\end{equation}
+
+where the product runs over the jets in the event with $p_T > 100$ GeV and $|eta| > 2.99$ (i.e. HF jets). If there are no
+jets in the event that satisfy this criteria, $R_{event}$ is defined to be $0$, signifying the fact that there will be no contribution
+to the signal region noise estimate template from this event. If there is such a jet however, $R_{event} \neq 0$, hence signifying
+a non-zero contribution to the noise estimation in the signal region.
+
+In this way, the contribution of a single event in the noise-enriched CR to the HF noise template in the signal region can be written as
+
+\begin{equation}
+    N_{noise}^{SR} = R_{event} \times (N_{data}^{CR} - N_{MC}^{CR})
+    \label{eq:hf_noise_calc_single_event}
+\end{equation}
+
+Eq.~\ref{eq:hf_noise_calc_single_event} shows the contribution from a single event in the HF control region.
+As the final step, summing up the contributions from all events in the HF control region gives the full $\mjj$ 
+noise estimate template for the HF noise, which are shown in Fig.~\ref{fig:hf_estimation_mtr}.
+Plots on the left column show the data and total MC
+yields in the HF control region, each event being already scaled by the transfer factor 
+$R_{event}$ as defined above. 
+Plots on the right column show the resulting HF noise estimation in the analysis
 signal region, which correspond to the difference of data and MC yields in the left-hand side plots.
 Plots on the top show the results with 2017 data, and plots on the bottom show results with 2018 data.
 
@@ -209,7 +235,8 @@ Plots on the top show the results with 2017 data, and plots on the bottom show r
         \includegraphics[width=0.49\textwidth]{HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2018.pdf}
         \includegraphics[width=0.49\textwidth]{HFStudy/NoiseEstimation/qcd_estimation_mjj_2018.pdf}
     \caption{HF noise estimate in 2017 (top) and 2018 (bottom) data. The plots on the left column show the data and total MC yields in the HF noise control region,
-      scaled by the jet-based transfer factor, while the plots on the right show the resulting noise estimation in the signal region, which correspond to the difference of data and MC
+      where each event is scaled by a transfer factor $R_{event}$, as defined in the text. 
+      Plots on the right show the resulting noise estimation in the signal region, which correspond to the difference of data and MC
       yields in the left-hand side plot.
     }
     \label{fig:hf_estimation_mtr}
@@ -304,7 +331,7 @@ To mitigate this problem in the signal region, the following additional requirem
 \begin{itemize}
     \item For events in data where the run number is smaller than 319077 (i.e. before the HCAL submodule malfunctioning)
     no additional requirement is imposed, since those events are not impacted by the problem. Out of the full $59.7 \ fb^{-1}$
-    of 2018 data, these events corresond to $21.1 \ fb^{-1}$ of integrated luminosity.
+    of 2018 data, these events correspond to $21.1 \ fb^{-1}$ of integrated luminosity.
     \item For events in data where the run number is larger or equal to 319077, the event is discarded
     if it has $-1.8 < \phi_{\ptmiss} < -0.6$. These events correspond to a $38.6 \ fb^{-1}$ of integrated luminosity. 
 \end{itemize}

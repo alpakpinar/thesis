@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.12)  9 JUN 2023 16:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.12)  10 JUN 2023 13:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -924,7 +924,7 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/ScaleFactors/NLO
 >]) (./3_DataAnalysisStrategy/data_quality.tex [79
 
 ] [80]
-Overfull \hbox (0.50328pt too wide) in paragraph at lines 72--73
+Overfull \hbox (0.50328pt too wide) in paragraph at lines 74--75
 []\OT1/cmr/m/n/12 Exactly one well iden-ti-fied pho-ton (tight iden-ti-fi-ca-tion, as dis-cussed in Sec. 3.1.4[]) 
  []
 
@@ -932,86 +932,90 @@ Overfull \hbox (0.50328pt too wide) in paragraph at lines 72--73
 <3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_METenriched.pdf, id=4031, 569.12625pt x 388.45125pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_METenriched.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_METenriched.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_METenriched.pdf  used on input line 115.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_METenriched.pdf  used on input line 119.
 (pdftex.def)             Requested size: 195.12767pt x 133.18007pt.
 <3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_METenriched_eta3p25to4.pdf, id=4032, 569.12625pt x 388.45125pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_METenriched_eta3p25to4.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_METenriched_eta3p25to4.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_METenriched_eta3p25to4.pdf  used on input line 116.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_METenriched_eta3p25to4.pdf  used on input line 120.
 (pdftex.def)             Requested size: 195.12767pt x 133.18007pt.
 <3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_METenriched_eta4to5p2.pdf, id=4033, 569.12625pt x 388.45125pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_METenriched_eta4to5p2.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_METenriched_eta4to5p2.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_METenriched_eta4to5p2.pdf  used on input line 117.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_METenriched_eta4to5p2.pdf  used on input line 121.
 (pdftex.def)             Requested size: 195.12767pt x 133.18007pt.
 <3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_photonjets.pdf, id=4034, 569.12625pt x 388.45125pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_photonjets.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_photonjets.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_photonjets.pdf  used on input line 126.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_photonjets.pdf  used on input line 130.
 (pdftex.def)             Requested size: 195.12767pt x 133.18007pt.
 <3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_photonjets_eta3p25to4.pdf, id=4035, 569.12625pt x 388.45125pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_photonjets_eta3p25to4.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_photonjets_eta3p25to4.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_photonjets_eta3p25to4.pdf  used on input line 127.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_photonjets_eta3p25to4.pdf  used on input line 131.
 (pdftex.def)             Requested size: 195.12767pt x 133.18007pt.
 <3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_photonjets_eta4to5p2.pdf, id=4036, 569.12625pt x 388.45125pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_photonjets_eta4to5p2.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_photonjets_eta4to5p2.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_photonjets_eta4to5p2.pdf  used on input line 128.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_photonjets_eta4to5p2.pdf  used on input line 132.
 (pdftex.def)             Requested size: 195.12767pt x 133.18007pt.
  [83 <./3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_METenriched.pdf, page is rotated 90 degrees> <./3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_METenriched_eta3p25to4.pdf, page is rotated 90 degrees> <./3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_METenriched_eta4to5p2.pdf, page is rotated 90 degrees>] [84 <./3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_photonjets.pdf, page is rotated 90 degrees> <./3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_photonjets_eta3p25to4.pdf, page is rotated 90 degrees> <./3_DataAnalysisStrategy/Figures/HFStudy/sigmaetaetavssigmaphiphi_photonjets_eta4to5p2.pdf, page is rotated 90 degrees>]
 <3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_METenriched.pdf, id=4302, 569.12625pt x 388.45125pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_METenriched.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_METenriched.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_METenriched.pdf  used on input line 143.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_METenriched.pdf  used on input line 147.
 (pdftex.def)             Requested size: 195.12767pt x 133.18007pt.
 <3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_METenriched_eta3p25to4.pdf, id=4303, 569.12625pt x 388.45125pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_METenriched_eta3p25to4.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_METenriched_eta3p25to4.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_METenriched_eta3p25to4.pdf  used on input line 144.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_METenriched_eta3p25to4.pdf  used on input line 148.
 (pdftex.def)             Requested size: 195.12767pt x 133.18007pt.
 <3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_METenriched_eta4to5p2.pdf, id=4304, 569.12625pt x 388.45125pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_METenriched_eta4to5p2.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_METenriched_eta4to5p2.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_METenriched_eta4to5p2.pdf  used on input line 145.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_METenriched_eta4to5p2.pdf  used on input line 149.
 (pdftex.def)             Requested size: 195.12767pt x 133.18007pt.
 <3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_gammajets.pdf, id=4305, 569.12625pt x 388.45125pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_gammajets.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_gammajets.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_gammajets.pdf  used on input line 153.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_gammajets.pdf  used on input line 157.
 (pdftex.def)             Requested size: 195.12767pt x 133.18007pt.
 <3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_gammajets_eta3p25to4.pdf, id=4306, 569.12625pt x 388.45125pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_gammajets_eta3p25to4.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_gammajets_eta3p25to4.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_gammajets_eta3p25to4.pdf  used on input line 154.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_gammajets_eta3p25to4.pdf  used on input line 158.
 (pdftex.def)             Requested size: 195.12767pt x 133.18007pt.
 <3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_gammajets_eta4to5p2.pdf, id=4307, 569.12625pt x 388.45125pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_gammajets_eta4to5p2.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_gammajets_eta4to5p2.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_gammajets_eta4to5p2.pdf  used on input line 155.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_gammajets_eta4to5p2.pdf  used on input line 159.
 (pdftex.def)             Requested size: 195.12767pt x 133.18007pt.
  [85 <./3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_METenriched.pdf, page is rotated 90 degrees> <./3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_METenriched_eta3p25to4.pdf, page is rotated 90 degrees> <./3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_METenriched_eta4to5p2.pdf, page is rotated 90 degrees>] [86 <./3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_gammajets.pdf, page is rotated 90 degrees> <./3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_gammajets_eta3p25to4.pdf, page is rotated 90 degrees> <./3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvsadj_gammajets_eta4to5p2.pdf, page is rotated 90 degrees>] [87]
 <3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2017.pdf, id=4577, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2017.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2017.pdf  used on input line 207.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2017.pdf  used on input line 233.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
 <3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2017.pdf, id=4578, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2017.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2017.pdf  used on input line 208.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2017.pdf  used on input line 234.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
 <3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2018.pdf, id=4579, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2018.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2018.pdf  used on input line 209.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2018.pdf  used on input line 235.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
 <3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2018.pdf, id=4580, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2018.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2018.pdf  used on input line 210.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2018.pdf  used on input line 236.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
- [88 <./3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2017.pdf> <./3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2017.pdf
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[88] [89 <./3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2017.pdf> <./3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2018.pdf
@@ -1021,37 +1025,33 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/HFStudy/NoiseEst
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/data_mc_eta_3_3_25_combined.pdf, id=4778, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/data_mc_eta_3_3_25_combined.pdf, id=4781, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/data_mc_eta_3_3_25_combined.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/data_mc_eta_3_3_25_combined.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/data_mc_eta_3_3_25_combined.pdf  used on input line 235.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/data_mc_eta_3_3_25_combined.pdf  used on input line 262.
 (pdftex.def)             Requested size: 303.53267pt x 303.53633pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[89] [90 <./3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/data_mc_eta_3_3_25_combined.pdf>]
-<3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_eta_2018.pdf, id=4807, 505.89pt x 505.89pt>
+ [90 <./3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/data_mc_eta_3_3_25_combined.pdf>] [91]
+<3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_eta_2018.pdf, id=4811, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_eta_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_eta_2018.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_eta_2018.pdf  used on input line 281.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_eta_2018.pdf  used on input line 308.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_phi_2018.pdf, id=4808, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_phi_2018.pdf, id=4812, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_phi_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_phi_2018.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_phi_2018.pdf  used on input line 282.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_phi_2018.pdf  used on input line 309.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_eta_2018.pdf, id=4809, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_eta_2018.pdf, id=4813, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_eta_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_eta_2018.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_eta_2018.pdf  used on input line 283.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_eta_2018.pdf  used on input line 310.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_phi_2018.pdf, id=4810, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_phi_2018.pdf, id=4814, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_phi_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_phi_2018.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_phi_2018.pdf  used on input line 284.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_phi_2018.pdf  used on input line 311.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
- [91] [92 <./3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_eta_2018.pdf> <./3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_phi_2018.pdf
+ [92] [93 <./3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_eta_2018.pdf> <./3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_phi_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_phi_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_eta_2018.pdf
@@ -1061,125 +1061,125 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_v
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_phi_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<3_DataAnalysisStrategy/Figures/HEMStudy/Leading_jet_phi.pdf, id=5081, 524.96124pt x 569.12625pt>
+<3_DataAnalysisStrategy/Figures/HEMStudy/Leading_jet_phi.pdf, id=5084, 524.96124pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/HEMStudy/Leading_jet_phi.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HEMStudy/Leading_jet_phi.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/Leading_jet_phi.pdf  used on input line 319.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/Leading_jet_phi.pdf  used on input line 346.
 (pdftex.def)             Requested size: 212.47617pt x 230.34723pt.
-<3_DataAnalysisStrategy/Figures/HEMStudy/Subleading_jet_phi.pdf, id=5082, 524.96124pt x 569.12625pt>
+<3_DataAnalysisStrategy/Figures/HEMStudy/Subleading_jet_phi.pdf, id=5085, 524.96124pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/HEMStudy/Subleading_jet_phi.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HEMStudy/Subleading_jet_phi.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/Subleading_jet_phi.pdf  used on input line 320.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/Subleading_jet_phi.pdf  used on input line 347.
 (pdftex.def)             Requested size: 212.47617pt x 230.34723pt.
-<3_DataAnalysisStrategy/Figures/HEMStudy/MetNoMu_phi.pdf, id=5083, 524.96124pt x 569.12625pt>
+<3_DataAnalysisStrategy/Figures/HEMStudy/MetNoMu_phi.pdf, id=5086, 524.96124pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/HEMStudy/MetNoMu_phi.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HEMStudy/MetNoMu_phi.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/MetNoMu_phi.pdf  used on input line 329.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/MetNoMu_phi.pdf  used on input line 356.
 (pdftex.def)             Requested size: 303.53267pt x 329.07741pt.
- [93 <./3_DataAnalysisStrategy/Figures/HEMStudy/Leading_jet_phi.pdf> <./3_DataAnalysisStrategy/Figures/HEMStudy/Subleading_jet_phi.pdf>] [94 <./3_DataAnalysisStrategy/Figures/HEMStudy/MetNoMu_phi.pdf>]) (./3_DataAnalysisStrategy/selection.tex [95
+ [94 <./3_DataAnalysisStrategy/Figures/HEMStudy/Leading_jet_phi.pdf> <./3_DataAnalysisStrategy/Figures/HEMStudy/Subleading_jet_phi.pdf>] [95 <./3_DataAnalysisStrategy/Figures/HEMStudy/MetNoMu_phi.pdf>]) (./3_DataAnalysisStrategy/selection.tex [96
 
-] [96] [97]
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_recoil_2017.pdf, id=5230, 505.89pt x 505.89pt>
+] [97] [98]
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_recoil_2017.pdf, id=5233, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_recoil_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_recoil_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_recoil_2017.pdf  used on input line 108.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_mjj_2017.pdf, id=5231, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_mjj_2017.pdf, id=5234, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_mjj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_mjj_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_mjj_2017.pdf  used on input line 109.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_detajj_2017.pdf, id=5232, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_detajj_2017.pdf, id=5235, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_detajj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_detajj_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_detajj_2017.pdf  used on input line 110.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_dphijj_2017.pdf, id=5233, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_dphijj_2017.pdf, id=5236, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_dphijj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_dphijj_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_dphijj_2017.pdf  used on input line 111.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta0_2017.pdf, id=5234, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta0_2017.pdf, id=5237, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta0_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta0_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta0_2017.pdf  used on input line 121.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt0_2017.pdf, id=5235, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt0_2017.pdf, id=5238, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt0_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt0_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt0_2017.pdf  used on input line 122.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta1_2017.pdf, id=5236, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta1_2017.pdf, id=5239, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta1_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta1_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta1_2017.pdf  used on input line 123.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt1_2017.pdf, id=5237, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt1_2017.pdf, id=5240, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt1_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt1_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt1_2017.pdf  used on input line 124.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_central_eta_2017.pdf, id=5238, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_central_eta_2017.pdf, id=5241, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_central_eta_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_central_eta_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_central_eta_2017.pdf  used on input line 132.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_forward_eta_2017.pdf, id=5239, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_forward_eta_2017.pdf, id=5242, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_forward_eta_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_forward_eta_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_forward_eta_2017.pdf  used on input line 133.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_recoil_2018.pdf, id=5240, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_recoil_2018.pdf, id=5243, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_recoil_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_recoil_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_recoil_2018.pdf  used on input line 164.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_mjj_2018.pdf, id=5241, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_mjj_2018.pdf, id=5244, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_mjj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_mjj_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_mjj_2018.pdf  used on input line 165.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_detajj_2018.pdf, id=5242, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_detajj_2018.pdf, id=5245, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_detajj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_detajj_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_detajj_2018.pdf  used on input line 166.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_dphijj_2018.pdf, id=5243, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_dphijj_2018.pdf, id=5246, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_dphijj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_dphijj_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_dphijj_2018.pdf  used on input line 167.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta0_2018.pdf, id=5244, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta0_2018.pdf, id=5247, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta0_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta0_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta0_2018.pdf  used on input line 176.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt0_2018.pdf, id=5245, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt0_2018.pdf, id=5248, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt0_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt0_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt0_2018.pdf  used on input line 177.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta1_2018.pdf, id=5246, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta1_2018.pdf, id=5249, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta1_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta1_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta1_2018.pdf  used on input line 178.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt1_2018.pdf, id=5247, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt1_2018.pdf, id=5250, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt1_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt1_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt1_2018.pdf  used on input line 179.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_central_eta_2018.pdf, id=5248, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_central_eta_2018.pdf, id=5251, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_central_eta_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_central_eta_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_central_eta_2018.pdf  used on input line 187.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_forward_eta_2018.pdf, id=5249, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_forward_eta_2018.pdf, id=5252, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_forward_eta_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_forward_eta_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_forward_eta_2018.pdf  used on input line 188.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
- [98] [99 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_recoil_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_mjj_2017.pdf
+ [99] [100 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_recoil_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_mjj_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_mjj_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_detajj_2017.pdf
@@ -1188,7 +1188,7 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_20
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_dphijj_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_dphijj_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [100 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta0_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt0_2017.pdf
+>] [101 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta0_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt0_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt0_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta1_2017.pdf
@@ -1197,10 +1197,10 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_20
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt1_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt1_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [101 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_central_eta_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_forward_eta_2017.pdf
+>] [102 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_central_eta_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_forward_eta_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_forward_eta_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [102 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_recoil_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_mjj_2018.pdf
+>] [103 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_recoil_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_mjj_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_mjj_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_detajj_2018.pdf
@@ -1209,7 +1209,7 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_20
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_dphijj_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_dphijj_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [103 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta0_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt0_2018.pdf
+>] [104 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta0_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt0_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt0_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_eta1_2018.pdf
@@ -1218,73 +1218,73 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_20
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt1_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_pt1_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [104 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_central_eta_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_forward_eta_2018.pdf
+>] [105 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_central_eta_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_forward_eta_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_ak4_forward_eta_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_recoil_2017.pdf, id=6784, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_recoil_2017.pdf, id=6787, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_recoil_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_recoil_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_recoil_2017.pdf  used on input line 236.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_mjj_2017.pdf, id=6785, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_mjj_2017.pdf, id=6788, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_mjj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_mjj_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_mjj_2017.pdf  used on input line 237.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_detajj_2017.pdf, id=6786, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_detajj_2017.pdf, id=6789, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_detajj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_detajj_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_detajj_2017.pdf  used on input line 238.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_dphijj_2017.pdf, id=6787, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_dphijj_2017.pdf, id=6790, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_dphijj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_dphijj_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_dphijj_2017.pdf  used on input line 239.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_pt_2017.pdf, id=6788, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_pt_2017.pdf, id=6791, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_pt_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_pt_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_pt_2017.pdf  used on input line 250.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_eta_2017.pdf, id=6789, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_eta_2017.pdf, id=6792, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_eta_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_eta_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_eta_2017.pdf  used on input line 251.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_recoil_2018.pdf, id=6790, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_recoil_2018.pdf, id=6793, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_recoil_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_recoil_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_recoil_2018.pdf  used on input line 260.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_mjj_2018.pdf, id=6791, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_mjj_2018.pdf, id=6794, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_mjj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_mjj_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_mjj_2018.pdf  used on input line 261.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_detajj_2018.pdf, id=6792, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_detajj_2018.pdf, id=6795, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_detajj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_detajj_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_detajj_2018.pdf  used on input line 262.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_dphijj_2018.pdf, id=6793, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_dphijj_2018.pdf, id=6796, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_dphijj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_dphijj_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_dphijj_2018.pdf  used on input line 263.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_pt_2018.pdf, id=6794, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_pt_2018.pdf, id=6797, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_pt_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_pt_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_pt_2018.pdf  used on input line 274.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_eta_2018.pdf, id=6795, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_eta_2018.pdf, id=6798, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_eta_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_eta_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_eta_2018.pdf  used on input line 275.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
- [105
+ [106
 
-] [106 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_recoil_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_mjj_2017.pdf
+] [107 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_recoil_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_mjj_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_mjj_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_detajj_2017.pdf
@@ -1293,10 +1293,10 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_20
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_dphijj_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_dphijj_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [107 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_pt_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_eta_2017.pdf
+>] [108 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_pt_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_eta_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_eta_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [108 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_recoil_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_mjj_2018.pdf
+>] [109 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_recoil_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_mjj_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_mjj_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_detajj_2018.pdf
@@ -1305,73 +1305,73 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_20
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_dphijj_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_dphijj_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [109 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_pt_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_eta_2018.pdf
+>] [110 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_pt_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_eta_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1m_vbf/cr_1m_vbf_data_mc_muon_eta_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_recoil_2017.pdf, id=7672, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_recoil_2017.pdf, id=7675, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_recoil_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_recoil_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_recoil_2017.pdf  used on input line 301.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_mjj_2017.pdf, id=7673, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_mjj_2017.pdf, id=7676, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_mjj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_mjj_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_mjj_2017.pdf  used on input line 302.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_detajj_2017.pdf, id=7674, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_detajj_2017.pdf, id=7677, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_detajj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_detajj_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_detajj_2017.pdf  used on input line 303.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_dphijj_2017.pdf, id=7675, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_dphijj_2017.pdf, id=7678, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_dphijj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_dphijj_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_dphijj_2017.pdf  used on input line 304.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_pt_2017.pdf, id=7676, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_pt_2017.pdf, id=7679, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_pt_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_pt_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_pt_2017.pdf  used on input line 315.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_eta_2017.pdf, id=7677, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_eta_2017.pdf, id=7680, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_eta_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_eta_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_eta_2017.pdf  used on input line 316.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_recoil_2018.pdf, id=7678, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_recoil_2018.pdf, id=7681, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_recoil_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_recoil_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_recoil_2018.pdf  used on input line 325.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_mjj_2018.pdf, id=7679, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_mjj_2018.pdf, id=7682, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_mjj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_mjj_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_mjj_2018.pdf  used on input line 326.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_detajj_2018.pdf, id=7680, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_detajj_2018.pdf, id=7683, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_detajj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_detajj_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_detajj_2018.pdf  used on input line 327.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_dphijj_2018.pdf, id=7681, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_dphijj_2018.pdf, id=7684, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_dphijj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_dphijj_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_dphijj_2018.pdf  used on input line 328.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_pt_2018.pdf, id=7682, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_pt_2018.pdf, id=7685, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_pt_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_pt_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_pt_2018.pdf  used on input line 339.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_eta_2018.pdf, id=7683, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_eta_2018.pdf, id=7686, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_eta_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_eta_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_eta_2018.pdf  used on input line 340.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
- [110
+ [111
 
-] [111 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_recoil_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_mjj_2017.pdf
+] [112 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_recoil_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_mjj_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_mjj_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_detajj_2017.pdf
@@ -1380,10 +1380,10 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_20
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_dphijj_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_dphijj_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [112 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_pt_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_eta_2017.pdf
+>] [113 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_pt_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_eta_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_eta_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [113 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_recoil_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_mjj_2018.pdf
+>] [114 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_recoil_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_mjj_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_mjj_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_detajj_2018.pdf
@@ -1392,93 +1392,93 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_20
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_dphijj_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_dphijj_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [114 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_pt_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_eta_2018.pdf
+>] [115 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_pt_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_eta_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_1e_vbf/cr_1e_vbf_data_mc_electron_eta_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_recoil_2017.pdf, id=8558, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_recoil_2017.pdf, id=8562, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_recoil_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_recoil_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_recoil_2017.pdf  used on input line 370.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_mjj_2017.pdf, id=8559, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_mjj_2017.pdf, id=8563, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_mjj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_mjj_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_mjj_2017.pdf  used on input line 371.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_detajj_2017.pdf, id=8560, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_detajj_2017.pdf, id=8564, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_detajj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_detajj_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_detajj_2017.pdf  used on input line 372.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijj_2017.pdf, id=8561, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijj_2017.pdf, id=8565, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijj_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijj_2017.pdf  used on input line 373.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_pt0_2017.pdf, id=8562, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_pt0_2017.pdf, id=8566, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_pt0_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_pt0_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_pt0_2017.pdf  used on input line 382.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_eta0_2017.pdf, id=8563, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_eta0_2017.pdf, id=8567, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_eta0_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_eta0_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_eta0_2017.pdf  used on input line 383.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dimuon_mass_2017.pdf, id=8564, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dimuon_mass_2017.pdf, id=8568, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dimuon_mass_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dimuon_mass_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dimuon_mass_2017.pdf  used on input line 384.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijr_2017.pdf, id=8565, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijr_2017.pdf, id=8569, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijr_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijr_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijr_2017.pdf  used on input line 385.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_recoil_2018.pdf, id=8566, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_recoil_2018.pdf, id=8570, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_recoil_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_recoil_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_recoil_2018.pdf  used on input line 394.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_mjj_2018.pdf, id=8567, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_mjj_2018.pdf, id=8571, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_mjj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_mjj_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_mjj_2018.pdf  used on input line 395.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_detajj_2018.pdf, id=8568, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_detajj_2018.pdf, id=8572, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_detajj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_detajj_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_detajj_2018.pdf  used on input line 396.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijj_2018.pdf, id=8569, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijj_2018.pdf, id=8573, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijj_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijj_2018.pdf  used on input line 397.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_pt0_2018.pdf, id=8570, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_pt0_2018.pdf, id=8574, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_pt0_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_pt0_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_pt0_2018.pdf  used on input line 406.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_eta0_2018.pdf, id=8571, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_eta0_2018.pdf, id=8575, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_eta0_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_eta0_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_eta0_2018.pdf  used on input line 407.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dimuon_mass_2018.pdf, id=8572, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dimuon_mass_2018.pdf, id=8576, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dimuon_mass_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dimuon_mass_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dimuon_mass_2018.pdf  used on input line 408.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijr_2018.pdf, id=8573, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijr_2018.pdf, id=8577, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijr_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijr_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijr_2018.pdf  used on input line 409.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
- [115
+ [116
 
-] [116 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_recoil_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_mjj_2017.pdf
+] [117 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_recoil_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_mjj_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_mjj_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_detajj_2017.pdf
@@ -1487,7 +1487,7 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_20
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijj_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijj_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [117 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_pt0_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_eta0_2017.pdf
+>] [118 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_pt0_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_eta0_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_eta0_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dimuon_mass_2017.pdf
@@ -1496,7 +1496,7 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_20
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijr_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijr_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [118 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_recoil_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_mjj_2018.pdf
+>] [119 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_recoil_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_mjj_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_mjj_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_detajj_2018.pdf
@@ -1505,7 +1505,7 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_20
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijj_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijj_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [119 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_pt0_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_eta0_2018.pdf
+>] [120 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_pt0_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_eta0_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_muon_eta0_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dimuon_mass_2018.pdf
@@ -1515,89 +1515,89 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_20
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2m_vbf/cr_2m_vbf_data_mc_dphijr_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_recoil_2017.pdf, id=9737, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_recoil_2017.pdf, id=9741, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_recoil_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_recoil_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_recoil_2017.pdf  used on input line 438.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_mjj_2017.pdf, id=9738, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_mjj_2017.pdf, id=9742, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_mjj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_mjj_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_mjj_2017.pdf  used on input line 439.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_detajj_2017.pdf, id=9739, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_detajj_2017.pdf, id=9743, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_detajj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_detajj_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_detajj_2017.pdf  used on input line 440.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijj_2017.pdf, id=9740, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijj_2017.pdf, id=9744, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijj_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijj_2017.pdf  used on input line 441.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_pt0_2017.pdf, id=9741, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_pt0_2017.pdf, id=9745, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_pt0_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_pt0_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_pt0_2017.pdf  used on input line 450.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_eta0_2017.pdf, id=9742, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_eta0_2017.pdf, id=9746, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_eta0_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_eta0_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_eta0_2017.pdf  used on input line 451.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dielectron_mass_2017.pdf, id=9743, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dielectron_mass_2017.pdf, id=9747, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dielectron_mass_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dielectron_mass_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dielectron_mass_2017.pdf  used on input line 452.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijr_2017.pdf, id=9744, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijr_2017.pdf, id=9748, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijr_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijr_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijr_2017.pdf  used on input line 453.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_recoil_2018.pdf, id=9745, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_recoil_2018.pdf, id=9749, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_recoil_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_recoil_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_recoil_2018.pdf  used on input line 462.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_mjj_2018.pdf, id=9746, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_mjj_2018.pdf, id=9750, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_mjj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_mjj_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_mjj_2018.pdf  used on input line 463.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_detajj_2018.pdf, id=9747, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_detajj_2018.pdf, id=9751, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_detajj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_detajj_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_detajj_2018.pdf  used on input line 464.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijj_2018.pdf, id=9748, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijj_2018.pdf, id=9752, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijj_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijj_2018.pdf  used on input line 465.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_pt0_2018.pdf, id=9749, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_pt0_2018.pdf, id=9753, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_pt0_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_pt0_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_pt0_2018.pdf  used on input line 474.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_eta0_2018.pdf, id=9750, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_eta0_2018.pdf, id=9754, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_eta0_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_eta0_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_eta0_2018.pdf  used on input line 475.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dielectron_mass_2018.pdf, id=9751, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dielectron_mass_2018.pdf, id=9755, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dielectron_mass_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dielectron_mass_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dielectron_mass_2018.pdf  used on input line 476.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijr_2018.pdf, id=9752, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijr_2018.pdf, id=9756, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijr_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijr_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijr_2018.pdf  used on input line 477.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
- [120
+ [121
 
-] [121 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_recoil_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_mjj_2017.pdf
+] [122 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_recoil_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_mjj_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_mjj_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_detajj_2017.pdf
@@ -1606,7 +1606,7 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_20
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijj_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijj_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [122 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_pt0_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_eta0_2017.pdf
+>] [123 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_pt0_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_eta0_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_eta0_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dielectron_mass_2017.pdf
@@ -1615,7 +1615,7 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_20
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijr_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijr_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [123 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_recoil_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_mjj_2018.pdf
+>] [124 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_recoil_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_mjj_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_mjj_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_detajj_2018.pdf
@@ -1624,7 +1624,7 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_20
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijj_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijj_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [124 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_pt0_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_eta0_2018.pdf
+>] [125 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_pt0_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_eta0_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_electron_eta0_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dielectron_mass_2018.pdf
@@ -1634,69 +1634,69 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_20
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_2e_vbf/cr_2e_vbf_data_mc_dphijr_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_recoil_2017.pdf, id=10913, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_recoil_2017.pdf, id=10916, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_recoil_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_recoil_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_recoil_2017.pdf  used on input line 507.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_mjj_2017.pdf, id=10914, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_mjj_2017.pdf, id=10917, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_mjj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_mjj_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_mjj_2017.pdf  used on input line 508.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_detajj_2017.pdf, id=10915, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_detajj_2017.pdf, id=10918, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_detajj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_detajj_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_detajj_2017.pdf  used on input line 509.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_dphijj_2017.pdf, id=10916, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_dphijj_2017.pdf, id=10919, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_dphijj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_dphijj_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_dphijj_2017.pdf  used on input line 510.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_pt0_2017.pdf, id=10917, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_pt0_2017.pdf, id=10920, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_pt0_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_pt0_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_pt0_2017.pdf  used on input line 521.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_eta0_2017.pdf, id=10918, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_eta0_2017.pdf, id=10921, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_eta0_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_eta0_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_eta0_2017.pdf  used on input line 522.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_recoil_2018.pdf, id=10919, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_recoil_2018.pdf, id=10922, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_recoil_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_recoil_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_recoil_2018.pdf  used on input line 531.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_mjj_2018.pdf, id=10920, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_mjj_2018.pdf, id=10923, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_mjj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_mjj_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_mjj_2018.pdf  used on input line 532.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_detajj_2018.pdf, id=10921, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_detajj_2018.pdf, id=10924, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_detajj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_detajj_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_detajj_2018.pdf  used on input line 533.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_dphijj_2018.pdf, id=10922, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_dphijj_2018.pdf, id=10925, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_dphijj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_dphijj_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_dphijj_2018.pdf  used on input line 534.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_pt0_2018.pdf, id=10923, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_pt0_2018.pdf, id=10926, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_pt0_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_pt0_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_pt0_2018.pdf  used on input line 545.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
-<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_eta0_2018.pdf, id=10924, 505.89pt x 505.89pt>
+<3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_eta0_2018.pdf, id=10927, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_eta0_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_eta0_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_eta0_2018.pdf  used on input line 546.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
- [125
+ [126
 
-] [126 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_recoil_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_mjj_2017.pdf
+] [127 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_recoil_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_mjj_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_mjj_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_detajj_2017.pdf
@@ -1705,10 +1705,10 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_20
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_dphijj_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_dphijj_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [127 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_pt0_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_eta0_2017.pdf
+>] [128 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_pt0_2017.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_eta0_2017.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_eta0_2017.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [128 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_recoil_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_mjj_2018.pdf
+>] [129 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_recoil_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_mjj_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_mjj_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_detajj_2018.pdf
@@ -1717,95 +1717,95 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_20
 > <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_dphijj_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_dphijj_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [129 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_pt0_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_eta0_2018.pdf
+>] [130 <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_pt0_2018.pdf> <./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_eta0_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/cr_g_vbf/cr_g_vbf_data_mc_photon_eta0_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->]) (./3_DataAnalysisStrategy/signal_extraction.tex [130
+>]) (./3_DataAnalysisStrategy/signal_extraction.tex [131
 
 ]
 Overfull \hbox (2.75122pt too wide) detected at line 76
 [][][]
  []
 
-[131] [132] [133]
-<3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2017_2017ratio.pdf, id=11739, 545.03625pt x 569.12625pt>
+[132] [133] [134]
+<3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2017_2017ratio.pdf, id=11743, 545.03625pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2017_2017ratio.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2017_2017ratio.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2017_2017ratio.pdf  used on input line 197.
 (pdftex.def)             Requested size: 195.12767pt x 203.74767pt.
-<3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2018_2018ratio.pdf, id=11740, 545.03625pt x 569.12625pt>
+<3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2018_2018ratio.pdf, id=11744, 545.03625pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2018_2018ratio.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2018_2018ratio.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2018_2018ratio.pdf  used on input line 198.
 (pdftex.def)             Requested size: 195.12767pt x 203.74767pt.
-<3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2017_2017ratio.pdf, id=11741, 545.03625pt x 569.12625pt>
+<3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2017_2017ratio.pdf, id=11745, 545.03625pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2017_2017ratio.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2017_2017ratio.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2017_2017ratio.pdf  used on input line 199.
 (pdftex.def)             Requested size: 195.12767pt x 203.74767pt.
-<3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2018_2018ratio.pdf, id=11742, 545.03625pt x 569.12625pt>
+<3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2018_2018ratio.pdf, id=11746, 545.03625pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2018_2018ratio.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2018_2018ratio.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2018_2018ratio.pdf  used on input line 200.
 (pdftex.def)             Requested size: 195.12767pt x 203.74767pt.
-<3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2017_2017ratio.pdf, id=11743, 545.03625pt x 569.12625pt>
+<3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2017_2017ratio.pdf, id=11747, 545.03625pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2017_2017ratio.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2017_2017ratio.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2017_2017ratio.pdf  used on input line 214.
 (pdftex.def)             Requested size: 195.12767pt x 203.74767pt.
-<3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2018_2018ratio.pdf, id=11744, 545.03625pt x 569.12625pt>
+<3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2018_2018ratio.pdf, id=11748, 545.03625pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2018_2018ratio.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2018_2018ratio.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2018_2018ratio.pdf  used on input line 215.
 (pdftex.def)             Requested size: 195.12767pt x 203.74767pt.
-<3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2017_2017ratio.pdf, id=11745, 545.03625pt x 569.12625pt>
+<3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2017_2017ratio.pdf, id=11749, 545.03625pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2017_2017ratio.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2017_2017ratio.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2017_2017ratio.pdf  used on input line 216.
 (pdftex.def)             Requested size: 195.12767pt x 203.74767pt.
-<3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2018_2018ratio.pdf, id=11746, 545.03625pt x 569.12625pt>
+<3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2018_2018ratio.pdf, id=11750, 545.03625pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2018_2018ratio.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2018_2018ratio.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2018_2018ratio.pdf  used on input line 217.
 (pdftex.def)             Requested size: 195.12767pt x 203.74767pt.
- [134] [135 <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2017_2017ratio.pdf> <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2018_2018ratio.pdf> <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2017_2017ratio.pdf> <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2018_2018ratio.pdf>] [136 <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2017_2017ratio.pdf> <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2018_2018ratio.pdf> <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2017_2017ratio.pdf> <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2018_2018ratio.pdf>] [137
+ [135] [136 <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2017_2017ratio.pdf> <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2018_2018ratio.pdf> <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2017_2017ratio.pdf> <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2018_2018ratio.pdf>] [137 <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2017_2017ratio.pdf> <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2018_2018ratio.pdf> <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2017_2017ratio.pdf> <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2018_2018ratio.pdf>] [138
 
 ]
-<3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_qcd_mjj_unc_zoverw_nlo_2018.pdf, id=12105, 462.52798pt x 346.89601pt>
+<3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_qcd_mjj_unc_zoverw_nlo_2018.pdf, id=12108, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_qcd_mjj_unc_zoverw_nlo_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_qcd_mjj_unc_zoverw_nlo_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_qcd_mjj_unc_zoverw_nlo_2018.pdf  used on input line 265.
 (pdftex.def)             Requested size: 195.12767pt x 146.34639pt.
-<3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_ewk_mjj_unc_zoverw_nlo_2018.pdf, id=12106, 462.52798pt x 346.89601pt>
+<3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_ewk_mjj_unc_zoverw_nlo_2018.pdf, id=12109, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_ewk_mjj_unc_zoverw_nlo_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_ewk_mjj_unc_zoverw_nlo_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_ewk_mjj_unc_zoverw_nlo_2018.pdf  used on input line 266.
 (pdftex.def)             Requested size: 195.12767pt x 146.34639pt.
-<3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_qcd_mjj_unc_goverz_nlo_2018.pdf, id=12107, 462.52798pt x 346.89601pt>
+<3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_qcd_mjj_unc_goverz_nlo_2018.pdf, id=12110, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_qcd_mjj_unc_goverz_nlo_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_qcd_mjj_unc_goverz_nlo_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_qcd_mjj_unc_goverz_nlo_2018.pdf  used on input line 267.
 (pdftex.def)             Requested size: 195.12767pt x 146.34639pt.
-<3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_ewk_mjj_unc_goverz_nlo_2018.pdf, id=12108, 462.52798pt x 346.89601pt>
+<3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_ewk_mjj_unc_goverz_nlo_2018.pdf, id=12111, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_ewk_mjj_unc_goverz_nlo_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_ewk_mjj_unc_goverz_nlo_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_ewk_mjj_unc_goverz_nlo_2018.pdf  used on input line 268.
 (pdftex.def)             Requested size: 195.12767pt x 146.34639pt.
- [138] [139 <./3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_qcd_mjj_unc_zoverw_nlo_2018.pdf> <./3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_ewk_mjj_unc_zoverw_nlo_2018.pdf> <./3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_qcd_mjj_unc_goverz_nlo_2018.pdf> <./3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_ewk_mjj_unc_goverz_nlo_2018.pdf>]
-<3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/L1prefire_unc.pdf, id=12384, 462.52798pt x 346.89601pt>
+ [139] [140 <./3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_qcd_mjj_unc_zoverw_nlo_2018.pdf> <./3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_ewk_mjj_unc_zoverw_nlo_2018.pdf> <./3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_qcd_mjj_unc_goverz_nlo_2018.pdf> <./3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_ewk_mjj_unc_goverz_nlo_2018.pdf>]
+<3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/L1prefire_unc.pdf, id=12387, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/L1prefire_unc.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/L1prefire_unc.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/L1prefire_unc.pdf  used on input line 302.
 (pdftex.def)             Requested size: 303.53267pt x 227.66052pt.
- [140
+ [141
 
-] [141 <./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/L1prefire_unc.pdf>]
-<3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll17_qcd_splitJEC_singleBin.pdf, id=12437, 462.52798pt x 346.89601pt>
+] [142 <./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/L1prefire_unc.pdf>]
+<3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll17_qcd_splitJEC_singleBin.pdf, id=12440, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll17_qcd_splitJEC_singleBin.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll17_qcd_splitJEC_singleBin.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll17_qcd_splitJEC_singleBin.pdf  used on input line 334.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
-<3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll18_qcd_splitJEC_singleBin.pdf, id=12438, 462.52798pt x 346.89601pt>
+<3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll18_qcd_splitJEC_singleBin.pdf, id=12441, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll18_qcd_splitJEC_singleBin.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll18_qcd_splitJEC_singleBin.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll18_qcd_splitJEC_singleBin.pdf  used on input line 335.
@@ -1815,12 +1815,12 @@ Underfull \hbox (badness 2384) in paragraph at lines 339--339
 []\OT1/cmr/bx/n/12 Figure 3$\OMS/cmsy/m/n/12 ^^A$\OT1/cmr/bx/n/12 61: |\OT1/cmr/m/n/12 All single-bin JES/JER un-cer-tain-ties on QCD
  []
 
-<3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets17_qcd_splitJEC_singleBin.pdf, id=12439, 462.52798pt x 346.89601pt>
+<3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets17_qcd_splitJEC_singleBin.pdf, id=12442, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets17_qcd_splitJEC_singleBin.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets17_qcd_splitJEC_singleBin.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets17_qcd_splitJEC_singleBin.pdf  used on input line 345.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
-<3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets18_qcd_splitJEC_singleBin.pdf, id=12440, 462.52798pt x 346.89601pt>
+<3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets18_qcd_splitJEC_singleBin.pdf, id=12443, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets18_qcd_splitJEC_singleBin.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets18_qcd_splitJEC_singleBin.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets18_qcd_splitJEC_singleBin.pdf  used on input line 346.
@@ -1828,34 +1828,34 @@ Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertaintie
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[142 <./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll17_qcd_splitJEC_singleBin.pdf> <./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll18_qcd_splitJEC_singleBin.pdf
+[143 <./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll17_qcd_splitJEC_singleBin.pdf> <./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll18_qcd_splitJEC_singleBin.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll18_qcd_splitJEC_singleBin.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [143 <./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets17_qcd_splitJEC_singleBin.pdf> <./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets18_qcd_splitJEC_singleBin.pdf
+>] [144 <./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets17_qcd_splitJEC_singleBin.pdf> <./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets18_qcd_splitJEC_singleBin.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets18_qcd_splitJEC_singleBin.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2017_jesRelativeSample_2017.pdf, id=12703, 462.52798pt x 346.89601pt>
+<3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2017_jesRelativeSample_2017.pdf, id=12706, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2017_jesRelativeSample_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2017_jesRelativeSample_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2017_jesRelativeSample_2017.pdf  used on input line 370.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
-<3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2018_jesRelativeSample_2018.pdf, id=12704, 462.52798pt x 346.89601pt>
+<3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2018_jesRelativeSample_2018.pdf, id=12707, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2018_jesRelativeSample_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2018_jesRelativeSample_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2018_jesRelativeSample_2018.pdf  used on input line 371.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
-<3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2017_jesRelativeSample_2017.pdf, id=12705, 462.52798pt x 346.89601pt>
+<3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2017_jesRelativeSample_2017.pdf, id=12708, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2017_jesRelativeSample_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2017_jesRelativeSample_2017.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2017_jesRelativeSample_2017.pdf  used on input line 372.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
-<3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2018_jesRelativeSample_2018.pdf, id=12706, 462.52798pt x 346.89601pt>
+<3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2018_jesRelativeSample_2018.pdf, id=12709, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2018_jesRelativeSample_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2018_jesRelativeSample_2018.pdf>
 Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2018_jesRelativeSample_2018.pdf  used on input line 373.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
- [144 <./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2017_jesRelativeSample_2017.pdf> <./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2018_jesRelativeSample_2018.pdf
+ [145 <./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2017_jesRelativeSample_2017.pdf> <./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2018_jesRelativeSample_2018.pdf
 
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2018_jesRelativeSample_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2017_jesRelativeSample_2017.pdf
@@ -1868,7 +1868,7 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/ExperimentalUnce
 
 LaTeX Warning: Float too large for page by 28.56215pt on input line 448.
 
-[145] [146]))
+[146] [147]))
 \openout2 = `4_Results/results.aux'.
 
  (./4_Results/results.tex
@@ -1878,7 +1878,7 @@ Overfull \hbox (0.31456pt too wide) in paragraph at lines 9--16
 \OT1/cmr/m/n/12 To get the best-fit value of the sig-nal strength $\OML/cmm/m/it/12 ^^V \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 ^^[[]=^^[[]\OT1/cmr/m/n/12 )[]$, a maximum-
  []
 
-[147
+[148
 
 
 
@@ -1886,22 +1886,22 @@ Overfull \hbox (0.31456pt too wide) in paragraph at lines 9--16
 
 
 ]
-<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_signal_2017.pdf, id=12949, 439.6425pt x 569.12625pt>
+<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_signal_2017.pdf, id=12952, 439.6425pt x 569.12625pt>
 File: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_signal_2017.pdf Graphic file (type pdf)
 <use 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_signal_2017.pdf>
 Package pdftex.def Info: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_signal_2017.pdf  used on input line 38.
 (pdftex.def)             Requested size: 195.12767pt x 252.59604pt.
-<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_signal_2018.pdf, id=12950, 439.6425pt x 569.12625pt>
+<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_signal_2018.pdf, id=12953, 439.6425pt x 569.12625pt>
 File: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_signal_2018.pdf Graphic file (type pdf)
 <use 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_signal_2018.pdf>
 Package pdftex.def Info: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_signal_2018.pdf  used on input line 39.
 (pdftex.def)             Requested size: 195.12767pt x 252.59604pt.
-<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_gjets_2017.pdf, id=12951, 439.6425pt x 569.12625pt>
+<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_gjets_2017.pdf, id=12954, 439.6425pt x 569.12625pt>
 File: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_gjets_2017.pdf Graphic file (type pdf)
 <use 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_gjets_2017.pdf>
 Package pdftex.def Info: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_gjets_2017.pdf  used on input line 40.
 (pdftex.def)             Requested size: 195.12767pt x 252.59604pt.
-<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_gjets_2018.pdf, id=12952, 439.6425pt x 569.12625pt>
+<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_gjets_2018.pdf, id=12955, 439.6425pt x 569.12625pt>
 File: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_gjets_2018.pdf Graphic file (type pdf)
 <use 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_gjets_2018.pdf>
 Package pdftex.def Info: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_gjets_2018.pdf  used on input line 41.
@@ -1910,47 +1910,47 @@ Package pdftex.def Info: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analys
 
 LaTeX Warning: Float too large for page by 46.89706pt on input line 49.
 
-<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_dielectron_2017.pdf, id=12953, 439.6425pt x 569.12625pt>
+<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_dielectron_2017.pdf, id=12956, 439.6425pt x 569.12625pt>
 File: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_dielectron_2017.pdf Graphic file (type pdf)
 <use 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_dielectron_2017.pdf>
 Package pdftex.def Info: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_dielectron_2017.pdf  used on input line 53.
 (pdftex.def)             Requested size: 195.12767pt x 252.59604pt.
-<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_dielectron_2018.pdf, id=12954, 439.6425pt x 569.12625pt>
+<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_dielectron_2018.pdf, id=12957, 439.6425pt x 569.12625pt>
 File: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_dielectron_2018.pdf Graphic file (type pdf)
 <use 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_dielectron_2018.pdf>
 Package pdftex.def Info: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_dielectron_2018.pdf  used on input line 54.
 (pdftex.def)             Requested size: 195.12767pt x 252.59604pt.
-<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_dimuon_2017.pdf, id=12955, 439.6425pt x 569.12625pt>
+<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_dimuon_2017.pdf, id=12958, 439.6425pt x 569.12625pt>
 File: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_dimuon_2017.pdf Graphic file (type pdf)
 <use 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_dimuon_2017.pdf>
 Package pdftex.def Info: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_dimuon_2017.pdf  used on input line 55.
 (pdftex.def)             Requested size: 195.12767pt x 252.59604pt.
-<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_dimuon_2018.pdf, id=12956, 439.6425pt x 569.12625pt>
+<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_dimuon_2018.pdf, id=12959, 439.6425pt x 569.12625pt>
 File: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_dimuon_2018.pdf Graphic file (type pdf)
 <use 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_dimuon_2018.pdf>
 Package pdftex.def Info: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_dimuon_2018.pdf  used on input line 56.
 (pdftex.def)             Requested size: 195.12767pt x 252.59604pt.
-<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_singleelectron_2017.pdf, id=12957, 439.6425pt x 569.12625pt>
+<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_singleelectron_2017.pdf, id=12960, 439.6425pt x 569.12625pt>
 File: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_singleelectron_2017.pdf Graphic file (type pdf)
 <use 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_singleelectron_2017.pdf>
 Package pdftex.def Info: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_singleelectron_2017.pdf  used on input line 64.
 (pdftex.def)             Requested size: 195.12767pt x 252.59604pt.
-<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_singleelectron_2018.pdf, id=12958, 439.6425pt x 569.12625pt>
+<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_singleelectron_2018.pdf, id=12961, 439.6425pt x 569.12625pt>
 File: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_singleelectron_2018.pdf Graphic file (type pdf)
 <use 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_singleelectron_2018.pdf>
 Package pdftex.def Info: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_singleelectron_2018.pdf  used on input line 65.
 (pdftex.def)             Requested size: 195.12767pt x 252.59604pt.
-<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_singlemuon_2017.pdf, id=12959, 439.6425pt x 569.12625pt>
+<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_singlemuon_2017.pdf, id=12962, 439.6425pt x 569.12625pt>
 File: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_singlemuon_2017.pdf Graphic file (type pdf)
 <use 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_singlemuon_2017.pdf>
 Package pdftex.def Info: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_singlemuon_2017.pdf  used on input line 66.
 (pdftex.def)             Requested size: 195.12767pt x 252.59604pt.
-<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_singlemuon_2018.pdf, id=12960, 439.6425pt x 569.12625pt>
+<4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_singlemuon_2018.pdf, id=12963, 439.6425pt x 569.12625pt>
 File: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_singlemuon_2018.pdf Graphic file (type pdf)
 <use 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_singlemuon_2018.pdf>
 Package pdftex.def Info: 4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_singlemuon_2018.pdf  used on input line 67.
 (pdftex.def)             Requested size: 195.12767pt x 252.59604pt.
-[148] [149 <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_signal_2017.pdf> <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_signal_2018.pdf> <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_gjets_2017.pdf> <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_gjets_2018.pdf>] [150 <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_dielectron_2017.pdf> <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_dielectron_2018.pdf> <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_dimuon_2017.pdf> <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_dimuon_2018.pdf>] [151 <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_singleelectron_2017.pdf> <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_singleelectron_2018.pdf> <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_singlemuon_2017.pdf> <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_singlemuon_2018.pdf>] (./4_Results/Tables/srcrfit_MTR_2017.tex)
+[149] [150 <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_signal_2017.pdf> <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_signal_2018.pdf> <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_gjets_2017.pdf> <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_gjets_2018.pdf>] [151 <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_dielectron_2017.pdf> <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_dielectron_2018.pdf> <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_dimuon_2017.pdf> <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_dimuon_2018.pdf>] [152 <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_singleelectron_2017.pdf> <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_singleelectron_2018.pdf> <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2017_PULLS_MASKED_prefit_postfit_singlemuon_2017.pdf> <./4_Results/Figures/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/plotsSRAndCRFit/combined/vbf_2018_PULLS_MASKED_prefit_postfit_singlemuon_2018.pdf>] (./4_Results/Tables/srcrfit_MTR_2017.tex)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1958,21 +1958,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[152] [153]) (./4_Results/combinations.tex [154
+[153] [154]) (./4_Results/combinations.tex [155
 
 
 ]
-<4_Results/Figures/from_paper/SignalRegion_MTR_AllYears.pdf, id=13502, 569.12625pt x 552.0625pt>
+<4_Results/Figures/from_paper/SignalRegion_MTR_AllYears.pdf, id=13505, 569.12625pt x 552.0625pt>
 File: 4_Results/Figures/from_paper/SignalRegion_MTR_AllYears.pdf Graphic file (type pdf)
 <use 4_Results/Figures/from_paper/SignalRegion_MTR_AllYears.pdf>
 Package pdftex.def Info: 4_Results/Figures/from_paper/SignalRegion_MTR_AllYears.pdf  used on input line 53.
 (pdftex.def)             Requested size: 303.53267pt x 294.44496pt.
- [155] [156 <./4_Results/Figures/from_paper/SignalRegion_MTR_AllYears.pdf, page is rotated 90 degrees>] [157]) (./4_Results/interpretations.tex
+ [156] [157 <./4_Results/Figures/from_paper/SignalRegion_MTR_AllYears.pdf, page is rotated 90 degrees>] [158]) (./4_Results/interpretations.tex
 Overfull \hbox (0.70622pt too wide) in paragraph at lines 8--13
 \OT1/cmr/m/n/12 back-ground, the re-sults are in-ter-preted as up-per bounds to $\OML/cmm/m/it/12 ^^V \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 ^^[[]=^^[[]\OT1/cmr/m/n/12 )[]$.
  []
 
-<4_Results/Figures/from_paper/limits/limit_short.pdf, id=13556, 569.12625pt x 426.59375pt>
+<4_Results/Figures/from_paper/limits/limit_short.pdf, id=13559, 569.12625pt x 426.59375pt>
 File: 4_Results/Figures/from_paper/limits/limit_short.pdf Graphic file (type pdf)
 <use 4_Results/Figures/from_paper/limits/limit_short.pdf>
 Package pdftex.def Info: 4_Results/Figures/from_paper/limits/limit_short.pdf  used on input line 20.
@@ -1985,47 +1985,47 @@ Underfull \hbox (badness 1043) in paragraph at lines 24--24
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[158
+[159
 
- <./4_Results/Figures/from_paper/limits/limit_short.pdf, page is rotated 90 degrees>] [159]
-<4_Results/Figures/from_paper/DM_nucleon_xs.pdf, id=13606, 569.12625pt x 508.90125pt>
+ <./4_Results/Figures/from_paper/limits/limit_short.pdf, page is rotated 90 degrees>] [160]
+<4_Results/Figures/from_paper/DM_nucleon_xs.pdf, id=13609, 569.12625pt x 508.90125pt>
 File: 4_Results/Figures/from_paper/DM_nucleon_xs.pdf Graphic file (type pdf)
 <use 4_Results/Figures/from_paper/DM_nucleon_xs.pdf>
 Package pdftex.def Info: 4_Results/Figures/from_paper/DM_nucleon_xs.pdf  used on input line 100.
 (pdftex.def)             Requested size: 346.89731pt x 310.20412pt.
-)) [160] [161 <./4_Results/Figures/from_paper/DM_nucleon_xs.pdf, page is rotated 90 degrees>]
+)) [161] [162 <./4_Results/Figures/from_paper/DM_nucleon_xs.pdf, page is rotated 90 degrees>]
 \openout2 = `5_Outlook/outlook.aux'.
 
  (./5_Outlook/outlook.tex
 Chapter 5.
-(./5_Outlook/hlt_improvements.tex [162
+(./5_Outlook/hlt_improvements.tex [163
 
 
 
 
 
-] [163]
-<5_Outlook/Figures/HFFilter/merged_2022-04-11_hlt_11Apr22_MET_2018D/MET_2018D_sieie_sipip_ak4_abseta0_2_99_3_25_noise_enriched_mht_110.pdf, id=13663, 462.52798pt x 346.89601pt>
+] [164]
+<5_Outlook/Figures/HFFilter/merged_2022-04-11_hlt_11Apr22_MET_2018D/MET_2018D_sieie_sipip_ak4_abseta0_2_99_3_25_noise_enriched_mht_110.pdf, id=13666, 462.52798pt x 346.89601pt>
 File: 5_Outlook/Figures/HFFilter/merged_2022-04-11_hlt_11Apr22_MET_2018D/MET_2018D_sieie_sipip_ak4_abseta0_2_99_3_25_noise_enriched_mht_110.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/HFFilter/merged_2022-04-11_hlt_11Apr22_MET_2018D/MET_2018D_sieie_sipip_ak4_abseta0_2_99_3_25_noise_enriched_mht_110.pdf>
 Package pdftex.def Info: 5_Outlook/Figures/HFFilter/merged_2022-04-11_hlt_11Apr22_MET_2018D/MET_2018D_sieie_sipip_ak4_abseta0_2_99_3_25_noise_enriched_mht_110.pdf  used on input line 49.
 (pdftex.def)             Requested size: 195.12767pt x 146.34639pt.
-<5_Outlook/Figures/HFFilter/merged_2022-04-12_hlt_11Apr22_EGamma_2018D/EGamma_2018D_sieie_sipip_ak4_abseta0_2_99_3_25_gammajet.pdf, id=13664, 462.52798pt x 346.89601pt>
+<5_Outlook/Figures/HFFilter/merged_2022-04-12_hlt_11Apr22_EGamma_2018D/EGamma_2018D_sieie_sipip_ak4_abseta0_2_99_3_25_gammajet.pdf, id=13667, 462.52798pt x 346.89601pt>
 File: 5_Outlook/Figures/HFFilter/merged_2022-04-12_hlt_11Apr22_EGamma_2018D/EGamma_2018D_sieie_sipip_ak4_abseta0_2_99_3_25_gammajet.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/HFFilter/merged_2022-04-12_hlt_11Apr22_EGamma_2018D/EGamma_2018D_sieie_sipip_ak4_abseta0_2_99_3_25_gammajet.pdf>
 Package pdftex.def Info: 5_Outlook/Figures/HFFilter/merged_2022-04-12_hlt_11Apr22_EGamma_2018D/EGamma_2018D_sieie_sipip_ak4_abseta0_2_99_3_25_gammajet.pdf  used on input line 50.
 (pdftex.def)             Requested size: 195.12767pt x 146.34639pt.
-<5_Outlook/Figures/HFFilter/merged_2022-04-11_hlt_11Apr22_MET_2018D/MET_2018D_cssize_adssize_ak4_abseta0_2_99_3_25_noise_enriched_mht_110.pdf, id=13665, 462.52798pt x 346.89601pt>
+<5_Outlook/Figures/HFFilter/merged_2022-04-11_hlt_11Apr22_MET_2018D/MET_2018D_cssize_adssize_ak4_abseta0_2_99_3_25_noise_enriched_mht_110.pdf, id=13668, 462.52798pt x 346.89601pt>
 File: 5_Outlook/Figures/HFFilter/merged_2022-04-11_hlt_11Apr22_MET_2018D/MET_2018D_cssize_adssize_ak4_abseta0_2_99_3_25_noise_enriched_mht_110.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/HFFilter/merged_2022-04-11_hlt_11Apr22_MET_2018D/MET_2018D_cssize_adssize_ak4_abseta0_2_99_3_25_noise_enriched_mht_110.pdf>
 Package pdftex.def Info: 5_Outlook/Figures/HFFilter/merged_2022-04-11_hlt_11Apr22_MET_2018D/MET_2018D_cssize_adssize_ak4_abseta0_2_99_3_25_noise_enriched_mht_110.pdf  used on input line 51.
 (pdftex.def)             Requested size: 195.12767pt x 146.34639pt.
-<5_Outlook/Figures/HFFilter/merged_2022-04-12_hlt_11Apr22_EGamma_2018D/EGamma_2018D_cssize_adssize_ak4_abseta0_2_99_3_25_gammajet.pdf, id=13666, 462.52798pt x 346.89601pt>
+<5_Outlook/Figures/HFFilter/merged_2022-04-12_hlt_11Apr22_EGamma_2018D/EGamma_2018D_cssize_adssize_ak4_abseta0_2_99_3_25_gammajet.pdf, id=13669, 462.52798pt x 346.89601pt>
 File: 5_Outlook/Figures/HFFilter/merged_2022-04-12_hlt_11Apr22_EGamma_2018D/EGamma_2018D_cssize_adssize_ak4_abseta0_2_99_3_25_gammajet.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/HFFilter/merged_2022-04-12_hlt_11Apr22_EGamma_2018D/EGamma_2018D_cssize_adssize_ak4_abseta0_2_99_3_25_gammajet.pdf>
 Package pdftex.def Info: 5_Outlook/Figures/HFFilter/merged_2022-04-12_hlt_11Apr22_EGamma_2018D/EGamma_2018D_cssize_adssize_ak4_abseta0_2_99_3_25_gammajet.pdf  used on input line 52.
 (pdftex.def)             Requested size: 195.12767pt x 146.34639pt.
- [164 <./5_Outlook/Figures/HFFilter/merged_2022-04-11_hlt_11Apr22_MET_2018D/MET_2018D_sieie_sipip_ak4_abseta0_2_99_3_25_noise_enriched_mht_110.pdf> <./5_Outlook/Figures/HFFilter/merged_2022-04-12_hlt_11Apr22_EGamma_2018D/EGamma_2018D_sieie_sipip_ak4_abseta0_2_99_3_25_gammajet.pdf
+ [165 <./5_Outlook/Figures/HFFilter/merged_2022-04-11_hlt_11Apr22_MET_2018D/MET_2018D_sieie_sipip_ak4_abseta0_2_99_3_25_noise_enriched_mht_110.pdf> <./5_Outlook/Figures/HFFilter/merged_2022-04-12_hlt_11Apr22_EGamma_2018D/EGamma_2018D_sieie_sipip_ak4_abseta0_2_99_3_25_gammajet.pdf
 
 pdfTeX warning: pdflatex (file ./5_Outlook/Figures/HFFilter/merged_2022-04-12_hlt_11Apr22_EGamma_2018D/EGamma_2018D_sieie_sipip_ak4_abseta0_2_99_3_25_gammajet.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./5_Outlook/Figures/HFFilter/merged_2022-04-11_hlt_11Apr22_MET_2018D/MET_2018D_cssize_adssize_ak4_abseta0_2_99_3_25_noise_enriched_mht_110.pdf
@@ -2034,114 +2034,114 @@ pdfTeX warning: pdflatex (file ./5_Outlook/Figures/HFFilter/merged_2022-04-11_hl
 > <./5_Outlook/Figures/HFFilter/merged_2022-04-12_hlt_11Apr22_EGamma_2018D/EGamma_2018D_cssize_adssize_ak4_abseta0_2_99_3_25_gammajet.pdf
 
 pdfTeX warning: pdflatex (file ./5_Outlook/Figures/HFFilter/merged_2022-04-12_hlt_11Apr22_EGamma_2018D/EGamma_2018D_cssize_adssize_ak4_abseta0_2_99_3_25_gammajet.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [165] [166]
-<5_Outlook/Figures/HFFilter/merged_2022-10-27_hlt_Muon_2022_JMEtriggers/turnons_tr_metnomu.pdf, id=13889, 462.52798pt x 346.89601pt>
+>] [166] [167]
+<5_Outlook/Figures/HFFilter/merged_2022-10-27_hlt_Muon_2022_JMEtriggers/turnons_tr_metnomu.pdf, id=13892, 462.52798pt x 346.89601pt>
 File: 5_Outlook/Figures/HFFilter/merged_2022-10-27_hlt_Muon_2022_JMEtriggers/turnons_tr_metnomu.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/HFFilter/merged_2022-10-27_hlt_Muon_2022_JMEtriggers/turnons_tr_metnomu.pdf>
 Package pdftex.def Info: 5_Outlook/Figures/HFFilter/merged_2022-10-27_hlt_Muon_2022_JMEtriggers/turnons_tr_metnomu.pdf  used on input line 142.
 (pdftex.def)             Requested size: 195.12767pt x 146.34639pt.
-<5_Outlook/Figures/HFFilter/merged_2022-10-27_hlt_Muon_2022_JMEtriggers/turnons_tr_metnomu_filterhf.pdf, id=13890, 462.52798pt x 346.89601pt>
+<5_Outlook/Figures/HFFilter/merged_2022-10-27_hlt_Muon_2022_JMEtriggers/turnons_tr_metnomu_filterhf.pdf, id=13893, 462.52798pt x 346.89601pt>
 File: 5_Outlook/Figures/HFFilter/merged_2022-10-27_hlt_Muon_2022_JMEtriggers/turnons_tr_metnomu_filterhf.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/HFFilter/merged_2022-10-27_hlt_Muon_2022_JMEtriggers/turnons_tr_metnomu_filterhf.pdf>
 Package pdftex.def Info: 5_Outlook/Figures/HFFilter/merged_2022-10-27_hlt_Muon_2022_JMEtriggers/turnons_tr_metnomu_filterhf.pdf  used on input line 143.
 (pdftex.def)             Requested size: 195.12767pt x 146.34639pt.
- [167]
-<5_Outlook/Figures/HFFilter/merged_2023-02-10_hlt_full_JetMET_2022_run/ak4_eta0_filterhf.pdf, id=13894, 505.89pt x 505.89pt>
+ [168]
+<5_Outlook/Figures/HFFilter/merged_2023-02-10_hlt_full_JetMET_2022_run/ak4_eta0_filterhf.pdf, id=13897, 505.89pt x 505.89pt>
 File: 5_Outlook/Figures/HFFilter/merged_2023-02-10_hlt_full_JetMET_2022_run/ak4_eta0_filterhf.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/HFFilter/merged_2023-02-10_hlt_full_JetMET_2022_run/ak4_eta0_filterhf.pdf>
 Package pdftex.def Info: 5_Outlook/Figures/HFFilter/merged_2023-02-10_hlt_full_JetMET_2022_run/ak4_eta0_filterhf.pdf  used on input line 165.
 (pdftex.def)             Requested size: 303.53267pt x 303.53633pt.
- [168 <./5_Outlook/Figures/HFFilter/merged_2022-10-27_hlt_Muon_2022_JMEtriggers/turnons_tr_metnomu.pdf> <./5_Outlook/Figures/HFFilter/merged_2022-10-27_hlt_Muon_2022_JMEtriggers/turnons_tr_metnomu_filterhf.pdf
+ [169 <./5_Outlook/Figures/HFFilter/merged_2022-10-27_hlt_Muon_2022_JMEtriggers/turnons_tr_metnomu.pdf> <./5_Outlook/Figures/HFFilter/merged_2022-10-27_hlt_Muon_2022_JMEtriggers/turnons_tr_metnomu_filterhf.pdf
 
 pdfTeX warning: pdflatex (file ./5_Outlook/Figures/HFFilter/merged_2022-10-27_hlt_Muon_2022_JMEtriggers/turnons_tr_metnomu_filterhf.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [169 <./5_Outlook/Figures/HFFilter/merged_2023-02-10_hlt_full_JetMET_2022_run/ak4_eta0_filterhf.pdf>]) (./5_Outlook/tracker_upgrade.tex
-<5_Outlook/Figures/TrackerUpgrade/phase2_tracker_layout.jpeg, id=14090, 337.21182pt x 119.67912pt>
+>] [170 <./5_Outlook/Figures/HFFilter/merged_2023-02-10_hlt_full_JetMET_2022_run/ak4_eta0_filterhf.pdf>]) (./5_Outlook/tracker_upgrade.tex
+<5_Outlook/Figures/TrackerUpgrade/phase2_tracker_layout.jpeg, id=14093, 337.21182pt x 119.67912pt>
 File: 5_Outlook/Figures/TrackerUpgrade/phase2_tracker_layout.jpeg Graphic file (type jpg)
 <use 5_Outlook/Figures/TrackerUpgrade/phase2_tracker_layout.jpeg>
 Package pdftex.def Info: 5_Outlook/Figures/TrackerUpgrade/phase2_tracker_layout.jpeg  used on input line 27.
 (pdftex.def)             Requested size: 390.25534pt x 138.51376pt.
- [170
+ [171
 
 ]
-<5_Outlook/Figures/TrackerUpgrade/stub_ot_schematic.png, id=14094, 391.4625pt x 153.57375pt>
+<5_Outlook/Figures/TrackerUpgrade/stub_ot_schematic.png, id=14097, 391.4625pt x 153.57375pt>
 File: 5_Outlook/Figures/TrackerUpgrade/stub_ot_schematic.png Graphic file (type png)
 <use 5_Outlook/Figures/TrackerUpgrade/stub_ot_schematic.png>
 Package pdftex.def Info: 5_Outlook/Figures/TrackerUpgrade/stub_ot_schematic.png  used on input line 53.
 (pdftex.def)             Requested size: 346.89731pt x 136.0967pt.
- [171 <./5_Outlook/Figures/TrackerUpgrade/phase2_tracker_layout.jpeg>]
-<5_Outlook/Figures/TrackerUpgrade/daq_schematic.png, id=14098, 421.575pt x 171.64125pt>
+ [172 <./5_Outlook/Figures/TrackerUpgrade/phase2_tracker_layout.jpeg>]
+<5_Outlook/Figures/TrackerUpgrade/daq_schematic.png, id=14101, 421.575pt x 171.64125pt>
 File: 5_Outlook/Figures/TrackerUpgrade/daq_schematic.png Graphic file (type png)
 <use 5_Outlook/Figures/TrackerUpgrade/daq_schematic.png>
 Package pdftex.def Info: 5_Outlook/Figures/TrackerUpgrade/daq_schematic.png  used on input line 72.
 (pdftex.def)             Requested size: 346.89731pt x 141.23909pt.
- [172 <./5_Outlook/Figures/TrackerUpgrade/stub_ot_schematic.png>] [173 <./5_Outlook/Figures/TrackerUpgrade/daq_schematic.png>]
-<5_Outlook/Figures/TrackerUpgrade/Apollo/apollo_schematic.png, id=14107, 744.7825pt x 325.215pt>
+ [173 <./5_Outlook/Figures/TrackerUpgrade/stub_ot_schematic.png>] [174 <./5_Outlook/Figures/TrackerUpgrade/daq_schematic.png>]
+<5_Outlook/Figures/TrackerUpgrade/Apollo/apollo_schematic.png, id=14110, 744.7825pt x 325.215pt>
 File: 5_Outlook/Figures/TrackerUpgrade/Apollo/apollo_schematic.png Graphic file (type png)
 <use 5_Outlook/Figures/TrackerUpgrade/Apollo/apollo_schematic.png>
 Package pdftex.def Info: 5_Outlook/Figures/TrackerUpgrade/Apollo/apollo_schematic.png  used on input line 107.
 (pdftex.def)             Requested size: 411.93767pt x 179.88112pt.
- [174 <./5_Outlook/Figures/TrackerUpgrade/Apollo/apollo_schematic.png>] [175] [176] [177]
-<5_Outlook/Figures/TrackerUpgrade/SHEP_HERD.png, id=14122, 674.52pt x 361.35pt>
+ [175 <./5_Outlook/Figures/TrackerUpgrade/Apollo/apollo_schematic.png>] [176] [177] [178]
+<5_Outlook/Figures/TrackerUpgrade/SHEP_HERD.png, id=14125, 674.52pt x 361.35pt>
 File: 5_Outlook/Figures/TrackerUpgrade/SHEP_HERD.png Graphic file (type png)
 <use 5_Outlook/Figures/TrackerUpgrade/SHEP_HERD.png>
 Package pdftex.def Info: 5_Outlook/Figures/TrackerUpgrade/SHEP_HERD.png  used on input line 220.
 (pdftex.def)             Requested size: 390.25534pt x 209.07036pt.
- [178] [179 <./5_Outlook/Figures/TrackerUpgrade/SHEP_HERD.png>]) (./5_Outlook/vbfml.tex [180
+ [179] [180 <./5_Outlook/Figures/TrackerUpgrade/SHEP_HERD.png>]) (./5_Outlook/vbfml.tex [181
 
 ]
-<5_Outlook/Figures/VBFML/particlenet_arch.png, id=14135, 169.63374pt x 329.23pt>
+<5_Outlook/Figures/VBFML/particlenet_arch.png, id=14139, 169.63374pt x 329.23pt>
 File: 5_Outlook/Figures/VBFML/particlenet_arch.png Graphic file (type png)
 <use 5_Outlook/Figures/VBFML/particlenet_arch.png>
 Package pdftex.def Info: 5_Outlook/Figures/VBFML/particlenet_arch.png  used on input line 38.
 (pdftex.def)             Requested size: 130.08731pt x 252.48807pt.
- [181 <./5_Outlook/Figures/VBFML/particlenet_arch.png>] [182]
-<5_Outlook/Figures/VBFML/sr_vbf_no_veto_all_particlenet_score.pdf, id=14145, 462.52798pt x 346.89601pt>
+ [182 <./5_Outlook/Figures/VBFML/particlenet_arch.png>] [183]
+<5_Outlook/Figures/VBFML/sr_vbf_no_veto_all_particlenet_score.pdf, id=14148, 462.52798pt x 346.89601pt>
 File: 5_Outlook/Figures/VBFML/sr_vbf_no_veto_all_particlenet_score.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/VBFML/sr_vbf_no_veto_all_particlenet_score.pdf>
 Package pdftex.def Info: 5_Outlook/Figures/VBFML/sr_vbf_no_veto_all_particlenet_score.pdf  used on input line 83.
 (pdftex.def)             Requested size: 346.89731pt x 260.18724pt.
-<5_Outlook/Figures/VBFML/ggH_vs_vbfH_ROC.pdf, id=14146, 462.52798pt x 346.89601pt>
+<5_Outlook/Figures/VBFML/ggH_vs_vbfH_ROC.pdf, id=14149, 462.52798pt x 346.89601pt>
 File: 5_Outlook/Figures/VBFML/ggH_vs_vbfH_ROC.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/VBFML/ggH_vs_vbfH_ROC.pdf>
 Package pdftex.def Info: 5_Outlook/Figures/VBFML/ggH_vs_vbfH_ROC.pdf  used on input line 92.
 (pdftex.def)             Requested size: 346.89731pt x 260.18724pt.
-<5_Outlook/Figures/VBFML/ggH_score_overlayed_detajj.pdf, id=14147, 462.52798pt x 346.89601pt>
+<5_Outlook/Figures/VBFML/ggH_score_overlayed_detajj.pdf, id=14150, 462.52798pt x 346.89601pt>
 File: 5_Outlook/Figures/VBFML/ggH_score_overlayed_detajj.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/VBFML/ggH_score_overlayed_detajj.pdf>
 Package pdftex.def Info: 5_Outlook/Figures/VBFML/ggH_score_overlayed_detajj.pdf  used on input line 102.
 (pdftex.def)             Requested size: 195.12767pt x 146.34639pt.
-<5_Outlook/Figures/VBFML/ggH_score_overlayed_trailak4_eta.pdf, id=14148, 462.52798pt x 346.89601pt>
+<5_Outlook/Figures/VBFML/ggH_score_overlayed_trailak4_eta.pdf, id=14151, 462.52798pt x 346.89601pt>
 File: 5_Outlook/Figures/VBFML/ggH_score_overlayed_trailak4_eta.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/VBFML/ggH_score_overlayed_trailak4_eta.pdf>
 Package pdftex.def Info: 5_Outlook/Figures/VBFML/ggH_score_overlayed_trailak4_eta.pdf  used on input line 103.
 (pdftex.def)             Requested size: 195.12767pt x 146.34639pt.
- [183] [184 <./5_Outlook/Figures/VBFML/sr_vbf_no_veto_all_particlenet_score.pdf>] [185 <./5_Outlook/Figures/VBFML/ggH_vs_vbfH_ROC.pdf>] [186 <./5_Outlook/Figures/VBFML/ggH_score_overlayed_detajj.pdf> <./5_Outlook/Figures/VBFML/ggH_score_overlayed_trailak4_eta.pdf
+ [184] [185 <./5_Outlook/Figures/VBFML/sr_vbf_no_veto_all_particlenet_score.pdf>] [186 <./5_Outlook/Figures/VBFML/ggH_vs_vbfH_ROC.pdf>] [187 <./5_Outlook/Figures/VBFML/ggH_score_overlayed_detajj.pdf> <./5_Outlook/Figures/VBFML/ggH_score_overlayed_trailak4_eta.pdf
 
 pdfTeX warning: pdflatex (file ./5_Outlook/Figures/VBFML/ggH_score_overlayed_trailak4_eta.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<5_Outlook/Figures/VBFML/cr_1e_vbf_data_mc_particlenet_score_2018.pdf, id=14343, 505.89pt x 505.89pt>
+<5_Outlook/Figures/VBFML/cr_1e_vbf_data_mc_particlenet_score_2018.pdf, id=14347, 505.89pt x 505.89pt>
 File: 5_Outlook/Figures/VBFML/cr_1e_vbf_data_mc_particlenet_score_2018.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/VBFML/cr_1e_vbf_data_mc_particlenet_score_2018.pdf>
 Package pdftex.def Info: 5_Outlook/Figures/VBFML/cr_1e_vbf_data_mc_particlenet_score_2018.pdf  used on input line 129.
 (pdftex.def)             Requested size: 195.12767pt x 195.12718pt.
-<5_Outlook/Figures/VBFML/cr_1m_vbf_data_mc_particlenet_score_2018.pdf, id=14344, 505.89pt x 505.89pt>
+<5_Outlook/Figures/VBFML/cr_1m_vbf_data_mc_particlenet_score_2018.pdf, id=14348, 505.89pt x 505.89pt>
 File: 5_Outlook/Figures/VBFML/cr_1m_vbf_data_mc_particlenet_score_2018.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/VBFML/cr_1m_vbf_data_mc_particlenet_score_2018.pdf>
 Package pdftex.def Info: 5_Outlook/Figures/VBFML/cr_1m_vbf_data_mc_particlenet_score_2018.pdf  used on input line 130.
 (pdftex.def)             Requested size: 195.12767pt x 195.12718pt.
-<5_Outlook/Figures/VBFML/cr_2e_vbf_data_mc_particlenet_score_2018.pdf, id=14345, 505.89pt x 505.89pt>
+<5_Outlook/Figures/VBFML/cr_2e_vbf_data_mc_particlenet_score_2018.pdf, id=14349, 505.89pt x 505.89pt>
 File: 5_Outlook/Figures/VBFML/cr_2e_vbf_data_mc_particlenet_score_2018.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/VBFML/cr_2e_vbf_data_mc_particlenet_score_2018.pdf>
 Package pdftex.def Info: 5_Outlook/Figures/VBFML/cr_2e_vbf_data_mc_particlenet_score_2018.pdf  used on input line 131.
 (pdftex.def)             Requested size: 195.12767pt x 195.12718pt.
-<5_Outlook/Figures/VBFML/cr_2m_vbf_data_mc_particlenet_score_2018.pdf, id=14346, 505.89pt x 505.89pt>
+<5_Outlook/Figures/VBFML/cr_2m_vbf_data_mc_particlenet_score_2018.pdf, id=14350, 505.89pt x 505.89pt>
 File: 5_Outlook/Figures/VBFML/cr_2m_vbf_data_mc_particlenet_score_2018.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/VBFML/cr_2m_vbf_data_mc_particlenet_score_2018.pdf>
 Package pdftex.def Info: 5_Outlook/Figures/VBFML/cr_2m_vbf_data_mc_particlenet_score_2018.pdf  used on input line 132.
 (pdftex.def)             Requested size: 195.12767pt x 195.12718pt.
- [187
+ [188
 
-] [188 <./5_Outlook/Figures/VBFML/cr_1e_vbf_data_mc_particlenet_score_2018.pdf> <./5_Outlook/Figures/VBFML/cr_1m_vbf_data_mc_particlenet_score_2018.pdf
+] [189 <./5_Outlook/Figures/VBFML/cr_1e_vbf_data_mc_particlenet_score_2018.pdf> <./5_Outlook/Figures/VBFML/cr_1m_vbf_data_mc_particlenet_score_2018.pdf
 
 pdfTeX warning: pdflatex (file ./5_Outlook/Figures/VBFML/cr_1m_vbf_data_mc_particlenet_score_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 > <./5_Outlook/Figures/VBFML/cr_2e_vbf_data_mc_particlenet_score_2018.pdf
@@ -2151,17 +2151,17 @@ pdfTeX warning: pdflatex (file ./5_Outlook/Figures/VBFML/cr_2e_vbf_data_mc_parti
 
 pdfTeX warning: pdflatex (file ./5_Outlook/Figures/VBFML/cr_2m_vbf_data_mc_particlenet_score_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<5_Outlook/Figures/VBFML/combined_combinedW_cat_vbf_2018_2018ratio.pdf, id=14618, 545.03625pt x 569.12625pt>
+<5_Outlook/Figures/VBFML/combined_combinedW_cat_vbf_2018_2018ratio.pdf, id=14621, 545.03625pt x 569.12625pt>
 File: 5_Outlook/Figures/VBFML/combined_combinedW_cat_vbf_2018_2018ratio.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/VBFML/combined_combinedW_cat_vbf_2018_2018ratio.pdf>
 Package pdftex.def Info: 5_Outlook/Figures/VBFML/combined_combinedW_cat_vbf_2018_2018ratio.pdf  used on input line 170.
 (pdftex.def)             Requested size: 195.12767pt x 203.74767pt.
-<5_Outlook/Figures/VBFML/combined_gjets_cat_vbf_2018_2018ratio.pdf, id=14619, 545.03625pt x 569.12625pt>
+<5_Outlook/Figures/VBFML/combined_gjets_cat_vbf_2018_2018ratio.pdf, id=14622, 545.03625pt x 569.12625pt>
 File: 5_Outlook/Figures/VBFML/combined_gjets_cat_vbf_2018_2018ratio.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/VBFML/combined_gjets_cat_vbf_2018_2018ratio.pdf>
 Package pdftex.def Info: 5_Outlook/Figures/VBFML/combined_gjets_cat_vbf_2018_2018ratio.pdf  used on input line 171.
 (pdftex.def)             Requested size: 195.12767pt x 203.74767pt.
- [189]) [190 <./5_Outlook/Figures/VBFML/combined_combinedW_cat_vbf_2018_2018ratio.pdf> <./5_Outlook/Figures/VBFML/combined_gjets_cat_vbf_2018_2018ratio.pdf>]) [191] (./thesis.bbl
+ [190]) [191 <./5_Outlook/Figures/VBFML/combined_combinedW_cat_vbf_2018_2018ratio.pdf> <./5_Outlook/Figures/VBFML/combined_gjets_cat_vbf_2018_2018ratio.pdf>]) [192] (./thesis.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--7
 []\OT1/cmr/m/n/12 CMS JME POG.  $\OT1/cmtt/m/n/12 https : / / twiki . cern . ch / twiki / bin / view / CMS /
  []
@@ -2176,7 +2176,7 @@ Underfull \hbox (badness 1838) in paragraph at lines 36--39
 []\OT1/cmr/m/n/12 CMS Col-lab-o-ra-tion.  Cms de-tec-tor de-sign.  $\OT1/cmtt/m/n/12 https : / / cms . cern / news /
  []
 
-[192
+[193
 
 
 
@@ -2186,7 +2186,7 @@ Underfull \hbox (badness 1365) in paragraph at lines 143--146
 []\OT1/cmr/m/n/12 E. Schr^^?odinger.  Quan-tisierung als Eigen-wert-prob-lem.  \OT1/cmr/m/it/12 An-nalen Phys.\OT1/cmr/m/n/12 ,
  []
 
-[193] [194] [195] [196]
+[194] [195] [196] [197]
 Underfull \hbox (badness 6348) in paragraph at lines 419--421
 []\OT1/cmr/m/n/12 CMS Jet-MET POG.  $\OT1/cmtt/m/n/12 https : / / twiki . cern . ch / twiki / bin / view / CMS /
  []
@@ -2236,7 +2236,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 481--485
 \OT1/cmr/m/n/12 pre-fir-ing.  $\OT1/cmtt/m/n/12 https : / / twiki . cern . ch / twiki / bin / viewauth / CMS /
  []
 
-[197]
+[198]
 Underfull \hbox (badness 10000) in paragraph at lines 487--490
 []\OT1/cmr/m/n/12 Prefiring cor-rec-tion im-ple-men-ta-tion in NanoAOD-Tools.  $\OT1/cmtt/m/n/12 https :
  []
@@ -2251,26 +2251,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 529--532
 []\OT1/cmr/m/n/12 CMS JME.  $\OT1/cmtt/m/n/12 https : / / twiki . cern . ch / twiki / bin / view / CMS /
  []
 
-[198]) [199]
+[199]) [200]
 \openout2 = `0_Prelim/cv.aux'.
 
- (./0_Prelim/cv.tex) [200
+ (./0_Prelim/cv.tex) [201
 
 
 ] (./thesis.aux (./commands.aux) (./0_Prelim/prelim.aux) (./1_TheoreticalBackground/theory.aux) (./2_Experimental_Apparatus/apparatus.aux) (./3_DataAnalysisStrategy/strategy.aux) (./4_Results/results.aux) (./5_Outlook/outlook.aux) (./0_Prelim/cv.aux)) ) 
 Here is how much of TeX's memory you used:
- 8573 strings out of 478268
- 307484 string characters out of 5846347
- 433471 words of memory out of 5000000
- 26257 multiletter control sequences out of 15000+600000
+ 8578 strings out of 478268
+ 307538 string characters out of 5846347
+ 433529 words of memory out of 5000000
+ 26262 multiletter control sequences out of 15000+600000
  484502 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,17n,63p,1061b,406s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on thesis.pdf (230 pages, 10254710 bytes).
+Output written on thesis.pdf (231 pages, 10255990 bytes).
 PDF statistics:
- 14870 PDF objects out of 15390 (max. 8388607)
- 3697 compressed objects within 37 object streams
+ 14873 PDF objects out of 15390 (max. 8388607)
+ 3699 compressed objects within 37 object streams
  0 named destinations out of 1000 (max. 500000)
  1231 words of extra memory for PDF output out of 10000 (max. 10000000)
 
