@@ -51,7 +51,7 @@ which is shown in Eq.~\ref{eq:schrodinger_eq}.
     \label{eq:schrodinger_eq}
 \end{equation}
 
-where $\hbar = \frac{h}{2\pi}$ and $V(\vec{x}, t)$ describes the potential. 
+where $\hbar = \frac{h}{2\pi}$ and $V(\vec{x}, t)$ describes the potential energy. 
 It is worthy of note that Eq.~\ref{eq:schrodinger_eq} is a linear differential equation,
 meaning a linear combination of solutions $\{ \Psi_{i} \}$ is itself also a solution.
 The physical meaning of $\Psi(\vec{x}, t)$ however,
@@ -101,6 +101,7 @@ which satisfy the anti-commutation relation
 
 \begin{equation}
     \{\gamma^{\mu}, \gamma^{\nu} \} = 2g^{\mu\nu}
+    \label{eq:gamma_matrices_anticomm}
 \end{equation}
 
 where $g^{\mu\nu}$ is the Minkowski metric tensor.
@@ -114,7 +115,7 @@ for example see~\cite{Weyl:1929fm}. However, Dirac falsified this hypothesis
 in 1930~\cite{Dirac:1930ek}.}. 
 Ultimately, it was understood that those solutions described
 antiparticles, which are counterparts of particles with the opposite electric 
-charge~\footnote{The physical motivation behind this interpretation can be seen 
+charge\footnote{The physical motivation behind this interpretation can be seen 
 in this explanation by Dirac himself~\cite{Dirac:1930ek}: 
 ``... an electron with negative energy moves in an external
 field as though it carries a positive charge.''}. 
@@ -155,37 +156,38 @@ with each other, using QFT as the mathematical framework. It was developed in th
 and has been very successful in predicting a wide variety of experimental observations. The development of the SM
 was led by Chen Ning Yang, Robert Mills, Sheldon Glasgow, Steven Weinberg, and Abdus Salam.
 
-In the SM, the strong interaction is derived by requiring Eq.~\ref{eq:dirac_eq} to be invariant under SU(3)
-local phase transformations. The conserved quantum number of this symmetry is called color, and the quantum
-field theory describing the color interaction of quarks and gluons is called Quantum Chronodynamics (QCD).
-The SU(3) local phase transformations on a spinor $\psi$ can be written in the following form:
+In the SM, the QFT describing the strong nuclear interaction is called Quantum Chronodynamics (QCD). 
+Interaction terms for QCD can be derived by requiring the invariance of Eq.~\ref{eq:dirac_eq} under 
+local SU(3) phase transformations of the form
 
 \begin{equation}
     \psi(x) \rightarrow \psi'(x) = \text{exp} \left[ i g_S \vec{\alpha}(x) \cdot \hat{\mathbf{T}}  \right]  \psi(x)
 \end{equation}
 
 where $\hat{\mathbf{T}} = \{ T^a \}$ are the eight generators of the SU(3) symmetry group and $\alpha^a(x)$ are eight functions
-of the space-time coordinate $x$. $g_S$ is the coupling constant for the QCD interaction, which describes the strength
-of the interaction. 
+of the space-time coordinate $x$. $g_{S}$ is the coupling constant for the QCD interaction, which describes the strength
+of the interaction.
 The invariance of Eq.~\ref{eq:dirac_eq} under local SU(3) transformations can be asserted by introducing eight new fields
-$G_{\mu}^{a}(x)$, the index $a = 1, \dots, 8$ corresponding to one of the eight generators of the SU(3) symmetry, which
-physically correspond to the eight possible gluon states in 
-QCD\footnote{The gauge invariance is asserted given that the gluon fields $G_{\mu}^{k}$ transform as
+$G_{\mu}^{a}(x)$, the index $a = 1, \dots, 8$ corresponding to one of the eight generators of the SU(3) 
+symmetry\footnote{The gauge invariance is asserted given that the gluon fields $G_{\mu}^{k}$ transform as
 $G_{\mu}^{k'} = G_{\mu}^{k} - \partial_{\mu}\alpha_{k} - g_{S}f_{ijk}\alpha_{i}G_{\mu}^{j}$, where $f_{ijk}$ are
 the fine structure constants of the SU(3) group. The last term arises due to generators of SU(3) symmetry not commuting
-with each other, and gives rise to gluon self-interactions.}.
+with each other, and gives rise to gluon self-interactions.}. Physically,
+$G_{\mu}^{a}(x)$ correspond to the gluon fields for eight possibly different gluon states, where gluon is the boson which
+mediates the QCD interaction between 
+fermions.
 
 The QCD interaction between quarks and gluon fields $G_{\mu}^{a}$ can be written in terms of the Lagrangian formalism.
-The gluon field strength tensor, $G_{\mu\nu}^i$ can be defined as
+The gluon field strength tensor, $G_{\mu\nu}^a$ can be defined as
 
 \begin{equation}
-    G_{\mu\nu}^i = \partial_{\mu}G_{\nu}^i - \partial_{\nu}G_{\mu}^i + g_{S} f^{ijk} G_{\mu}^{j} G_{\nu}^{k}
+    G_{\mu\nu}^a = \partial_{\mu}G_{\nu}^a - \partial_{\nu}G_{\mu}^a + g_{S} f^{abc} G_{\mu}^{b} G_{\nu}^{c}
     \label{eq:gluon_field_strength}
 \end{equation}
 
-where $f^{ijk}$ refer to the fine structure constants of the SU(3) group, which can be defined by using the
-commutators of the generators of SU(3) group $\{ T^{i} \}$ using the following relation: 
-$[ T^{i}, T^{j} ] = i f^{ijk} T^{k}$. 
+where $f^{abc}$ refer to the fine structure constants of the SU(3) group, which can be defined by using the
+commutators of the generators of SU(3) group $\{ T^{a} \}$ using the following relation: 
+$[ T^{a}, T^{b} ] = i f^{abc} T^{c}$. 
 Using the gluon field strength tensor defined in Eq.~\ref{eq:gluon_field_strength}, 
 the Lagrangian for the QCD interaction can be written as
 
@@ -201,19 +203,21 @@ the Lagrangian for the QCD interaction can be written as
 $\mathcal{L}_{QCD}$ characterizes the interaction between the gluon fields $G_{\mu}^{a}$ and quark spinors $\psi$.
 The sum over $\psi$ indicates the sum over the spinors of quarks from different flavors.
 Adjoint spinor $\bar{\psi}$ for each type of quark is defined as $\bar{\psi} = \psi^{\dag} \gamma^0$.
-$\gamma^{\mu}$ are the set of four $4 \times 4$ matrices from Eq.~\ref{eq:dirac_eq}. 
+$\gamma^{\mu}$ are the set of four $4 \times 4$ matrices appearing in Eq.~\ref{eq:dirac_eq}, which satisfy the
+anti-commutation relation described in Eq.~\ref{eq:gamma_matrices_anticomm}. 
 
 The electroweak sector of the SM describes the electromagnetic and weak interactions between particles in a unified manner. The electroweak interaction
-can be deduced by requiring the invariance of Eq.~\ref{eq:dirac_eq} under SU(2) x U(1) local phase transformations. 
+can be derived by requiring the invariance of Eq.~\ref{eq:dirac_eq} under SU(2) x U(1) local phase transformations. 
 This invariance can be asserted by introducing four
 new fields, $W_{\mu}^{a}$ ($a = 1, 2, 3$) and $B_{\mu}$. The force carrier bosons of the weak interaction, $W^{+}, W^{-}, Z$ and the force carrier boson 
 for the electromagnetic interaction, $\gamma$, can be then expressed in terms of these four fields. Fields for the $W^{\pm}$ bosons can be expressed as
+linear combinations of the first two fields as
 
 \begin{equation}
     W^{\pm}_{\mu} = \frac{1}{\sqrt{2}} \left( W^{1}_{\mu} \pm i W^{2}_{\mu} \right)
 \end{equation}
 
-In addition, fields for $Z$ and $\gamma$ bosons can be written in terms of a mixing between $W_{\mu}^{3}$ and $B_{\mu}$ fields, 
+Fields for $Z$ and $\gamma$ bosons in turn can be written in terms of a mixing between $W_{\mu}^{3}$ and $B_{\mu}$ fields, 
 as shown below in Eq.~\ref{eq:z_and_gamma_mixing}.
 
 \begin{equation}
@@ -231,18 +235,21 @@ as shown below in Eq.~\ref{eq:z_and_gamma_mixing}.
     \label{eq:z_and_gamma_mixing}
 \end{equation}
 
-where $\theta_{W}$ is the weak mixing angle. Experimental measurements provide $\sin^2 \theta_{W} = 0.23101 \pm 0.00053$~\cite{CMS:WeakMixingAngleMeasurement}.
-Similar to gluon field strength tensor $G_{\mu\nu}^{i}$, one can write the field strength tensors for these four fields as $W_{\mu\nu}^{i}$ and $B_{\mu\nu}$ as
+where $\theta_{W}$ is the weak mixing angle. $\theta_{W}$ is a free parameter of the Standard Model, which has to be determined
+from experiments. Measurements from CMS experiment provide  
+$\sin^2 \theta_{W} = 0.23101 \pm 0.00053$~\cite{CMS:WeakMixingAngleMeasurement}.
+Similar to gluon field strength tensor $G_{\mu\nu}^{a}$, one can write the field strength tensors for these four fields 
+as $W_{\mu\nu}^{a}$ and $B_{\mu\nu}$ as
 
 \begin{equation}
     \begin{split}
-        W_{\mu\nu}^{i} &= \partial_{\mu} W_{\nu}^{i} - \partial_{\nu} W_{\mu}^{i} - g_{W} \epsilon^{ijk} W_{\mu}^{j} W_{\nu}^{k} \\
+        W_{\mu\nu}^{a} &= \partial_{\mu} W_{\nu}^{a} - \partial_{\nu} W_{\mu}^{a} - g_{W} \epsilon^{abc} W_{\mu}^{b} W_{\nu}^{c} \\
         B_{\mu\nu}     &= \partial_{\mu} B_{\nu}     - \partial_{\nu} B_{\mu}
     \end{split}
     \label{eq:field_strength_ew}
 \end{equation}
 
-The extra term in $W_{\mu\nu}^{i}$ should be noted to be arising from the non-commuting nature of SU(2) generators.
+The extra term in $W_{\mu\nu}^{a}$ should be noted to be arising from the non-commuting nature of SU(2) generators.
 The Lagrangian describing the interactions of $W_{\mu}^{a}$ and $B_{\mu}$ fields can then be written as
 
 \begin{equation}
@@ -258,7 +265,9 @@ with fermion fields can be in turn written as
     \label{eq:ew_lagrangian_fermion_interactions}
 \end{equation}
 
-In Eq.~\ref{eq:ew_lagrangian_fermion_interactions}, $\psi$ refers to the SU(2) doublets of chirally left-handed particles and SU(2) singlets
+where the $B_{\mu}$ term represents the coupling of fermions to $B_{\mu}$ field with coupling strength $g'$, and the $W_{\mu}^{a}$ terms
+represent the couplings between fermions and $W_{\mu}^{a}$ fields, with coupling strength $g$.
+$\psi$ refers to the SU(2) doublets of chirally left-handed particles and SU(2) singlets
 of right-handed particles, highlighting the unequal coupling of $W_{\mu}^{i}$ and $B_{\mu}$ fields to left-handed and right-handed fermions.
 This is also a crucial fact that is experimentally verified by C. S. Wu in 1956~\cite{Wu:1957my}. Finally, the full electroweak Lagrangian
 $\mathcal{L}_{EW}$ can be written as the sum of Eqs.~\ref{eq:lagrangian_kinetic_term} and~\ref{eq:ew_lagrangian_fermion_interactions}:
@@ -268,10 +277,10 @@ $\mathcal{L}_{EW}$ can be written as the sum of Eqs.~\ref{eq:lagrangian_kinetic_
     \label{eq:ew_lagrangian}
 \end{equation}
 
-It should be noted that in Eq.~\ref{eq:ew_lagrangian}, there are no mass terms for the $W$ and $Z$ bosons (in the form $W_{\mu} W^{\mu}$)
+It should be noted that in Eq.~\ref{eq:ew_lagrangian}, there are no mass terms for the $W$ and $Z$ bosons (in the form of $W_{\mu} W^{\mu}$)
 which are known to be massive. However, inclusion of such terms in the Lagrangian would break the SU(2) x U(1) symmetry, hence the fermions
-and gauge bosons have to acquire mass through a different mechanism. In the SM, this mechanism is called the Higgs mechanism, which introduces
-a new scalar field called Higgs field, which can be written as a doublet as shown below:
+and gauge bosons have to acquire mass through a different mechanism. In the SM, this mechanism is called the Higgs mechanism~\cite{Higgs:1964pj}, 
+which introduces a new scalar field called Higgs field, which can be written as a doublet as shown below:
 
 \begin{equation}
     \phi = \frac{1}{\sqrt{2}} \begin{pmatrix}
@@ -290,7 +299,7 @@ With the Higgs doublet $\phi$ defined in Eq.~\ref{eq:higgs_doublet}, the Higgs-s
 In the unitarity gauge, one can set $\phi^{+} = 0$ and make $\phi^{0}$ real in the doublet of Eq.~\ref{eq:higgs_doublet}, hence writing $\phi$ as
 $\phi(x) = \frac{1}{\sqrt{2}} \begin{pmatrix} 0, & v + h(x) \end{pmatrix}$. 
 Then, $\langle \phi^{0} \rangle = v$ is the non-zero vacuum expectation value of the Higgs field, and the fluctuations around $\psi_{0} = v$
-(i.e. $h(x)$) describes a new boson (i.e. the Higgs boson). Writing Eq.~\ref{eq:higgs_lagrangian} with $\phi$ in the unitary gauge, 
+(i.e. $h(x)$) describes a new boson, which is called the Higgs boson. Writing Eq.~\ref{eq:higgs_lagrangian} with $\phi$ in the unitary gauge, 
 quadratic terms in $W_{\mu}$ and $B_{\mu}$ arise, giving mass to $W$ and $Z$ bosons:
 
 \begin{equation}
@@ -299,7 +308,7 @@ quadratic terms in $W_{\mu}$ and $B_{\mu}$ arise, giving mass to $W$ and $Z$ bos
 
 The mass of the Higgs boson itself is then given by $M_{H} = \sqrt{2 \mu^2} = \sqrt{2 \lambda v^2}$. Through Yukawa couplings between fermions and the
 Higgs field, it can be shown that fermions also acquire mass due to the non-zero expectation value $v$ 
-of the Higgs field\footnote{Writing the Higgs doublet as $\phi(x) = \frac{1}{\sqrt{2}} \begin{pmatrix} 0 \\ v + h(x) \end{pmatrix}$, it can be shown that
+of the Higgs field\footnote{Writing the Higgs doublet as $\phi(x) = \frac{1}{\sqrt{2}} \begin{pmatrix} 0, & v + h(x) \end{pmatrix}$, it can be shown that
 Lagrangian acquires terms $\mathcal{L}_{f} = -m_{f} \bar{f} f - \frac{m_f}{v} \bar{f} f h $. Here, the first term is the mass term, which
 represents the coupling of the fermion $f$ to the Higgs field through the non-zero expectation value of the Higgs field.
 The second term represents the coupling of $f$ to the Higgs boson itself.}. In this way, the observed masses of the weak bosons ($W^{\pm}, Z$)

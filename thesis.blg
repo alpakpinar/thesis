@@ -23,45 +23,45 @@ Warning--empty institution in CMS-DP-2019-033
 Warning--empty note in DMTheory
 Warning--empty institution in CMS_NOTE_2018-323
 Warning--empty note in Heinemeyer:2013tqa
-You've used 109 entries,
+You've used 110 entries,
             1791 wiz_defined-function locations,
-            1059 strings with 18653 characters,
-and the built_in function-call counts, 19018 in all, are:
-= -- 1712
-> -- 638
+            1065 strings with 18763 characters,
+and the built_in function-call counts, 19235 in all, are:
+= -- 1735
+> -- 642
 < -- 2
-+ -- 272
-- -- 163
-* -- 1031
-:= -- 3113
-add.period$ -- 310
-call.type$ -- 109
-change.case$ -- 97
++ -- 274
+- -- 164
+* -- 1045
+:= -- 3147
+add.period$ -- 313
+call.type$ -- 110
+change.case$ -- 98
 chr.to.int$ -- 0
-cite$ -- 121
-duplicate$ -- 863
-empty$ -- 2081
-format.name$ -- 163
-if$ -- 4193
+cite$ -- 122
+duplicate$ -- 872
+empty$ -- 2104
+format.name$ -- 164
+if$ -- 4240
 int.to.chr$ -- 0
-int.to.str$ -- 109
-missing$ -- 86
-newline$ -- 531
-num.names$ -- 103
-pop$ -- 248
+int.to.str$ -- 110
+missing$ -- 87
+newline$ -- 536
+num.names$ -- 104
+pop$ -- 249
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 403
+skip$ -- 406
 stack$ -- 0
-substring$ -- 1140
-swap$ -- 104
+substring$ -- 1165
+swap$ -- 105
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 12
-while$ -- 191
-width$ -- 112
-write$ -- 1108
+while$ -- 194
+width$ -- 113
+write$ -- 1119
 (There were 12 warnings)
