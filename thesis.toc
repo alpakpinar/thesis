@@ -56,7 +56,7 @@
 \contentsline {subsection}{\numberline {3.4.5}Double Electron Control Region}{118}{}%
 \contentsline {subsection}{\numberline {3.4.6}Photon Control Region}{123}{}%
 \contentsline {section}{\numberline {3.5}Signal extraction strategy}{128}{}%
-\contentsline {subsection}{\numberline {3.5.1}Binned likelihood fit}{128}{}%
+\contentsline {subsection}{\numberline {3.5.1}Binned likelihood fit}{129}{}%
 \contentsline {subsubsection}{Transfer factors}{130}{}%
 \contentsline {subsection}{\numberline {3.5.2}Systematic uncertainties}{135}{}%
 \contentsline {subsubsection}{Theoretical uncertainties}{135}{}%

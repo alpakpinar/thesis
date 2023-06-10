@@ -16,12 +16,13 @@ Sec.~\ref{sec:event_selection}. These control regions consist of:
   \item $\gamma$ + jets region (Sec.~\ref{sec:selection_cr_g})
 \end{itemize}
 
-$\Vjets$ in the signal region is estimated by performing a simultaenous fit to the data 
+$\Vjets$ yields in the signal region is estimated by performing a simultaenous fit to the data 
 in all signal and control regions, as will be explained in detail in Sec.~\ref{subsec:likelihood_fit}.
 
 The remaining backgrounds that contribute to the total event yield in the signal region
-are much smaller than those from \Zvvjets~and \Wlvjets~processes. These backgrounds
-include the following: 
+are much smaller than those from \Zvvjets~and \Wlvjets~processes, due to the fact that they are
+suppressed by kinematic cuts imposed in the VBF signal region (please see Sec.~\ref{subsec:sr_vbf_selection} for the discussion). 
+These backgrounds can be summarized as the following: 
 
 \begin{itemize}
     \item QCD multijet events, measured from data using a $\Delta\phi$ extrapolation method~\cite{VBFHinvAnalysisPaper}.
@@ -33,11 +34,11 @@ include the following:
 \label{subsec:likelihood_fit}
 
 A binned maximum likelihood fit to the observed data is performed simultaneously across the 
-signal and control regions. For each $\mjj$ bin $i$ in every region, the expected yield of events
+signal and control regions. For each $\mjj$ bin $i$ in every region, the expected yield of $\Vjets$ events
 is parametrized as a function of expected strong $\Zvvjets$ yields in the signal region, labeled as
 $\kappazi$ in the following. This parametrization is done using transfer factors between different
 $\Vjets$ processes, as will be explained later in this section. To scale the expected amount of VBF
-$\hinv$ signal (in case of the signal region), a signal strength parameter $\mu$ is also introduced to
+$\hinv$ signal in the VBF signal region, a signal strength parameter $\mu$ is also introduced to
 the fit, and left freely floating. The resulting likelihood function is shown in Eq.~\ref{eq:fit_likelihood_func}.
 
 % A combined likelihood function is constructed representing the Poisson probability to observe the data

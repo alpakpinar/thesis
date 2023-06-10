@@ -197,21 +197,23 @@ event and sent to the DAQ. A total of 64 MDTTP boards are required for ATLAS~\ci
 
 In parallel with the development of ATCA boards for the Phase-2 CMS tracker, an online software system is being
 developed which allows an easy-to-use user interface (UI) to access large number of Apollo and Serenity boards
-deployed in the detectors. The online software system is designed to allow users to perform a wide range of 
+deployed in the detectors. The design goal of the online software is to allow users to perform a wide range of 
 operations on the boards over the local area network (LAN), including:
 
 \begin{itemize}
-    \item Access the list of available boards and their IP addresses over the LAN.
+    \item Access the list of available boards and their IP addresses over the LAN, and see their current operation status
+    (e.g. online or not reachable).
     \item From each available board, read monitoring data such as temperature and current values.
-    \item Execute commands for each board over the LAN, such as powering the CM up and programming an FPGA hosted on the CM.
+    \item Execute commands for each board over the LAN, such as powering up the CM and programming an FPGA hosted on the CM.
 \end{itemize}
 
 The online software stack is mainly composed of two parts. First part is the SHEP UI, which is a front-end web-application
-running on a separate computer in the LAN. SHEP provides an easy-to-use UI for users to register new boards to the system,
+running on a separate computer in the same LAN as the DTC boards. 
+SHEP provides an easy-to-use UI for users to register new boards to the system,
 read monitoring data and access board resources. SHEP software registers each board into a SQL-database for storage, and
 provides communication with every registered Apollo board using a back-end software running on the Zynq SoC in the Apollo SM.
 This back-end software is called HERD, which sets up an API server on the Zynq SoC. It is tasked with listening for messages 
-coming from the SHEP front-end UI, and handling the message and returning a response back to the SHEP UI. This communication
+coming from the SHEP front-end UI, handling the message and returning a response back to the SHEP UI. This communication
 between SHEP UI and HERD API server allows easy remote access to the Apollo boards. A schematic of this workflow is shown in
 Fig.~\ref{fig:shep_herd_schematic}.
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.12)  10 JUN 2023 13:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.12)  10 JUN 2023 14:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1682,7 +1682,7 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/DataMC/merged_20
 >]) (./3_DataAnalysisStrategy/signal_extraction.tex [128
 
 ]
-Overfull \hbox (2.75122pt too wide) detected at line 76
+Overfull \hbox (2.75122pt too wide) detected at line 77
 [][][]
  []
 
@@ -1690,42 +1690,42 @@ Overfull \hbox (2.75122pt too wide) detected at line 76
 <3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2017_2017ratio.pdf, id=11178, 545.03625pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2017_2017ratio.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2017_2017ratio.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2017_2017ratio.pdf  used on input line 197.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2017_2017ratio.pdf  used on input line 198.
 (pdftex.def)             Requested size: 195.12767pt x 203.74767pt.
 <3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2018_2018ratio.pdf, id=11179, 545.03625pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2018_2018ratio.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2018_2018ratio.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2018_2018ratio.pdf  used on input line 198.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2018_2018ratio.pdf  used on input line 199.
 (pdftex.def)             Requested size: 195.12767pt x 203.74767pt.
 <3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2017_2017ratio.pdf, id=11180, 545.03625pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2017_2017ratio.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2017_2017ratio.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2017_2017ratio.pdf  used on input line 199.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2017_2017ratio.pdf  used on input line 200.
 (pdftex.def)             Requested size: 195.12767pt x 203.74767pt.
 <3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2018_2018ratio.pdf, id=11181, 545.03625pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2018_2018ratio.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2018_2018ratio.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2018_2018ratio.pdf  used on input line 200.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2018_2018ratio.pdf  used on input line 201.
 (pdftex.def)             Requested size: 195.12767pt x 203.74767pt.
 <3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2017_2017ratio.pdf, id=11182, 545.03625pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2017_2017ratio.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2017_2017ratio.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2017_2017ratio.pdf  used on input line 214.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2017_2017ratio.pdf  used on input line 215.
 (pdftex.def)             Requested size: 195.12767pt x 203.74767pt.
 <3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2018_2018ratio.pdf, id=11183, 545.03625pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2018_2018ratio.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2018_2018ratio.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2018_2018ratio.pdf  used on input line 215.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2018_2018ratio.pdf  used on input line 216.
 (pdftex.def)             Requested size: 195.12767pt x 203.74767pt.
 <3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2017_2017ratio.pdf, id=11184, 545.03625pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2017_2017ratio.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2017_2017ratio.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2017_2017ratio.pdf  used on input line 216.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2017_2017ratio.pdf  used on input line 217.
 (pdftex.def)             Requested size: 195.12767pt x 203.74767pt.
 <3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2018_2018ratio.pdf, id=11185, 545.03625pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2018_2018ratio.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2018_2018ratio.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2018_2018ratio.pdf  used on input line 217.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2018_2018ratio.pdf  used on input line 218.
 (pdftex.def)             Requested size: 195.12767pt x 203.74767pt.
  [132] [133 <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2017_2017ratio.pdf> <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_singleelectron_cat_vbf_2018_2018ratio.pdf> <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2017_2017ratio.pdf> <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_singlemuon_cat_vbf_2018_2018ratio.pdf>] [134 <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2017_2017ratio.pdf> <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dielectron_gjets_cat_vbf_2018_2018ratio.pdf> <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2017_2017ratio.pdf> <./3_DataAnalysisStrategy/Figures/TransferFactors/merged_2023-04-08_vbfhinv_full_analysis_NLO_VJets_09Apr23_thesis_v1/dimuon_gjets_cat_vbf_2018_2018ratio.pdf>] [135
 
@@ -1733,28 +1733,28 @@ Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TransferFactors/merged_2
 <3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_qcd_mjj_unc_zoverw_nlo_2018.pdf, id=11544, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_qcd_mjj_unc_zoverw_nlo_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_qcd_mjj_unc_zoverw_nlo_2018.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_qcd_mjj_unc_zoverw_nlo_2018.pdf  used on input line 265.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_qcd_mjj_unc_zoverw_nlo_2018.pdf  used on input line 266.
 (pdftex.def)             Requested size: 195.12767pt x 146.34639pt.
 <3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_ewk_mjj_unc_zoverw_nlo_2018.pdf, id=11545, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_ewk_mjj_unc_zoverw_nlo_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_ewk_mjj_unc_zoverw_nlo_2018.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_ewk_mjj_unc_zoverw_nlo_2018.pdf  used on input line 266.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_ewk_mjj_unc_zoverw_nlo_2018.pdf  used on input line 267.
 (pdftex.def)             Requested size: 195.12767pt x 146.34639pt.
 <3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_qcd_mjj_unc_goverz_nlo_2018.pdf, id=11546, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_qcd_mjj_unc_goverz_nlo_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_qcd_mjj_unc_goverz_nlo_2018.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_qcd_mjj_unc_goverz_nlo_2018.pdf  used on input line 267.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_qcd_mjj_unc_goverz_nlo_2018.pdf  used on input line 268.
 (pdftex.def)             Requested size: 195.12767pt x 146.34639pt.
 <3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_ewk_mjj_unc_goverz_nlo_2018.pdf, id=11547, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_ewk_mjj_unc_goverz_nlo_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_ewk_mjj_unc_goverz_nlo_2018.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_ewk_mjj_unc_goverz_nlo_2018.pdf  used on input line 268.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_ewk_mjj_unc_goverz_nlo_2018.pdf  used on input line 269.
 (pdftex.def)             Requested size: 195.12767pt x 146.34639pt.
  [136] [137 <./3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_qcd_mjj_unc_zoverw_nlo_2018.pdf> <./3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_z_ewk_mjj_unc_zoverw_nlo_2018.pdf> <./3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_qcd_mjj_unc_goverz_nlo_2018.pdf> <./3_DataAnalysisStrategy/Figures/TheoryUncertainties/uncertainty_ratio_gjets_ewk_mjj_unc_goverz_nlo_2018.pdf>]
 <3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/L1prefire_unc.pdf, id=11822, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/L1prefire_unc.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/L1prefire_unc.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/L1prefire_unc.pdf  used on input line 302.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/L1prefire_unc.pdf  used on input line 303.
 (pdftex.def)             Requested size: 303.53267pt x 227.66052pt.
  [138
 
@@ -1762,27 +1762,27 @@ Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertaintie
 <3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll17_qcd_splitJEC_singleBin.pdf, id=11876, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll17_qcd_splitJEC_singleBin.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll17_qcd_splitJEC_singleBin.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll17_qcd_splitJEC_singleBin.pdf  used on input line 334.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll17_qcd_splitJEC_singleBin.pdf  used on input line 335.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
 <3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll18_qcd_splitJEC_singleBin.pdf, id=11877, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll18_qcd_splitJEC_singleBin.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll18_qcd_splitJEC_singleBin.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll18_qcd_splitJEC_singleBin.pdf  used on input line 335.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_zll18_qcd_splitJEC_singleBin.pdf  used on input line 336.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
 
-Underfull \hbox (badness 2384) in paragraph at lines 339--339
+Underfull \hbox (badness 2384) in paragraph at lines 340--340
 []\OT1/cmr/bx/n/12 Figure 3$\OMS/cmsy/m/n/12 ^^A$\OT1/cmr/bx/n/12 58: |\OT1/cmr/m/n/12 All single-bin JES/JER un-cer-tain-ties on QCD
  []
 
 <3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets17_qcd_splitJEC_singleBin.pdf, id=11878, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets17_qcd_splitJEC_singleBin.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets17_qcd_splitJEC_singleBin.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets17_qcd_splitJEC_singleBin.pdf  used on input line 345.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets17_qcd_splitJEC_singleBin.pdf  used on input line 346.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
 <3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets18_qcd_splitJEC_singleBin.pdf, id=11879, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets18_qcd_splitJEC_singleBin.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets18_qcd_splitJEC_singleBin.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets18_qcd_splitJEC_singleBin.pdf  used on input line 346.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/znunu_over_gjets18_qcd_splitJEC_singleBin.pdf  used on input line 347.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1797,22 +1797,22 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/ExperimentalUnce
 <3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2017_jesRelativeSample_2017.pdf, id=12142, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2017_jesRelativeSample_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2017_jesRelativeSample_2017.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2017_jesRelativeSample_2017.pdf  used on input line 370.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2017_jesRelativeSample_2017.pdf  used on input line 371.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
 <3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2018_jesRelativeSample_2018.pdf, id=12143, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2018_jesRelativeSample_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2018_jesRelativeSample_2018.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2018_jesRelativeSample_2018.pdf  used on input line 371.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2018_jesRelativeSample_2018.pdf  used on input line 372.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
 <3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2017_jesRelativeSample_2017.pdf, id=12144, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2017_jesRelativeSample_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2017_jesRelativeSample_2017.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2017_jesRelativeSample_2017.pdf  used on input line 372.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2017_jesRelativeSample_2017.pdf  used on input line 373.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
 <3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2018_jesRelativeSample_2018.pdf, id=12145, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2018_jesRelativeSample_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2018_jesRelativeSample_2018.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2018_jesRelativeSample_2018.pdf  used on input line 373.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2018_jesRelativeSample_2018.pdf  used on input line 374.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
  [142 <./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2017_jesRelativeSample_2017.pdf> <./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/ZJetsToNuNu_HT_2018_jesRelativeSample_2018.pdf
 
@@ -1825,7 +1825,7 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/ExperimentalUnce
 pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/ExperimentalUncertainties/JEC/VBF_HToInvisible_2018_jesRelativeSample_2018.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 
-LaTeX Warning: Float too large for page by 28.56215pt on input line 448.
+LaTeX Warning: Float too large for page by 28.56215pt on input line 449.
 
 [143] [144]))
 \openout2 = `4_Results/results.aux'.
@@ -1950,7 +1950,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <4_Results/Figures/from_paper/DM_nucleon_xs.pdf, id=13045, 569.12625pt x 508.90125pt>
 File: 4_Results/Figures/from_paper/DM_nucleon_xs.pdf Graphic file (type pdf)
 <use 4_Results/Figures/from_paper/DM_nucleon_xs.pdf>
-Package pdftex.def Info: 4_Results/Figures/from_paper/DM_nucleon_xs.pdf  used on input line 100.
+Package pdftex.def Info: 4_Results/Figures/from_paper/DM_nucleon_xs.pdf  used on input line 101.
 (pdftex.def)             Requested size: 346.89731pt x 310.20412pt.
 )) [158] [159 <./4_Results/Figures/from_paper/DM_nucleon_xs.pdf, page is rotated 90 degrees>]
 \openout2 = `5_Outlook/outlook.aux'.
@@ -2008,7 +2008,7 @@ Package pdftex.def Info: 5_Outlook/Figures/HFFilter/merged_2022-10-27_hlt_Muon_2
 <5_Outlook/Figures/HFFilter/merged_2023-02-10_hlt_full_JetMET_2022_run/ak4_eta0_filterhf.pdf, id=13333, 505.89pt x 505.89pt>
 File: 5_Outlook/Figures/HFFilter/merged_2023-02-10_hlt_full_JetMET_2022_run/ak4_eta0_filterhf.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/HFFilter/merged_2023-02-10_hlt_full_JetMET_2022_run/ak4_eta0_filterhf.pdf>
-Package pdftex.def Info: 5_Outlook/Figures/HFFilter/merged_2023-02-10_hlt_full_JetMET_2022_run/ak4_eta0_filterhf.pdf  used on input line 165.
+Package pdftex.def Info: 5_Outlook/Figures/HFFilter/merged_2023-02-10_hlt_full_JetMET_2022_run/ak4_eta0_filterhf.pdf  used on input line 167.
 (pdftex.def)             Requested size: 303.53267pt x 303.53633pt.
  [166 <./5_Outlook/Figures/HFFilter/merged_2022-10-27_hlt_Muon_2022_JMEtriggers/turnons_tr_metnomu.pdf> <./5_Outlook/Figures/HFFilter/merged_2022-10-27_hlt_Muon_2022_JMEtriggers/turnons_tr_metnomu_filterhf.pdf
 
@@ -2043,7 +2043,7 @@ Package pdftex.def Info: 5_Outlook/Figures/TrackerUpgrade/Apollo/apollo_schemati
 <5_Outlook/Figures/TrackerUpgrade/SHEP_HERD.png, id=13561, 674.52pt x 361.35pt>
 File: 5_Outlook/Figures/TrackerUpgrade/SHEP_HERD.png Graphic file (type png)
 <use 5_Outlook/Figures/TrackerUpgrade/SHEP_HERD.png>
-Package pdftex.def Info: 5_Outlook/Figures/TrackerUpgrade/SHEP_HERD.png  used on input line 220.
+Package pdftex.def Info: 5_Outlook/Figures/TrackerUpgrade/SHEP_HERD.png  used on input line 222.
 (pdftex.def)             Requested size: 390.25534pt x 209.07036pt.
  [176] [177 <./5_Outlook/Figures/TrackerUpgrade/SHEP_HERD.png>]) (./5_Outlook/vbfml.tex [178
 
@@ -2220,13 +2220,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 529--532
 Here is how much of TeX's memory you used:
  8528 strings out of 478268
  300953 string characters out of 5846347
- 433198 words of memory out of 5000000
+ 433197 words of memory out of 5000000
  26218 multiletter control sequences out of 15000+600000
  484502 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,17n,63p,1061b,406s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on thesis.pdf (228 pages, 10285839 bytes).
+Output written on thesis.pdf (228 pages, 10286488 bytes).
 PDF statistics:
  14308 PDF objects out of 15390 (max. 8388607)
  3598 compressed objects within 36 object streams
