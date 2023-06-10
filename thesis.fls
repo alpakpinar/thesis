@@ -1174,6 +1174,16 @@ INPUT ./3_DataAnalysisStrategy/selection.tex
 INPUT 3_DataAnalysisStrategy/selection.tex
 INPUT ./3_DataAnalysisStrategy/selection.tex
 INPUT 3_DataAnalysisStrategy/selection.tex
+INPUT ./3_DataAnalysisStrategy/Figures/QCDV2j_Feynman.pdf
+INPUT ./3_DataAnalysisStrategy/Figures/QCDV2j_Feynman.pdf
+INPUT 3_DataAnalysisStrategy/Figures/QCDV2j_Feynman.pdf
+INPUT ./3_DataAnalysisStrategy/Figures/QCDV2j_Feynman.pdf
+INPUT ./3_DataAnalysisStrategy/Figures/QCDV2j_Feynman.pdf
+INPUT ./3_DataAnalysisStrategy/Figures/VBFV2j_Feynman.pdf
+INPUT ./3_DataAnalysisStrategy/Figures/VBFV2j_Feynman.pdf
+INPUT 3_DataAnalysisStrategy/Figures/VBFV2j_Feynman.pdf
+INPUT ./3_DataAnalysisStrategy/Figures/VBFV2j_Feynman.pdf
+INPUT ./3_DataAnalysisStrategy/Figures/VBFV2j_Feynman.pdf
 INPUT ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_recoil_2017.pdf
 INPUT ./3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_recoil_2017.pdf
 INPUT 3_DataAnalysisStrategy/Figures/DataMC/merged_2023-04-08_vbfhinv_full_analysis/sr_vbf/sr_vbf_data_mc_recoil_2017.pdf

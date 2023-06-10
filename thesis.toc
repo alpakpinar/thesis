@@ -50,38 +50,38 @@
 \contentsline {subsection}{\numberline {3.3.2}Missing HE-15/16 sectors in 2018}{91}{}%
 \contentsline {section}{\numberline {3.4}Event selection}{96}{}%
 \contentsline {subsection}{\numberline {3.4.1}Signal region selection}{96}{}%
-\contentsline {subsection}{\numberline {3.4.2}Single Muon Control Region}{106}{}%
-\contentsline {subsection}{\numberline {3.4.3}Single Electron Control Region}{111}{}%
-\contentsline {subsection}{\numberline {3.4.4}Double Muon Control Region}{116}{}%
-\contentsline {subsection}{\numberline {3.4.5}Double Electron Control Region}{121}{}%
-\contentsline {subsection}{\numberline {3.4.6}Photon Control Region}{126}{}%
-\contentsline {section}{\numberline {3.5}Signal extraction strategy}{131}{}%
-\contentsline {subsection}{\numberline {3.5.1}Binned likelihood fit}{131}{}%
-\contentsline {subsubsection}{Transfer factors}{133}{}%
-\contentsline {subsection}{\numberline {3.5.2}Systematic uncertainties}{138}{}%
-\contentsline {subsubsection}{Theoretical uncertainties}{138}{}%
-\contentsline {subsubsection}{Experimental uncertainties}{141}{}%
-\contentsline {chapter}{\numberline {4}Results}{148}{}%
-\contentsline {section}{\numberline {4.1}Combined likelihood fit}{148}{}%
-\contentsline {section}{\numberline {4.2}Combinations}{155}{}%
-\contentsline {subsection}{\numberline {4.2.1}Combination with VTR category}{155}{}%
-\contentsline {subsection}{\numberline {4.2.2}Combination with 2016 dataset}{155}{}%
-\contentsline {section}{\numberline {4.3}Interpretations}{159}{}%
-\contentsline {subsection}{\numberline {4.3.1}Invisible branching fraction of SM Higgs boson}{159}{}%
-\contentsline {subsection}{\numberline {4.3.2}Upper bound on DM-nucleon interactions}{160}{}%
-\contentsline {chapter}{\numberline {5}Outlook}{163}{}%
-\contentsline {section}{\numberline {5.1}Improvements in the high-level trigger system}{163}{}%
-\contentsline {subsection}{\numberline {5.1.1}Revisiting HF noise mitigation}{164}{}%
-\contentsline {subsection}{\numberline {5.1.2}Performance checking with Run3 data}{166}{}%
-\contentsline {subsubsection}{Impact on well-reconstructed events}{167}{}%
-\contentsline {subsubsection}{Impact on output rate}{168}{}%
-\contentsline {section}{\numberline {5.2}Upgrade of the CMS tracker system}{171}{}%
-\contentsline {subsection}{\numberline {5.2.1}Apollo DTC Board: The Design}{174}{}%
-\contentsline {subsubsection}{Apollo Service Module}{175}{}%
-\contentsline {subsection}{\numberline {5.2.2}Apollo DTC Board: The Applications}{177}{}%
-\contentsline {subsection}{\numberline {5.2.3}Online monitoring software development}{178}{}%
-\contentsline {section}{\numberline {5.3}Using new techniques for VBF H(inv) analysis}{181}{}%
-\contentsline {subsection}{\numberline {5.3.1}Applying ParticleNet to develop a VBF-tagger}{182}{}%
-\contentsline {subsection}{\numberline {5.3.2}Preliminary results}{188}{}%
-\contentsline {subsection}{\numberline {5.3.3}Outlook}{190}{}%
-\contentsline {chapter}{Curriculum Vitae}{201}{}%
+\contentsline {subsection}{\numberline {3.4.2}Single Muon Control Region}{107}{}%
+\contentsline {subsection}{\numberline {3.4.3}Single Electron Control Region}{112}{}%
+\contentsline {subsection}{\numberline {3.4.4}Double Muon Control Region}{117}{}%
+\contentsline {subsection}{\numberline {3.4.5}Double Electron Control Region}{122}{}%
+\contentsline {subsection}{\numberline {3.4.6}Photon Control Region}{127}{}%
+\contentsline {section}{\numberline {3.5}Signal extraction strategy}{132}{}%
+\contentsline {subsection}{\numberline {3.5.1}Binned likelihood fit}{132}{}%
+\contentsline {subsubsection}{Transfer factors}{134}{}%
+\contentsline {subsection}{\numberline {3.5.2}Systematic uncertainties}{139}{}%
+\contentsline {subsubsection}{Theoretical uncertainties}{139}{}%
+\contentsline {subsubsection}{Experimental uncertainties}{142}{}%
+\contentsline {chapter}{\numberline {4}Results}{149}{}%
+\contentsline {section}{\numberline {4.1}Combined likelihood fit}{149}{}%
+\contentsline {section}{\numberline {4.2}Combinations}{156}{}%
+\contentsline {subsection}{\numberline {4.2.1}Combination with VTR category}{156}{}%
+\contentsline {subsection}{\numberline {4.2.2}Combination with 2016 dataset}{156}{}%
+\contentsline {section}{\numberline {4.3}Interpretations}{160}{}%
+\contentsline {subsection}{\numberline {4.3.1}Invisible branching fraction of SM Higgs boson}{160}{}%
+\contentsline {subsection}{\numberline {4.3.2}Upper bound on DM-nucleon interactions}{161}{}%
+\contentsline {chapter}{\numberline {5}Outlook}{164}{}%
+\contentsline {section}{\numberline {5.1}Improvements in the high-level trigger system}{164}{}%
+\contentsline {subsection}{\numberline {5.1.1}Revisiting HF noise mitigation}{165}{}%
+\contentsline {subsection}{\numberline {5.1.2}Performance checking with Run3 data}{167}{}%
+\contentsline {subsubsection}{Impact on well-reconstructed events}{168}{}%
+\contentsline {subsubsection}{Impact on output rate}{169}{}%
+\contentsline {section}{\numberline {5.2}Upgrade of the CMS tracker system}{172}{}%
+\contentsline {subsection}{\numberline {5.2.1}Apollo DTC Board: The Design}{175}{}%
+\contentsline {subsubsection}{Apollo Service Module}{176}{}%
+\contentsline {subsection}{\numberline {5.2.2}Apollo DTC Board: The Applications}{178}{}%
+\contentsline {subsection}{\numberline {5.2.3}Online monitoring software development}{179}{}%
+\contentsline {section}{\numberline {5.3}Using new techniques for VBF H(inv) analysis}{182}{}%
+\contentsline {subsection}{\numberline {5.3.1}Applying ParticleNet to develop a VBF-tagger}{183}{}%
+\contentsline {subsection}{\numberline {5.3.2}Preliminary results}{189}{}%
+\contentsline {subsection}{\numberline {5.3.3}Outlook}{191}{}%
+\contentsline {chapter}{Curriculum Vitae}{202}{}%
