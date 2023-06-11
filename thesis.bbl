@@ -414,6 +414,10 @@ Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
 \newblock The anti-$k_t$ jet clustering algorithm.
 \newblock {\em JHEP}, 04:063, 2008.
 
+\bibitem{CMS:2014ata}
+{Pileup Removal Algorithms}.
+\newblock 2014.
+
 \bibitem{Khachatryan:2016kdb}
 Vardan Khachatryan et~al.
 \newblock {Jet energy scale and resolution in the CMS experiment in pp
