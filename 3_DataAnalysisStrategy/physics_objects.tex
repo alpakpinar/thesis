@@ -6,9 +6,9 @@ A global event reconstruction using the Particle Flow (PF) algorithm \cite{cms:p
 identify each particle in the 
 event\footnote{An event typically refers to a single proton-proton bunch crossing, occuring
 every $25$ nanoseconds at the LHC.}. 
-PF algorithm accomplishes this by combining detector hit information
-from all different sub-detectors within CMS. The specific information used to determine the energy
-and momentum of a particle depends on the identity of the particle: Whether it is a photon, muon, electron,
+The PF algorithm accomplishes this by combining detector hit information
+from all different subdetectors within CMS. The specific information used to determine the energy
+and momentum of a particle depends on the identity of the particle, whether it is a photon, muon, electron,
 neutral hadron or charged hadron. Photons are identified as ECAL energy clusters that are not linked to 
 any charged particle tracks (following from the fact that they are electrically neutral). 
 Electrons are identified as a primary charged particle track, potentially 
@@ -31,10 +31,10 @@ is shown in Fig.~\ref{fig:particle_detection_cms}.
 \end{figure}
 
 Since a bunch of protons are collided during each bunch crossing, multiple collision vertices arise
-due to multiple interactions within the bunch. Aim of the event reconstruction is to select a primary
+due to multiple interactions within the bunch. The aim of the event reconstruction is to select a primary
 collision vertex, which is determined as the vertex containing the largest sum of squared transverse momenta,
-$p_{T}^2$, from associated tracks \cite{cms:phase2_upgrade}.
-Tracks and energy content from the rest of the vertices are very commonly referred as pileup (PU). Thanks to the assignment of the
+$p_{\textrm{T}}^2$, from associated tracks \cite{cms:phase2_upgrade}.
+Tracks and energy content from the rest of the vertices are very commonly referred as pileup (PU). With the assignment of the
 primary vertex, charged particles can be filtered out from the main event if their tracks are found to be originating 
 from a non-primary vertex. This allows to reduce the PU contribution in the reconstructed event. 
 
@@ -52,11 +52,11 @@ using the anti-$k_{T}$ algorithm~\cite{Cacciari:2008gp}. Jets are
 clustered with a distance parameter of $R = 0.4$ and are referred to as AK4
 jets. Prior to clustering, charged particles whose tracks are found to be associated
 with a non-primary vertex is removed to reduce the energy contributions from other
-vertices. This technique is referred to as ``Charged Hadron Subtraction (CHS)''~\cite{CMS:2014ata}. 
+vertices. This technique is referred to as charged hadron subtraction (CHS)~\cite{CMS:2014ata}. 
 
 Jet momentum is determined as the vector sum of all particle momenta
 in the jet, and is found from simulation to be within 5 to 10\% of the
-true momentum over the full $p_{T}$ spectrum and detector acceptance. 
+true momentum over the full $\pt$ spectrum and detector acceptance. 
 A set of jet energy corrections are applied to correct the jet momenta for various effects,
 and bring the reconstructed jet energy to the simulated jet energy ratio closer to $1$.
 First, jet energies are further corrected for PU effects, mostly coming from neutral 
@@ -66,14 +66,14 @@ After this, jet momenta are further corrected by using corrections derived from 
 where a jet recoils against a well-identified object, including $Z(\ell\ell)\;+$ jet and
 $\gamma\;+$ jet events~\cite{Khachatryan:2016kdb}. 
 For the analysis that will be explained in this thesis, the
-\texttt{Summer19UL17\_V5} and \texttt{Summer19UL18\_V5} versions of
+Summer19UL17\_V5 and Summer19UL18\_V5 versions of
 the jet energy corrections are used for the 2017 and 2018 datasets,
 respectively~\cite{JME:JECRecommendations}. On top of the jet energy corrections,
 jet energy resolution (JER) corrections are also applied to correct for differences of 
 jet resolution between data and simulation.
 
 The AK4 jets used in this analysis are required to pass the 
-loose identification criteria \cite{CMS:JME_jetId}, and AK4 jets with $p_{T} < 50$ GeV 
+loose identification criteria \cite{CMS:JME_jetId}, and AK4 jets with $\pt < 50$ GeV 
 must pass the pileup identification (ID) criteria \cite{CMS:JME_jetPuID}. 
 Pileup ID criteria aims to reduce the contribution from
 pileup by removing jets from the event which contain a large amount of energy from secondary vertices
@@ -97,33 +97,33 @@ within the bunch crossing.
 In addition, jet-lepton overlap cleaning is done by removing any AK4 jet that is within a cone of radius
 $\Delta R = \sqrt{\Delta \eta^2 + \Delta \phi^2} = 0.4$ surrounding a lepton or a photon. Only lepton and 
 photon candidates satisfying the object criteria described below are considered during the cleaning.
-Lastly, if the leading or the subleading jet is found to be within the tracker coverage (i.e. $|\eta| < 2.5$),
-constraints on the charged hadron and neutral hadron energy fractions of the jet ($R_{CHEF}$, $R_{NHEF}$ respectively) 
-are placed such that $R_{CHEF} > 0.1$ and 
-$R_{NHEF} < 0.8$. If a jet is found to violate these requirements, it is removed from the event.
-These additional requirements aid in rejecting mis-identified jets with spuriously low charged hadron 
+Lastly, if the leading or the subleading jet is found to be within the tracker coverage (\textit{i.e.,} $|\eta| < 2.5$),
+constraints on the charged hadron and neutral hadron energy fractions of the jet ($R_{\textrm{CHEF}}$, $R_{\textrm{NHEF}}$ respectively) 
+are placed such that $R_{\textrm{CHEF}} > 0.1$ and 
+$R_{\textrm{NHEF}} < 0.8$. If a jet is found to violate these requirements, it is removed from the event.
+These additional requirements aid in rejecting misidentified jets with spuriously low charged hadron 
 fractions\footnote{On average, one would expect $\approx 60\%$ of jet energy to be in the form of charged particles
-(e.g. from charged pions $\pi^{\pm}$). Hence a reconstructed jet with $<10 \%$ charged energy fraction is highly unexpected and potentially 
-due to mis-identification of other particles or detector noise.}.
+(e.g., from charged pions, $\pi^{\pm}$). Hence a reconstructed jet with $<10 \%$ charged energy fraction is highly unexpected and potentially 
+due to misidentification of other particles or detector noise.}.
 
 \subsubsection{b-tagged jets}
 \label{subsec:objects_bjets}
 
-Identifying jets that originate from a b-quark is important in this analysis, since a b-quark is not expected in the
-final state of the VBF $H \rightarrow inv.$ signal (for example, see Fig.~\ref{fig:vbfhinv_signal_diag}), 
-and vetoing events with b-jets in the final state allows to remove most of the 
+Identifying jets that originate from a b quark is important in this analysis, since a b quark is not expected in the
+final state of the VBF $\hinv$ signal (Fig.~\ref{fig:vbfhinv_signal_diag}), 
+and vetoing events with b jets in the final state allows to remove most of the 
 backgrounds originating from top quark production.
 
-In this analysis, jets with $p_{T} > 20$ GeV and $|\eta| < 2.4$ are identified as b-jets according to the
+In this analysis, jets with $\pt > 20$ GeV and $|\eta| < 2.4$ are identified as b jets according to the
 DeepCSV algorithm\footnote{Lifetime of hadrons containing b-quarks are
-relatively large, $\tau \sim 1.5$ ps, giving rise to a few milimetres of displacement from the primary vertex
-before further decay, hence creating a second, displaced vertex. b-tagging algorithms like DeepCSV make use of
-this feature to classify a jet as coming from a b-quark or not.}~\cite{Sirunyan:2017ezt}. 
-A medium working point is adopted, corresponding to correctly identifying a b-jet with a
+relatively large, $\tau \sim 1.5$ ps, giving rise to a few milimeters of displacement from the primary vertex
+before further decay, hence creating a second, displaced vertex. The b tagging algorithms like DeepCSV make use of
+this feature to classify a jet as coming from a b quark or not.}~\cite{Sirunyan:2017ezt}. 
+A medium working point is adopted, corresponding to correctly identifying a b jet with a
 probability of 80\%, and mis-identifying a light-flavor jet with a probability of 10\%. This working point corresponds to the value of 
 DeepCSV tagger to be greater than 0.4506 in 2017, and 0.4168 in 2018.
 
-\subsection{Missing transverse momentum and recoil}
+\subsection{Missing transverse momentum}
 \label{subsec:objects_met_recoil}
 
 The vector \ptvecmiss is defined as the imbalance in the transverse
@@ -135,7 +135,7 @@ of the Higgs boson passing undetected through the detector\footnote{Further disc
 on this can be found in the Introduction chapter, please see Sec.~\ref{subsec:exp_signatures}.}.
 Therefore, $\ptvecmiss$ is a key variable in this analysis.   
 It is computed as the negative of the vectorial sum of transverse
-momenta of all Particle Flow (PF) candidates and is therefore also referred to as PF \ptvecmiss.
+momenta of all PF candidates and is therefore also referred to as PF \ptvecmiss.
 The magnitude of the \ptvecmiss is referred to as \ptmiss.
 
 Minimum energy thresholds in the calorimeters, inefficiencies
@@ -160,9 +160,9 @@ when performing the correction and is added back to a corrected object.
 Since VBF \hinv signal events in this analysis contain only jets and no other 
 reconstructed visible candidates in the final state,
 \ptmiss is equivalent to the total hadronic momentum in the event that is transverse to the proton-proton collision axis. 
-For the leading $Z(\nu\nu)$ + jets and $W(\ell\nu)$ + jets backgrounds which can result in the same final state 
+For the leading $\Zvvjets$ and $\Wlvjets$ backgrounds which can result in the same final state 
 (described in Sec.~\ref{subsec:sr_vbf_selection}), 
-$\ptmiss$ corresponds to the transverse momentum of the $Z$ and $W$ boson, respectively. 
+$\ptmiss$ corresponds to the transverse momentum of the $\textrm{Z}$ and $\textrm{W}$ boson, respectively. 
 To mimic this behavior in in the control regions of this analysis, the hadronic recoil
 $\vec{U}$ is used, which is defined as the sum of the transverse
 momenta of all particles except the vector boson (or its decay products).
@@ -195,11 +195,11 @@ across all regions in the analysis.}.
 % jets, leptons and unclustered energy. Each sub-component is then varied
 % within its scale and resolution uncertainty.
 
-In addition to the events with genuine $\ptmiss$, such as $Z(\nu\nu)$ + jets, 
+In addition to the events with genuine $\ptmiss$, such as $\Zvvjets$, 
 anomalous high-\ptmiss events can also appear due to various phenomena.
 In the ECAL, spurious deposits may appear due to particles striking
 sensors in the ECAL photodetectors, or from real showers with non-collision
-origins such as those caused by beam halo particles. ECAL dead cells can cause real
+origins such as those caused by beam halo particles. Dead ECAL cells can cause real
 energy to be missed, again leading to a spurious imbalance.
 In the HCAL, spurious energy can arise due to  noise in the hybrid
 photodiode and readout box  electronics, as well as
@@ -241,20 +241,20 @@ A number of filters has been developed by the POG/DPG groups to identify and sup
 Muons are reconstructed by combining information from silicon tracker detector and the muon detection system
 \cite{cms:muon_paper}. Requirements for a good-quality muon object include the fit quality of the
 muon track, and its consistency with the primary vertex in the event. All muons considered in this
-analysis have $p_T > 10$ GeV and $|\eta| < 2.4$ (i.e. they are reconstructed within the tracker range).
+analysis have $\pt > 10$ GeV and $|\eta| < 2.4$ (\textit{i.e.,} they are reconstructed within the tracker range).
 
 Two types of muon identification are used for this analysis, which are termed as loose and tight muons \cite{CMS-MUO-TWIKI-IDLOOSE,CMS-MUO-TWIKI-IDTIGHT}.
 Loose muon identification is used to identify muons in the signal region and veto them\footnote{This selection is due to the fact that
 final state muons are not expected in VBF $\hinv$ signal events. As explained later in Sec.~\ref{subsec:sr_vbf_selection}, this veto
 helps suppressing background processes such as $\Wmnjets$ and $\Zmmjets$.}. 
 Tight muon identification, on the other hand,
-has more strict quality conditions and are used to identify good quality muons in $W(\mu \nu)$ and $Z(\mu \mu)$ control regions.
+has more strict quality conditions and are used to identify good quality muons in $\textrm{W}(\mu \nu)$ and $\textrm{Z}(\mu \mu)$ control regions.
 
 Loose muon objects must pass the following requirements \cite{CMS-MUO-TWIKI-IDLOOSE}:
 
 \begin{itemize}
-    \item It must be reconstructed as a muon by the Particle Flow (PF) algorithm
-    \item Must have $p_T > 10$ GeV and $|\eta| < 2.4$
+    \item Must be reconstructed as a muon by the Particle Flow (PF) algorithm
+    \item Must have $\pt > 10$ GeV and $|\eta| < 2.4$
 \end{itemize}
 
 Tight muons pass all the requirements of loose muons, together with passing these additional muon quality requirements \cite{CMS-MUO-TWIKI-IDTIGHT}:
@@ -262,9 +262,9 @@ Tight muons pass all the requirements of loose muons, together with passing thes
 \begin{itemize}
     \item Must have $p_T > 20$ GeV and $|\eta| < 2.4$
     \item Normalized $\chi^2$ of the muon track fit $<$ 10
-    \item At least one Muon Chamber hit must be included in the muon track fit
+    \item At least one muon chamber hit must be included in the muon track fit
     \item Muon segments required in at least two muon stations
-    \item The muon track must have transverse impact parameter $d_{xy} < $ 2~mm w.r.t. the primary vertex
+    \item Muon track must have transverse impact parameter $d_{xy} < $ 2~mm w.r.t. the primary vertex
     \item The longitudinal distance of the tracker track w.r.t. the primary vertex must be $d_z < $ 5~mm
     \item Number of pixel hits $>$ 0
     \item Cut on number of tracker layers with hits $>$ 5
@@ -280,14 +280,14 @@ is required to be less than $0.25$ for loose muons, and less than $0.15$ for tig
 \label{subsec:electrons}
 
 Electrons are reconstructed using the information from the tracker and the ECAL detector \cite{cms:elepho_paper}. All electrons
-considered in this analysis have $p_T > 10$ GeV and $|\eta| < 2.5$.
+considered in this analysis have $\pt > 10$ GeV and $|\eta| < 2.5$.
 
 Similar to the case of muons, two types of identification are used for electrons, which are labeled as veto and tight electrons.
 Veto electrons are used to identify electrons in the signal region and veto events containing such 
 electrons\footnote{Similar to the case of muons, such a veto helps suppressing background processes such as
 $\Wevjets$ and $\Zeejets$ in the signal region.}. 
 Tight electrons, which have tighter
-quality cuts, are used to identify electrons in $W(e \nu)$ and $Z(ee)$ control regions.
+quality cuts, are used to identify electrons in $\textrm{W}(\textrm{e} \nu)$ and $\textrm{Z}(\textrm{ee})$ control regions.
 
 The quality requrements for veto and tight electron objects are different for electrons reconstructed in the barrel region
 ($|\eta| < 1.479$) and in the endcap region ($|\eta| > 1.479$). The details of the quality requirements are listed in Tables \ref{tab:veto_electron_def_barrel},
@@ -303,9 +303,9 @@ The quality requrements for veto and tight electron objects are different for el
     Full 5x5 $\sigma_{i\eta i\eta}$ &  $< 0.0126$ \\
     $|\Delta\eta_{\mathrm{seed}}|$ & $< 0.00463$  \\
     $|\Delta\phi_{\mathrm{In}}|$ & $< 0.148$ \\
-    H/E & $<$ 0.05+1.16/$E_{\mathrm{SC}}$+0.0324$\rho$/$E_{\mathrm{SC}}$ \\
-    Relative Isolation With EA & $<$ 0.198+0.506/$p_T$ \\
-    $|$1/E-1/p$|$ & $< 0.209$ \\
+    \textit{H/E} & $<$ 0.05+1.16/$E_{\mathrm{SC}}$+0.0324$\rho$/$E_{\mathrm{SC}}$ \\
+    Relative Isolation With EA & $<$ 0.198+0.506/$\pt$ \\
+    $|$1/\textit{E}-1/\textit{p}$|$ & $< 0.209$ \\
     Expected Missing Inner Hits & $\leq$ 2 \\
     Pass conversion veto & yes \\
     \hline\hline
@@ -323,9 +323,9 @@ The quality requrements for veto and tight electron objects are different for el
     Full 5x5 $\sigma_{i\eta i\eta}$ &  $< 0.0104$ \\
     $|\Delta\eta_{\mathrm{seed}}|$ & $< 0.00255$  \\
     $|\Delta\phi_{\mathrm{In}}|$ & $< 0.022$ \\
-    H/E & $<$ 0.026+1.15/$E_{\mathrm{SC}}$+0.0324$\rho$/$E_{\mathrm{SC}}$ \\
-    Relative Isolation With EA & $<$ 0.0287+0.506/$p_T$ \\
-    $|$1/E-1/p$|$ & $< 0.159$ \\
+    \textit{H/E} & $<$ 0.026+1.15/$E_{\mathrm{SC}}$+0.0324$\rho$/$E_{\mathrm{SC}}$ \\
+    Relative Isolation With EA & $<$ 0.0287+0.506/$\pt$ \\
+    $|$1/\textit{E}-1/\textit{p}$|$ & $< 0.159$ \\
     Expected Missing Inner Hits & $\leq$ 1 \\
     Pass conversion veto & yes \\
     \hline\hline
@@ -343,9 +343,9 @@ The quality requrements for veto and tight electron objects are different for el
     Full 5x5 $\sigma_{i\eta i\eta}$ &  $< 0.0457$ \\
     $|\Delta\eta_{\mathrm{seed}}|$ & $< 0.00814$  \\
     $|\Delta\phi_{\mathrm{In}}|$ & $< 0.19$ \\
-    H/E & $<$ 0.05+2.54/$E_{SC}$+0.183$\rho$/$E_{SC}$ \\
-    Relative Isolation With EA & $<$ 0.203+0.963/$p_T$ \\
-    $|$1/E-1/p$|$ & $< 0.132$ \\
+    \textit{H/E} & $<$ 0.05+2.54/$E_{\mathrm{SC}}$+0.183$\rho$/$E_{\mathrm{SC}}$ \\
+    Relative Isolation With EA & $<$ 0.203+0.963/$\pt$ \\
+    $|$1/\textit{E}-1/\textit{p}$|$ & $< 0.132$ \\
     Expected Missing Inner Hits & $\leq$ 3 \\
     Pass conversion veto & yes \\
     \hline\hline
@@ -363,9 +363,9 @@ The quality requrements for veto and tight electron objects are different for el
     Full 5x5 $\sigma_{i\eta i\eta}$ &  $< 0.0353$ \\
     $|\Delta\eta_{\mathrm{seed}}|$ & $< 0.00501$  \\
     $|\Delta\phi_{\mathrm{In}}|$ & $< 0.0236$ \\
-    H/E & $<$ 0.0188+2.06/$E_{SC}$+0.183$\rho$/$E_{SC}$ \\
-    Relative Isolation With EA & $<$ 0.0445+0.963/$p_T$ \\
-    $|$1/E-1/p$|$ & $< 0.0197$ \\
+    \textit{H/E} & $<$ 0.0188+2.06/$E_{\mathrm{SC}}$+0.183$\rho$/$E_{\mathrm{SC}}$ \\
+    Relative Isolation With EA & $<$ 0.0445+0.963/$\pt$ \\
+    $|$1/\textit{E}-1/\textit{p}$|$ & $< 0.0197$ \\
     Expected Missing Inner Hits & $\leq$ 1 \\
     Pass conversion veto & yes \\
     \hline\hline
@@ -421,10 +421,10 @@ are summarized in Table~\ref{tab:PhotonIDTight}.
     \hline
     \hline
     Full 5x5 $\sigma_{i\eta i\eta}$            & $< 0.0106 $    \\
-    H/E                                        & $<  0.04596 $    \\
+    \textit{H/E}                               & $<  0.04596 $    \\
     charged hadron isolation                   & $< 1.694 $     \\
-    neutral hadron isolation                   & $< 24.032 + 0.01512\times p_T+2.259\times 10^{-5} \times {p_T}^2$ \\
-    photon isolation                           & $< 2.876 + 0.004017\times p_T$  \\
+    neutral hadron isolation                   & $< 24.032 + 0.01512 \pt+2.259 10^{-5} {\pt}^2$ \\
+    photon isolation                           & $< 2.876 + 0.004017 \pt$  \\
     Conversion safe electron veto              & Yes           \\
     \hline
     \end{tabular}
@@ -443,10 +443,10 @@ are summarized in Table~\ref{tab:PhotonIDTight}.
     \hline
     \hline
     Full 5x5 $\sigma_{i\eta i\eta}$            & $< 0.0272 $    \\
-    H/E                                        & $< 0.0590 $    \\
+    \textit{H/E}                               & $< 0.0590 $    \\
     charged hadron isolation                   & $< 2.089 $     \\
-    neutral hadron isolation                   & $< 19.722 + 0.0117\times p_T+2.3\times 10^{-5} \times {p_T}^2$ \\
-    photon isolation                           & $< 4.162 + 0.0037\times p_T$  \\
+    neutral hadron isolation                   & $< 19.722 + 0.0117 \pt+2.3 10^{-5} {\pt}^2$ \\
+    photon isolation                           & $< 4.162 + 0.0037 \pt$  \\
     Conversion safe electron veto              & Yes           \\
     \hline
     \end{tabular}
@@ -465,10 +465,10 @@ are summarized in Table~\ref{tab:PhotonIDTight}.
     \hline
     \hline
     Full 5x5 $\sigma_{i\eta i\eta}$            & $<  0.01015  $ \\
-    H/E                                        & $<  0.02197  $   \\
+    \textit{H/E}                               & $<  0.02197  $   \\
     charged hadron isolation                   & $< 1.141  $     \\
-    neutral hadron isolation                   & $< 1.189  + 0.01512\times p_T+2.259\times 10^{-5} \times {p_T}^2$ \\
-    photon isolation                           & $< 2.08 + 0.004017\times p_T$  \\
+    neutral hadron isolation                   & $< 1.189  + 0.01512 \pt+2.259 10^{-5} {\pt}^2$ \\
+    photon isolation                           & $< 2.08 + 0.004017 \pt$  \\
     Conversion safe electron veto              & Yes           \\
     \hline
     \end{tabular}
@@ -505,7 +505,7 @@ with the exception of the \sieie requirement. By removing this requirement, the 
 
 \item A fake photon template is obtained from data. In this case, the identification criteria are modified by requiring that 
 at least one of the isolation criteria is not passed. Therefore, the photons in this template represent reconstructed photons inside jets,
-(i.e. ``fake photons").
+(\textit{i.e.,} ``fake photons").
 
 \end{itemize}
 
@@ -514,7 +514,7 @@ Events are selected using the following criteria:
 
 \begin{itemize}
     \item At least one jet with $\pt>100$ GeV and $|\eta|<2.4$, which is not overlapping with a photon of interest.
-    \item The event must pass the \texttt{HLT\_Photon200} trigger, which requires a photon with $\pt > 200$ GeV to be reconstructed at the HLT level.
+    \item The event must pass the HLT\_Photon200 trigger, which requires a photon with $\pt > 200$ GeV to be reconstructed at the HLT level.
     \item The event must pass the offline MET filters, and have $\ptmiss < 60$ GeV.
 \end{itemize}
 
@@ -570,7 +570,7 @@ and thus the QCD background estimate. For application in the analysis, the nomin
         \includegraphics[width=0.45\textwidth]{PhotonPurity/fit_2017_pt200-300_coarse.pdf}
         \includegraphics[width=0.45\textwidth]{PhotonPurity/fit_2017_pt200-300_vcoarse.pdf}
     \caption{Comparison of binning schemes used to define a systematic uncertainty on the purity measurement. In all cases, the 
-    $200<\pt<300$ GeV bin of the 2017 data set is shown. The binning choices are very fine and fine (top row), nominal (middle row) 
+    $200<\pt<300$ GeV bin of the 2017 data set is shown. The binning choices are very fine and fine (top row), nominal (middle row), 
     and coarse and very coarse (bottom row).}
     \label{fig:purity_binning}
 \end{figure}

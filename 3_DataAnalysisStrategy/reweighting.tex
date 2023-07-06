@@ -7,13 +7,13 @@ various effects. Therefore, reweighting of simulated events is necessary to corr
 simulated samples for these effects. The reweighting procedure for different types of 
 effects are outlined in this section.
 
-\subsection{Trigger efficiency reweighting}
+\subsection{Trigger efficiency}
 \label{subsec:trigger_eff_reweighting}
 
 \subsubsection{\ptmissnomu and \htmissnomu triggers}
 \label{subsubsec:met_trigger_eff}
 
-In this analysis, the collision data for signal region, $W(\mu \nu)$ and $Z(\mu \mu)$ 
+In this analysis, the collision data for signal region, $\textrm{W}(\mu \nu)$ and $\textrm{Z}(\mu \mu)$ 
 control regions (see Sec.~\ref{sec:event_selection}) are collected using high-level triggers 
 that require $\ptmissnomu > 120$ GeV
 and $\htmissnomu > 120$ GeV. The fact that muon momenta are subtracted
@@ -24,13 +24,13 @@ To simplify the discussion, this trigger will be referred to as the ``MET trigge
 The efficiency of MET trigger is calculated using $\Wmnjets$ events, as a function of recoil.
 Here, recoil refers to the vectorial sum of the missing transverse momentum (MET) and the muon transverse momentum,
 as defined in Eq.~\ref{eq:recoil_def}. The $\Wmnjets$ events are selected by requiring 
-the event to pass \texttt{HLT\_IsoMu27} trigger for 2017, and \texttt{HLT\_IsoMu24} 
+the event to pass HLT\_IsoMu27 trigger for 2017, and HLT\_IsoMu24
 for 2018. In addition, the reconstructed muon is required to be tightly-identified as defined in Sec.~\ref{subsec:muons}, 
 and have $\pt > 40$ GeV. The full set of selections is listed below:
 
 \begin{enumerate}
   \item Event must have exactly one tightly-identified muon with $\pt > 40$ GeV.
-  \item Veto on additional leptons, photons, b jets, $\tau_{had}$ candidates.
+  \item Veto on additional leptons, photons, b jets, $\tau_{\textrm{had}}$ candidates.
   \item $\Delta\phi(jet,\ptvecmiss)>0.5$ for the four leading jets with $\pt>30$ GeV.
   \item (Calo \ptmiss - PF \ptmiss) / recoil $<$ 0.5
   \item Leading AK4 jet with $\pt>80$ GeV, passing the tight jet ID.
@@ -44,14 +44,16 @@ and the ratio between those two measurements are used to derive scale factors (S
 The efficiency measurement procedure is described below.
 
 To understand the dependence of the efficiencies on the jet kinematics, the efficiencies in data and MC are measured 
-separately for two cases: Events where the two highest-$\pt$ jets are both in the central region of the detector (i.e. $|\eta| < 2.5$), 
+separately for two cases, events where the two highest-$\pt$ jets are both in the central region of the detector (\textit{i.e.,} $|\eta| < 2.5$), 
 and events where at least one jet is in the forward region ($|\eta| > 2.5$).
 
 To smooth out the fluctuations in efficiencies for each case, a sigmoid function is fit to both data and MC 
 efficiency curves. The sigmoid function has three parameters and is written in the form $f(x,a,b,c) = \frac{c}{1+e^{-a(x-b)}}$. 
 The factors for correcting the MC simulation are then calculated as the ratio of the best-fit sigmoid curves for data and MC.
 The efficiencies and resulting SFs are shown in Fig.~\ref{fig:sigmoid_fits_eff}. From Fig.~\ref{fig:sigmoid_fits_eff}, 
-it can be seen that the scale factors are mostly $\simeq 1$ for the analysis phase space (i.e. Recoil $> 250$ GeV).
+it can be seen that the scale factors are mostly $\simeq 1$ for the analysis phase 
+space\footnote{Please see Sec.~\ref{subsec:sr_vbf_selection} for the analysis phase space selections.} 
+where recoil $> 250$ GeV.
 
 \begin{figure}[ht!]
     \centering
@@ -73,7 +75,7 @@ it can be seen that the scale factors are mostly $\simeq 1$ for the analysis pha
 \subsubsection{Photon trigger}
 \label{subsubsec:photon_trig}
 
-The photon trigger efficiency is measured using events collected with \texttt{HLT\_PFHT1050} 
+The photon trigger efficiency is measured using events collected with HLT\_PFHT1050
 trigger, which was fully unprescaled in 2017 and 2018, meaning that all the events passing the trigger were saved to the
 disk.
 
@@ -82,7 +84,7 @@ Events are selected in the same way as for the photon control region in the anal
 an offline $\HT$ of at least $1.5$ TeV is required, where $\HT$ is calculated as: 
 
 \begin{equation}
-  \HT = \sum_{jet} p_T^{jet}
+  \HT = \sum_{\textrm{jet}} \pt^{\textrm{jet}}
   \label{eq:ht_def}
 \end{equation}
 
@@ -106,7 +108,7 @@ with all individual points. In the analysis implementation, the scale factor is 
         \includegraphics[width=0.6\textwidth]{Efficiency/Photon/fit_HLT_PFHT1050_2018.pdf}
         \caption{Efficiency of the \texttt{HLT\_Photon200} trigger in data and \HT-binned $\gamma+$jets MC for 2017 (top) and 2018 (bottom) 
         as a function of photon \pt. The orange and blue lines respectively represent sigmoid function fits to the turn-on in data and MC, 
-        with the fit function and best-fit parameter values given in the respectively colored labels. The bottom panel shows the ratio of the values measured 
+        with the fit function and best-fit parameter values given in the colored labels. The bottom panel shows the ratio of the values measured 
         in data over those in MC using orange markers. The solid black line corresponds to the ratio of the sigmoid fits to data and MC.}
         \label{fig:hlteff_photon}
     \end{center}
@@ -126,7 +128,8 @@ The efficiency of the electron trigger is measured in data and simulation using 
 logical OR of all triggers considered here. Both the tag electron and the probe electron are required to pass the tight identification criteria used for the analysis 
 selection (see Tables~\ref{tab:tight_electron_def_barrel} and~\ref{tab:tight_electron_def_endcap}). In data, events are separated based on whether the probe electron passes 
 the same trigger criteria as the tag. In both of these categories, 
-separate fits to the distribution of the invariant mass of the tag-probe system are performed to extract the number of signal-like $Z(ee)$ events in each category, 
+separate fits to the distribution of the invariant mass of the tag-probe system are performed to extract the number of signal-like $\textrm{Z}(\textrm{ee})$ 
+events in each category, 
 and the efficiency is defined as the ratio of the number of passing signal events and the number of all signal events. The efficiency in simulation is 
 measured in a Drell-Yan sample, and the signal event counts are defined by simply counting all events in the passing and failing categories. The MC-to-data scale 
 factor is then defined as the ratio of the efficiency in data and that in simulation. The efficiency in data, as well as the scale factors are shown in 
@@ -148,19 +151,19 @@ As shown in the bottom panel of Fig.~\ref{fig:hlteff_electron}, the data to MC s
 from the two efficiency measurements from data and MC. Those correction factors are applied per-electron 
 in the analysis to correct MC.
 
-\subsection{Pileup reweighting}
+\subsection{Pileup}
 \label{subsec:pu_reweighting}
 
 The pileup (PU) conditions\footnote{The term ``pileup conditions'' refers to the distribution 
-of the number of reconstructed p-p collision vertices in a given p-p bunch crossing.} 
+of the number of reconstructed pp collision vertices in a given pp bunch crossing.} 
 in the simulated samples are not identical to the ones observed in data, and a per-event reweighting is applied to remove the difference.
-The reweighting is performed by matching the true pileup distribution of each simulated sample
-with the pileup distribution in data. The pileup distribution in data is obtained through 
+The reweighting is performed by matching the true PU distribution of each simulated sample
+with the PU distribution in data. The PU distribution in data is obtained through 
 the pileupCalc tool, assuming a minimum bias cross section of 69.2$\pm 4.6\%$~mb, following the recommendations in \cite{pileup_twiki}.
-The true pileup distributions in data and simulation are shown in Fig.~\ref{fig:purwg_true}, which show the normalized number of events as a function of 
+The true PU distributions in data and simulation are shown in Fig.~\ref{fig:purwg_true}, which show the normalized number of events as a function of 
 the number of reconstructed collision vertices. 
 The distribution of the number of reconstructed vertices 
-for $W\to \mu\nu$ events before and after PU reweighting is shown in Fig.~\ref{fig:purwt_npv}. The distribution of the event energy density 
+for $\textrm{W}\to \mu\nu$ events before and after PU reweighting is shown in Fig.~\ref{fig:purwt_npv}. The distribution of the event energy density 
 $\rho$ is shown in Fig.~\ref{fig:purwt_rho}, again before and after PU reweighting. 
 In terms of these two variables, it is observed that PU reweighting improves the agreement between data and MC.
 
@@ -208,7 +211,7 @@ In terms of these two variables, it is observed that PU reweighting improves the
 
 \clearpage
 
-\subsection{Lepton identification efficiency reweighting}
+\subsection{Lepton identification efficiency}
 \label{subsec:lepton_id_reweighting}
 
 Data-to-MC scale factors are applied to events in the control regions to
@@ -283,33 +286,32 @@ shown in Fig.~\ref{fig:sf_muon_iso}. The corresponding corrections for muons are
 
 \clearpage
 
-\subsection{Lepton veto efficiency reweighting}
+\subsection{Lepton veto efficiency}
 \label{subsec:veto_weight_reweighting}
 
-To reduce contribution from $W(\ell \nu)+$ jet(s) events in the analysis signal region (SR), 
+To reduce contribution from $\Wlvjets$ events in the analysis signal region (SR), 
 events are rejected if they contain any
 identified charged lepton. However, due to finite efficiencies of the
-reconstruction and identification of these candidates, $W(\ell \nu)+$ jet(s)
+reconstruction and identification of these candidates, $\Wlvjets$
 events still contribute significantly. Furthermore, the differences in veto efficiency between data and MC
 need to be taken into account. For these purposes, the ``veto-weight'' method is used.
 In this method, simulated events in the SR are allocated a veto weight instead of
 being removed completely if they have charged lepton(s) in the final state. Such events with
 identified leptons can enter the SR with a veto weight dependent on the identification, isolation and reconstruction 
 efficiency scale factors for the identified objects
-in the event. The veto weight $\omega$ is calculated as:
+in the event. The veto weight $\omega$ is calculated as
 
 \begin{equation}
-    \omega = \prod_{i \ \epsilon \ leptons} (1-SF_{i}) 
+    \omega = \prod_{i \ \epsilon \ \textrm{leptons}} (1-\textrm{SF}_{i}) 
 \end{equation}
-
 where the product above runs over all identified veto leptons in the event (i.e. electrons, muons and taus).
-$SF_{i}$ represents the total scale factor for the lepton $i$, which is the product of identification and isolation
+$\textrm{SF}_{i}$ represents the total scale factor for the lepton $i$, which is the product of identification and isolation
 scale factors as described in Sec.~\ref{subsec:lepton_id_reweighting}. It can be observed that this method is equivalent
-to the ordinary method with hard-veto on events with leptons, as $SF \approx 1$ for events with well identified leptons,
+to the ordinary method with hard-veto on events with leptons, as $\textrm{SF} \approx 1$ for events with well identified leptons,
 making the event weight, $\omega \approx 0$, hence suppressing the contribution of the event in the SR.
 Comparing the simulated event yields with hard
 lepton veto applied (instead of lepton veto weights), it is observed that the lepton veto weights in the signal region
-introduces a small correction $\ll 1\%$.
+introduces a small correction, $\ll 1\%$.
 
 The uncertainty on these veto weights are computed by varying the veto weights within their uncertainties and
 propagating the variation into the $\mjj$ distribution in the SR. Since the lepton kinematics are not largely
@@ -344,12 +346,12 @@ of $\mjj$.
 
 % \emph{TODO: Fill this section.}
 
-\subsection{Reweighting For HF Noise Cuts}
+\subsection{HF noise cuts}
 \label{subsec:hf_weighting}
 
 As will be explained in Sec.~\ref{subsec:hfnoise}, several noise-cleaning cuts are implemented to reduce the contribution 
 from mis-reconstruction of forward jets,
-reconstructed in the Forward HCAL (HF) detector (i.e. $|\eta| > 3.0$). To account for the difference in the impact of these cuts in
+reconstructed in the Forward HCAL (HF) detector (\textit{i.e.,} $|\eta| > 3.0$). To account for the difference in the impact of these cuts in
 data and MC, a per-jet scale factor is applied to the events in MC. These scale factors are derived by calculating the efficiency 
 of these cuts on $\Zmmjets$ and $\gamma$ + jets events in data and MC, as a function of jet $\pt$ and $\eta$, and taking 
 the ratio of those two efficiencies. 
@@ -358,12 +360,11 @@ The HF noise scale factors are applied for each HF jet in the event which would 
 and $\Delta\phi(j,\ptmiss) > 2.5$), as a function of $\pt$ and $\eta$ of the jet. The event weight is calculated by multiplying the individual jet weights:
 
 \begin{equation}
-    \omega_{event} = \prod_{jet \in HF} \omega_{jet} (\pt, \eta)
+    \omega_{\textrm{event}} = \prod_{\textrm{jet} \in \textrm{HF}} \omega_{\textrm{jet}} (\pt, \eta)
 \end{equation}
-
 where the product runs over each jet with $\pt > 100$ GeV and $\Delta\phi(j,\ptmiss) > 2.5$\footnote{These cuts are required
 to be compatible with the application of HF cuts described in Sec.~\ref{subsec:hfnoise}. $\Delta\phi > 2.5$ requirement on
-the jets being considered is utilized to pick jets that are reconstructed back-to-back (i.e. high $\Delta\phi$) with the missing
+the jets being considered is utilized to pick jets that are reconstructed back-to-back (\textit{i.e.,} high $\Delta\phi$) with the missing
 transverse momentum}.
 The per-jet scale factors $\omega_{jet}$ are shown in Fig.~\ref{fig:hf_scale_factors} for 2017 and 2018, together with their statistical uncertainties. 
 For the statistically limited phase space of very high $\pt$ and $\eta$ (where the scale factor is measured to be $0$), 
@@ -375,7 +376,7 @@ the scale factor in the closest $[ \pt, \eta ]$ bin is applied to the HF jet.
         \includegraphics[width=0.49\textwidth]{ScaleFactors/HFCuts/hf_sf_2018.pdf}
         \caption{
             HF scale factors and their statistical uncertainties as a function of jet $\pt$ and $\eta$, for 2017 (left) and 2018 (right). 
-            For the phase space with statistical limitations (i.e. $SF=0$), the scale factor in the closest $[ \pt, \eta ]$ bin is applied to the HF jet.
+            For the phase space with statistical limitations (\textit{i.e.,} SF$=0$), the scale factor in the closest $[ \pt, \eta ]$ bin is applied to the HF jet.
           }
         \label{fig:hf_scale_factors}
     \end{center}
@@ -383,7 +384,7 @@ the scale factor in the closest $[ \pt, \eta ]$ bin is applied to the HF jet.
 
 \clearpage
 
-\subsection{Reweighting for ECAL pre-firing}
+\subsection{ECAL pre-firing}
 \label{subsec:prefiring_weighting}
 
 Prefiring is a problem with the 2017 dataset that results from L1 trigger primitives
@@ -396,21 +397,20 @@ the probability of a jet or photon in the event causing prefiring in terms of th
 $\pt$ and $\eta$. In this analysis, the prefiring weights are applied based on the parametrization
 provided by the JME POG \cite{CMS:PrefiringTwiki}, and a central implementation provided in the
 NanoAOD-tools software is used \cite{CMS:PrefiringNanoAODTools}. In this implementation, a per-event
-prefiring weight is computed as:
+prefiring weight is computed as
 
 \begin{equation}
-    \omega = 1 - P(prefiring) = \prod_{i=photons,jets} (1 - \epsilon_{i}^{pref}(\pt, \eta))
+    \omega = 1 - P(\textrm{prefiring}) = \prod_{i=\textrm{photons,jets}} (1 - \epsilon_{i}^{\textrm{pref}}(\pt, \eta))
 \end{equation}
-
-where $\epsilon_{i}^{pref}$ is the prefiring probability caused by a single photon or a jet, and the product
+where $\epsilon_{i}^{\textrm{pref}}$ is the prefiring probability caused by a single photon or a jet, and the product
 runs over the photons and jets reconstructed in the event.
 The $\mjj$ distributions with the nominal prefiring weight applied to simulation, together with the
 up and down variations of the prefiring weight are shown in Figs.~\ref{fig:prefiring_1} and \ref{fig:prefiring_2}.
 It can be observed that the uncertainty due to the prefiring weight increases with higher $\mjj$. It can be argued
 that this is an expected effect because of the origins of the prefiring problem, which is much more sizable for jets
-in the ECAL endcap region, $2.5 < |\eta| < 3.0$. Therefore, events with at least one forward jet is much likely to
-get impacted by prefiring. Since $\mjj$ is correlated with $\detajj$ (i.e. the $\eta$ separation between the two
-VBF jets), events with higher $\mjj$ are also more impacted, and hence the relevant uncertainty is more pronounced
+in the ECAL endcap region, $2.5 < |\eta| < 3.0$. Therefore, events with at least one forward jet are much likely to
+get impacted by prefiring. Since $\mjj$ is correlated with $\detajj$ (\textit{i.e.,} the $\eta$ separation between the two
+VBF jets), events with higher $\mjj$ are also more impacted, and the relevant uncertainty is more pronounced
 at high $\mjj$. 
 
 \begin{figure}[htbp]
@@ -433,7 +433,7 @@ at high $\mjj$.
     \includegraphics[width=0.49\textwidth]{ScaleFactors/Prefire/sr_vbf_vbfhinv.pdf}
     \caption{The $\mjj$ distributions with the nominal prefiring weights and its variations
     are shown for $\gamma$ + jets simulation in the photon CR (top left), $W(\ell\nu)$ + jets (top right),
-    $Z(\nu\nu)$ + jets (bottom left) and VBF $\hinv$ (bottom right) in the signal region.}
+    $Z(\nu\nu)$ + jets (bottom left), and VBF $\hinv$ (bottom right) in the signal region.}
     \label{fig:prefiring_2}
 \end{figure}
 
@@ -492,7 +492,7 @@ generator-level transverse momentum of the respective boson, $\ptv$. For $\Wlvje
 
 For $\gamma$ + jets events, the photon at generator-level is selected by requiring the following:
 \begin{itemize}
-    \item Photon needs to have \textit{status = 1}, indicating that it is a final state particle (i.e. a particle that is not decayed further by the generator). 
+    \item Photon needs to have status = 1, indicating that it is a final state particle (i.e. a particle that is not decayed further by the generator). 
     \item Photon needs to have a prompt status flag. 
     \item $|\eta|<1.46$, so that the photon is in the barrel region. 
 \end{itemize}
@@ -501,7 +501,7 @@ If there are multiple such photons, the one with highest $\pt$ is selected.
 
 \subsubsection{Photon scale factors}
 
-The photon scale factors are derived with a two-dimensional dependence on generator-level $\ptv$ and $\mjj$, and are shown for the MTR category in 
+The photon scale factors are derived with a two-dimensional dependence on generator-level $\ptv$ and $\mjj$, and are shown in 
 Fig.~\ref{fig:theory_sf_qcd_nlo_2d-photon}. These scale factors are applied to $\gamma$ + jets events as a NLO correction, and the correction depends
 on the kinematics of the event.
 
@@ -559,7 +559,7 @@ These kinematic selections are described in Sec.~\ref{sec:event_selection}.
 The correction is calculated as a function of the $\pt$ of the Higgs boson, and is parametrized using the following fit function:
 
 \begin{equation}
-    \epsilon_{EWK}(p_T^{H}) = (1 - 0.000372 * p_T^{H} - 0.0304) / 0.95
+    \epsilon_{\textrm{EWK}}({\pt}^{\textrm{H}}) = (1 - 0.000372 {\pt}^{\textrm{H}} - 0.0304) / 0.95
 \end{equation}
 
 For each event in the VBF signal sample, this correction is applied based on the $\pt$ of the Higgs boson found in the generator-level collection.

@@ -716,6 +716,7 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT ./3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_nominal.pdf
 INPUT ./3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_nominal.pdf
 INPUT 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_nominal.pdf
@@ -976,6 +977,7 @@ INPUT ./3_DataAnalysisStrategy/Figures/ScaleFactors/Muon/NUM_LooseRelIso_DEN_Loo
 INPUT 3_DataAnalysisStrategy/Figures/ScaleFactors/Muon/NUM_LooseRelIso_DEN_LooseID_abseta_pt_2018.pdf
 INPUT ./3_DataAnalysisStrategy/Figures/ScaleFactors/Muon/NUM_LooseRelIso_DEN_LooseID_abseta_pt_2018.pdf
 INPUT ./3_DataAnalysisStrategy/Figures/ScaleFactors/Muon/NUM_LooseRelIso_DEN_LooseID_abseta_pt_2018.pdf
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT ./3_DataAnalysisStrategy/Figures/ScaleFactors/HFCuts/hf_sf_2017.pdf
 INPUT ./3_DataAnalysisStrategy/Figures/ScaleFactors/HFCuts/hf_sf_2017.pdf
 INPUT 3_DataAnalysisStrategy/Figures/ScaleFactors/HFCuts/hf_sf_2017.pdf
@@ -2001,6 +2003,7 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pf
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb

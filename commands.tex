@@ -9,16 +9,16 @@
 \newcommand{\Wmn}{\ensuremath{\mathrm{W}\to \mu\nu}}
 \newcommand{\Wen}{\ensuremath{\mathrm{W}\to e\nu}}
 \newcommand{\Zmmjets}{\ensuremath{\mathrm{Z}(\mu\mu)+\textrm{jets}}}
-\newcommand{\Zeejets}{\ensuremath{\mathrm{Z}(ee)+\textrm{jets}}}
+\newcommand{\Zeejets}{\ensuremath{\mathrm{Z}(\textrm{ee})+\textrm{jets}}}
 \newcommand{\Zlljets}{\ensuremath{\mathrm{Z}(\ell\ell)+\textrm{jets}}}
 \newcommand{\Zjets}{\ensuremath{\mathrm{Z}+\textrm{jets}}}
 \newcommand{\Wjets}{\ensuremath{\mathrm{W}+\textrm{jets}}}
-\newcommand{\Zvvjets}{\ensuremath{\mathrm{Z}(\nu\nu)+\textrm{jets}}}
-\newcommand{\Wlvjets}{\ensuremath{\mathrm{W}(\ell\nu)+\textrm{jets}}}
-\newcommand{\Wmvjets}{\ensuremath{\mathrm{W}(\mu\nu)+\textrm{jets}}}
-\newcommand{\Wmnjets}{\ensuremath{\mathrm{W}(\mu\nu)+\textrm{jets}}}
-\newcommand{\Wevjets}{\ensuremath{\mathrm{W}(e\nu)+\textrm{jets}}}
-\newcommand{\Wenjets}{\ensuremath{\mathrm{W}(e\nu)+\textrm{jets}}}
+\newcommand{\Zvvjets}{\ensuremath{\textrm{Z}(\nu\nu)+\textrm{jets}}}
+\newcommand{\Wlvjets}{\ensuremath{\textrm{W}(\ell\nu)+\textrm{jets}}}
+\newcommand{\Wmvjets}{\ensuremath{\textrm{W}(\mu\nu)+\textrm{jets}}}
+\newcommand{\Wmnjets}{\ensuremath{\textrm{W}(\mu\nu)+\textrm{jets}}}
+\newcommand{\Wevjets}{\ensuremath{\textrm{W}(\textrm{e}\nu)+\textrm{jets}}}
+\newcommand{\Wenjets}{\ensuremath{\textrm{W}(\textrm{e}\nu)+\textrm{jets}}}
 \newcommand{\phojets}{\ensuremath{\gamma+\textrm{jets}}}
 \newcommand{\Vjets}{\ensuremath{V\text{+jets}}\xspace}
 
@@ -34,8 +34,8 @@
 \newcommand{\met}{\ensuremath{\Et^{\mathrm{miss}}}}
 \newcommand{\metcalo}{\ensuremath{E_\mathrm{T \ calo}}^{\mathrm{miss}}}
 \newcommand{\metpf}{\ensuremath{E_\mathrm{T \ PF}}^{\mathrm{miss}}}
-\newcommand{\ptmissnomu}{\ensuremath{p_{T,no-\mu}^{miss}}\xspace}
-\newcommand{\htmissnomu}{\ensuremath{H_{T,no-\mu}^{miss}}\xspace}
+\newcommand{\ptmissnomu}{\ensuremath{p_{\textrm{T},\textrm{no}-\mu}^{\textrm{miss}}}\xspace}
+\newcommand{\htmissnomu}{\ensuremath{H_{\textrm{T},\textrm{no}-\mu}^{\textrm{miss}}}\xspace}
 \newcommand{\Ht}{\ensuremath{H_\mathrm{T}}}
 \newcommand{\HT}{\ensuremath{H_\mathrm{T}}}
 \newcommand{\sieie}{\ensuremath{\sigma_{i\eta i\eta}} }
@@ -46,7 +46,7 @@
 \newcommand{\mettrig}{\ensuremath{E_{\mathrm{T, trig}}^{\mathrm{miss}}}}
 \newcommand{\mhttrig}{\ensuremath{H_{\mathrm{T, trig}}^{\mathrm{miss}}}}
 \newcommand{\ptvecjet}{\ensuremath{{\vec p}_{\mathrm{T}}^{\kern1pt\text{jet}}}\xspace}
-\newcommand{\pt}{\ensuremath{p_T}\xspace}
+\newcommand{\pt}{\ensuremath{p_{\textrm{T}}}\xspace}
 \newcommand{\qt}{\ensuremath{{q}_{\rm T}}\xspace}
 \newcommand{\vqt}{\ensuremath{\vec{q}_{\rm T}}\xspace}
 \newcommand{\vut}{\ensuremath{\vec{u}_{\rm T}}\xspace}
@@ -66,16 +66,16 @@
 \newcommand{\ptmisstrig}{\ensuremath{p_{\mathrm{T, trig}}^{\mathrm{miss}}}}
 \newcommand{\htmiss}{\ensuremath{H_{\mathrm{T}}^{\mathrm{miss}}}}
 \newcommand{\pthat}{\ensuremath{\hat{p}_{\mathrm{T}}}\xspace}
-\newcommand{\ptv}{\ensuremath{p_{\mathrm{T},V}}\xspace}
+\newcommand{\ptv}{\ensuremath{p_{\mathrm{T},\mathrm{V}}}\xspace}
 
 \newcommand{\ptmiss}{\ensuremath{p_{\textrm{T}}^{\textrm{miss}}}\xspace}
-\newcommand{\ptvecmiss}{\ensuremath{\vec{p}_{T}^{\;miss}}\xspace}
+\newcommand{\ptvecmiss}{\ensuremath{\vec{p}_{\textrm{T}}^{\;\textrm{miss}}}\xspace}
 \newcommand{\ptveci}{\ensuremath{\vec{p}_{T}^{\;i}}\xspace}
 
-\newcommand{\detajj}{\Delta \eta_{jj}}
-\newcommand{\dphijj}{\Delta \phi_{jj}}
+\newcommand{\detajj}{\Delta \eta_{\textrm{jj}}}
+\newcommand{\dphijj}{\Delta \phi_{\textrm{jj}}}
 \newcommand{\dphi}{\Delta \phi}
-\newcommand{\mjj}{\ensuremath{M_{jj}}}
+\newcommand{\mjj}{\ensuremath{M_{\textrm{jj}}}}
 
 \newcommand{\muz}{\ensuremath{\boldsymbol{\mu}^{\Zvv}}}
 \newcommand{\vbf}{\ensuremath{\mathrm{qq}H}}
@@ -92,6 +92,7 @@
 % Units
 \newcommand{\msq}{\ensuremath{\textrm{m}^2}\xspace}
 \newcommand{\lumiunit}{\ensuremath{\textrm{cm}^{-2}\textrm{s}^{-1}}\xspace}
+\newcommand{\fbinv}{\ensuremath{\textrm{fb}^{-1}}}
 
 \newcommand{\hfpass}{\text{pass}\xspace}
 \newcommand{\hffail}{\text{fail}\xspace}

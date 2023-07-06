@@ -6,23 +6,19 @@
 \section{The Large Hadron Collider}
 \label{sec:large_had_collider}
 
-The Large Hadron Collider (LHC), located near Geneva, Switzerland, is a super-conducting circular particle accelerator, 
-consisting of a 27-kilometer ring of superconducting magnets. For the majority of the time, protons are used as the accelerated
-particles, but in addition to protons, Xe and Pb ions are also used for heavy ion studies. For the context of this thesis, data
-from only the proton collisions are being considered.
-
-Two sets of proton bunches travel along the circular tunnel in opposite directions, being accelerated to near the speed of light,
-then collide at the experiment sites. The four large experiments located at the LHC ring are CMS, ATLAS, LHCb and ALICE. CMS and ATLAS
-are multi-purpose detectors, while LHCb focuses on heavy hadron physics, and ALICE focuses on heavy ion physics. The center-of-mass energy 
-for the proton-proton collision for Run II is 13 TeV. This energy is further increased to 13.6 TeV in 
-more recent runs of the LHC, corresponding to Run III. 
+The Large Hadron Collider (LHC), located near Geneva, Switzerland, is a circular particle accelerator, 
+consisting of a 27-kilometer ring of superconducting magnets.
+Two sets of proton bunches travel along the circular tunnel in opposite directions,
+then collide at the experiment sites. The four large experiments located at the LHC ring are CMS, ATLAS, LHCb, and ALICE. The CMS and ATLAS
+detectors are multi-purpose, while LHCb focuses on b-quark physics, and ALICE focuses on heavy-ion physics. The center-of-mass energy 
+for the proton-proton collision for Run 2 is 13 TeV.
 
 Protons are accelerated through a chain of accelerators before they reach LHC, which is shown in Fig.~\ref{fig:lhc_diagram}.
 Each machine boosts the energy of protons before injecting it into the next machine in the sequence. Linear Accelerator 4 (LINAC4)
-is the source of protons, accelerating $H^{-}$ ions to 160 MeV to prepare them to enter the Proton Synchotron Booster (PSB). During the injection
-to PSB, the two ions are stripped from the $H^{-}$ ions, leaving only the protons. These protons are accelerated to 2 GeV for injection to Proton 
-Synchotron (PS), which increases the beam energy to 26 GeV. The proton beam is then sent to Super Proton Synchotron (SPS), where it is accelerated
-to an energy of 450 GeV. Finally, the proton beam is transferred to the two beam pipes of the LHC. Here, it takes 20 minutes for the protons to reach
+is the source of protons, accelerating $\textrm{H}^{-}$ ions to 160 MeV to prepare them to enter the Proton Synchotron Booster (PSB). During the injection
+to PSB, the electrons are stripped, leaving only the protons. These protons are accelerated to 2 GeV for injection to Proton 
+Synchotron (PS), which increases the beam energy to 26 GeV. The proton beams are then sent to Super Proton Synchotron (SPS), where they are accelerated
+to an energy of 450 GeV. Finally, the proton beams are transferred to the two beam pipes of the LHC, where it takes 20 minutes for the protons to reach
 their maximum energy of 6.5 TeV. 
 
 \begin{figure}[htb]
@@ -35,10 +31,10 @@ their maximum energy of 6.5 TeV.
     \label{fig:lhc_diagram}
 \end{figure}
 
-The LHC had a successful Run I between 2010 and 2013, where the center-of-mass energy for proton-proton collisions was 8 TeV. This first run was marked 
+The LHC had a successful Run 1 between 2010 and 2013, where the center-of-mass energy for proton-proton collisions was 8 TeV. This first run was marked 
 by the discovery of the Higgs boson by ATLAS and CMS experiments in 2012. After a long shutdown, the center-of-mass energy was increased to 13 TeV, and the LHC
-operated from 2016 to 2018 for Run II data taking. During Run II, the instantenous luminosity was about $1 \times 10^{34} \ cm^{-2} s^{-1}$, corresponding to around 
-25 proton-proton collisions per bunch crossing. The integrated luminosity corresponding to Run II data taken by the CMS experiment is measured to be 137 $fb^{-1}$, 
+operated from 2016 to 2018 for Run 2 data taking. During Run 2, the instantenous luminosity was about $1 \times 10^{34} \ \lumiunit$, corresponding to around 
+25 proton-proton collisions per bunch crossing. The integrated luminosity corresponding to Run 2 data taken by the CMS experiment is measured to be 137 $\fbinv$, 
 with 1.6\% overall uncertainty \cite{lumi:2018,lumi:2017,lumi:2016}.
 
 \section{The CMS Detector}
@@ -59,10 +55,10 @@ therefore reducing the output rate. In the following sub-sections, the functiona
 
 \subsection{Overall Layout}
 
-The CMS detector has an overall length of 28.7 meters, and weighs 14000 tonnes. The cylindrical detector
-has a diameter of 15 meters, as shown in Fig.~\ref{fig:cms_overall_diagram}. The CMS detector has a superconducting solenoid,
-which has an internal diameter of 7 meters, and creates a magnetic field of 3.8 T. This magnetic field curves the charged particles
-as they pass through the detector, hence enabling the measurement of their momentum from the radius of curvature of their tracks.
+The CMS detector has an overall length of 28.7 m, and weighs 14000 tonnes. The cylindrical detector
+has a diameter of 15 m, as shown in Fig.~\ref{fig:cms_overall_diagram}. The CMS detector has a superconducting solenoid,
+which has an internal diameter of 7 m, and creates a magnetic field of 3.8 T. This magnetic field bends the charged particles
+as they pass through the detector, enabling the measurement of their momentum from the curvature of their tracks.
 
 
 \begin{figure}
@@ -79,13 +75,13 @@ and a brass and scintillator hadron calorimeter (HCAL), each composed of a barre
 are installed in the high psuedo-rapidity range to extend the coverage of the detector. Outside of the solenoid volume,
 a muon detection system is installed, where muons are measured in gas-ionization detectors embedded in the steel flux-return yoke.
 
-In the CMS detector, the right-handed coordinate system is used. The x-axis points to the center of the LHC ring, the y-axis points up, 
+In the CMS detector, a right-handed coordinate system is used. The x-axis points to the center of the LHC ring, the y-axis points up, 
 and the z-axis point along the beam in the counter-clockwise direction. Due to the cylindrical symmetry of the detector geometry, the angular
 coordinates of $\eta$ and $\phi$ are often used to describe event kinematics. $\phi$ is the azimuthal angle, defined to be 0 along the x-axis,
-and $\frac{\pi}{2}$ along the y-axis. $\eta$ is the psuedo-rapitiy, which depends on the angle from the z-axis, $\theta$, with the following
-equation: $\eta = -\ln[{\tan({\frac{1}{\theta}})}]$. This way, $\eta$ equals to 0 along the z-axis, directly perpendicular to the beam-axis,
+and $\frac{\pi}{2}$ along the y-axis. $\eta$ is the psuedorapidity, which depends on the angle from the z-axis, $\theta$, with the following
+equation: $\eta = -\ln[{\tan({\frac{\theta}{2}})}]$. This way, $\eta$ equals to 0 along the z-axis, directly perpendicular to the beam-axis,
 and $|\eta| \rightarrow \infty$ as the $\theta \rightarrow \frac{\pi}{2}$, i.e. perpendicular to the beam axis. Most detector coverage
-extends to until $|\eta| = 5$. 
+extends to $|\eta| \approxeq 5$. 
 
 \subsection{Tracking System}
 
@@ -94,14 +90,14 @@ referred to as the inner tracker and the outer tracker, respectively. Both are u
 the 3.8 T magnetic field generated by the solenoid. The inner pixel detector has higher granularity, therefore it can reconstruct tracks more accurately near
 the beam pipe, where the track density is higher.
 
-Tracks of charged particles are crucial objects for CMS, because they allow measuring the momenta and the electrical charges of particles. These particles include
-electrons, muons, taus and charged hadrons. The identification of tracks also allow to reconstruct the proton-proton collision vertices in the event. This enables
-the identification of the primary vertex in the event with the highest sum of $p_{T,track}^{2}$. Thus, the rest of the vertices can be identified as pile-up (PU),
-and charged particles from these PU vertices can be rejected in object reconstruction. Track reconstruction also allows to identify b-quarks by identifying displaced
+Tracks of charged particles are crucial objects for CMS, because they allow measurement of the momenta and electrical charge of particles. These particles include
+electrons, muons, taus and charged hadrons. The identification of tracks also allow the reconstruction of the proton-proton collision vertices in the event. This enables
+the identification of the primary vertex in the event with the highest sum of $p_{\textrm{T,track}}^{2}$. Thus, the rest of the vertices can be identified as pile-up (PU),
+and charged particles from these PU vertices can be rejected in object reconstruction. Track reconstruction also allows identification of b-quarks using displaced
 vertices. 
 
 The CMS inner tracker was upgraded during the year-end technical stop of the LHC in 2016/2017, referred to as the Phase-1 upgrade \cite{cms:tracker_upgrade},
-in order to handle the instantaneous luminosity that exceeds the previously designed maximum value of $1 \times 10^{34} \ cm^{-2} s^{-1}$. Utilizing the new 
+in order to handle the instantaneous luminosity that exceeds the previously designed maximum value of $1 \times 10^{34} \ \lumiunit$. Utilizing a new 
 beam pipe with smaller radius installed during the LHC Long Shutdown 1 (LS1), the Phase-1 pixel detector sits closer to the beam center, with 4 barrel layers 
 (L1-L4) at radii of 29, 68, 109, and 160 mm, compared to the original three layers at 44, 73, and 102 mm. There is also an additional endcap disk on each end 
 closer to the collision point. Therefore, there are now three disks at each end with distances of 291, 396, and 516 mm from the center of the detector, compared 
@@ -131,21 +127,22 @@ in the z direction. The layout of the silicon strip tracker, together with the 2
 
 \subsection{Electromagnetic Calorimeter}
 
-The electromagnetic calorimeter (ECAL) is installed on the second layer of the detector, outside the inner and outer tracking systems. It is made of
-61200 lead tungstate ($PbWO_{4}$) crystals mounted in the barrel (EB), and 7324 of those crystals in each of the 2 endcaps (EE). The $PbWO_{4}$ crystals make
-a radiation-resistent high-granularity calorimeter, due to it's high density and short radiation length. The EB section covers the psuedo-rapidity range
-of $|\eta| < 1.479$, and the two EE sections cover $1.479 < |\eta| < 3.0$.
+The electromagnetic calorimeter (ECAL) is installed as the second layer of the detector, outside the inner and outer tracking systems. It is made of
+61200 lead tungstate ($\textrm{PbWO}_{4}$) crystals mounted in the barrel (EB), and 7324 of those crystals in each of the 2 endcaps (EE). 
+The $\textrm{PbWO}_{4}$ crystals make
+a radiation-resistent high-granularity calorimeter, due to it's high density and short radiation length. The EB section covers a psuedorapidity range
+$|\eta| < 1.479$, and the two EE sections cover $1.479 < |\eta| < 3.0$.
 
 The energy of particles, primarily electrons and photons, are measured through the scintillation effect. Photons emitted from the scintillation are 
-collected by the avalanche photodiodes (APD) in the barrel and vacuum phototriodes (VPT) in the EE. Two pre-shower detectors are placed on the inner side
-of the EEs, which helps to distinguish high-energy photons from pions, which can decay into a pair of closeby low-energy photons. The preshower is a sampling 
+collected by the avalanche photodiodes (APD) in the barrel and vacuum phototriodes (VPT) in the EE. Two preshower detectors are placed on the inner side
+of the EEs, which helps to distinguish high-energy photons from pions, which can decay into a pair of closeby photons. The preshower is a sampling 
 calorimeter made of two planes on each end. Each plane has a layer of lead radiators to produce electromagnetic showers from incoming photons and electrons, 
 and a silicon strip detector to mea- sure the energy and shower profile. The silicon strips are placed with a width of 2 mm, and are oriented in perpendicular 
 directions between two layers, giving a much finer granularity than EE and EB. 
 
-The crystals in the barrel section are contained by 1 mm wall of aluminum, which constitues a submodule. 400 or 500 submodules are assembled into a module, 
+The crystals in the barrel section are contained by 1 mm wall of aluminum, which constitues a submodule. Submodules are assembled into a module, 
 and every four of each constitute a supermodule. The crystals in the EE are organized in units of identically shaped $5 \times 5$ crystals called supercrystals. 
-Each EE is divided into two halves (Dees). The structure of the ECAL is shown in Fig.~\ref{fig:ecal_layout}.
+Each EE is divided into two halves. The structure of the ECAL is shown in Fig.~\ref{fig:ecal_layout}.
 
 \begin{figure}
     \begin{minipage}[t]{\linewidth}\centering
@@ -164,8 +161,8 @@ The hadron calorimeter (HCAL) is designed to measure the energy of hadrons, whic
 hadron jets. The HCAL is composed of several parts: 
 
 \begin{itemize}
-    \item A barrel part (HB), which sits between the ECAL and the magnet coil, covering the range of $|\eta| < 1.3$. 
-    \item An endcap part (HE), covering the range of $1.3 < |\eta|< 3$.
+    \item A barrel part (HB), which sits between the ECAL and the magnet coil, covering $|\eta| < 1.3$. 
+    \item An endcap part (HE), covering $1.3 < |\eta|< 3$.
     \item Forward hadron calorimeters (HF), which are placed close to the beam pipe to capture outgoing particles with small angles, covering up to $|\eta| < 5$.
 \end{itemize}
 
@@ -188,12 +185,12 @@ in order to operate in a much harsher radiation environment, compared to other p
 \subsection{Muon System}
 
 Muon detection is of great importance to the CMS, since it is a powerful tool for recognizing signatures of interesting physics processes. Muons also have the
-potential to be reconstructed with a larger resolution since they are less affected by radiative losses in the tracker material, compared to electrons. 
+potential to be reconstructed with a larger resolution since they are not affected by radiative losses in the tracker material, compared to electrons. 
 
 The muon system is installed in the psuedo-rapidity range of $|\eta| < 2.4$, consisting of drift tubes (DTs), cathode strip chambers (CSCs) and 
-resistive plate chambers (RPCs). The DTs are placed in the barrel and cover the $|\eta| < 1.2$ range, where the particle rate and the local 
-magnetic fill strength are low. CSCs, due to their fast response time, fine segmentation, and radiation resistance, are used in the endcap, covering
-$0.9 < |\eta| < 2.4$. RPCs are inserted into both barrel and endcaps to provide redundant trigger system with a time resolution of 1 ns, 
+resistive plate chambers (RPCs). The DTs are placed in the barrel and cover $|\eta| < 1.2$, where the particle rate and the 
+magnetic field are low. The CSCs, due to their fast response time, fine segmentation, and radiation resistance, are used in the endcap, covering
+$0.9 < |\eta| < 2.4$. The RPCs are inserted into both barrel and endcaps to provide redundant trigger system with a time resolution of 1 ns, 
 which is much shorter than the bunch crossing interval of 25 ns.
 
 \subsection{Trigger System}
@@ -204,7 +201,7 @@ due to limitations in both storage space and data transfer rates.
 Storing all the events at this rate is also unnecessary, since interesting events with high-energy physics objects occur at a much
 lower rate.
 
-To select the events of interest and reduce the rate of data being saved, a two-tiered trigger system is being used in the CMS experiment. The first-level
+To select the events of interest and reduce the rate of data being saved, a two-tiered trigger system is used in the CMS experiment. The first-level
 trigger (L1), is composed of custom hardware processors, which uses event information from the calorimeters and the muon system to select events at a rate
 of 100 kHz within a fixed latency of about 4 $\mu s$ \cite{cms:l1_paper}. The second level, known as the high-level trigger (HLT), consists of processors 
 running a version of the full event reconstruction software optimized for fast processing, and reduces the event rate to around 1 kHz before data storage 
