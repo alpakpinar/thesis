@@ -3,7 +3,7 @@
 \graphicspath{{5_Outlook/Figures}}
 
 The Large Hadron Collider (LHC) will be upgraded to the High-Luminosity LHC (HL-LHC) configuration. Currently,
-this upgrade is planned to take place in Long Shutdown 3 era between 2026 and 2029, and HL-LHC is expected to 
+this upgrade is planned to take place in Long-Shutdown-3 era between 2026 and 2029, and HL-LHC is expected to 
 start running starting from 2029.
 With HL-LHC, the instantaneous luminosity is expected to reach an unprecedented peak of
 $7.5 \times 10^{34}$ \lumiunit, with an average number of pileup interactions up to $200$. To cope with
@@ -15,7 +15,8 @@ to the Level-1 (L1) trigger~\cite{CMS:Phase2TrackerUpgrade}, which is also a cru
 information at L1 trigger will improve the data selection performance.
 
 The Phase-2 tracker of CMS will be composed of two parts:
-Inner tracker (IT) and outer tracker (OT), as shown in Fig.~\ref{fig:phase2_tracker_layout}. IT is made of silicon
+Inner tracker (IT) and outer tracker (OT), as shown in Fig.~\ref{fig:phase2_tracker_layout}. 
+The IT is made of silicon
 pixel detectors, and OT is made of silicon micro-strips and macro-pixel detectors.
 Both IT and OT are designed to have better radiation hardness and higher
 granularity compared to the current tracker detector. Furthermore, the tracking acceptance will be extended
@@ -58,11 +59,11 @@ GeV~\cite{CMS:Phase2TrackerUpgrade}. A schematic of such dual-sensors is shown i
     \label{fig:stub_ot_schematic}
 \end{figure}
 
-All silicon modules, both in the IT and OT, communicate with CMS back-end Data Acquision System (DAQ) 
-optically through Low Power GigaBit Transciever (lpGBT) links, which run at speeds of either 5 or 10 Gbps
-in uplink (i.e. from front-end electronics to DAQ), and 2.56 Gbps in downlink~\cite{CMS:TrackerUpgradeStatus}. 
-In the service cavern, sets of Data Trigger and Control (DTC) cards are placed, 
-which are located at the opposite end of the lpGBT optical links
+All silicon modules, both in the IT and OT, communicate with CMS back-end data acquision system (DAQ) 
+optically through low power GigaBit transciever (lpGBT) links, which run at speeds of 5-10 Gbps
+in uplink mode (\textit{i.e.,} from front-end electronics to DAQ), and 2.56 Gbps in downlink mode~\cite{CMS:TrackerUpgradeStatus}. 
+In the service cavern, sets of Data Trigger and Control (DTC) cards are placed 
+at the receiving end of the lpGBT optical links
 coming from the IT and OT modules. The DTCs are high bandwidth processors based on commercial FPGAs. Their task
 is to receive data from the IT and OT modules, which represent the hits pertaining to the triggered events, and
 forward them to the DAQ system. The schematic of this workflow is shown in Fig.~\ref{fig:daq_schematic}.
@@ -80,18 +81,18 @@ Finder Processors (TFP). When track segments (stubs) are generated from the dual
 DTCs are tasked with forwarding the stub coordinates to TFPs, after converting the coordinates 
 to the global reference frame~\cite{CMS:TrackerUpgradeStatus}. 
 
-Two prototypes of DTC boards are produced: The Apollo board targeting the role of DTC for the IT~\cite{CMS:ApolloPaper},
-and the Serenity board targeting the role of DTC for the OT~\cite{CMS:SerenityPaper}. In order to meet the design
-criteria with high processing and bandwidth requirements, both DTCs use high performance Xilinx Ultrascale+ Virtex
-FPGAs, and 12-channel, 25 Gbps-per-channel optical transcievers to implement their functions.~\cite{CMS:TrackerUpgradeStatus}.
-Both DTC boards are designed to comply with the Advanced Telecommunications Computing Architecture (ATCA) design 
+The Apollo board is used for the IT DTC, and is designed and developed at Boston University~\cite{CMS:ApolloPaper}.
+In order to meet the design
+criteria with high processing and bandwidth requirements, the Apollo uses high performance Xilinx Ultrascale+ Virtex
+FPGAs, and 12-channel, 25 Gbps-per-channel optical transcievers to implement their functions~\cite{CMS:TrackerUpgradeStatus}.
+The board is designed to comply with the Advanced Telecommunications Computing Architecture (ATCA) design 
 specifications~\cite{PICMG:ATCA}.
-The following subsection will go into more detail about the Apollo board architecture and the hardware components.
+The following subsection goes into more detail about the Apollo board architecture and the hardware components.
 
 \subsection{Apollo DTC Board: The Design}
 
 The Apollo DTC board is designed to provide a reusable hardware interface for different types of applications within the
-CMS (and ATLAS) detector. It is composed of two main modules: A Service Module (SM) and a Command Module (CM).
+CMS (and ATLAS) detector. It is composed of two main modules: A service module (SM) and a command module (CM).
 The Apollo SM is an ATCA-compliant front board which provides power, communications and control infrastructure.
 On the other hand, Apollo CM is a module with two Xilinx Ultrascale+ Virtex FPGAs, which can be programmed with
 application specific firmware, hence making the Apollo hardware reusable across different applications. 
@@ -149,8 +150,8 @@ A detailed explanation of the core tasks handled by the OpenIPMC firmware is giv
 
 The OpenIPMC firmware also provides custom software tasks to be developed based on the board-specific needs.
 This way, the power-up and power-down sequences and which sensors to read out from can be customized for an
-Apollo board. This flexibility of the OpenIPMC allows it to be used in other flavors of DTC boards such as
-Serenity~\cite{CMS:SerenityPaper}.
+Apollo board. This flexibility of the OpenIPMC allows it to be used in other flavors of DTC boards developed
+for CMS such as Serenity~\cite{CMS:SerenityPaper}.
 
 In the Apollo boards, the OpenIPMC firmware is customized to read out sensor values, such as temperature, 
 current and voltage, from the SM and CM. 
@@ -167,8 +168,8 @@ of each board in the shelf.
 \subsection{Apollo DTC Board: The Applications}
 
 The Apollo DTC board is intended to be used for different applications in Phase-2 CMS and ATLAS detectors.
-For each application, the Apollo CM are to be customized accordingly. Each application and the anticipated
-hardware needs are briefly presented in this subsection, following~\cite{CMS:ApolloPaper}.
+For each application, the Apollo CMs are to be customized accordingly. Each application and the anticipated
+hardware needs are briefly presented in this subsection~\cite{CMS:ApolloPaper}.
 
 One of the applications of Apollo DTC is the CMS track finder algorithm. This algorithm uses 
 pattern-matching to identify coincidences between “tracklets”
@@ -202,7 +203,7 @@ operations on the boards over the local area network (LAN), including:
 
 \begin{itemize}
     \item Access the list of available boards and their IP addresses over the LAN, and see their current operation status
-    (e.g. online or not reachable).
+    (e.g., online or not reachable).
     \item From each available board, read monitoring data such as temperature and current values.
     \item Execute commands for each board over the LAN, such as powering up the CM and programming an FPGA hosted on the CM.
 \end{itemize}
@@ -223,11 +224,11 @@ Fig.~\ref{fig:shep_herd_schematic}.
     \caption{The schematic showing the communication between the SHEP UI and HERD API server, running on the Zynq SoC of each
     Apollo board. SHEP UI stores a list of boards in a SQL database, and communicates with each registered Apollo board by
     connecting to the HERD API server. The HERD application running on the SoC, in turn interfaces with Apollo-specific software
-    to fulfill it's tasks.}
+    to fulfill its tasks.}
     \label{fig:shep_herd_schematic}
 \end{figure}
 
-To make the deployment of the online software stack more standardized, SHEP and HERD software are currently designed to be ran
+To make the deployment of the online software stack more standardized, SHEP and HERD software are currently designed to be run
 as Docker containers that are communicating over the LAN. This way, every dependency of each piece of software is installed within
 the Docker container, and the dependence on the underlying SoC platform is minimized. Continuous integration (CI) pipelines in
 GitLab are developed such that Docker images for each software in the stack can be automatically built within the CI jobs, and

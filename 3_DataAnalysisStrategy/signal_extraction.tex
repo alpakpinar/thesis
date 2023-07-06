@@ -36,7 +36,7 @@ These backgrounds can be summarized as the following:
 A binned maximum likelihood fit to the observed data is performed simultaneously across the 
 signal and control regions. For each $\mjj$ bin $i$ in every region, the expected yield of $\Vjets$ events
 is parametrized as a function of expected strong $\Zvvjets$ yields in the signal region, labeled as
-$\kappazi$ in the following. This parametrization is done using transfer factors between different
+$\kappazi$. This parametrization is done using transfer factors between different
 $\Vjets$ processes, as will be explained later in this section. To scale the expected amount of VBF
 $\hinv$ signal in the VBF signal region, a signal strength parameter $\mu$ is also introduced to
 the fit, and left freely floating. The resulting likelihood function is shown in Eq.~\ref{eq:fit_likelihood_func}.
@@ -75,11 +75,10 @@ the fit, and left freely floating. The resulting likelihood function is shown in
   V_{i}^{\mathrm{CR,VBF}}(\kappazi,\boldsymbol{\theta}) = &C^{\mathrm{CR,VBF}}_{i}(\boldsymbol{\theta}) Z^{\frac{\mathrm{VBF}}{\mathrm{strong}}}_{i} R^{\mathrm{CR}}_{i}(\boldsymbol{\theta}) \kappazi, \\
   \end{aligned}
 \end{equation}
-
 where ${\mathrm{P}(x|y) = y^{x}e^{-y}/x!}$. $d^{\mathrm{CR}}_{i}$
 and $d_{i}$ are the observed number of events in each bin $i$ of
 the $\mjj$ distribution in the CRs and SR, respectively. The index $i$ runs
-over the $\mjj$ bins in all regions and data taking years (i.e. 2017 and 2018).
+over the $\mjj$ bins in all regions and data taking years (\textit{i.e.,} 2017 and 2018).
 
 In a given bin, $\Vjets$ background yields expected in the SR are
 obtained from transfer factors relating the yields in different
@@ -149,15 +148,14 @@ Transfer factors, derived from simulation,
 are used to link the yields of the $\Zlljets$, $\Wlvjets$ and $\phojets$~processes in the control
 regions with the $\Zvvjets$ and $\Wlvjets$ background estimates in the signal region.
 These transfer factors are defined as the ratio of expected yields of the target process
-in the signal region and the process being measured in the control region. As an example:
+in the signal region and the process being measured in the control region. As an example,
 
 \begin{equation}
-  R_{i}^{Z(\mu\mu), \mathrm{strong}}(\boldsymbol{\theta}) = \frac{N_{i,MC}^{\Zvv}}{N_{i,MC}^{\Zmm}}(\boldsymbol{\theta})
+  R_{i}^{\mathrm{Z}(\mu\mu), \mathrm{strong}}(\boldsymbol{\theta}) = \frac{N_{i,MC}^{\Zvv}}{N_{i,MC}^{\Zmm}}(\boldsymbol{\theta})
   \label{eq:example_tf}
 \end{equation}
-
 where $N_{i}$ is the number of events in bin $i$ of the $\mjj$ distribution, 
-$R_{i}^{Z(\mu\mu), \mathrm{strong}}(\boldsymbol{\theta})$ is the transfer factor between the 
+$R_{i}^{\mathrm{Z}(\mu\mu), \mathrm{strong}}(\boldsymbol{\theta})$ is the transfer factor between the 
 strong $\Zmmjets$ process yields in dimuon control region 
 and strong $\Zvvjets$ background in the signal region. The transfer factor in
 Eq.~\ref{eq:example_tf} allows us to write the strong $\Zmmjets$ yields
@@ -166,7 +164,7 @@ in dimuon control region as a function of strong $\Zvvjets$ yields in the signal
 
 \begin{equation}
   % \begin{aligned}
-  V_{i}^{Z(\mu\mu), strong}(\kappazi,\boldsymbol{\theta}) = R_{i}^{Z(\mu\mu), \mathrm{strong}}(\boldsymbol{\theta}) \times \kappazi \\
+  V_{i}^{\mathrm{Z}(\mu\mu), \mathrm{strong}}(\kappazi,\boldsymbol{\theta}) = R_{i}^{\mathrm{Z}(\mu\mu), \mathrm{strong}}(\boldsymbol{\theta}) \times \kappazi \\
   % \end{aligned}
 \end{equation}
 
@@ -176,11 +174,11 @@ $V_{i}^{\mathrm{CR,VBF}}$ can be written as a function of $\kappazi$ and the nui
 Using this transfer factor formalism, $\Zvvjets$ background prediction in the signal region is connected 
 to the yields of $\Zmmjets$~and $\Zeejets$~events
 in the dilepton control regions. The associated transfer factors account for the differences in the
-branching ratio of $Z$ bosons to charged leptons relative to neutrinos and the impact of lepton acceptance and selection
+branching ratio of Z bosons to charged leptons relative to neutrinos and the impact of lepton acceptance and selection
 efficiencies. In the case of dielectron events, the transfer factor also takes into account the
 difference in the trigger efficiencies. The resulting constraint on the $\Zvvjets$~background from the dilepton
 control regions is limited by the statistical uncertainty in the dilepton control regions due to the large
-branching fraction difference of the Z boson decays to muons and electrons compared to that to neutrinos.
+branching fraction difference of the Z boson decays to muons and electrons compared to neutrinos.
 
 Similarly, $\Wlvjets$ background prediction in the signal region is connected to the yields of
 $\Wmvjets$ and $\Wevjets$ event yields in single-lepton control regions.
@@ -188,7 +186,7 @@ These transfer factors take into account
 the impact of lepton acceptances and efficiencies, lepton veto efficiencies, and
 the difference in the trigger efficiencies in the case of the single-electron control region.
 
-The transfer factors linking $Z$ and $W$ processes in control regions are validated by comparing the ratio of data in
+The transfer factors linking Z and W processes in control regions are validated by comparing the ratio of data in
 different control regions to the predicted ratio in simulation. These transfer factors are shown as a function of $\mjj$
 in Fig.~\ref{fig:transfer_factors_zoverw}, where the left column shows the results with 2017 data, and the right column
 shows the 2018 data. 
@@ -199,7 +197,7 @@ shows the 2018 data.
     \includegraphics[width=0.45\textwidth]{\tfPlotDir/dielectron_singleelectron_cat_vbf_2018_2018ratio.pdf} \\
     \includegraphics[width=0.45\textwidth]{\tfPlotDir/dimuon_singlemuon_cat_vbf_2017_2017ratio.pdf}
     \includegraphics[width=0.45\textwidth]{\tfPlotDir/dimuon_singlemuon_cat_vbf_2018_2018ratio.pdf}
-  \caption{Transfer factors between $Z$ and $W$ control regions as a function of the dijet 
+  \caption{Transfer factors between Z and W control regions as a function of the dijet 
     mass. Results for both 2017 (left) and 2018 (right) datasets are shown. Plots on the top row show the ratios
     between the electron regions, while the plots on the bottom show the ratios between muon regions. 
     The bands show the theoretical and experimental systematic uncertainties on the ratios.}
@@ -216,7 +214,7 @@ triggering and identification between these two regions. Those transfer factors 
           \includegraphics[width=0.45\textwidth]{\tfPlotDir/dielectron_gjets_cat_vbf_2018_2018ratio.pdf} \\
           \includegraphics[width=0.45\textwidth]{\tfPlotDir/dimuon_gjets_cat_vbf_2017_2017ratio.pdf}
           \includegraphics[width=0.45\textwidth]{\tfPlotDir/dimuon_gjets_cat_vbf_2018_2018ratio.pdf}
-    \caption{Transfer factors for $Z(ee) / \gamma + jet$ (top) and $Z(\mu\mu) / \gamma + jets$ (bottom) processes. 
+    \caption{Transfer factors for $\mathrm{Z}(ee) / \gamma +$ jets (top) and $\mathrm{Z}(\mu\mu) / \gamma +$ jets (bottom) processes. 
     Results with 2017 datasets are shown on the left column, and 2018 results are shown on the right column.
     The bands show the experimental systematic uncertainties on the ratios.}
     \label{fig:transfer_factors_gamma}
@@ -240,25 +238,26 @@ variations around the central renormalization and factorization scale choice. It
 section two-dimensionally as a function of boson \pt and \mjj~after changing the renormalization and factorization scales by a factor of two 
 and a factor of one-half with respect to the default value. These constant scale variations mainly affect the
 overall normalization of the boson \pt distributions. 
-The PDF uncertainty on the k-factors from the \pt{}/jet binned sample is evaluated using the recommendation from the PDF4LHC authors~\cite{paper:PDF4LHC}. 
-This is added in quadrature with uncertainty due to the choice of $\alpha_{s}$.
+Uncertainty due to the parton distribution functions (PDF) on the k-factors
+is evaluated using the recommendation from the PDF4LHC authors~\cite{paper:PDF4LHC}. 
+This is added in quadrature with uncertainty due to the choice of $\alpha_{s}$, the coupling constant for the QCD interaction.
 For the photon transfer factor, the procedure is identical with the exception that the uncertainties are estimated one-dimensionally versus boson \pt{}.
 
 The scale uncertainties are treated as partially correlated between the \Zjets~and \Wjets~processes in the following fashion. 
-For a certain scale uncertainty component (e.g. the factorization scale) the $W/Z$ ratio is evaluated from the \Zjets{} and \Wjets~processes 
-separately and the difference to the nominal calculated.
+For a certain scale uncertainty component (e.g., the factorization scale) the W$/$Z ratio is evaluated from the \Zjets{} and \Wjets~processes 
+separately and the difference to the nominal value is calculated.
 An envelope of the largest uncertainty out of the two processes is taken as the uncertainty on the ratio.
 This is done for all of the theoretical uncertainty components on the ratios.
 It is observed that the contribution from varying the \Wjets~process is the larger uncertainty source,
 hence taking the envelope equates to taking the \Wjets~uncertainty contribution only and ignoring that from the Z.
 
-The PDF uncertainties are treated as fully correlated between the \Zjets~and \Wjets~processes. For up and down variations of the PDF, $W/Z$ ratio is 
-evaluated by varying the \Wjets~and \Zjets~processes simultaneously, and the varied $W/Z$ ratio is calculated accordingly. 
+The PDF uncertainties are treated as fully correlated between the \Zjets~and \Wjets~processes. For up and down variations of the PDF, W$/$Z ratio is 
+evaluated by varying the \Wjets~and \Zjets~processes simultaneously, and the varied W$/$Z ratio is calculated accordingly. 
 Both for the scale and PDF uncertainties, a similar correlation scheme is applied while computing the uncertainties for $\gamma~/~\Zjets$ ratio.
 
-The full set of theory uncertainties un the $W/Z$ and $\gamma/Z$ ratios are shown in Fig.~\ref{fig:theory_uncs}. On the top row,
-the uncertainties for QCD $W/Z$ ratio (left) and VBF $W/Z$ ratio (right) are shown. And similarly, on the bottom row,
-the uncertainties for QCD $\gamma/Z$ ratio (left) and VBF $\gamma/Z$ ratio (right) are shown. All uncertainties are shown as a function
+The full set of theory uncertainties on the W$/$Z and $\gamma/$Z ratios are shown in Fig.~\ref{fig:theory_uncs}. On the top row,
+the uncertainties for QCD W$/$Z ratio (left) and VBF W$/$Z ratio (right) are shown. On the bottom row,
+the uncertainties for QCD $\gamma/$Z ratio (left) and VBF $\gamma/$Z ratio (right) are shown. All uncertainties are shown as a function
 of the dijet invariant mass, $\mjj$. 
 
 \begin{figure}[htbp]
@@ -267,7 +266,7 @@ of the dijet invariant mass, $\mjj$.
     \includegraphics[width=0.45\textwidth]{TheoryUncertainties/uncertainty_ratio_z_ewk_mjj_unc_zoverw_nlo_2018.pdf} \\
     \includegraphics[width=0.45\textwidth]{TheoryUncertainties/uncertainty_ratio_gjets_qcd_mjj_unc_goverz_nlo_2018.pdf}
     \includegraphics[width=0.45\textwidth]{TheoryUncertainties/uncertainty_ratio_gjets_ewk_mjj_unc_goverz_nlo_2018.pdf}
-  \caption{Theoretical uncertainties on $W/Z$ (top) and $\gamma/Z$ (bottom) transfer factors. Uncertainties are calculated as a
+  \caption{Theoretical uncertainties on W$/$Z (top) and $\gamma/$Z (bottom) transfer factors. Uncertainties are calculated as a
   function of $\mjj$. Uncertainties for QCD ratios are shown on the left column, while uncertainties for EWK ratios are shown on the right column.}
   \label{fig:theory_uncs}
 \end{figure}
@@ -282,9 +281,9 @@ in the ratios.
 \subsubsection{Experimental uncertainties}
 
 Experimental uncertainties include uncertainties on the lepton reconstruction and identification criteria, jet energy scale and resolution, 
-pileup reweighting and prefire reweighting.
+pileup reweighting, and prefire reweighting.
 
-Uncertainties on veto weights are applied for electrons, muons, taus and b-jets. For the case of electrons and muons, the uncertainties are split
+Uncertainties on veto weights are applied for electrons, muons, taus and b jets. For the case of electrons and muons, the uncertainties are split
 into identification and isolation uncertainties, in accordance with the weight definitions for these objects, as defined in Sec.~\ref{subsec:lepton_id_reweighting}.
 These uncertainties are typically not correlated with the kinematics of the two VBF jets, and hence $\mjj$. Therefore, no significant shape as a function of $\mjj$ 
 is observed for these uncertainties, and flat uncertainties are applied. These uncertainties are summarized in Table.~\ref{tab:systematics}.
@@ -319,12 +318,12 @@ weight within its uncertainties, and computing the impact on the $\mjj$ distribu
 
 The uncertainty in the modeling of $\ptmiss$ in simulation~\cite{Khachatryan:2014gga} is dominated by the uncertainty on the jet energy scale (JES) 
 and resolution (JER). The effect is estimated by varying the $\pt$ of VBF jets within their uncertainty, propagating the effect to $\ptmiss$, and then 
-performing the full analysis selection based on the varied inputs. For JES uncertainties, this variation is done for 11 sub-sources, where each 
+performing the full analysis selection based on the varied inputs. For JES uncertainties, this variation is done for 11 sub sources, where each 
 sub-source is defined in accordance with the correlation scheme defined by JetMET POG, which can be found in \cite{jetMET_twiki}. The uncertainties for JES and
 JER are applied both to the transfer factors, and to the individual processes such as signal processes and minor backgrounds.
 
 In the transfer factors, the majority of the JES and JER uncertainties cancel, but residual non-cancellation is observed. The residual uncertainty 
-remaining in the ratios is found to be within approximately $2\%$. For the transfer factors, a flat single-bin uncertainty is assigned for each
+remaining in the ratios is found to be approximately $2\%$. For the transfer factors, a flat single-bin uncertainty is assigned for each
 JES and JER uncertainty source for each ratio. All the JES and JER uncertainties for 
 the Z(SR)/Z(CR) ($\Zmmjets$ and $\Zeejets$ channels combined for Z(CR)) ratio are shown in Fig.~\ref{fig:znunu_over_zll_jes_jer_uncs}. 
 The uncertainties for Z(SR)/$\gamma$ are shown in Fig~\ref{fig:znunu_over_gjets_jes_jer_uncs}. 
@@ -335,7 +334,7 @@ The uncertainties for Z(SR)/$\gamma$ are shown in Fig~\ref{fig:znunu_over_gjets_
   \includegraphics[width=0.49\textwidth]{ExperimentalUncertainties/JEC/znunu_over_zll17_qcd_splitJEC_singleBin.pdf}
   \includegraphics[width=0.49\textwidth]{ExperimentalUncertainties/JEC/znunu_over_zll18_qcd_splitJEC_singleBin.pdf}
   \caption{All single-bin JES/JER uncertainties on QCD Z(SR)/Z(CR) ratio for 2017 (left) and 2018 (right). 
-    The black dot shows the JER uncertainty, and the others show up and down variation from all 11 JES sub-sources. 
+    The black dot shows the JER uncertainty, and the others show up and down variation from all 11 JES sub sources. 
     All jet energy scale and resolution uncertainties cancel to within less than $1\%$.
   }
   \label{fig:znunu_over_zll_jes_jer_uncs}
@@ -352,15 +351,15 @@ The uncertainties for Z(SR)/$\gamma$ are shown in Fig~\ref{fig:znunu_over_gjets_
   \label{fig:znunu_over_gjets_jes_jer_uncs}
 \end{figure}
 
-JES and JER uncertainties on minor backgrounds and signals are calculated in a very similar way as for the transfer factors. 
+The JES and JER uncertainties on minor backgrounds and signals are calculated in a very similar way as for the transfer factors. 
 For these, the uncertainties are derived as a function of $\mjj$ for each jet energy uncertainty source. The uncertainties for minor backgrounds (top, diboson)
 are derived using the strong $\Zvvjets$ sample, due to the limited statistics from the minor backgrounds. The uncertainties for $\hinv$ signal samples 
 are derived from VBF $\hinv$ sample.
-Most jet energy uncertainty sources are found to be on the order of $\mathcal{O}(1\%)$, while the uncertainty coming from the relative corrections are typically
+Most jet energy uncertainty sources are found to be on the order of $1\%$, while the uncertainty coming from the relative corrections are typically
 found to be the dominating ones, also displaying an increasing shape as a function of $\mjj$, reaching to $\mathcal{O}(10\%)$ uncertainty levels at high $\mjj$.
 
 The most dominating uncertainty source is the ``Relative Sample'' uncertainty, which is the jet $\eta$-dependent uncertainty due to different
-residual jet energy corrections obtained by measurement from different channels, such as dijet events, $\gamma+jet$ events and $Z+jet$ events.
+residual jet energy corrections obtained by measurement from different channels, such as dijet events, $\gamma+$ jet events and Z$+$ jet events.
 For these larger uncertainty sources, a second-degree polynomial is fit to smooth out the uncertainty shape. For smaller jet energy uncertainty sources,
 a line fit is performed instead. For most jet energy uncertainty sources, no significant shape is observed as a function of $\mjj$.
 The dominating jet energy uncertainty source, ``Relative Sample", 

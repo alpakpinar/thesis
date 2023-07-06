@@ -4,7 +4,7 @@
 
 As described in Sec.~\ref{subsec:trigger_system}, high-level trigger (HLT) in CMS is the last step of event selection before accepted events are saved for storage
 and offline analysis.
-The event selection at this step is done by reconstructing physics objects within the event, such as electrons, muons, jets 
+The event selection at this step is done by reconstructing physics objects within the event, such as electrons, muons, jets, 
 and missing transverse momentum (each defined in Sec.~\ref{sec:objects}).
 Several identification criteria are applied on these reconstructed physics objects to select events of potential interest. The reconstruction of each
 type of particle is described in~\cite{cms:hlt_paper}.
@@ -53,8 +53,8 @@ The jet shower shape variables in these two regions are shown in Fig.~\ref{fig:h
     \caption{The HF jet shower shape variables for noise-enriched (left) and physics-enriched regions (right).
     The top row shows the two-dimensional distributions of $\eta$ and $\phi$ width, $\sieie$ and $\sipip$. The red lines on these
     figures correspond to the filter applied to reject the jets, and the legend on top left quotes the percentage of jets that fail the requirements.
-    The bottom row shows the distributions of central and adjacent strip sizes. Higher values of central strip size (i.e. $=3$) are observed for mismeasured
-    jets, and hence the this variable is required to be $< 3$ as a part of the filter.}
+    The bottom row shows the distributions of central and adjacent strip sizes. Values of central strip size $\geq3$ are observed for mismeasured
+    jets, and this variable is required to be $< 3$ as a part of the filter.}
     \label{fig:hf_variables_hlt}
 \end{figure}
 
@@ -71,13 +71,12 @@ From Fig.~\ref{fig:hf_variables_hlt}, it can be observed that applying these cut
 jets, and the impact on well-reconstructed events (here, $\gamma$ + jet) is on the order of $1\%$. 
 
 For the Run3 data taking at CMS experiment, a new set of HLT paths were included that utilize this jet filtering technique. The implementation is
-done on HLT paths which cut on $\ptmiss$ and $\htmiss$, where $\htmiss$ is defined as the imbalance in total jet momenta, as shown in Eq.~\ref{eq:htmiss_def}.
+done on HLT paths which cut on $\ptmiss$ and $\htmiss$, where $\htmiss$ is defined as the imbalance in total jet momenta,
 
 \begin{equation}
-    \htmiss = \left| \sum_{jet} \vec{\pt}^{jet} \right|
+    \htmiss = \left| \sum_{\mathrm{jet}} \ptvecjet \right|
     \label{eq:htmiss_def}
 \end{equation}
-
 where the sum goes over jets with $\pt > 20$ GeV. The HF cuts are included in the HLT path such that if a jet fails the requirements, it will not be considered
 in the $\htmiss$ calculation. This way, $\htmiss$ will be corrected from the impact of jets with mismeasured $\pt$ values, and the probability of such events
 making it through the $\htmiss$ filter is lower.
@@ -121,18 +120,17 @@ on $\Wmnjets$ events. The events to consider in the efficiency measurement are s
 
 \begin{itemize}
     \item Leading jet $\pt > 30$ GeV, leading jet must be tightly identified, according to the definition in Sec.~\ref{sec:objects_jets}.
-    \item Events must pass a muon HLT path \textit{HLT\_IsoMu27}, which requires a muon to be reconstructed with $\pt > 27$ GeV at HLT.
+    \item Events must pass a muon HLT path HLT\_IsoMu27, which requires a muon to be reconstructed with $\pt > 27$ GeV at HLT.
     \item Events must have a well-identified muon (reconstructed offline) with $\pt > 30$ GeV, which is tightly identified, as defined in Sec.~\ref{subsec:muons}.
 \end{itemize}
 
-The efficiency of the $\ptmissnomu$-based paths are measured as a function of recoil, which corresponds to $\pt$ of the $W$ boson (see Sec.~\ref{subsec:objects_met_recoil}). 
+The efficiency of the $\ptmissnomu$-based paths are measured as a function of recoil, which corresponds to $\pt$ of the W boson (see Sec.~\ref{subsec:objects_met_recoil}). 
 The efficiencies are shown in Fig.~\ref{fig:filterhf_efficiency}, where the left-hand side plot shows the efficiency of the HLT path without the HF-jet filter, and the right-hand side plot
 shows the efficiency of the other path with the filter. To model the turn-on behavior of the efficiencies, a sigmoid function is fit to both curves, which is defined as follows:
 
 \begin{equation}
     f(x) = \frac{1}{1 + e^{-(x - \mu)/\sigma}}
 \end{equation}
-
 where $\mu$ and $\sigma$ are determined from the best-fit to the data. The best-fit $\mu$ and $\sigma$ parameters are also shown in the legend for each plot.
 It can be observed that for the two paths, the efficiencies are found to be almost identical, hence
 supporting the fact that the loss of well-reconstructed events from the HF-filter is very minimal.  
@@ -156,7 +154,7 @@ shows the number of events passing the two paths, as a function of $\eta$ of the
 The blue curve corresponds to events passing the HLT path without the filter, and the orange curve corresponds to the path with the filter. Finally, the ratio pad at the bottom
 gives the ratio between the orange and blue curves. It can observed that, close to an additional $50\%$ of events near $3<|\eta|<3.25$ are rejected 
 with the HF-filter\footnote{Looking at Fig.~\ref{fig:hf_variables_hlt}, the $\approx 50\%$ rejection quoted here should not come as a big surprise.
-Based on studies with the data taken in 2018, an approximate $50\%$ reduction of events where the leading-$p_{T}$ jet lies within $3 < |\eta| < 3.25$
+Based on studies with the data taken in 2018, an approximate $50\%$ reduction of events where the leading-$\pt$ jet lies within $3 < |\eta| < 3.25$
 was already estimated.}. 
 This reduction of events is found to be corresonding to about $10\%$ overall reduction in rate of the HLT paths where the filter is introduced. It should also be noted that
 outside the region where the leading jet is within $3 < |\eta| < 3.25$, the impact due to the HF-jet filter is either $0$ or very small. The small impact in this case comes from

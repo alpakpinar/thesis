@@ -34,7 +34,7 @@ Outside of the tracker phase space, the charged hadron and neutral hadron classi
 In addition, the analysis employs 
 various event filters to reduce events with large misreconstructed \ptmiss~\cite{Sirunyan:2019kia} originating from 
 non-collision backgrounds. The filters are complemented by a requirement on the relative difference between the default 
-PF \ptmiss value used in the analysis and the \ptmiss value reconstructed just from calorimeter deposits and muons. 
+PF \ptmiss used in the analysis and the \ptmiss reconstructed just from calorimeter deposits and muons. 
 In an event with genuine $\ptmiss$, one would expect the two $\ptmiss$ calculations to result in reasonably close values.
 Following this constraint, the following cut is imposed on events:
 
@@ -47,28 +47,29 @@ In Eq.~\ref{eq:dpfcalo_cut}, $\Delta\ptmiss(\text{PF},\text{Calo})$ refers to th
 using the full event information (PF) and calorimeter information only (Calo).
 
 For the VBF $\hinv$ signal events, two leading jets in opposite hemispheres are expected in the final state, with large dijet mass. 
-Furthermore, these jets are expected to have large rapidity separation ($\Delta\eta_{jj}$) and small azimuthal separation ($\Delta\phi_{jj}$). 
+Furthermore, these jets are expected to have large rapidity separation ($\detajj$) and small azimuthal separation ($\dphijj$). 
 Therefore, this analysis employs several requirements on $\mjj$, $\detajj$ and $\dphijj$, which can be 
 found in Table~\ref{tab:selection_mtr}.
 
 The main background processes that mimic the VBF $\hinv$ signal final state in this search are the $\Zvvjets$ and $\Wlvjets$ processes. 
 The $\Zvvjets$ process is an irreducible background and constitutes the largest background in the search, due to the fact that the decay
-products of $Z$ boson (neutrinos) will not interact with the detector, causing genuine $\ptmiss$. In the case where the $Z$ boson production
+products of $\textrm{Z}$ boson (neutrinos) will not interact with the detector, causing genuine $\ptmiss$. 
+In the case where the $\textrm{Z}$ boson production
 is associated with two final state jets, the background final state mimics the signal final state. The leading order $\Zvvjets$ diagrams
-are shown in Fig.~\ref{fig:zvv_bkg_feynman}. It should also be noted that the branching fraction for the $Z \rightarrow \nu\bar{\nu}$ decay is
+are shown in Fig.~\ref{fig:zvv_bkg_feynman}. It should also be noted that the branching fraction for the $\textrm{Z} \rightarrow \nu\bar{\nu}$ decay is
 not-negligible ($\approx 20\%$), making $\Zvvjets$ a large background in the VBF signal region. 
 
 \begin{figure}[htbp!]
     \centering
     \includegraphics[width=0.45\textwidth]{QCDV2j_Feynman.pdf}
     \includegraphics[width=0.45\textwidth]{VBFV2j_Feynman.pdf}
-    \caption{Feynman diagrams showing the electroweak (left) and strong (right) production of a $Z$ boson, which decays into
+    \caption{Feynman diagrams showing the electroweak (left) and strong (right) production of a $\textrm{Z}$ boson, which decays into
     a pair of neutrinos. Two hadronic jets are also produced in the final state, making such processes an irreducible background
     in the VBF $\hinv$ analysis.}
     \label{fig:zvv_bkg_feynman}
 \end{figure}
 
-Another important background comes from the $\Wlvjets$ process, where a $W$ boson is produced and decays leptonically,
+Another important background comes from the $\Wlvjets$ process, where a $\textrm{W}$ boson is produced and decays leptonically,
 together with the presence of two hadronic jets in the final state.
 This is not an irreducible background however, due to the fact that rejecting events with reconstructed leptons
 will significantly suppress this process. Because of this, a lepton veto is imposed in the signal region, where  
@@ -78,13 +79,14 @@ instead of directly rejecting an event due to
 a lepton in the final state, a veto weight $\omega$ is applied that depends on the kinematics of final state lepton(s), where
 $\omega \approx 0$ in the presence of one or more reconstructed leptons. In observed data, no such reweighting is done and
 the hard-lepton-veto is still applied. Please see Sec.~\ref{subsec:veto_weight_reweighting}
-for the details of this.}. 
+for details.}. 
 
 Events that contain a loose, isolated photon with $\pt>15$ GeV and $|\eta| < 2.5$ are also rejected. 
 This helps to suppress electroweak (EWK) backgrounds in which a photon is radiated from the initial state.
-To reduce the contamination from top quark backgrounds, events are rejected if they contain a b tagged jet with $\pt > 20$ GeV 
-and $|\eta| < 2.4$\footnote{This requirement significantly suppresses the top quark backgrounds, due to its very large branching fraction
-to final states with b-quarks (i.e. $BR(t \rightarrow W^{+} b) \approx 96\%$).}. 
+To reduce the contamination from top quark backgrounds, events are 
+rejected\footnote{This requirement significantly suppresses the top quark backgrounds, due to its very large branching fraction
+to final states with b quarks (\textit{i.e.,} $\textrm{BR}(\textrm{t} \rightarrow \textrm{W}^{+} \textrm{b}) \approx 96\%$).} 
+if they contain a b-tagged jet with $\pt > 20$ GeV and $|\eta| < 2.4$. 
 These jets are identified using the DeepCSV algorithm~\cite{CMS_NOTE_2018-323,Sirunyan:2017ezt}, 
 adopting the ``medium'' working point, which corresponds to correctly identifying a jet originating from a bottom quark with 
 a probability of 80\% and misidentifying a jet originating from a charm quark (light-flavor jet) with a probability of 12 (2)\%.
@@ -92,7 +94,7 @@ a probability of 80\% and misidentifying a jet originating from a charm quark (l
 Last source of background is the QCD multijet events, with $\ptmiss$ arising from mismeasurements of the jet momenta. 
 This background is suppressed by requiring the minimum
 azimuthal angle between the \ptvecmiss direction and each of the first four leading jets with $\pt > 30$ GeV
-and $|\eta| < 4.7$ to be larger than 0.5 radians. The QCD multijet background where one or more of the jet(s) is forward (i.e. $|\eta|>3$)
+and $|\eta| < 4.7$ to be larger than 0.5 radians. The QCD multijet background where one or more of the jet(s) is forward (\textit{i.e.,} $|\eta|>3$)
 is further suppressed by the application of dedicated HF cleaning cuts, described in Sec.~\ref{subsec:hfnoise}.
 
 The selection requirements for the signal region in this analysis are summarized in Table~\ref{tab:selection_mtr}.
@@ -257,7 +259,7 @@ and~\ref{fig:SR_eta_vbfhinv_2018_mtr}.
 \subsection{Single Muon Control Region}
 \label{sec:selection_cr_1m}
 
-Single-muon control region events are selected using full signal region criteria of VBF selection with the exception of the muon veto. 
+Single-muon control-region events are selected using full signal-region criteria of VBF selection with the exception of the muon veto. 
 The \ptmiss requirement is replaced by an identical requirement on the hadronic recoil, which is defined as the sum of \ptvecmiss and the muon \vpt (Eq.~\ref{eq:recoil_def}), 
 and thus corresponds to the \pt of the W boson.
 In the single-muon control region, exactly one tightly identified, isolated muon with $\pt > 20$ GeV is required. 
@@ -337,9 +339,9 @@ and the $\pt$ and $\eta$ of the electron, the decay product of the $W$ boson, fo
 \subsection{Double Muon Control Region}
 \label{sec:selection_cr_2m}
 
-Double-muon control region events are selected using full signal region criteria of VBF category with the exception of the muon veto. 
+Double-muon control region events are selected using full signal-region criteria of VBF category with the exception of the muon veto. 
 In the double-muon control region, events are selected by requiring leading (subleading) muon \pt greater than 20 (10) GeV and 
-an invariant mass of the two muons is required to be in the range of 60 to 120 GeV, compatible with a $Z \rightarrow \mu \mu$ decay. 
+an invariant mass of the two muons is required to be in the range of 60 to 120 GeV, compatible with a $\textrm{Z} \rightarrow \mu \mu$ decay. 
 At least one of the two muons is required to 
 pass the tight candidate definition, as defined in Sec.~\ref{subsec:muons}. 
 Events are rejected if there is an additional loose muon or electron with $\pt > 10$ GeV. 
@@ -373,7 +375,7 @@ of the leading muon \pt and $\eta$, as well as the dimuon mass and minimum $\dph
         \includegraphics[width=0.49\textwidth]{\plotDir/cr_2m_vbf/cr_2m_vbf_data_mc_dphijr_2017.pdf}
     \end{center}
     \caption{Comparison between 2017 data and Monte Carlo simulation in the double muon control region for
-        the $\pt$ and $\eta$ of the leading muon (top), dimuon mass and minimum $\dphi$ between 4 leading jets and recoil (bottom).}
+        the $\pt$ and $\eta$ of the leading muon (top), and dimuon mass and minimum $\dphi$ between 4 leading jets and recoil (bottom).}
     \label{fig:cr_2m_vbf_2017_mtr_2}
 \end{figure}
 
@@ -410,10 +412,10 @@ Events for the double-electron control region are collected with the single-elec
 photon triggers described in Sec.~\ref{subsec:trigger_eff_reweighting}. In the offline analysis, events in the dielectron 
 control region are required to contain exactly two oppositely charged electrons with leading (trailing) 
 electron \pt greater than 40 (10) GeV, with at least one of the two passing the tight candidate definition, as defined in Sec.~\ref{subsec:electrons}.
-Similar to the double muon region, the invariant mass of the electron-positron pair is required to be in the range of $60$ to $120$ GeV,
-thus being compatible with a $Z\rightarrow ee$ decay. 
+Similar to the double-muon region, the invariant mass of the electron-positron pair is required to be in the range of $60$ to $120$ GeV,
+thus being compatible with a $\textrm{Z} \rightarrow ee$ decay. 
 The SR \ptmiss requirement is replaced with an identical requirement on the hadronic recoil, which is defined as the 
-sum of \ptvecmiss and the muon \vpt (Eq.~\ref{eq:recoil_def}), and thus corresponds to the distribution of the Z \pt smeared with the \ptmiss resolution. 
+sum of \ptvecmiss and the electron \vpt (Eq.~\ref{eq:recoil_def}), and thus corresponds to the distribution of the Z \pt smeared with the \ptmiss resolution. 
 
 Figs.~\ref{fig:cr_2e_vbf_2017_mtr} and~\ref{fig:cr_2e_vbf_2018_mtr} show the distributions of the recoil, $\mjj$, $\detajj$ and
 $\dphijj$ for the two leading AK4 jets for events in the double-electron control region for the VBF category 
@@ -499,7 +501,7 @@ show the distributions of the photon $\pt$ and $\eta$.
     \end{center}
     \caption{Comparison between 2017 data and Monte Carlo simulation in the photon control region for
         the recoil distribution, the $\mjj$ distribution, $\detajj$ distribution and $\dphijj$ distribution
-        for the two leading AK4 jets. $\mjj$ and recoil distributions include the QCD estimate
+        for the two leading AK4 jets. The $\mjj$ and recoil distributions include the QCD estimate
         calculated from the photon purity measurement, as described in Sec.~\ref{subsec:photonpurity}. }
     \label{fig:Photon_vbfhinv_2017}
 \end{figure}
@@ -523,7 +525,7 @@ show the distributions of the photon $\pt$ and $\eta$.
     \end{center}
     \caption{Comparison between 2018 data and Monte Carlo simulation in the photon control region for
         the recoil distribution, the $\mjj$ distribution, $\detajj$ distribution and $\dphijj$ distribution
-        for the two leading AK4 jets. $\mjj$ and recoil distributions include the QCD estimate
+        for the two leading AK4 jets. The $\mjj$ and recoil distributions include the QCD estimate
         calculated from the photon purtiy measurement, as described in Sec.~\ref{subsec:photonpurity}. }
     \label{fig:Photon_vbfhinv_2018}
 \end{figure}

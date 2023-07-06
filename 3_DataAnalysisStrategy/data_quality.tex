@@ -12,9 +12,9 @@ phase space. Combination of these different factors makes it harder to reconstru
 and measure their energies accurately at the HF detector. Therefore, there
 is a sizable probability that the $\pt$ of a jet reconstructed at high $|\eta|$ being highly mismeasured.
 Such mismeasurements can lead to spurious $\ptmiss$ in QCD multijet events (e.g. $q\bar{q} \rightarrow q\bar{q}$),
-due to $\pt$ of one of the final state jets being severely mismeasured. It should be noted that while the probability
-of such severe mismeasurement is relatively small, the very large cross section of QCD multijet processes in a p-p collider
-compensates for this, and the number of events with spurious $\ptmiss$ cannot be ignored.
+due to $\pt$ of one of the final state jets being severely mismeasured. 
+The very large cross section of QCD multijet processes in a pp collider
+means that events with spurious $\ptmiss$ cannot be ignored.
 This becomes problematic for analyses that target $\ptmiss$ (such as analyses targeting $\hinv$ signature), 
 since mismeasured QCD multijet events can pass
 the high $\ptmiss$ requirement imposed on the analysis signal region. Hence, this effect needs to taken into account. 
@@ -23,34 +23,34 @@ It was observed that jets resulting from such mismeasurement present a distingui
 Their shower shape is spread in $\eta$ and narrow in $\phi$. Shower shape variables of HF jets ($\sieie$, $\sipip$, HF central strip size) 
 have therefore been introduced and added to the event content in the input datasets. 
 $\sieie$ represents the shower width of the HF jet in $\eta$ direction, and similarly, $\sipip$ represents the shower width in $\phi$ direction. 
-Their definitions can be found below:
+Their definitions are
 
 \begin{equation}
     \begin{split}
-        \sieie &= \sqrt{\frac{ \sum_{i} \Delta\eta(i, jet)^2 \omega_i }{ \sum_{i} \omega_i }} \\
+        \sieie &= \sqrt{\frac{ \sum_{i} \Delta\eta(i, jet)^2 \omega_i }{ \sum_{i} \omega_i }} \quad \textrm{and} \\
         \sipip &= \sqrt{\frac{ \sum_{i} \Delta\phi(i, jet)^2 \omega_i }{ \sum_{i} \omega_i }}
     \end{split}
     \label{eq:sieie_sipip}
 \end{equation}
 
 In Eq.~\ref{eq:sieie_sipip}, the sums run over all PF candidates with $\pt > 3$ GeV, and 
-$\omega_i$ is the weight applied to PF candidate $i$ within the jet, which is computed as follows:
+$\omega_i$ is the weight applied to PF candidate $i$ within the jet, which is computed as
 
 \begin{equation}
-    \omega_i = \frac{p_T^i - p_T^{\text{PU offset}}}{\sum_{i} p_T^{i} - p_T^{\text{PU offset}} }
+    \omega_i = \frac{{\pt}^i - {\pt}^{\text{PU offset}}}{\sum_{i} {\pt}^{i} - {\pt}^{\text{PU offset}} }
     \label{eq:omega_def}
 \end{equation}
 
-In Eq.~\ref{eq:omega_def}, $p_T^{\text{PU offset}}$ refers to the offset correction on the $\pt$ of the particle 
+In Eq.~\ref{eq:omega_def}, ${\pt}^{\text{PU offset}}$ refers to the offset correction on the $\pt$ of the particle 
 due to pileup (PU). It is defined as follows:
 
 \begin{equation}
-    p_T^{\text{PU offset}} = \frac{\text{jet L1 offset / gen vtx}}{\pi \times 0.4^2} \times \frac{N_{\text{reco vertices}}}{\epsilon^{reco}(\text{PU vtx})} \times S_{\text{HF tower}}
+    p_T^{\text{PU offset}} = \frac{\text{jet L1 offset / gen vtx}}{\pi \times 0.4^2} \times \frac{N_{\text{reco vertices}}}{\epsilon^{\text{reco}}(\text{PU vtx})} \times S_{\text{HF tower}}
 \end{equation}
 
 The other distinguishing variable, HF central strip size ($\hfcss$), is computed as follows: 
-$N_{cands}$ with $\pt > 10$ GeV \& $|\Delta\phi(cand,jet)| < 0.05$. It is a measure of the number of
-highly energetic particles reconstructed close to the jet centroid (i.e. $|\Delta\phi(cand,jet)| < 0.05$).
+$N_{\textrm{cands}}$ with $\pt > 10$ GeV \& $|\Delta\phi(\textrm{cand, jet})| < 0.05$. It is a measure of the number of
+highly energetic particles reconstructed close to the jet centroid (\textit{i.e.,} $|\Delta\phi(\textrm{cand, jet})| < 0.05$).
 In the event of spurious large energy deposits from a jet, one can expect larger number of energetic particles
 being reconstructed closer to the jet centroid, as a result of those energy deposits.
 
@@ -63,25 +63,25 @@ The study and the definition of the HF noise cuts, and the residual HF noise est
 
 In order to study the discriminating power of these variables directly in data, two regions enriched in ``physics'' jets and ``noise'' jets are defined. ``Physics'' jets
 refer to HF jets that are recoiling against a well-reconstructed physics object (in this study, a photon), and ``noise'' jets 
-refer to HF jets that recoil against no visible physics object, hence creating $\ptmiss$ in the event. The region where the ``physics'' jets are tagged
+refer to HF jets that recoil against no visible physics object, creating $\ptmiss$ in the event. The region where the ``physics'' jets are tagged
 is termed as the physics-enriched region, and the region where the ``noise'' jets are tagged is termed as the noise-enriched region.
 
 The physics-enriched region consists of events where a HF jet recoils against a photon. 
-Jet and photon being back-to-back is ensured by a series of cuts on $\Delta\phi(\gamma, jet)$,
-ratio of transverse momenta of the photon and the jet, and also the requirement of low $\ptmiss$ in the event. The selections are listed below: 
+Jet and photon being back-to-back is ensured by a series of cuts on $\Delta\phi(\gamma, \textrm{jet})$,
+ratio of transverse momenta of the photon and the jet, and also the requirement of low $\ptmiss$ in the event. The selections are:
 
 \begin{itemize}
     \item Exactly one well identified photon (tight identification, as discussed in Sec.~\ref{subsec:photons})
-    \item Events passing a single photon trigger requiring $p_T^{\gamma} > 110$ GeV
-    \item $\Delta\phi(\gamma, jet) > 2.7$
-    \item $0.5 < \frac{p_T(\gamma)}{p_T(jet)} < 1.5$
+    \item Events passing a single photon trigger requiring $p_{\textrm{T, trig}}^{\gamma} > 110$ GeV
+    \item $\Delta\phi(\gamma, \textrm{jet}) > 2.7$
+    \item $0.5 < \frac{\pt(\gamma)}{{\pt}(\textrm{jet})} < 1.5$
     \item $\ptmiss < 50$ GeV
 \end{itemize}
 
 The noise-enriched region includes events with exactly one high $\pt$ HF jet and high $\ptmiss$.
 The aim here is to collect events with a mis-measured HF jet, such that it has very high $\pt$, but there is no other high $\pt$ physics object in the event,
 giving rise to $\ptmiss$ in the event.
-The complete requirements for this region are listed below:
+The complete requirements for this region are:
 
 \begin{itemize}
     \item Events passing the MET trigger described in Sec.~\ref{subsubsec:met_trigger_eff}, requiring $\ptmiss > 120$ GeV and $\htmiss > 120$ GeV
@@ -120,7 +120,7 @@ $\sipip$ and high $\sieie$.
     \includegraphics[width=0.45\textwidth]{HFStudy/sigmaetaetavssigmaphiphi_METenriched_eta3p25to4.pdf}
     \includegraphics[width=0.45\textwidth]{HFStudy/sigmaetaetavssigmaphiphi_METenriched_eta4to5p2.pdf}
     \caption{Two dimensional distribution of $\sieie$ and $\sipip$ in the noise-enriched region, split by the $|\eta|$ of the jet. The first plot shows 
-    $2.99 < |\eta| < 3.25$ interval, the second one shows $3.25 < |\eta| < 4$ and the last one shows $4 < |\eta| < 5.2$. The red lines on the plots indicate
+    $2.99 < |\eta| < 3.25$ interval, the second one shows $3.25 < |\eta| < 4$, and the last one shows $4 < |\eta| < 5.2$. The red lines on the plots indicate
     the cuts applied on these variables.}
     \label{fig:sieie_sipip_noise_enriched}
 \end{figure}
@@ -131,7 +131,7 @@ $\sipip$ and high $\sieie$.
     \includegraphics[width=0.45\textwidth]{HFStudy/sigmaetaetavssigmaphiphi_photonjets_eta3p25to4.pdf}
     \includegraphics[width=0.45\textwidth]{HFStudy/sigmaetaetavssigmaphiphi_photonjets_eta4to5p2.pdf}
     \caption{Two dimensional distribution of $\sieie$ and $\sipip$ in the physics-enriched region, split by the $|\eta|$ of the jet. The first plot shows 
-    $2.99 < |\eta| < 3.25$ interval, the second one shows $3.25 < |\eta| < 4$ and the last one shows $4 < |\eta| < 5.2$. The red lines on the plots indicate
+    $2.99 < |\eta| < 3.25$ interval, the second one shows $3.25 < |\eta| < 4$, and the last one shows $4 < |\eta| < 5.2$. The red lines on the plots indicate
     the cuts applied on these variables.}
     \label{fig:sieie_sipip_physics_enriched}
 \end{figure}
@@ -148,7 +148,7 @@ the analysis, requiring $\hfcss < 3$ for HF jets that are back to back with $\pt
     \includegraphics[width=0.45\textwidth]{HFStudy/etasizecentralvsadj_METenriched_eta3p25to4.pdf}
     \includegraphics[width=0.45\textwidth]{HFStudy/etasizecentralvsadj_METenriched_eta4to5p2.pdf}
     \caption{Two dimensional distribution of central and adjacent strip sizes in the noise enriched region, split by the $|\eta|$ of the jet. The first plot shows 
-    $2.99 < |\eta| < 3.25$ interval, the second one shows $3.25 < |\eta| < 4$ and the last one shows $4 < |\eta| < 5.2$.}
+    $2.99 < |\eta| < 3.25$ interval, the second one shows $3.25 < |\eta| < 4$, and the last one shows $4 < |\eta| < 5.2$.}
     \label{fig:stripsize_noise_enriched}
 \end{figure}
 
@@ -158,7 +158,7 @@ the analysis, requiring $\hfcss < 3$ for HF jets that are back to back with $\pt
     \includegraphics[width=0.45\textwidth]{HFStudy/etasizecentralvsadj_gammajets_eta3p25to4.pdf}
     \includegraphics[width=0.45\textwidth]{HFStudy/etasizecentralvsadj_gammajets_eta4to5p2.pdf}
     \caption{Two dimensional distribution of central and adjacent strip sizes in the physics enriched region, split by the $|\eta|$ of the jet. The first plot shows 
-    $2.99 < |\eta| < 3.25$ interval, the second one shows $3.25 < |\eta| < 4$ and the last one shows $4 < |\eta| < 5.2$.}
+    $2.99 < |\eta| < 3.25$ interval, the second one shows $3.25 < |\eta| < 4$, and the last one shows $4 < |\eta| < 5.2$.}
     \label{fig:stripsize_phys_enriched}
 \end{figure}
 
@@ -172,7 +172,7 @@ In summary, the cleaning cuts applied to HF jets are:
 \end{itemize}
 
 They are applied to all jets with $\pt > 100$ GeV and $|\eta| > 2.99$ that are back-to-back with $\ptmiss$
-(i.e. $\Delta\phi(jet,\ptmiss) > 2.5$). If any such jet fails the cuts, the event is rejected. 
+(i.e. $\Delta\phi(\textrm{jet},\ptmiss) > 2.5$). If any such jet fails the cuts, the event is rejected. 
 
 
 \subsubsection{Residual HF Noise Estimation}
@@ -187,34 +187,34 @@ discussed in Sec.~\ref{subsec:sr_vbf_selection}. For the remainder of this text,
 region will be referred to as HF control region.
 
 With the addition of this HF control region (CR), the estimation is done in three steps.
-First, data and MC yields in this CR are computed ($N_{data}$, $N_{MC}$). The excess amount of data over MC 
+First, data and MC yields in this CR are computed ($N_{\textrm{data}}$, $N_{\textrm{MC}}$). The excess amount of data over MC 
 in this control region gives the number of excess events in data with HF noise, not modeled by the 
-simulation: $N_{noise}^{CR} = N_{data} - N_{MC}$. 
-Finally, the noise estimate in analysis signal region is calculated from $N_{noise}^{CR}$ by using $[\pt, \eta]$ dependent transfer factors,
-defined as the relative probability for a noise event to pass the HF shape cuts, relative to failing them.
+simulation: $N_{\textrm{noise}}^{\textrm{CR}} = N_{\textrm{data}} - N_{\textrm{MC}}$. 
+Finally, the noise estimate in analysis signal region is calculated from $N_{\textrm{noise}}^{\textrm{CR}}$ by using $[\pt, \eta]$ dependent transfer factors,
+defined as the relative probability for a noise event to pass the HF shape cuts.
 This probability is derived from events in a noise-enriched region, where the probability of a jet in such an event
 to pass the HF cuts can be computed as a function of its pseudorapidity and transverse momentum, $\hfprobpass[p_{T}, \eta]$.
-Using these probabilities, the transfer factor $R_{jet}$ for a single jet can be then written as:
+Using these probabilities, the transfer factor $R_{\textrm{jet}}$ for a single jet can be then written as:
 
 \begin{equation}
-    R_{jet} (p_T, \eta) = \frac{\hfprobpass}{\hfprobfail} (p_T, \eta) = \frac{\hfprobpass}{1 - \hfprobpass} (p_T, \eta)
+    R_{\textrm{jet}} (p_T, \eta) = \frac{\hfprobpass}{\hfprobfail} (p_T, \eta) = \frac{\hfprobpass}{1 - \hfprobpass} (p_T, \eta)
 \end{equation}
 
 For a given event, the total transfer factor (taking all HF jets into account in the event) can be then computed as
 
 \begin{equation}
-    R_{event} = \prod_{jet} R_{jet} (p_T, \eta)
+    R_{\textrm{event}} = \prod_{\textrm{jet}} R_{\textrm{jet}} (\pt, \eta)
 \end{equation}
 
-where the product runs over the jets in the event with $p_T > 100$ GeV and $|eta| > 2.99$ (i.e. HF jets). If there are no
-jets in the event that satisfy this criteria, $R_{event}$ is defined to be $0$, signifying the fact that there will be no contribution
-to the signal region noise estimate template from this event. If there is such a jet however, $R_{event} \neq 0$, hence signifying
+where the product runs over the jets in the event with $\pt > 100$ GeV and $|\eta| > 2.99$ (i.e. HF jets). If there are no
+jets in the event that satisfy this criteria, $R_{\textrm{event}}$ is defined to be $0$, signifying the fact that there will be no contribution
+to the signal region noise estimate template from this event. If there is such a jet however, $R_{\textrm{event}} \neq 0$, hence signifying
 a non-zero contribution to the noise estimation in the signal region.
 
 In this way, the contribution of a single event in the noise-enriched CR to the HF noise template in the signal region can be written as
 
 \begin{equation}
-    N_{noise}^{SR} = R_{event} \times (N_{data}^{CR} - N_{MC}^{CR})
+    N_{\textrm{noise}}^{\textrm{SR}} = R_{\textrm{event}} \times (N_{\textrm{data}}^{\textrm{CR}} - N_{\textrm{MC}}^{\textrm{CR}})
     \label{eq:hf_noise_calc_single_event}
 \end{equation}
 
@@ -223,7 +223,7 @@ As the final step, summing up the contributions from all events in the HF contro
 noise estimate template for the HF noise, which are shown in Fig.~\ref{fig:hf_estimation_mtr}.
 Plots on the left column show the data and total MC
 yields in the HF control region, each event being already scaled by the transfer factor 
-$R_{event}$ as defined above. 
+$R_{\textrm{event}}$ as defined above. 
 Plots on the right column show the resulting HF noise estimation in the analysis
 signal region, which correspond to the difference of data and MC yields in the left-hand side plots.
 Plots on the top show the results with 2017 data, and plots on the bottom show results with 2018 data.
@@ -249,7 +249,7 @@ processes are suppressed.
 To make sure that this noise estimation provides an accurate modeling of the data in the phase space where HF noise contribution is highest,
 $3 < |\eta| < 3.25$, a closure test was performed. A subset of events in VBF signal region were picked, which have the leading jet in
 the $3 < |\eta| < 3.25$ range, and the data yields are compared to the expected background yields in this region, including the HF noise estimation.
-For these events, Fig.~\ref{fig:hf_noise_closure} shows the $\Delta\phi(p_{T,trk}^{miss}, \ptmiss)$ distribution, where $p_{T,trk}^{miss}$ refers to the
+For these events, Fig.~\ref{fig:hf_noise_closure} shows the $\Delta\phi(\ptmisstrk, \ptmiss)$ distribution, where $\ptmisstrk$ refers to the
 $\ptmiss$ computed only relying on the tracks reconstructed by the tracker. The HF noise contribution to the background estimation is expected to be 
 especially significant at high $\Delta\phi$ values,
 since such events have a forward jet with $|\eta|>3$, which is well outside the tracker range. Due to the presence of such jets, 
@@ -260,14 +260,14 @@ hence it would be expected that the data and background yields agree within a re
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.7\textwidth]{HFStudy/NoiseEstimation/data_mc_eta_3_3_25_combined.pdf}
-    \caption{$\Delta\phi(p_{T,trk}^{miss}, \ptmiss)$ distribution for the closure test on the HF noise estimate. Events plotted here pass the VBF signal 
+    \caption{$\Delta\phi(\ptmisstrk, \ptmiss)$ distribution for the closure test on the HF noise estimate. Events plotted here pass the VBF signal 
     region selection, and have the leading jet in $3 < |\eta| < 3.25$ range, where the HF noise contribution is highest.
-    It can be observed, especially at high $\Delta\phi(p_{T,trk}^{miss}, \ptmiss)$, the agreement between data and background yields is good
+    It can be observed, especially at high $\Delta\phi(\ptmisstrk, \ptmiss)$, the agreement between data and background yields is good
     after the residual HF noise estimation is taken into account. To account for residual differences, a $20\%$ flat uncertainty is assigned to the HF noise template.}
     \label{fig:hf_noise_closure}
 \end{figure}
 
-From Fig.~\ref{fig:hf_noise_closure}, it can be observed, especially at high $\Delta\phi(p_{T,trk}^{miss}, \ptmiss)$, the agreement between data and background yields is good
+From Fig.~\ref{fig:hf_noise_closure}, it can be observed, especially at high $\Delta\phi(\ptmisstrk, \ptmiss)$, the agreement between data and background yields is good
 after the residual HF noise estimation is taken into account. To account for residual disagreements between data and background estimation, a $20\%$ flat uncertainty
 is assigned to the HF noise template. 
 
@@ -330,10 +330,10 @@ To mitigate this problem in the signal region, the following additional requirem
 
 \begin{itemize}
     \item For events in data where the run number is smaller than 319077 (i.e. before the HCAL submodule malfunctioning)
-    no additional requirement is imposed, since those events are not impacted by the problem. Out of the full $59.7 \ fb^{-1}$
-    of 2018 data, these events correspond to $21.1 \ fb^{-1}$ of integrated luminosity.
+    no additional requirement is imposed, since those events are not impacted by the problem. Out of the full $59.7 \ \fbinv$
+    of 2018 data, these events correspond to $21.1 \ \fbinv$ of integrated luminosity.
     \item For events in data where the run number is larger or equal to 319077, the event is discarded
-    if it has $-1.8 < \phi_{\ptmiss} < -0.6$. These events correspond to a $38.6 \ fb^{-1}$ of integrated luminosity. 
+    if it has $-1.8 < \phi_{\ptmiss} < -0.6$. These events correspond to a $38.6 \ \fbinv$ of integrated luminosity. 
 \end{itemize}
 
 The usage of run number to identify if the event is impacted by the missing HCAL submodule allows to keep $100\%$ of the data   
