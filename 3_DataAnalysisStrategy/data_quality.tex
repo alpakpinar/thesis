@@ -28,7 +28,7 @@ Their definitions are
 \begin{equation}
     \begin{split}
         \sieie &= \sqrt{\frac{ \sum_{i} \Delta\eta(i, jet)^2 \omega_i }{ \sum_{i} \omega_i }} \quad \textrm{and} \\
-        \sipip &= \sqrt{\frac{ \sum_{i} \Delta\phi(i, jet)^2 \omega_i }{ \sum_{i} \omega_i }}
+        \sipip &= \sqrt{\frac{ \sum_{i} \Delta\phi(i, jet)^2 \omega_i }{ \sum_{i} \omega_i }} \quad .
     \end{split}
     \label{eq:sieie_sipip}
 \end{equation}
@@ -37,15 +37,15 @@ In Eq.~\ref{eq:sieie_sipip}, the sums run over all PF candidates with $\pt > 3$ 
 $\omega_i$ is the weight applied to PF candidate $i$ within the jet, which is computed as
 
 \begin{equation}
-    \omega_i = \frac{{\pt}^i - {\pt}^{\text{PU offset}}}{\sum_{i} {\pt}^{i} - {\pt}^{\text{PU offset}} }
+    \omega_i = \frac{{\pt}^i - {\pt}^{\text{PU offset}}}{\sum_{i} {\pt}^{i} - {\pt}^{\text{PU offset}} } \quad .
     \label{eq:omega_def}
 \end{equation}
 
 In Eq.~\ref{eq:omega_def}, ${\pt}^{\text{PU offset}}$ refers to the offset correction on the $\pt$ of the particle 
-due to pileup (PU). It is defined as follows:
+due to pileup (PU). It is defined as
 
 \begin{equation}
-    p_T^{\text{PU offset}} = \frac{\text{jet L1 offset / gen vtx}}{\pi \times 0.4^2} \times \frac{N_{\text{reco vertices}}}{\epsilon^{\text{reco}}(\text{PU vtx})} \times S_{\text{HF tower}}
+    p_T^{\text{PU offset}} = \frac{\text{jet L1 offset / gen vtx}}{\pi \times 0.4^2} \times \frac{N_{\text{reco vertices}}}{\epsilon^{\text{reco}}(\text{PU vtx})} \times S_{\text{HF tower}} \ .
 \end{equation}
 
 The other distinguishing variable, HF central strip size ($\hfcss$), is computed as follows: 
@@ -194,18 +194,17 @@ Finally, the noise estimate in analysis signal region is calculated from $N_{\te
 defined as the relative probability for a noise event to pass the HF shape cuts.
 This probability is derived from events in a noise-enriched region, where the probability of a jet in such an event
 to pass the HF cuts can be computed as a function of its pseudorapidity and transverse momentum, $\hfprobpass[p_{T}, \eta]$.
-Using these probabilities, the transfer factor $R_{\textrm{jet}}$ for a single jet can be then written as:
+Using these probabilities, the transfer factor $R_{\textrm{jet}}$ for a single jet can be then written as
 
 \begin{equation}
-    R_{\textrm{jet}} (p_T, \eta) = \frac{\hfprobpass}{\hfprobfail} (p_T, \eta) = \frac{\hfprobpass}{1 - \hfprobpass} (p_T, \eta)
+    R_{\textrm{jet}} (p_T, \eta) = \frac{\hfprobpass}{\hfprobfail} (p_T, \eta) = \frac{\hfprobpass}{1 - \hfprobpass} (p_T, \eta) \quad .
 \end{equation}
 
 For a given event, the total transfer factor (taking all HF jets into account in the event) can be then computed as
 
 \begin{equation}
-    R_{\textrm{event}} = \prod_{\textrm{jet}} R_{\textrm{jet}} (\pt, \eta)
+    R_{\textrm{event}} = \prod_{\textrm{jet}} R_{\textrm{jet}} (\pt, \eta) \quad ,
 \end{equation}
-
 where the product runs over the jets in the event with $\pt > 100$ GeV and $|\eta| > 2.99$ (i.e. HF jets). If there are no
 jets in the event that satisfy this criteria, $R_{\textrm{event}}$ is defined to be $0$, signifying the fact that there will be no contribution
 to the signal region noise estimate template from this event. If there is such a jet however, $R_{\textrm{event}} \neq 0$, hence signifying
@@ -214,7 +213,7 @@ a non-zero contribution to the noise estimation in the signal region.
 In this way, the contribution of a single event in the noise-enriched CR to the HF noise template in the signal region can be written as
 
 \begin{equation}
-    N_{\textrm{noise}}^{\textrm{SR}} = R_{\textrm{event}} \times (N_{\textrm{data}}^{\textrm{CR}} - N_{\textrm{MC}}^{\textrm{CR}})
+    N_{\textrm{noise}}^{\textrm{SR}} = R_{\textrm{event}} \times (N_{\textrm{data}}^{\textrm{CR}} - N_{\textrm{MC}}^{\textrm{CR}}) \quad .
     \label{eq:hf_noise_calc_single_event}
 \end{equation}
 

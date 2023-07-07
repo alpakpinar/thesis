@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.12)  6 JUL 2023 10:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.12)  7 JUL 2023 15:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -371,7 +371,7 @@ Chapter 1.
 <1_TheoreticalBackground/Figures/SM_interactions.png, id=148, 633.36626pt x 601.24625pt>
 File: 1_TheoreticalBackground/Figures/SM_interactions.png Graphic file (type png)
 <use 1_TheoreticalBackground/Figures/SM_interactions.png>
-Package pdftex.def Info: 1_TheoreticalBackground/Figures/SM_interactions.png  used on input line 324.
+Package pdftex.def Info: 1_TheoreticalBackground/Figures/SM_interactions.png  used on input line 323.
 (pdftex.def)             Requested size: 390.25534pt x 370.47525pt.
  [10] [11 <./1_TheoreticalBackground/Figures/SM_interactions.png>]) (./1_TheoreticalBackground/dark_matter.tex
 <1_TheoreticalBackground/Figures/DM/galaxy_rot_curve.png, id=157, 496.85625pt x 446.66875pt>
@@ -393,7 +393,7 @@ File: 1_TheoreticalBackground/Figures/HiggsPortal/all_higgs_prod.png Graphic fil
 <use 1_TheoreticalBackground/Figures/HiggsPortal/all_higgs_prod.png>
 Package pdftex.def Info: 1_TheoreticalBackground/Figures/HiggsPortal/all_higgs_prod.png  used on input line 89.
 (pdftex.def)             Requested size: 303.53267pt x 246.85124pt.
- [20] [21 <./1_TheoreticalBackground/Figures/HiggsPortal/all_higgs_prod.png>])) [22] [23]
+ [20] [21 <./1_TheoreticalBackground/Figures/HiggsPortal/all_higgs_prod.png>] [22])) [23]
 \openout2 = `2_Experimental_Apparatus/apparatus.aux'.
 
  (./2_Experimental_Apparatus/apparatus.tex
@@ -456,12 +456,12 @@ Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/particle_detection_schem
 
 
 ] [37 <./3_DataAnalysisStrategy/Figures/particle_detection_schematic.png>] [38] [39] [40] [41]
-Underfull \hbox (badness 4981) in paragraph at lines 221--221
+Underfull \hbox (badness 4981) in paragraph at lines 220--220
 []\OT1/cmr/m/n/10.95 Applied in
  []
 
 
-Overfull \hbox (0.71857pt too wide) in paragraph at lines 217--232
+Overfull \hbox (0.71857pt too wide) in paragraph at lines 216--231
  [][] 
  []
 
@@ -469,86 +469,86 @@ Overfull \hbox (0.71857pt too wide) in paragraph at lines 217--232
 <3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_nominal.pdf, id=304, 569.12625pt x 385.44pt>
 File: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_nominal.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_nominal.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_nominal.pdf  used on input line 533.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_nominal.pdf  used on input line 532.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 <3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt300-400_nominal.pdf, id=305, 569.12625pt x 385.44pt>
 File: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt300-400_nominal.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt300-400_nominal.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt300-400_nominal.pdf  used on input line 534.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt300-400_nominal.pdf  used on input line 533.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 <3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt400-500_nominal.pdf, id=306, 569.12625pt x 385.44pt>
 File: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt400-500_nominal.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt400-500_nominal.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt400-500_nominal.pdf  used on input line 535.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt400-500_nominal.pdf  used on input line 534.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 <3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt500-600_nominal.pdf, id=307, 569.12625pt x 385.44pt>
 File: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt500-600_nominal.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt500-600_nominal.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt500-600_nominal.pdf  used on input line 536.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt500-600_nominal.pdf  used on input line 535.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 <3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt600-1000_nominal.pdf, id=308, 569.12625pt x 385.44pt>
 File: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt600-1000_nominal.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt600-1000_nominal.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt600-1000_nominal.pdf  used on input line 537.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt600-1000_nominal.pdf  used on input line 536.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 <3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt200-300_nominal.pdf, id=309, 569.12625pt x 385.44pt>
 File: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt200-300_nominal.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt200-300_nominal.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt200-300_nominal.pdf  used on input line 545.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt200-300_nominal.pdf  used on input line 544.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 <3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt300-400_nominal.pdf, id=310, 569.12625pt x 385.44pt>
 File: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt300-400_nominal.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt300-400_nominal.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt300-400_nominal.pdf  used on input line 546.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt300-400_nominal.pdf  used on input line 545.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 <3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt400-500_nominal.pdf, id=311, 569.12625pt x 385.44pt>
 File: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt400-500_nominal.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt400-500_nominal.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt400-500_nominal.pdf  used on input line 547.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt400-500_nominal.pdf  used on input line 546.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 <3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt500-600_nominal.pdf, id=312, 569.12625pt x 385.44pt>
 File: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt500-600_nominal.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt500-600_nominal.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt500-600_nominal.pdf  used on input line 548.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt500-600_nominal.pdf  used on input line 547.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 <3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt600-1000_nominal.pdf, id=313, 569.12625pt x 385.44pt>
 File: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt600-1000_nominal.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt600-1000_nominal.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt600-1000_nominal.pdf  used on input line 549.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt600-1000_nominal.pdf  used on input line 548.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 <3_DataAnalysisStrategy/Figures/PhotonPurity/purity_variations_2017.pdf, id=314, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/PhotonPurity/purity_variations_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/PhotonPurity/purity_variations_2017.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/purity_variations_2017.pdf  used on input line 557.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/purity_variations_2017.pdf  used on input line 556.
 (pdftex.def)             Requested size: 208.13574pt x 156.10176pt.
 <3_DataAnalysisStrategy/Figures/PhotonPurity/purity_variations_2018.pdf, id=315, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/PhotonPurity/purity_variations_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/PhotonPurity/purity_variations_2018.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/purity_variations_2018.pdf  used on input line 558.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/purity_variations_2018.pdf  used on input line 557.
 (pdftex.def)             Requested size: 208.13574pt x 156.10176pt.
 <3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_vfine.pdf, id=316, 569.12625pt x 385.44pt>
 File: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_vfine.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_vfine.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_vfine.pdf  used on input line 567.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_vfine.pdf  used on input line 566.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 <3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_fine.pdf, id=317, 569.12625pt x 385.44pt>
 File: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_fine.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_fine.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_fine.pdf  used on input line 568.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_fine.pdf  used on input line 567.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 File: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_nominal.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_nominal.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_nominal.pdf  used on input line 569.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_nominal.pdf  used on input line 568.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 <3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_coarse.pdf, id=318, 569.12625pt x 385.44pt>
 File: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_coarse.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_coarse.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_coarse.pdf  used on input line 570.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_coarse.pdf  used on input line 569.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
 <3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_vcoarse.pdf, id=319, 569.12625pt x 385.44pt>
 File: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_vcoarse.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_vcoarse.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_vcoarse.pdf  used on input line 571.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_vcoarse.pdf  used on input line 570.
 (pdftex.def)             Requested size: 195.12767pt x 132.14767pt.
  [51 <./3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt200-300_nominal.pdf, page is rotated 90 degrees> <./3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt300-400_nominal.pdf, page is rotated 90 degrees> <./3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt400-500_nominal.pdf, page is rotated 90 degrees> <./3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt500-600_nominal.pdf, page is rotated 90 degrees> <./3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2017_pt600-1000_nominal.pdf, page is rotated 90 degrees>] [52 <./3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt200-300_nominal.pdf, page is rotated 90 degrees> <./3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt300-400_nominal.pdf, page is rotated 90 degrees> <./3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt400-500_nominal.pdf, page is rotated 90 degrees> <./3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt500-600_nominal.pdf, page is rotated 90 degrees> <./3_DataAnalysisStrategy/Figures/PhotonPurity/fit_2018_pt600-1000_nominal.pdf, page is rotated 90 degrees>] [53 <./3_DataAnalysisStrategy/Figures/PhotonPurity/purity_variations_2017.pdf> <./3_DataAnalysisStrategy/Figures/PhotonPurity/purity_variations_2018.pdf
 
@@ -992,22 +992,22 @@ Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/etasizecentralvs
 <3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2017.pdf, id=4589, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2017.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2017.pdf  used on input line 233.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2017.pdf  used on input line 232.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
 <3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2017.pdf, id=4590, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2017.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2017.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2017.pdf  used on input line 234.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2017.pdf  used on input line 233.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
 <3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2018.pdf, id=4591, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2018.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2018.pdf  used on input line 235.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/cr_vbf_qcd_mjj_2018.pdf  used on input line 234.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
 <3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2018.pdf, id=4592, 462.52798pt x 346.89601pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2018.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2018.pdf  used on input line 236.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/qcd_estimation_mjj_2018.pdf  used on input line 235.
 (pdftex.def)             Requested size: 212.47617pt x 159.35707pt.
 
 
@@ -1026,28 +1026,28 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/HFStudy/NoiseEst
 <3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/data_mc_eta_3_3_25_combined.pdf, id=4793, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/data_mc_eta_3_3_25_combined.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/data_mc_eta_3_3_25_combined.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/data_mc_eta_3_3_25_combined.pdf  used on input line 262.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/data_mc_eta_3_3_25_combined.pdf  used on input line 261.
 (pdftex.def)             Requested size: 303.53267pt x 303.53633pt.
  [93 <./3_DataAnalysisStrategy/Figures/HFStudy/NoiseEstimation/data_mc_eta_3_3_25_combined.pdf>] [94]
 <3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_eta_2018.pdf, id=4822, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_eta_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_eta_2018.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_eta_2018.pdf  used on input line 308.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_eta_2018.pdf  used on input line 307.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
 <3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_phi_2018.pdf, id=4823, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_phi_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_phi_2018.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_phi_2018.pdf  used on input line 309.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_phi_2018.pdf  used on input line 308.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
 <3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_eta_2018.pdf, id=4824, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_eta_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_eta_2018.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_eta_2018.pdf  used on input line 310.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_eta_2018.pdf  used on input line 309.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
 <3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_phi_2018.pdf, id=4825, 505.89pt x 505.89pt>
 File: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_phi_2018.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_phi_2018.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_phi_2018.pdf  used on input line 311.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_data_mc_electron_phi_2018.pdf  used on input line 310.
 (pdftex.def)             Requested size: 212.47617pt x 212.48006pt.
  [95] [96 <./3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_eta_2018.pdf> <./3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_vbf_no_hemveto_data_mc_electron_phi_2018.pdf
 
@@ -1062,17 +1062,17 @@ pdfTeX warning: pdflatex (file ./3_DataAnalysisStrategy/Figures/HEMStudy/cr_1e_v
 <3_DataAnalysisStrategy/Figures/HEMStudy/Leading_jet_phi.pdf, id=5096, 524.96124pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/HEMStudy/Leading_jet_phi.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HEMStudy/Leading_jet_phi.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/Leading_jet_phi.pdf  used on input line 346.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/Leading_jet_phi.pdf  used on input line 345.
 (pdftex.def)             Requested size: 212.47617pt x 230.34723pt.
 <3_DataAnalysisStrategy/Figures/HEMStudy/Subleading_jet_phi.pdf, id=5097, 524.96124pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/HEMStudy/Subleading_jet_phi.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HEMStudy/Subleading_jet_phi.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/Subleading_jet_phi.pdf  used on input line 347.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/Subleading_jet_phi.pdf  used on input line 346.
 (pdftex.def)             Requested size: 212.47617pt x 230.34723pt.
 <3_DataAnalysisStrategy/Figures/HEMStudy/MetNoMu_phi.pdf, id=5098, 524.96124pt x 569.12625pt>
 File: 3_DataAnalysisStrategy/Figures/HEMStudy/MetNoMu_phi.pdf Graphic file (type pdf)
 <use 3_DataAnalysisStrategy/Figures/HEMStudy/MetNoMu_phi.pdf>
-Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/MetNoMu_phi.pdf  used on input line 356.
+Package pdftex.def Info: 3_DataAnalysisStrategy/Figures/HEMStudy/MetNoMu_phi.pdf  used on input line 355.
 (pdftex.def)             Requested size: 303.53267pt x 329.07741pt.
  [97 <./3_DataAnalysisStrategy/Figures/HEMStudy/Leading_jet_phi.pdf> <./3_DataAnalysisStrategy/Figures/HEMStudy/Subleading_jet_phi.pdf>] [98 <./3_DataAnalysisStrategy/Figures/HEMStudy/MetNoMu_phi.pdf>]) (./3_DataAnalysisStrategy/selection.tex [99
 
@@ -2040,28 +2040,28 @@ Package pdftex.def Info: 5_Outlook/Figures/TrackerUpgrade/SHEP_HERD.png  used on
 <5_Outlook/Figures/VBFML/particlenet_arch.png, id=13585, 169.63374pt x 329.23pt>
 File: 5_Outlook/Figures/VBFML/particlenet_arch.png Graphic file (type png)
 <use 5_Outlook/Figures/VBFML/particlenet_arch.png>
-Package pdftex.def Info: 5_Outlook/Figures/VBFML/particlenet_arch.png  used on input line 38.
+Package pdftex.def Info: 5_Outlook/Figures/VBFML/particlenet_arch.png  used on input line 37.
 (pdftex.def)             Requested size: 130.08731pt x 252.48807pt.
  [182 <./5_Outlook/Figures/VBFML/particlenet_arch.png>] [183]
 <5_Outlook/Figures/VBFML/sr_vbf_no_veto_all_particlenet_score.pdf, id=13593, 462.52798pt x 346.89601pt>
 File: 5_Outlook/Figures/VBFML/sr_vbf_no_veto_all_particlenet_score.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/VBFML/sr_vbf_no_veto_all_particlenet_score.pdf>
-Package pdftex.def Info: 5_Outlook/Figures/VBFML/sr_vbf_no_veto_all_particlenet_score.pdf  used on input line 83.
+Package pdftex.def Info: 5_Outlook/Figures/VBFML/sr_vbf_no_veto_all_particlenet_score.pdf  used on input line 82.
 (pdftex.def)             Requested size: 346.89731pt x 260.18724pt.
 <5_Outlook/Figures/VBFML/ggH_vs_vbfH_ROC.pdf, id=13594, 462.52798pt x 346.89601pt>
 File: 5_Outlook/Figures/VBFML/ggH_vs_vbfH_ROC.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/VBFML/ggH_vs_vbfH_ROC.pdf>
-Package pdftex.def Info: 5_Outlook/Figures/VBFML/ggH_vs_vbfH_ROC.pdf  used on input line 92.
+Package pdftex.def Info: 5_Outlook/Figures/VBFML/ggH_vs_vbfH_ROC.pdf  used on input line 91.
 (pdftex.def)             Requested size: 346.89731pt x 260.18724pt.
 <5_Outlook/Figures/VBFML/ggH_score_overlayed_detajj.pdf, id=13595, 462.52798pt x 346.89601pt>
 File: 5_Outlook/Figures/VBFML/ggH_score_overlayed_detajj.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/VBFML/ggH_score_overlayed_detajj.pdf>
-Package pdftex.def Info: 5_Outlook/Figures/VBFML/ggH_score_overlayed_detajj.pdf  used on input line 102.
+Package pdftex.def Info: 5_Outlook/Figures/VBFML/ggH_score_overlayed_detajj.pdf  used on input line 101.
 (pdftex.def)             Requested size: 195.12767pt x 146.34639pt.
 <5_Outlook/Figures/VBFML/ggH_score_overlayed_trailak4_eta.pdf, id=13596, 462.52798pt x 346.89601pt>
 File: 5_Outlook/Figures/VBFML/ggH_score_overlayed_trailak4_eta.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/VBFML/ggH_score_overlayed_trailak4_eta.pdf>
-Package pdftex.def Info: 5_Outlook/Figures/VBFML/ggH_score_overlayed_trailak4_eta.pdf  used on input line 103.
+Package pdftex.def Info: 5_Outlook/Figures/VBFML/ggH_score_overlayed_trailak4_eta.pdf  used on input line 102.
 (pdftex.def)             Requested size: 195.12767pt x 146.34639pt.
  [184] [185 <./5_Outlook/Figures/VBFML/sr_vbf_no_veto_all_particlenet_score.pdf>] [186 <./5_Outlook/Figures/VBFML/ggH_vs_vbfH_ROC.pdf>] [187 <./5_Outlook/Figures/VBFML/ggH_score_overlayed_detajj.pdf> <./5_Outlook/Figures/VBFML/ggH_score_overlayed_trailak4_eta.pdf
 
@@ -2070,22 +2070,22 @@ pdfTeX warning: pdflatex (file ./5_Outlook/Figures/VBFML/ggH_score_overlayed_tra
 <5_Outlook/Figures/VBFML/cr_1e_vbf_data_mc_particlenet_score_2018.pdf, id=13792, 505.89pt x 505.89pt>
 File: 5_Outlook/Figures/VBFML/cr_1e_vbf_data_mc_particlenet_score_2018.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/VBFML/cr_1e_vbf_data_mc_particlenet_score_2018.pdf>
-Package pdftex.def Info: 5_Outlook/Figures/VBFML/cr_1e_vbf_data_mc_particlenet_score_2018.pdf  used on input line 129.
+Package pdftex.def Info: 5_Outlook/Figures/VBFML/cr_1e_vbf_data_mc_particlenet_score_2018.pdf  used on input line 128.
 (pdftex.def)             Requested size: 195.12767pt x 195.12718pt.
 <5_Outlook/Figures/VBFML/cr_1m_vbf_data_mc_particlenet_score_2018.pdf, id=13793, 505.89pt x 505.89pt>
 File: 5_Outlook/Figures/VBFML/cr_1m_vbf_data_mc_particlenet_score_2018.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/VBFML/cr_1m_vbf_data_mc_particlenet_score_2018.pdf>
-Package pdftex.def Info: 5_Outlook/Figures/VBFML/cr_1m_vbf_data_mc_particlenet_score_2018.pdf  used on input line 130.
+Package pdftex.def Info: 5_Outlook/Figures/VBFML/cr_1m_vbf_data_mc_particlenet_score_2018.pdf  used on input line 129.
 (pdftex.def)             Requested size: 195.12767pt x 195.12718pt.
 <5_Outlook/Figures/VBFML/cr_2e_vbf_data_mc_particlenet_score_2018.pdf, id=13794, 505.89pt x 505.89pt>
 File: 5_Outlook/Figures/VBFML/cr_2e_vbf_data_mc_particlenet_score_2018.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/VBFML/cr_2e_vbf_data_mc_particlenet_score_2018.pdf>
-Package pdftex.def Info: 5_Outlook/Figures/VBFML/cr_2e_vbf_data_mc_particlenet_score_2018.pdf  used on input line 131.
+Package pdftex.def Info: 5_Outlook/Figures/VBFML/cr_2e_vbf_data_mc_particlenet_score_2018.pdf  used on input line 130.
 (pdftex.def)             Requested size: 195.12767pt x 195.12718pt.
 <5_Outlook/Figures/VBFML/cr_2m_vbf_data_mc_particlenet_score_2018.pdf, id=13795, 505.89pt x 505.89pt>
 File: 5_Outlook/Figures/VBFML/cr_2m_vbf_data_mc_particlenet_score_2018.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/VBFML/cr_2m_vbf_data_mc_particlenet_score_2018.pdf>
-Package pdftex.def Info: 5_Outlook/Figures/VBFML/cr_2m_vbf_data_mc_particlenet_score_2018.pdf  used on input line 132.
+Package pdftex.def Info: 5_Outlook/Figures/VBFML/cr_2m_vbf_data_mc_particlenet_score_2018.pdf  used on input line 131.
 (pdftex.def)             Requested size: 195.12767pt x 195.12718pt.
  [188
 
@@ -2102,12 +2102,12 @@ pdfTeX warning: pdflatex (file ./5_Outlook/Figures/VBFML/cr_2m_vbf_data_mc_parti
 <5_Outlook/Figures/VBFML/combined_combinedW_cat_vbf_2018_2018ratio.pdf, id=14066, 545.03625pt x 569.12625pt>
 File: 5_Outlook/Figures/VBFML/combined_combinedW_cat_vbf_2018_2018ratio.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/VBFML/combined_combinedW_cat_vbf_2018_2018ratio.pdf>
-Package pdftex.def Info: 5_Outlook/Figures/VBFML/combined_combinedW_cat_vbf_2018_2018ratio.pdf  used on input line 170.
+Package pdftex.def Info: 5_Outlook/Figures/VBFML/combined_combinedW_cat_vbf_2018_2018ratio.pdf  used on input line 169.
 (pdftex.def)             Requested size: 195.12767pt x 203.74767pt.
 <5_Outlook/Figures/VBFML/combined_gjets_cat_vbf_2018_2018ratio.pdf, id=14067, 545.03625pt x 569.12625pt>
 File: 5_Outlook/Figures/VBFML/combined_gjets_cat_vbf_2018_2018ratio.pdf Graphic file (type pdf)
 <use 5_Outlook/Figures/VBFML/combined_gjets_cat_vbf_2018_2018ratio.pdf>
-Package pdftex.def Info: 5_Outlook/Figures/VBFML/combined_gjets_cat_vbf_2018_2018ratio.pdf  used on input line 171.
+Package pdftex.def Info: 5_Outlook/Figures/VBFML/combined_gjets_cat_vbf_2018_2018ratio.pdf  used on input line 170.
 (pdftex.def)             Requested size: 195.12767pt x 203.74767pt.
  [190]) [191 <./5_Outlook/Figures/VBFML/combined_combinedW_cat_vbf_2018_2018ratio.pdf> <./5_Outlook/Figures/VBFML/combined_gjets_cat_vbf_2018_2018ratio.pdf>]) [192] (./thesis.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 4--7
@@ -2209,13 +2209,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 544--547
 Here is how much of TeX's memory you used:
  8538 strings out of 478268
  301085 string characters out of 5846347
- 433310 words of memory out of 5000000
+ 433312 words of memory out of 5000000
  26227 multiletter control sequences out of 15000+600000
  485194 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,21n,63p,1071b,433s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb>
-Output written on thesis.pdf (231 pages, 10290615 bytes).
+Output written on thesis.pdf (231 pages, 10292019 bytes).
 PDF statistics:
  14319 PDF objects out of 15390 (max. 8388607)
  3605 compressed objects within 37 object streams

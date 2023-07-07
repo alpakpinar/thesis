@@ -74,7 +74,7 @@ For the Run3 data taking at CMS experiment, a new set of HLT paths were included
 done on HLT paths which cut on $\ptmiss$ and $\htmiss$, where $\htmiss$ is defined as the imbalance in total jet momenta,
 
 \begin{equation}
-    \htmiss = \left| \sum_{\mathrm{jet}} \ptvecjet \right|
+    \htmiss = \left| \sum_{\mathrm{jet}} \ptvecjet \right| \quad ,
     \label{eq:htmiss_def}
 \end{equation}
 where the sum goes over jets with $\pt > 20$ GeV. The HF cuts are included in the HLT path such that if a jet fails the requirements, it will not be considered
@@ -129,7 +129,7 @@ The efficiencies are shown in Fig.~\ref{fig:filterhf_efficiency}, where the left
 shows the efficiency of the other path with the filter. To model the turn-on behavior of the efficiencies, a sigmoid function is fit to both curves, which is defined as follows:
 
 \begin{equation}
-    f(x) = \frac{1}{1 + e^{-(x - \mu)/\sigma}}
+    f(x) = \frac{1}{1 + e^{-(x - \mu)/\sigma}} \quad ,
 \end{equation}
 where $\mu$ and $\sigma$ are determined from the best-fit to the data. The best-fit $\mu$ and $\sigma$ parameters are also shown in the legend for each plot.
 It can be observed that for the two paths, the efficiencies are found to be almost identical, hence

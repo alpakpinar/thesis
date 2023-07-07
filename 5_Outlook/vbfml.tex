@@ -20,9 +20,8 @@ a graph, where each point is a vertex, and connections between points represent 
 nearest neighbors can be identified. The EdgeConv operation for each point $x_{i}$ then has the form
 
 \begin{equation}
-    \mathbf{x}_i^{'} = \frac{1}{k} \sum_{j=1}^{k} h_{\Theta}(\mathbf{x}_i, \mathbf{x}_{j_i})
+    \mathbf{x}_i^{'} = \frac{1}{k} \sum_{j=1}^{k} h_{\Theta}(\mathbf{x}_i, \mathbf{x}_{j_i}) \quad ,
 \end{equation}
-
 where $\mathbf{x}_i$ denotes the feature vector of the point $x_i$ and ${i_1,...,i_k}$ are the indices of the 
 $k$-nearest neighbors of $x_i$. The edge function $h_{\Theta}$ is some function that is parametrized by
 a set of learnable parameters, $\Theta$. It should also be noted that this EdgeConv operation is stackable,

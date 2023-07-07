@@ -81,19 +81,19 @@ disk.
 
 Events are selected in the same way as for the photon control region in the analysis
 (see Sec.~\ref{sec:selection_cr_g}) except for the photon $\pt$, recoil, $\HT$ and trigger requirements. To ensure an unbiased measurement, 
-an offline $\HT$ of at least $1.5$ TeV is required, where $\HT$ is calculated as: 
+an offline $\HT$ of at least $1.5$ TeV is required, where $\HT$ is calculated as
 
 \begin{equation}
-  \HT = \sum_{\textrm{jet}} \pt^{\textrm{jet}}
+  \HT = \sum_{\textrm{jet}} \pt^{\textrm{jet}} \quad .
   \label{eq:ht_def}
 \end{equation}
 
 In Eq.~\ref{eq:ht_def}, the sum runs over jets which pass the tight identification requirements 
 and do not overlap with the selected photon within $\Delta R<0.4$. 
-The trigger efficiency $\epsilon$ is then determined as:
+The trigger efficiency $\epsilon$ is then determined as
 
 $$\epsilon(\texttt{HLT\_Photon200}) = \frac{\text{Offline selection \&\& \texttt{HLT\_PFHT1050} \&\& 
-\texttt{HLT\_Photon200}}}{\text{Offline selection \&\& \texttt{HLT\_PFHT1050}}} $$
+\texttt{HLT\_Photon200}}}{\text{Offline selection \&\& \texttt{HLT\_PFHT1050}}} \ . $$
 
 The resulting efficiency in data and $\gamma +$jets \HT-binned simulation is shown in Fig.~\ref{fig:hlteff_photon}. In both data and simulation, 
 the binned turn-on is fit using sigmoid functions, which are used to extract all further information. The trigger efficiencies in data and simulation are both 
@@ -302,7 +302,7 @@ efficiency scale factors for the identified objects
 in the event. The veto weight $\omega$ is calculated as
 
 \begin{equation}
-    \omega = \prod_{i \ \epsilon \ \textrm{leptons}} (1-\textrm{SF}_{i}) 
+    \omega = \prod_{i \ \epsilon \ \textrm{leptons}} (1-\textrm{SF}_{i}) \quad ,
 \end{equation}
 where the product above runs over all identified veto leptons in the event (i.e. electrons, muons and taus).
 $\textrm{SF}_{i}$ represents the total scale factor for the lepton $i$, which is the product of identification and isolation
@@ -360,7 +360,7 @@ The HF noise scale factors are applied for each HF jet in the event which would 
 and $\Delta\phi(j,\ptmiss) > 2.5$), as a function of $\pt$ and $\eta$ of the jet. The event weight is calculated by multiplying the individual jet weights:
 
 \begin{equation}
-    \omega_{\textrm{event}} = \prod_{\textrm{jet} \in \textrm{HF}} \omega_{\textrm{jet}} (\pt, \eta)
+    \omega_{\textrm{event}} = \prod_{\textrm{jet} \in \textrm{HF}} \omega_{\textrm{jet}} (\pt, \eta) \quad ,
 \end{equation}
 where the product runs over each jet with $\pt > 100$ GeV and $\Delta\phi(j,\ptmiss) > 2.5$\footnote{These cuts are required
 to be compatible with the application of HF cuts described in Sec.~\ref{subsec:hfnoise}. $\Delta\phi > 2.5$ requirement on
@@ -400,7 +400,7 @@ NanoAOD-tools software is used \cite{CMS:PrefiringNanoAODTools}. In this impleme
 prefiring weight is computed as
 
 \begin{equation}
-    \omega = 1 - P(\textrm{prefiring}) = \prod_{i=\textrm{photons,jets}} (1 - \epsilon_{i}^{\textrm{pref}}(\pt, \eta))
+    \omega = 1 - P(\textrm{prefiring}) = \prod_{i=\textrm{photons,jets}} (1 - \epsilon_{i}^{\textrm{pref}}(\pt, \eta)) \quad ,
 \end{equation}
 where $\epsilon_{i}^{\textrm{pref}}$ is the prefiring probability caused by a single photon or a jet, and the product
 runs over the photons and jets reconstructed in the event.
@@ -556,10 +556,10 @@ They are parametrized in $\ptv$ and $\mjj$ and are shown in Fig.~\ref{fig:theory
 Next to leading order (NLO) EWK corrections on VBF signal are computed using the HAWK generator~\cite{HAWKGenerator}. 
 The NLO corrections are computed in the VBF phase space, where events are selected based on the kinematics of the two final state VBF jets.
 These kinematic selections are described in Sec.~\ref{sec:event_selection}.
-The correction is calculated as a function of the $\pt$ of the Higgs boson, and is parametrized using the following fit function:
+The correction is calculated as a function of the $\pt$ of the Higgs boson, and is parametrized using the following fit function,
 
 \begin{equation}
-    \epsilon_{\textrm{EWK}}({\pt}^{\textrm{H}}) = (1 - 0.000372 {\pt}^{\textrm{H}} - 0.0304) / 0.95
+    \epsilon_{\textrm{EWK}}({\pt}^{\textrm{H}}) = (1 - 0.000372 {\pt}^{\textrm{H}} - 0.0304) / 0.95 \quad .
 \end{equation}
 
 For each event in the VBF signal sample, this correction is applied based on the $\pt$ of the Higgs boson found in the generator-level collection.
