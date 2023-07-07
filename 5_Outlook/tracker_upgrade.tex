@@ -89,7 +89,7 @@ The board is designed to comply with the Advanced Telecommunications Computing A
 specifications~\cite{PICMG:ATCA}.
 The following subsection goes into more detail about the Apollo board architecture and the hardware components.
 
-\subsection{Apollo DTC Board: The Design}
+\subsection{Apollo DTC board: design}
 
 The Apollo DTC board is designed to provide a reusable hardware interface for different types of applications within the
 CMS (and ATLAS) detector. It is composed of two main modules: A service module (SM) and a command module (CM).
@@ -113,7 +113,7 @@ a schematic of the Apollo SM (right).
     \label{fig:apollo_schematic}
 \end{figure}
 
-\subsubsection{Apollo Service Module}
+\subsubsection{Apollo service module}
 
 The Apollo SM hosts a Xilinx Zynq Ultrascale+ system-on-chip (SoC),
 which provides a 64-bit ARM processor core, together with an FPGA and memory interfaces. A userspace I/O (UIO) driver
@@ -165,7 +165,7 @@ shelf manager can adjust fan speeds based on the temperature values being read o
 the SoC via I2C are also forwarded to third-party monitoring tools like Grafana, which allows for easy monitoring
 of each board in the shelf. 
 
-\subsection{Apollo DTC Board: The Applications}
+\subsection{Apollo DTC board: applications}
 
 The Apollo DTC board is intended to be used for different applications in Phase-2 CMS and ATLAS detectors.
 For each application, the Apollo CMs are to be customized accordingly. Each application and the anticipated
@@ -203,7 +203,7 @@ operations on the boards over the local area network (LAN), including:
 
 \begin{itemize}
     \item Access the list of available boards and their IP addresses over the LAN, and see their current operation status
-    (e.g., online or not reachable).
+    (\textit{e.g.,} online or not reachable).
     \item From each available board, read monitoring data such as temperature and current values.
     \item Execute commands for each board over the LAN, such as powering up the CM and programming an FPGA hosted on the CM.
 \end{itemize}

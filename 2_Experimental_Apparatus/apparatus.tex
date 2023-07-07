@@ -37,7 +37,7 @@ operated from 2016 to 2018 for Run 2 data taking. During Run 2, the instantenous
 25 proton-proton collisions per bunch crossing. The integrated luminosity corresponding to Run 2 data taken by the CMS experiment is measured to be 137 $\fbinv$, 
 with 1.6\% overall uncertainty \cite{lumi:2018,lumi:2017,lumi:2016}.
 
-\section{The CMS Detector}
+\section{The CMS detector}
 
 The CMS detector is a multi-purpose detector, designed trigger on \cite{cms:l1_paper,cms:hlt_paper} and detect muons, electrons, photons, charged and 
 neutral hadrons \cite{cms:elepho_paper,cms:muon_paper,cms:vertex_paper}. To be able to identify this wide range of particles, the CMS detector uses a combination of signals from different sub-detectors. These signals
@@ -53,7 +53,7 @@ are then used in the Particle-Flow (PF) algorithm to reconstruct the particles i
 CMS detector also uses a two-level trigger system \cite{cms:l1_paper,cms:hlt_paper}, to make physics-based decisions on the data being saved to disk, 
 therefore reducing the output rate. In the following sub-sections, the functionality of these subsystems and the overall design of the CMS detector are discussed.
 
-\subsection{Overall Layout}
+\subsection{Overall layout}
 
 The CMS detector has an overall length of 28.7 m, and weighs 14000 tonnes. The cylindrical detector
 has a diameter of 15 m, as shown in Fig.~\ref{fig:cms_overall_diagram}. The CMS detector has a superconducting solenoid,
@@ -80,10 +80,10 @@ and the z-axis point along the beam in the counter-clockwise direction. Due to t
 coordinates of $\eta$ and $\phi$ are often used to describe event kinematics. $\phi$ is the azimuthal angle, defined to be 0 along the x-axis,
 and $\frac{\pi}{2}$ along the y-axis. $\eta$ is the psuedorapidity, which depends on the angle from the z-axis, $\theta$, with the following
 equation: $\eta = -\ln[{\tan({\frac{\theta}{2}})}]$. This way, $\eta$ equals to 0 along the z-axis, directly perpendicular to the beam-axis,
-and $|\eta| \rightarrow \infty$ as the $\theta \rightarrow \frac{\pi}{2}$, i.e. perpendicular to the beam axis. Most detector coverage
+and $|\eta| \rightarrow \infty$ as the $\theta \rightarrow \frac{\pi}{2}$, $\textit{i.e.,}$ perpendicular to the beam axis. Most detector coverage
 extends to $|\eta| \approxeq 5$. 
 
-\subsection{Tracking System}
+\subsection{Tracking system}
 
 The innermost layer of the CMS detector is the tracking system. This tracking system consists of a silicon pixel detector and a silicon strip detector, 
 referred to as the inner tracker and the outer tracker, respectively. Both are used to reconstruct tracks of charged particles, under the influence of
@@ -125,7 +125,7 @@ in the z direction. The layout of the silicon strip tracker, together with the 2
     \label{fig:cms_full_tracker_layout}
 \end{figure}
 
-\subsection{Electromagnetic Calorimeter}
+\subsection{Electromagnetic calorimeter}
 
 The electromagnetic calorimeter (ECAL) is installed as the second layer of the detector, outside the inner and outer tracking systems. It is made of
 61200 lead tungstate ($\textrm{PbWO}_{4}$) crystals mounted in the barrel (EB), and 7324 of those crystals in each of the 2 endcaps (EE). 
@@ -154,7 +154,7 @@ Each EE is divided into two halves. The structure of the ECAL is shown in Fig.~\
 \end{figure}
 
 
-\subsection{Hadron Calorimeter}
+\subsection{Hadron calorimeter}
 \label{subsec:hcal}
 
 The hadron calorimeter (HCAL) is designed to measure the energy of hadrons, which is specifically important for reconstructing and measuring the energy of
@@ -182,7 +182,7 @@ in order to operate in a much harsher radiation environment, compared to other p
     \label{fig:hcal_layout}
 \end{figure}
 
-\subsection{Muon System}
+\subsection{Muon system}
 
 Muon detection is of great importance to the CMS, since it is a powerful tool for recognizing signatures of interesting physics processes. Muons also have the
 potential to be reconstructed with a larger resolution since they are not affected by radiative losses in the tracker material, compared to electrons. 
@@ -193,7 +193,7 @@ magnetic field are low. The CSCs, due to their fast response time, fine segmenta
 $0.9 < |\eta| < 2.4$. The RPCs are inserted into both barrel and endcaps to provide redundant trigger system with a time resolution of 1 ns, 
 which is much shorter than the bunch crossing interval of 25 ns.
 
-\subsection{Trigger System}
+\subsection{Trigger system}
 \label{subsec:trigger_system}
 
 With a proton-proton bunch crossing interval of $25$ ns, collecting and saving all collision events at a rate of $400$ MHz in unsustainable, 
@@ -206,21 +206,3 @@ trigger (L1), is composed of custom hardware processors, which uses event inform
 of 100 kHz within a fixed latency of about 4 $\mu s$ \cite{cms:l1_paper}. The second level, known as the high-level trigger (HLT), consists of processors 
 running a version of the full event reconstruction software optimized for fast processing, and reduces the event rate to around 1 kHz before data storage 
 \cite{cms:hlt_paper}. 
-
-% The following subsection will go into further details about the HLT system and the related upgrade work done which is relevant for this thesis.
-
-% \subsubsection{High-level Trigger System}
-
-% High-level trigger (HLT) in CMS is the last step of event selection before accepted events are saved for storage. The event selection at HLT is done by reconstructing
-% physics objects within the event, such as electrons, muons, jets and missing transverse momentum (the definition of these objects are provided in Sec.~\ref{sec:objects}).
-% During this reconstruction, information from all detectors are used to identify different types of particles. Several identification
-% criteria are applied on these reconstructed physics objects to select events of potential interest.
-
-% The event selection in the HLT is structured around the concept of a \textit{HLT path}. Each HLT path is a sequence of processes running in a pre-defined order, which
-% reconstructs physics objects and applies selections on them. At the end of processing, each HLT path will return a $0/1$ decision indicating whether the event is accepted
-% for storage or not. Typically, each HLT path is implemented as a sequence of processing steps with increasing complexity. As an example, selections relying only on calorimeter
-% information are applied first to reduce the event rate, and then the more CPU-expensive tracking reconstruction is performed to apply further selections on physics objects.
-% A detailed summary of how each object is reconstructed is given in~\cite{cms:hlt_paper}.     
-
-% Typically, every HLT path targets the identification of a single type of physics object (e.g. jets), and applies a filter on that object to decide whether to accept or reject
-% the event.

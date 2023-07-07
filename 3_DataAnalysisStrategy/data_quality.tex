@@ -1,7 +1,7 @@
 \section{Data-quality issues}
 \label{sec:dataquality}
 
-\subsection{Forward HCAL (HF) Noise}
+\subsection{Forward HCAL (HF) noise}
 \label{subsec:hfnoise}
 
 The forward HCAL (HF) detector covers the most-forward rapidity range of HCAL ($3 < |\eta| < 5$), as described in
@@ -11,7 +11,7 @@ It should also be noted that the tracking detector, covering $|\eta| < 2.5$ rang
 phase space. Combination of these different factors makes it harder to reconstruct and cluster hadronic jets, 
 and measure their energies accurately at the HF detector. Therefore, there
 is a sizable probability that the $\pt$ of a jet reconstructed at high $|\eta|$ being highly mismeasured.
-Such mismeasurements can lead to spurious $\ptmiss$ in QCD multijet events (e.g. $q\bar{q} \rightarrow q\bar{q}$),
+Such mismeasurements can lead to spurious $\ptmiss$ in QCD multijet events (\textit{e.g.,} $q\bar{q} \rightarrow q\bar{q}$),
 due to $\pt$ of one of the final state jets being severely mismeasured. 
 The very large cross section of QCD multijet processes in a pp collider
 means that events with spurious $\ptmiss$ cannot be ignored.
@@ -27,8 +27,8 @@ Their definitions are
 
 \begin{equation}
     \begin{split}
-        \sieie &= \sqrt{\frac{ \sum_{i} \Delta\eta(i, jet)^2 \omega_i }{ \sum_{i} \omega_i }} \quad \textrm{and} \\
-        \sipip &= \sqrt{\frac{ \sum_{i} \Delta\phi(i, jet)^2 \omega_i }{ \sum_{i} \omega_i }} \quad .
+        \sieie &= \sqrt{\frac{ \sum_{i} \Delta\eta(i, \mathrm{jet})^2 \omega_i }{ \sum_{i} \omega_i }} \quad \textrm{and} \\
+        \sipip &= \sqrt{\frac{ \sum_{i} \Delta\phi(i, \mathrm{jet})^2 \omega_i }{ \sum_{i} \omega_i }} \quad .
     \end{split}
     \label{eq:sieie_sipip}
 \end{equation}
@@ -37,7 +37,7 @@ In Eq.~\ref{eq:sieie_sipip}, the sums run over all PF candidates with $\pt > 3$ 
 $\omega_i$ is the weight applied to PF candidate $i$ within the jet, which is computed as
 
 \begin{equation}
-    \omega_i = \frac{{\pt}^i - {\pt}^{\text{PU offset}}}{\sum_{i} {\pt}^{i} - {\pt}^{\text{PU offset}} } \quad .
+    \omega_i = \frac{{\pt}^i - {\pt}^{\text{PU offset}}}{\sum_{i} \left( {\pt}^{i} - {\pt}^{\text{PU offset}} \right) } \quad .
     \label{eq:omega_def}
 \end{equation}
 
@@ -45,7 +45,7 @@ In Eq.~\ref{eq:omega_def}, ${\pt}^{\text{PU offset}}$ refers to the offset corre
 due to pileup (PU). It is defined as
 
 \begin{equation}
-    p_T^{\text{PU offset}} = \frac{\text{jet L1 offset / gen vtx}}{\pi \times 0.4^2} \times \frac{N_{\text{reco vertices}}}{\epsilon^{\text{reco}}(\text{PU vtx})} \times S_{\text{HF tower}} \ .
+    \pt^{\text{PU offset}} = \frac{\text{jet L1 offset / gen vtx}}{\pi \times 0.4^2} \times \frac{N_{\text{reco vertices}}}{\epsilon^{\text{reco}}(\text{PU vtx})} \times S_{\text{HF tower}} \ .
 \end{equation}
 
 The other distinguishing variable, HF central strip size ($\hfcss$), is computed as follows: 
@@ -172,7 +172,7 @@ In summary, the cleaning cuts applied to HF jets are:
 \end{itemize}
 
 They are applied to all jets with $\pt > 100$ GeV and $|\eta| > 2.99$ that are back-to-back with $\ptmiss$
-(i.e. $\Delta\phi(\textrm{jet},\ptmiss) > 2.5$). If any such jet fails the cuts, the event is rejected. 
+(\textit{i.e.,} $\Delta\phi(\textrm{jet},\ptmiss) > 2.5$). If any such jet fails the cuts, the event is rejected. 
 
 
 \subsubsection{Residual HF Noise Estimation}
@@ -193,11 +193,11 @@ simulation: $N_{\textrm{noise}}^{\textrm{CR}} = N_{\textrm{data}} - N_{\textrm{M
 Finally, the noise estimate in analysis signal region is calculated from $N_{\textrm{noise}}^{\textrm{CR}}$ by using $[\pt, \eta]$ dependent transfer factors,
 defined as the relative probability for a noise event to pass the HF shape cuts.
 This probability is derived from events in a noise-enriched region, where the probability of a jet in such an event
-to pass the HF cuts can be computed as a function of its pseudorapidity and transverse momentum, $\hfprobpass[p_{T}, \eta]$.
+to pass the HF cuts can be computed as a function of its pseudorapidity and transverse momentum, $\hfprobpass[\pt, \eta]$.
 Using these probabilities, the transfer factor $R_{\textrm{jet}}$ for a single jet can be then written as
 
 \begin{equation}
-    R_{\textrm{jet}} (p_T, \eta) = \frac{\hfprobpass}{\hfprobfail} (p_T, \eta) = \frac{\hfprobpass}{1 - \hfprobpass} (p_T, \eta) \quad .
+    R_{\textrm{jet}} (\pt, \eta) = \frac{\hfprobpass}{\hfprobfail} (\pt, \eta) = \frac{\hfprobpass}{1 - \hfprobpass} (\pt, \eta) \quad .
 \end{equation}
 
 For a given event, the total transfer factor (taking all HF jets into account in the event) can be then computed as
@@ -205,7 +205,7 @@ For a given event, the total transfer factor (taking all HF jets into account in
 \begin{equation}
     R_{\textrm{event}} = \prod_{\textrm{jet}} R_{\textrm{jet}} (\pt, \eta) \quad ,
 \end{equation}
-where the product runs over the jets in the event with $\pt > 100$ GeV and $|\eta| > 2.99$ (i.e. HF jets). If there are no
+where the product runs over the jets in the event with $\pt > 100$ GeV and $|\eta| > 2.99$ (\textit{i.e.,} HF jets). If there are no
 jets in the event that satisfy this criteria, $R_{\textrm{event}}$ is defined to be $0$, signifying the fact that there will be no contribution
 to the signal region noise estimate template from this event. If there is such a jet however, $R_{\textrm{event}} \neq 0$, hence signifying
 a non-zero contribution to the noise estimation in the signal region.
@@ -295,7 +295,7 @@ outlined below.
 
 Figure~\ref{fig:HEM_motivation} shows the impact of a veto on 
 events having electrons reconstructed in the impacted $[\eta,\phi]$ region. 
-The alternative of "ignoring" electrons in that region, i.e. demoting them to jets 
+The alternative of "ignoring" electrons in that region, \textit{i.e.,} demoting them to jets 
 and recalculating the leading jet pair and other relevant selection variables, 
 leads to almost identical results: The source of these jets is QCD multijet events, 
 hence very few of these events have another good electron to pass the selection for 
@@ -328,7 +328,7 @@ which arises due to the signal selection requirement that the jets and missing e
 To mitigate this problem in the signal region, the following additional requirement is imposed on 2018 data:
 
 \begin{itemize}
-    \item For events in data where the run number is smaller than 319077 (i.e. before the HCAL submodule malfunctioning)
+    \item For events in data where the run number is smaller than 319077 (\textit{i.e.,} before the HCAL submodule malfunctioning)
     no additional requirement is imposed, since those events are not impacted by the problem. Out of the full $59.7 \ \fbinv$
     of 2018 data, these events correspond to $21.1 \ \fbinv$ of integrated luminosity.
     \item For events in data where the run number is larger or equal to 319077, the event is discarded

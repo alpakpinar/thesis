@@ -671,6 +671,8 @@ INPUT ./2_Experimental_Apparatus/Figures//cms_detector.png
 INPUT 2_Experimental_Apparatus/Figures//cms_detector.png
 INPUT ./2_Experimental_Apparatus/Figures//cms_detector.png
 INPUT ./2_Experimental_Apparatus/Figures//cms_detector.png
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
 INPUT ./2_Experimental_Apparatus/Figures//inner_tracker_layout.png
 INPUT ./2_Experimental_Apparatus/Figures//inner_tracker_layout.png
 INPUT 2_Experimental_Apparatus/Figures//inner_tracker_layout.png
@@ -709,6 +711,7 @@ INPUT ./3_DataAnalysisStrategy/Figures/particle_detection_schematic.png
 INPUT 3_DataAnalysisStrategy/Figures/particle_detection_schematic.png
 INPUT ./3_DataAnalysisStrategy/Figures/particle_detection_schematic.png
 INPUT ./3_DataAnalysisStrategy/Figures/particle_detection_schematic.png
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
@@ -977,7 +980,6 @@ INPUT ./3_DataAnalysisStrategy/Figures/ScaleFactors/Muon/NUM_LooseRelIso_DEN_Loo
 INPUT 3_DataAnalysisStrategy/Figures/ScaleFactors/Muon/NUM_LooseRelIso_DEN_LooseID_abseta_pt_2018.pdf
 INPUT ./3_DataAnalysisStrategy/Figures/ScaleFactors/Muon/NUM_LooseRelIso_DEN_LooseID_abseta_pt_2018.pdf
 INPUT ./3_DataAnalysisStrategy/Figures/ScaleFactors/Muon/NUM_LooseRelIso_DEN_LooseID_abseta_pt_2018.pdf
-INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT ./3_DataAnalysisStrategy/Figures/ScaleFactors/HFCuts/hf_sf_2017.pdf
 INPUT ./3_DataAnalysisStrategy/Figures/ScaleFactors/HFCuts/hf_sf_2017.pdf
 INPUT 3_DataAnalysisStrategy/Figures/ScaleFactors/HFCuts/hf_sf_2017.pdf

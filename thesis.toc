@@ -9,13 +9,13 @@
 \contentsline {subsection}{\numberline {1.4.2}Experimental signatures at colliders}{20}{}%
 \contentsline {chapter}{\numberline {2}Experimental Apparatus}{24}{}%
 \contentsline {section}{\numberline {2.1}The Large Hadron Collider}{24}{}%
-\contentsline {section}{\numberline {2.2}The CMS Detector}{26}{}%
-\contentsline {subsection}{\numberline {2.2.1}Overall Layout}{26}{}%
-\contentsline {subsection}{\numberline {2.2.2}Tracking System}{28}{}%
-\contentsline {subsection}{\numberline {2.2.3}Electromagnetic Calorimeter}{29}{}%
-\contentsline {subsection}{\numberline {2.2.4}Hadron Calorimeter}{31}{}%
-\contentsline {subsection}{\numberline {2.2.5}Muon System}{33}{}%
-\contentsline {subsection}{\numberline {2.2.6}Trigger System}{35}{}%
+\contentsline {section}{\numberline {2.2}The CMS detector}{26}{}%
+\contentsline {subsection}{\numberline {2.2.1}Overall layout}{26}{}%
+\contentsline {subsection}{\numberline {2.2.2}Tracking system}{28}{}%
+\contentsline {subsection}{\numberline {2.2.3}Electromagnetic calorimeter}{29}{}%
+\contentsline {subsection}{\numberline {2.2.4}Hadron calorimeter}{31}{}%
+\contentsline {subsection}{\numberline {2.2.5}Muon system}{33}{}%
+\contentsline {subsection}{\numberline {2.2.6}Trigger system}{35}{}%
 \contentsline {chapter}{\numberline {3}Data Analysis Strategy}{36}{}%
 \contentsline {section}{\numberline {3.1}Physics objects}{36}{}%
 \contentsline {subsection}{\numberline {3.1.1}Jets}{38}{}%
@@ -44,17 +44,17 @@
 \contentsline {subsubsection}{QCD NLO corrections to EWK V processes}{81}{}%
 \contentsline {subsubsection}{NLO EWK Corrections on VBF Signal}{82}{}%
 \contentsline {section}{\numberline {3.3}Data-quality issues}{82}{}%
-\contentsline {subsection}{\numberline {3.3.1}Forward HCAL (HF) Noise}{82}{}%
+\contentsline {subsection}{\numberline {3.3.1}Forward HCAL (HF) noise}{82}{}%
 \contentsline {subsubsection}{Definition of HF Noise Cuts}{84}{}%
 \contentsline {subsubsection}{Residual HF Noise Estimation}{90}{}%
 \contentsline {subsection}{\numberline {3.3.2}Missing HE-15/16 sectors in 2018}{94}{}%
 \contentsline {section}{\numberline {3.4}Event selection}{99}{}%
-\contentsline {subsection}{\numberline {3.4.1}Signal region selection}{99}{}%
-\contentsline {subsection}{\numberline {3.4.2}Single Muon Control Region}{110}{}%
-\contentsline {subsection}{\numberline {3.4.3}Single Electron Control Region}{113}{}%
-\contentsline {subsection}{\numberline {3.4.4}Double Muon Control Region}{116}{}%
-\contentsline {subsection}{\numberline {3.4.5}Double Electron Control Region}{121}{}%
-\contentsline {subsection}{\numberline {3.4.6}Photon Control Region}{126}{}%
+\contentsline {subsection}{\numberline {3.4.1}Signal region}{99}{}%
+\contentsline {subsection}{\numberline {3.4.2}Single muon control region}{110}{}%
+\contentsline {subsection}{\numberline {3.4.3}Single electron control region}{113}{}%
+\contentsline {subsection}{\numberline {3.4.4}Double muon control region}{116}{}%
+\contentsline {subsection}{\numberline {3.4.5}Double electron control region}{121}{}%
+\contentsline {subsection}{\numberline {3.4.6}Photon control region}{126}{}%
 \contentsline {section}{\numberline {3.5}Signal extraction strategy}{131}{}%
 \contentsline {subsection}{\numberline {3.5.1}Binned likelihood fit}{132}{}%
 \contentsline {subsubsection}{Transfer factors}{133}{}%
@@ -76,9 +76,9 @@
 \contentsline {subsubsection}{Impact on well-reconstructed events}{167}{}%
 \contentsline {subsubsection}{Impact on output rate}{168}{}%
 \contentsline {section}{\numberline {5.2}Upgrade of the CMS tracker system}{171}{}%
-\contentsline {subsection}{\numberline {5.2.1}Apollo DTC Board: The Design}{174}{}%
-\contentsline {subsubsection}{Apollo Service Module}{175}{}%
-\contentsline {subsection}{\numberline {5.2.2}Apollo DTC Board: The Applications}{177}{}%
+\contentsline {subsection}{\numberline {5.2.1}Apollo DTC board: design}{174}{}%
+\contentsline {subsubsection}{Apollo service module}{175}{}%
+\contentsline {subsection}{\numberline {5.2.2}Apollo DTC board: applications}{177}{}%
 \contentsline {subsection}{\numberline {5.2.3}Online monitoring software development}{178}{}%
 \contentsline {section}{\numberline {5.3}Using new techniques for VBF H(inv) analysis}{181}{}%
 \contentsline {subsection}{\numberline {5.3.1}Applying ParticleNet to develop a VBF-tagger}{182}{}%

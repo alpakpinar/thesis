@@ -31,7 +31,7 @@ and have $\pt > 40$ GeV. The full set of selections is listed below:
 \begin{enumerate}
   \item Event must have exactly one tightly-identified muon with $\pt > 40$ GeV.
   \item Veto on additional leptons, photons, b jets, $\tau_{\textrm{had}}$ candidates.
-  \item $\Delta\phi(jet,\ptvecmiss)>0.5$ for the four leading jets with $\pt>30$ GeV.
+  \item $\Delta\phi(\mathrm{jet},\ptvecmiss)>0.5$ for the four leading jets with $\pt>30$ GeV.
   \item (Calo \ptmiss - PF \ptmiss) / recoil $<$ 0.5
   \item Leading AK4 jet with $\pt>80$ GeV, passing the tight jet ID.
   \item Subleading AK4 jet with $\pt>40$ GeV.
@@ -304,7 +304,7 @@ in the event. The veto weight $\omega$ is calculated as
 \begin{equation}
     \omega = \prod_{i \ \epsilon \ \textrm{leptons}} (1-\textrm{SF}_{i}) \quad ,
 \end{equation}
-where the product above runs over all identified veto leptons in the event (i.e. electrons, muons and taus).
+where the product above runs over all identified veto leptons in the event (\textit{i.e.,} electrons, muons and taus).
 $\textrm{SF}_{i}$ represents the total scale factor for the lepton $i$, which is the product of identification and isolation
 scale factors as described in Sec.~\ref{subsec:lepton_id_reweighting}. It can be observed that this method is equivalent
 to the ordinary method with hard-veto on events with leptons, as $\textrm{SF} \approx 1$ for events with well identified leptons,
@@ -356,17 +356,18 @@ data and MC, a per-jet scale factor is applied to the events in MC. These scale 
 of these cuts on $\Zmmjets$ and $\gamma$ + jets events in data and MC, as a function of jet $\pt$ and $\eta$, and taking 
 the ratio of those two efficiencies. 
 
-The HF noise scale factors are applied for each HF jet in the event which would be taken into account for the HF cuts (i.e. $\pt > 100$ GeV 
+The HF noise scale factors are applied for each HF jet in the event which would be taken into account for the HF cuts (\textit{i.e.,} $\pt > 100$ GeV 
 and $\Delta\phi(j,\ptmiss) > 2.5$), as a function of $\pt$ and $\eta$ of the jet. The event weight is calculated by multiplying the individual jet weights:
 
 \begin{equation}
     \omega_{\textrm{event}} = \prod_{\textrm{jet} \in \textrm{HF}} \omega_{\textrm{jet}} (\pt, \eta) \quad ,
 \end{equation}
-where the product runs over each jet with $\pt > 100$ GeV and $\Delta\phi(j,\ptmiss) > 2.5$\footnote{These cuts are required
+where the product runs over each jet 
+with\footnote{These cuts are required
 to be compatible with the application of HF cuts described in Sec.~\ref{subsec:hfnoise}. $\Delta\phi > 2.5$ requirement on
 the jets being considered is utilized to pick jets that are reconstructed back-to-back (\textit{i.e.,} high $\Delta\phi$) with the missing
-transverse momentum}.
-The per-jet scale factors $\omega_{jet}$ are shown in Fig.~\ref{fig:hf_scale_factors} for 2017 and 2018, together with their statistical uncertainties. 
+transverse momentum.} $\pt > 100$ GeV and $\Delta\phi(j,\ptmiss) > 2.5$.
+The per-jet scale factors $\omega_{\mathrm{jet}}$ are shown in Fig.~\ref{fig:hf_scale_factors} for 2017 and 2018, together with their statistical uncertainties. 
 For the statistically limited phase space of very high $\pt$ and $\eta$ (where the scale factor is measured to be $0$), 
 the scale factor in the closest $[ \pt, \eta ]$ bin is applied to the HF jet.
 
@@ -477,10 +478,10 @@ All theory-based corrections of the $\Wlvjets$, $\Zlljets$, and $\gamma$ + jets 
 generator-level transverse momentum of the respective boson, $\ptv$. For $\Wlvjets$ and $\Zlljets$ events, this quantity is calculated as follows:
 
 \begin{enumerate}
-  \item If a boson is found in generator-level collection with \texttt{status = 62}, it's $\ptv$ is taken as the generator level $\ptv$.
-  (If multiple such entries are found, highest $\ptv$ is chosen.)
+  \item If a boson is found in generator-level collection with status = 62, it's $\ptv$ is taken as the generator level $\ptv$.
+  (If multiple such entries are found, the boson with the highest $\ptv$ is chosen.)
   \item In the rare cases where the boson is not found in the generator-level collection, then the boson is defined as the four-vector sum of the selected leptons.
-  Leptons are selected as described in the next two steps:
+  Leptons are selected as described in the next two steps.
   % \item If there are dressed electrons or muons (taken from the \texttt{GenDressedLepton} collection) that are not coming from a tau decay, these leptons are selected
   % to compute $\ptv$.
   % \item If the dressed electrons or muons are found to be coming from a tau decay, or if there are no dressed leptons in the event, the generator-level taus 
@@ -492,7 +493,7 @@ generator-level transverse momentum of the respective boson, $\ptv$. For $\Wlvje
 
 For $\gamma$ + jets events, the photon at generator-level is selected by requiring the following:
 \begin{itemize}
-    \item Photon needs to have status = 1, indicating that it is a final state particle (i.e. a particle that is not decayed further by the generator). 
+    \item Photon needs to have status = 1, indicating that it is a final state particle (\textit{i.e.,} a particle that is not decayed further by the generator). 
     \item Photon needs to have a prompt status flag. 
     \item $|\eta|<1.46$, so that the photon is in the barrel region. 
 \end{itemize}
@@ -559,7 +560,7 @@ These kinematic selections are described in Sec.~\ref{sec:event_selection}.
 The correction is calculated as a function of the $\pt$ of the Higgs boson, and is parametrized using the following fit function,
 
 \begin{equation}
-    \epsilon_{\textrm{EWK}}({\pt}^{\textrm{H}}) = (1 - 0.000372 {\pt}^{\textrm{H}} - 0.0304) / 0.95 \quad .
+    \epsilon_{\textrm{EWK}}(\pthiggs) = (1 - 0.000372 \pthiggs - 0.0304) / 0.95 \quad .
 \end{equation}
 
 For each event in the VBF signal sample, this correction is applied based on the $\pt$ of the Higgs boson found in the generator-level collection.
