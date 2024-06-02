@@ -6,6 +6,12 @@ CMS Collaboration.
   boson fusion in proton-proton collisions at $\sqrt{s}=13$ TeV}.
 \newblock {\em Phys. Rev. D}, 105:092007, May 2022.
 
+\bibitem{Junk:1999kv}
+Thomas Junk.
+\newblock Confidence level computation for combining searches with small
+  statistics.
+\newblock {\em Nucl. Instrum. Meth. A}, 434:435, 1999.
+
 \bibitem{paper:VBF_HToInv_2016}
 CMS Collaboration.
 \newblock {Search for invisible decays of a Higgs boson produced through vector
@@ -22,12 +28,6 @@ CMS Collaboration.
 Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
 \newblock Asymptotic formulae for likelihood-based tests of new physics.
 \newblock {\em Eur. Phys. J. C}, 71:1554, 2011.
-
-\bibitem{Junk:1999kv}
-Thomas Junk.
-\newblock Confidence level computation for combining searches with small
-  statistics.
-\newblock {\em Nucl. Instrum. Meth. A}, 434:435, 1999.
 
 \bibitem{Read:2002av}
 A.~L. Read.

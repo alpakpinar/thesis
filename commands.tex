@@ -106,3 +106,21 @@
 \newcommand{\mhiggs}{\ensuremath{m_{\textrm{H}}}}
 
 \providecommand{\cmsTable}[1]{\resizebox{\textwidth}{!}{#1}}
+
+% Redefine the chapter command to include an abstract
+\newcommand{\beginchapterabstract}[1]{%
+  \begingroup
+  \let\cleardoublepage\relax
+  \let\clearpage\relax
+  \chapter{#1}
+%   \vspace{-3em} % Adjust the space after chapter title
+  \begin{center}
+  \textbf{Abstract}
+  \end{center}
+  \begin{quote}
+}
+
+\newcommand{\finishchapterabstract}{%
+  \end{quote}
+  \endgroup
+}
