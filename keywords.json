@@ -1,0 +1,60 @@
+{
+    "1_Theoretical_Background": [
+        "Standard Model",
+        "Dark matter",
+        "Particle physics",
+        "Higgs boson",
+        "Higgs portal",
+        "Beyond the Standard Model",
+        "BSM"
+    ],
+    "2_Experimental_Apparatus": [
+        "Large Hadron Collider",
+        "LHC",
+        "Compact Muon Solenoid",
+        "CMS",
+        "Tracker system",
+        "Electromagnetic calorimeter",
+        "Hadronic calorimeter",
+        "Muon system",
+        "Trigger system"
+    ],
+    "3_Data_Analysis_Strategy": [
+        "Vector boson fusion",
+        "Event reconstruction",
+        "Monte Carlo simulation",
+        "Reweighting",
+        "Data quality",
+        "Event selection",
+        "Beyond the Standard Model",
+        "BSM",
+        "Compact Muon Solenoid",
+        "CMS",
+        "Large Hadron Collider",
+        "LHC"
+    ],
+    "4_Results": [
+        "Vector boson fusion",
+        "Beyond the Standard Model",
+        "BSM",
+        "Dark matter",
+        "Higgs to invisible decays",
+        "Compact Muon Solenoid",
+        "CMS",
+        "Large Hadron Collider",
+        "LHC"
+    ],
+    "5_Outlook": [
+        "Compact Muon Solenoid",
+        "CMS",
+        "Large Hadron Collider",
+        "LHC",
+        "CMS High Level Trigger",
+        "CMS Phase 2 upgrade",
+        "CMS IT DTC",
+        "Apollo",
+        "Graph neural networks",
+        "ParticleNet",
+        "Vector boson fusion"
+    ]
+}
