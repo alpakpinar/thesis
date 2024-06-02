@@ -1,0 +1,173 @@
+\begin{thebibliography}{10}
+
+\bibitem{cms:particle_flow}
+CMS Collaboration.
+\newblock Particle-flow reconstruction and global event description with the
+  {CMS} detector.
+\newblock {\em Journal of Instrumentation}, 12(P10003), 2017.
+
+\bibitem{Thomson:2013zua}
+Mark Thomson.
+\newblock {\em {Modern particle physics}}.
+\newblock Cambridge University Press, New York, 2013.
+
+\bibitem{cms:phase2_upgrade}
+CMS Collaboration.
+\newblock Technical proposal for the phase-{II} upgrade of the {CMS} detector.
+\newblock \url{http://cds.cern.ch/record/2020886}, 2015.
+
+\bibitem{Cacciari:2008gp}
+Matteo Cacciari, Gavin~P. Salam, and Gregory Soyez.
+\newblock The anti-$k_t$ jet clustering algorithm.
+\newblock {\em JHEP}, 04:063, 2008.
+
+\bibitem{CMS:2014ata}
+{Pileup Removal Algorithms}.
+\newblock 2014.
+
+\bibitem{Khachatryan:2016kdb}
+{Khachatryan, Vardan \textit{et. al.}}
+\newblock {Jet energy scale and resolution in the CMS experiment in pp
+  collisions at 8 TeV}.
+\newblock {\em JINST}, 12:P02014, 2017.
+
+\bibitem{JME:JECRecommendations}
+{CMS JetMET POG}.
+\newblock \url{https://twiki.cern.ch/twiki/bin/view/CMS/JECDataMC}.
+
+\bibitem{CMS:JME_jetId}
+CMS~JME POG.
+\newblock Jet identification for the 13 {TeV} {UL} data.
+\newblock \url{https://twiki.cern.ch/twiki/bin/view/CMS/JetID13TeVUL}.
+
+\bibitem{CMS:JME_jetPuID}
+CMS~JME POG.
+\newblock Jet identification in high pile-up environment.
+\newblock \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/PileupJetID}.
+
+\bibitem{Sirunyan:2017ezt}
+{Sirunyan, A. M. \textit{et. al.}}
+\newblock Identification of heavy-flavour jets with the {CMS} detector in pp
+  collisions at 13 {TeV}.
+\newblock {\em JINST}, 13(05):P05011, 2018.
+
+\bibitem{CMS-JME-TWIKI-FILTER}
+{CMS JME POG}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/MissingETOptionalFiltersRun2}.
+
+\bibitem{cms:muon_paper}
+CMS Collaboration.
+\newblock {Performance of the {CMS} muon detector and muon reconstruction with
+  proton-proton collisions at $\sqrt{s} = 13$ TeV}.
+\newblock {\em Journal of Instrumentation}, 13(P06015), 2018.
+
+\bibitem{CMS-MUO-TWIKI-IDLOOSE}
+{CMS Muon POG}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideMuonIdRun2#Loose\_Muon}.
+
+\bibitem{CMS-MUO-TWIKI-IDTIGHT}
+{CMS Muon POG}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/SWGuideMuonIdRun2#Tight\_Muon}.
+
+\bibitem{cms:elepho_paper}
+CMS Collaboration.
+\newblock Electron and photon reconstruction and identification with the {CMS}
+  experiment at the {CERN LHC}.
+\newblock {\em Journal of Instrumentation}, 16(P05014), 2021.
+
+\bibitem{CMS-DP-2019-033}
+{CMS Collaboration}.
+\newblock {Performance of the DeepTau algorithm for the discrimination of taus
+  against jets, electron, and muons}.
+\newblock CMS Physics Analysis Summary, CMS-DP-2019-033, 2019.
+
+\bibitem{taupog_twiki}
+{CMS Tau POG}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/TauIDRecommendation13TeV#Measurement_in_Z_tautau_events}.
+
+\bibitem{CMS:EGM-14-001}
+{Khachatryan, Vardan \textit{et. al.}}
+\newblock {Performance of photon reconstruction and identification with the CMS
+  detector in proton-proton collisions at $\sqrt{s} = 8$ TeV}.
+\newblock {\em JINST}, 10:P08010, 2015.
+
+\bibitem{CMS-EGM-TWIKI-GAMID}
+{CMS EGamma POG}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/CutBasedPhotonIdentificationRun2#SPRING15\_selections\_bunch\_crossi}.
+
+\bibitem{pileup_twiki}
+{CMS Lumi POG}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/PileupJSONFileforData#Pileup_JSON_Files_For_Run_II}.
+
+\bibitem{CMS-MUO-TWIKI-SF}
+{CMS Muon POG}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/MuonReferenceSelectionAndCalibrationsRun2}.
+
+\bibitem{CMS:PrefiringTwiki}
+{CMS JME POG}.
+\newblock {Reweighting recipe to emulate Level 1 ECAL prefiring}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/viewauth/CMS/L1ECALPrefiringWeightRecipe}.
+
+\bibitem{CMS:PrefiringNanoAODTools}
+{Prefiring correction implementation in NanoAOD-Tools}.
+\newblock
+  \url{https://github.com/cms-nanoAOD/nanoAOD-tools/blob/master/python/postprocessing/modules/common/PrefireCorr.py}.
+
+\bibitem{DMTheory}
+{Lindert, J. M. \textit{et. al}}.
+\newblock {Precise predictions for V+jets dark matter backgrounds}.
+\newblock 2017.
+
+\bibitem{AN-2017-267}
+{Search for VBF Higgs boson decays to invisible particles with 2016 dataset},
+  2017.
+\newblock CMS Analysis Note : AN-17-267.
+
+\bibitem{HAWKGenerator}
+{A Monte Carlo generator for the production of Higgs bosons attached to weak
+  bosons (HAWK)}.
+
+\bibitem{Sirunyan:2019kia}
+{Sirunyan, Albert M. \textit{et. al}}.
+\newblock {Performance of missing transverse momentum reconstruction in
+  proton-proton collisions at $\sqrt{s} =$ 13 TeV using the CMS detector}.
+\newblock {\em Submitted to: JINST}, 2019.
+
+\bibitem{CMS_NOTE_2018-323}
+{Lenzi, Pierguilio and Palmer, Christopher A. and Thomas-Wilsker, Joshuha
+  \textit{et. al.}}
+\newblock {Performance of Flavour Tagging Algorithms at 13 TeV with 2018 data}.
+\newblock CMS Note 2018/323, 2019.
+
+\bibitem{VBFHinvAnalysisPaper}
+CMS Collaboration.
+\newblock {Search for invisible decays of the Higgs boson produced via vector
+  boson fusion in proton-proton collisions at $\sqrt{s}=13$ TeV}.
+\newblock {\em Phys. Rev. D}, 105:092007, May 2022.
+
+\bibitem{paper:PDF4LHC}
+Jon~Butterworth et~al.
+\newblock {PDF4LHC recommendations for LHC Run II}.
+\newblock {\em Journal of Physics G: Nuclear and Particle Physics}, 43(023001),
+  2016.
+
+\bibitem{Khachatryan:2014gga}
+{Khachatryan, Vardan \textit{et. al.}}
+\newblock {Performance of the CMS missing transverse momentum reconstruction in
+  pp data at $\sqrt{s}$ = 8 TeV}.
+\newblock {\em JINST}, 10:P02006, 2015.
+
+\bibitem{jetMET_twiki}
+{CMS JME}.
+\newblock
+  \url{https://twiki.cern.ch/twiki/bin/view/CMS/JECUncertaintySources#Run_2_reduced_set_of_uncertainty}.
+
+\end{thebibliography}

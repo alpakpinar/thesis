@@ -1,87 +1,105 @@
+\gdef \the@ipfilectr {@-1}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-2}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-3}
 \contentsline {chapter}{\numberline {1}Theoretical Background}{1}{}%
-\contentsline {section}{\numberline {1.1}A brief history of particle physics}{1}{}%
-\contentsline {section}{\numberline {1.2}The Standard Model of particle physics}{5}{}%
-\contentsline {section}{\numberline {1.3}Beyond the Standard Model: dark matter}{12}{}%
-\contentsline {subsection}{\numberline {1.3.1}Experimental evidence for dark matter}{12}{}%
-\contentsline {subsection}{\numberline {1.3.2}Searches for dark matter}{15}{}%
-\contentsline {section}{\numberline {1.4}Higgs portal models}{17}{}%
-\contentsline {subsection}{\numberline {1.4.1}Theory}{18}{}%
-\contentsline {subsection}{\numberline {1.4.2}Experimental signatures at colliders}{20}{}%
-\contentsline {chapter}{\numberline {2}Experimental Apparatus}{24}{}%
-\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{24}{}%
-\contentsline {section}{\numberline {2.2}The CMS detector}{26}{}%
-\contentsline {subsection}{\numberline {2.2.1}Overall layout}{26}{}%
-\contentsline {subsection}{\numberline {2.2.2}Tracking system}{28}{}%
-\contentsline {subsection}{\numberline {2.2.3}Electromagnetic calorimeter}{29}{}%
-\contentsline {subsection}{\numberline {2.2.4}Hadron calorimeter}{31}{}%
-\contentsline {subsection}{\numberline {2.2.5}Muon system}{33}{}%
-\contentsline {subsection}{\numberline {2.2.6}Trigger system}{35}{}%
-\contentsline {chapter}{\numberline {3}Data Analysis Strategy}{36}{}%
-\contentsline {section}{\numberline {3.1}Physics objects}{36}{}%
-\contentsline {subsection}{\numberline {3.1.1}Jets}{38}{}%
-\contentsline {subsubsection}{b-tagged jets}{39}{}%
-\contentsline {subsection}{\numberline {3.1.2}Missing transverse momentum}{40}{}%
-\contentsline {subsection}{\numberline {3.1.3}Leptons}{42}{}%
-\contentsline {subsubsection}{Muons}{42}{}%
-\contentsline {subsubsection}{Electrons}{44}{}%
-\contentsline {subsubsection}{Taus}{47}{}%
-\contentsline {subsection}{\numberline {3.1.4}Photons}{47}{}%
-\contentsline {subsubsection}{Photon purity}{48}{}%
-\contentsline {section}{\numberline {3.2}Reweighting of simulated events}{55}{}%
-\contentsline {subsection}{\numberline {3.2.1}Trigger efficiency}{55}{}%
-\contentsline {subsubsection}{\ensuremath {p_{\textrm {T},\textrm {no}-\mu }^{\textrm {miss}}}\xspace and \ensuremath {H_{\textrm {T},\textrm {no}-\mu }^{\textrm {miss}}}\xspace triggers}{55}{}%
-\contentsline {subsubsection}{Photon trigger}{58}{}%
-\contentsline {subsubsection}{Electron trigger}{61}{}%
-\contentsline {subsection}{\numberline {3.2.2}Pileup}{63}{}%
-\contentsline {subsection}{\numberline {3.2.3}Lepton identification efficiency}{67}{}%
-\contentsline {subsection}{\numberline {3.2.4}Lepton veto efficiency}{72}{}%
-\contentsline {subsection}{\numberline {3.2.5}HF noise cuts}{73}{}%
-\contentsline {subsection}{\numberline {3.2.6}ECAL pre-firing}{75}{}%
-\contentsline {subsection}{\numberline {3.2.7}Higher-order reweighting}{78}{}%
-\contentsline {subsubsection}{Generator-level boson construction}{79}{}%
-\contentsline {subsubsection}{Photon scale factors}{80}{}%
-\contentsline {subsubsection}{EWK NLO corrections to QCD V processes}{80}{}%
-\contentsline {subsubsection}{QCD NLO corrections to EWK V processes}{81}{}%
-\contentsline {subsubsection}{NLO EWK Corrections on VBF Signal}{82}{}%
-\contentsline {section}{\numberline {3.3}Data-quality issues}{82}{}%
-\contentsline {subsection}{\numberline {3.3.1}Forward HCAL (HF) noise}{82}{}%
-\contentsline {subsubsection}{Definition of HF Noise Cuts}{84}{}%
-\contentsline {subsubsection}{Residual HF Noise Estimation}{90}{}%
-\contentsline {subsection}{\numberline {3.3.2}Missing HE-15/16 sectors in 2018}{94}{}%
-\contentsline {section}{\numberline {3.4}Event selection}{99}{}%
-\contentsline {subsection}{\numberline {3.4.1}Signal region}{99}{}%
-\contentsline {subsection}{\numberline {3.4.2}Single muon control region}{110}{}%
-\contentsline {subsection}{\numberline {3.4.3}Single electron control region}{113}{}%
-\contentsline {subsection}{\numberline {3.4.4}Double muon control region}{116}{}%
-\contentsline {subsection}{\numberline {3.4.5}Double electron control region}{121}{}%
-\contentsline {subsection}{\numberline {3.4.6}Photon control region}{126}{}%
-\contentsline {section}{\numberline {3.5}Signal extraction strategy}{131}{}%
-\contentsline {subsection}{\numberline {3.5.1}Binned likelihood fit}{132}{}%
-\contentsline {subsubsection}{Transfer factors}{133}{}%
-\contentsline {subsection}{\numberline {3.5.2}Systematic uncertainties}{138}{}%
-\contentsline {subsubsection}{Theoretical uncertainties}{138}{}%
-\contentsline {subsubsection}{Experimental uncertainties}{141}{}%
-\contentsline {chapter}{\numberline {4}Results}{148}{}%
-\contentsline {section}{\numberline {4.1}Combined likelihood fit}{148}{}%
-\contentsline {section}{\numberline {4.2}Combinations}{155}{}%
-\contentsline {subsection}{\numberline {4.2.1}Combination with VTR category}{155}{}%
-\contentsline {subsection}{\numberline {4.2.2}Combination with 2016 dataset}{155}{}%
-\contentsline {section}{\numberline {4.3}Interpretations}{159}{}%
-\contentsline {subsection}{\numberline {4.3.1}Invisible branching fraction of SM Higgs boson}{159}{}%
-\contentsline {subsection}{\numberline {4.3.2}Upper bound on DM-nucleon interactions}{160}{}%
-\contentsline {chapter}{\numberline {5}Outlook}{163}{}%
-\contentsline {section}{\numberline {5.1}Improvements in the high-level trigger system}{163}{}%
-\contentsline {subsection}{\numberline {5.1.1}Revisiting HF noise mitigation}{164}{}%
-\contentsline {subsection}{\numberline {5.1.2}Performance checking with Run3 data}{166}{}%
-\contentsline {subsubsection}{Impact on well-reconstructed events}{167}{}%
-\contentsline {subsubsection}{Impact on output rate}{168}{}%
-\contentsline {section}{\numberline {5.2}Upgrade of the CMS tracker system}{171}{}%
-\contentsline {subsection}{\numberline {5.2.1}Apollo DTC board: design}{174}{}%
-\contentsline {subsubsection}{Apollo service module}{175}{}%
-\contentsline {subsection}{\numberline {5.2.2}Apollo DTC board: applications}{177}{}%
-\contentsline {subsection}{\numberline {5.2.3}Online monitoring software development}{178}{}%
-\contentsline {section}{\numberline {5.3}Using new techniques for VBF H(inv) analysis}{181}{}%
-\contentsline {subsection}{\numberline {5.3.1}Applying ParticleNet to develop a VBF-tagger}{182}{}%
-\contentsline {subsection}{\numberline {5.3.2}Preliminary results}{188}{}%
-\contentsline {subsection}{\numberline {5.3.3}Outlook}{190}{}%
-\contentsline {chapter}{Curriculum Vitae}{201}{}%
+\contentsline {section}{\numberline {1.1}A brief history of particle physics}{3}{}%
+\contentsline {section}{\numberline {1.2}The Standard Model of particle physics}{7}{}%
+\contentsline {section}{\numberline {1.3}Beyond the Standard Model: dark matter}{13}{}%
+\contentsline {subsection}{\numberline {1.3.1}Experimental evidence for dark matter}{13}{}%
+\contentsline {subsection}{\numberline {1.3.2}Searches for dark matter}{16}{}%
+\contentsline {section}{\numberline {1.4}Higgs portal models}{18}{}%
+\contentsline {subsection}{\numberline {1.4.1}Theory}{19}{}%
+\contentsline {subsection}{\numberline {1.4.2}Experimental signatures at colliders}{21}{}%
+\contentsline {section}{Bibliography}{24}{}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-4}
+\contentsline {chapter}{\numberline {2}Experimental Apparatus}{30}{}%
+\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{32}{}%
+\contentsline {section}{\numberline {2.2}The CMS detector}{33}{}%
+\contentsline {subsection}{\numberline {2.2.1}Overall layout}{34}{}%
+\contentsline {subsection}{\numberline {2.2.2}Tracking system}{36}{}%
+\contentsline {subsection}{\numberline {2.2.3}Electromagnetic calorimeter}{38}{}%
+\contentsline {subsection}{\numberline {2.2.4}Hadron calorimeter}{40}{}%
+\contentsline {subsection}{\numberline {2.2.5}Muon system}{40}{}%
+\contentsline {subsection}{\numberline {2.2.6}Trigger system}{42}{}%
+\contentsline {section}{Bibliography}{42}{}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-5}
+\contentsline {chapter}{\numberline {3}Data Analysis Strategy}{45}{}%
+\contentsline {section}{\numberline {3.1}Physics objects}{47}{}%
+\contentsline {subsection}{\numberline {3.1.1}Jets}{48}{}%
+\contentsline {subsubsection}{b-tagged jets}{50}{}%
+\contentsline {subsection}{\numberline {3.1.2}Missing transverse momentum}{50}{}%
+\contentsline {subsection}{\numberline {3.1.3}Leptons}{53}{}%
+\contentsline {subsubsection}{Muons}{53}{}%
+\contentsline {subsubsection}{Electrons}{55}{}%
+\contentsline {subsubsection}{Taus}{57}{}%
+\contentsline {subsection}{\numberline {3.1.4}Photons}{57}{}%
+\contentsline {subsubsection}{Photon purity}{58}{}%
+\contentsline {section}{\numberline {3.2}Reweighting of simulated events}{66}{}%
+\contentsline {subsection}{\numberline {3.2.1}Trigger efficiency}{66}{}%
+\contentsline {subsubsection}{\ensuremath {p_{\textrm {T},\textrm {no}-\mu }^{\textrm {miss}}}\xspace and \ensuremath {H_{\textrm {T},\textrm {no}-\mu }^{\textrm {miss}}}\xspace triggers}{66}{}%
+\contentsline {subsubsection}{Photon trigger}{69}{}%
+\contentsline {subsubsection}{Electron trigger}{72}{}%
+\contentsline {subsection}{\numberline {3.2.2}Pileup}{74}{}%
+\contentsline {subsection}{\numberline {3.2.3}Lepton identification efficiency}{78}{}%
+\contentsline {subsection}{\numberline {3.2.4}Lepton veto efficiency}{83}{}%
+\contentsline {subsection}{\numberline {3.2.5}HF noise cuts}{84}{}%
+\contentsline {subsection}{\numberline {3.2.6}ECAL pre-firing}{86}{}%
+\contentsline {subsection}{\numberline {3.2.7}Higher-order reweighting}{89}{}%
+\contentsline {subsubsection}{Generator-level boson construction}{90}{}%
+\contentsline {subsubsection}{Photon scale factors}{91}{}%
+\contentsline {subsubsection}{EWK NLO corrections to QCD V processes}{91}{}%
+\contentsline {subsubsection}{QCD NLO corrections to EWK V processes}{92}{}%
+\contentsline {subsubsection}{NLO EWK Corrections on VBF Signal}{93}{}%
+\contentsline {section}{\numberline {3.3}Data-quality issues}{93}{}%
+\contentsline {subsection}{\numberline {3.3.1}Forward HCAL (HF) noise}{93}{}%
+\contentsline {subsubsection}{Definition of HF Noise Cuts}{95}{}%
+\contentsline {subsubsection}{Residual HF Noise Estimation}{102}{}%
+\contentsline {subsection}{\numberline {3.3.2}Missing HE-15/16 sectors in 2018}{105}{}%
+\contentsline {section}{\numberline {3.4}Event selection}{111}{}%
+\contentsline {subsection}{\numberline {3.4.1}Signal region}{111}{}%
+\contentsline {subsection}{\numberline {3.4.2}Single muon control region}{122}{}%
+\contentsline {subsection}{\numberline {3.4.3}Single electron control region}{125}{}%
+\contentsline {subsection}{\numberline {3.4.4}Double muon control region}{128}{}%
+\contentsline {subsection}{\numberline {3.4.5}Double electron control region}{133}{}%
+\contentsline {subsection}{\numberline {3.4.6}Photon control region}{138}{}%
+\contentsline {section}{\numberline {3.5}Signal extraction strategy}{143}{}%
+\contentsline {subsection}{\numberline {3.5.1}Binned likelihood fit}{144}{}%
+\contentsline {subsubsection}{Transfer factors}{145}{}%
+\contentsline {subsection}{\numberline {3.5.2}Systematic uncertainties}{150}{}%
+\contentsline {subsubsection}{Theoretical uncertainties}{150}{}%
+\contentsline {subsubsection}{Experimental uncertainties}{153}{}%
+\contentsline {section}{Bibliography}{160}{}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-6}
+\contentsline {chapter}{\numberline {4}Results}{164}{}%
+\contentsline {section}{\numberline {4.1}Combined likelihood fit}{166}{}%
+\contentsline {section}{\numberline {4.2}Combinations}{173}{}%
+\contentsline {subsection}{\numberline {4.2.1}Combination with VTR category}{173}{}%
+\contentsline {subsection}{\numberline {4.2.2}Combination with 2016 dataset}{173}{}%
+\contentsline {section}{\numberline {4.3}Interpretations}{177}{}%
+\contentsline {subsection}{\numberline {4.3.1}Invisible branching fraction of SM Higgs boson}{177}{}%
+\contentsline {subsection}{\numberline {4.3.2}Upper bound on DM-nucleon interactions}{178}{}%
+\contentsline {section}{Bibliography}{179}{}%
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-7}
+\contentsline {chapter}{\numberline {5}Outlook}{183}{}%
+\contentsline {section}{\numberline {5.1}Improvements in the high-level trigger system}{185}{}%
+\contentsline {subsection}{\numberline {5.1.1}Revisiting HF noise mitigation}{185}{}%
+\contentsline {subsection}{\numberline {5.1.2}Performance checking with Run3 data}{188}{}%
+\contentsline {subsubsection}{Impact on well-reconstructed events}{189}{}%
+\contentsline {subsubsection}{Impact on output rate}{191}{}%
+\contentsline {section}{\numberline {5.2}Upgrade of the CMS tracker system}{193}{}%
+\contentsline {subsection}{\numberline {5.2.1}Apollo DTC board: design}{196}{}%
+\contentsline {subsubsection}{Apollo service module}{197}{}%
+\contentsline {subsection}{\numberline {5.2.2}Apollo DTC board: applications}{199}{}%
+\contentsline {subsection}{\numberline {5.2.3}Online monitoring software development}{200}{}%
+\contentsline {section}{\numberline {5.3}Using new techniques for VBF H(inv) analysis}{203}{}%
+\contentsline {subsection}{\numberline {5.3.1}Applying ParticleNet to develop a VBF-tagger}{204}{}%
+\contentsline {subsection}{\numberline {5.3.2}Preliminary results}{210}{}%
+\contentsline {subsection}{\numberline {5.3.3}Outlook}{212}{}%
+\contentsline {section}{Bibliography}{214}{}%
+\gdef \the@ipfilectr {}

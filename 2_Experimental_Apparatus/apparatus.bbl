@@ -1,0 +1,70 @@
+\begin{thebibliography}{10}
+
+\bibitem{LHCAcceleratorComplex}
+CERN.
+\newblock Cern accelerator complex.
+\newblock \url{https://home.cern/science/accelerators/accelerator-complex}.
+
+\bibitem{lumi:2018}
+CMS Collaboration.
+\newblock {{CMS} luminosity measurement for the 2018 data-taking period at
+  $\sqrt{s} = 13$ TeV}.
+\newblock \url{https://cds.cern.ch/record/2676164}, 2019.
+
+\bibitem{lumi:2017}
+CMS Collaboration.
+\newblock {{CMS} luminosity measurement for the 2017 data-taking period at
+  $\sqrt{s} = 13$ TeV}.
+\newblock \url{https://cds.cern.ch/record/2621960}, 2018.
+
+\bibitem{lumi:2016}
+CMS Collaboration.
+\newblock Precision luminosity measurement in proton-proton collisions at
+  $\sqrt{s}$ = 13 {TeV} in 2015 and 2016 at {CMS}.
+\newblock {\em European Physical Journal C}, 81(800 (2021)), 2021.
+
+\bibitem{cms:l1_paper}
+CMS Collaboration.
+\newblock {Performance of the {CMS} {Level-1} trigger in proton-proton
+  collisions at $\sqrt{s} = 13$ TeV}.
+\newblock {\em Journal of Instrumentation}, 15(P10017), 2020.
+
+\bibitem{cms:hlt_paper}
+CMS Collaboration.
+\newblock The {CMS} trigger system.
+\newblock {\em Journal of Instrumentation}, 12(P01020), 2017.
+
+\bibitem{cms:elepho_paper}
+CMS Collaboration.
+\newblock Electron and photon reconstruction and identification with the {CMS}
+  experiment at the {CERN LHC}.
+\newblock {\em Journal of Instrumentation}, 16(P05014), 2021.
+
+\bibitem{cms:muon_paper}
+CMS Collaboration.
+\newblock {Performance of the {CMS} muon detector and muon reconstruction with
+  proton-proton collisions at $\sqrt{s} = 13$ TeV}.
+\newblock {\em Journal of Instrumentation}, 13(P06015), 2018.
+
+\bibitem{cms:vertex_paper}
+CMS Collaboration.
+\newblock Description and performance of track and primary-vertex
+  reconstruction with the {CMS} tracker.
+\newblock {\em Journal of Instrumentation}, 9(P10009), 2014.
+
+\bibitem{detector:cms_overall}
+CMS Collaboration.
+\newblock Cms detector design.
+\newblock \url{https://cms.cern/news/cms-detector-design}.
+
+\bibitem{cms:tracker_upgrade}
+CMS Collaboration.
+\newblock The {CMS} phase-1 pixel detector upgrade.
+\newblock {\em Journal of Instrumentation}, 16(P02027), 2021.
+
+\bibitem{cms:cms_experiment}
+CMS Collaboration.
+\newblock The {CMS} experiment at the {CERN LHC}.
+\newblock {\em Journal of Instrumentation}, 3(S08004), 2008.
+
+\end{thebibliography}

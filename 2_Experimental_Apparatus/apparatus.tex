@@ -3,6 +3,22 @@
 
 \graphicspath{{2_Experimental_Apparatus/Figures/}}
 
+\begin{abstract}
+    This chapter provides a comprehensive exploration of the design 
+    and operational principles underlying the Large Hadron Collider (LHC) and the Compact Muon Solenoid (CMS) detector.
+    The chapter systematically breaks down the essential sub-components of the CMS detector. 
+    First, the tracker system is analyzed, highlighting its role in 
+    reconstructing the trajectories of charged particles 
+    with high precision. Next, the chapter details the electromagnetic 
+    and hadronic calorimeters, highlighting their role in 
+    measuring the energy of photons, electrons, and hadrons. 
+    The muon system is also thoroughly reviewed, 
+    emphasizing its importance in detecting muons, which are crucial for a variety of physics analyses.
+    The chapter ends with a brief discussion of the two-level triggering system, 
+    which is used to select proton-proton collision events of interest
+    for downstream analysis. 
+\end{abstract}
+
 \section{The Large Hadron Collider}
 \label{sec:large_had_collider}
 
@@ -205,4 +221,7 @@ To select the events of interest and reduce the rate of data being saved, a two-
 trigger (L1), is composed of custom hardware processors, which uses event information from the calorimeters and the muon system to select events at a rate
 of 100 kHz within a fixed latency of about 4 $\mu s$ \cite{cms:l1_paper}. The second level, known as the high-level trigger (HLT), consists of processors 
 running a version of the full event reconstruction software optimized for fast processing, and reduces the event rate to around 1 kHz before data storage 
-\cite{cms:hlt_paper}. 
+\cite{cms:hlt_paper}.
+
+\bibliographystyle{unsrt}
+\bibliography{thesis}

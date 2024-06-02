@@ -1,0 +1,56 @@
+\begin{thebibliography}{10}
+
+\bibitem{CMS:ApolloPaper}
+A.~Albert \textit{et. al.}
+\newblock {The Apollo ATCA Platform}.
+\newblock {\em arXiv:1911.06452}, 2020.
+
+\bibitem{CMS:ParticleNetPaper}
+Loukas~Gouskos Huilin~Qu.
+\newblock {ParticleNet: Jet Tagging via Particle Clouds}.
+\newblock {\em arXiv:1902.08570}, 2020.
+
+\bibitem{VBFHinvAnalysisPaper}
+CMS Collaboration.
+\newblock {Search for invisible decays of the Higgs boson produced via vector
+  boson fusion in proton-proton collisions at $\sqrt{s}=13$ TeV}.
+\newblock {\em Phys. Rev. D}, 105:092007, May 2022.
+
+\bibitem{cms:hlt_paper}
+CMS Collaboration.
+\newblock The {CMS} trigger system.
+\newblock {\em Journal of Instrumentation}, 12(P01020), 2017.
+
+\bibitem{CMS:Phase2TrackerUpgrade}
+CMS Collaboration.
+\newblock {The CMS Tracker for the High Luminosity LHC}.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment}, 1048, 2023.
+
+\bibitem{CMS:TrackerUpgradeStatus}
+Luigi~C. CMS~Collaboration.
+\newblock {Status of the Phase-2 Tracker Upgrade of the CMS experiment at the
+  HL-LHC}.
+\newblock {\em J. Phys.: Conf. Ser.}, (1690), 2020.
+
+\bibitem{PICMG:ATCA}
+PICMG.
+\newblock {\em PICMG 3.0 - AdvancedTCA Base Specification}.
+
+\bibitem{Calligaris:OpenIPMC}
+{L. Calligaris \textit{et. al}}.
+\newblock {OpenIPMC: A Free and Open-Source Intelligent Platform Management
+  Controller Software}.
+\newblock {\em IEEE Trans. Nucl. Sci.}, 68(8):2105--2112, 2021.
+
+\bibitem{CMS:SerenityPaper}
+A.~Rose \textit{et. al.}
+\newblock {Serenity: An ATCA prototyping platform for CMS Phase-2}.
+\newblock {\em PoS Proc. Sci.}, 2019.
+
+\bibitem{Wang:DynamicGraphCNNPaper}
+Yue~Wang \textit{et. al.}
+\newblock {Dynamic Graph CNN for Learning on Point Clouds}.
+\newblock {\em arXiv:1801.07829}, 2019.
+
+\end{thebibliography}

@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: strategy.aux
+The style file: unsrt.bst
+Database file #1: thesis.bib
+Warning--empty author in CMS:2014ata
+Warning--empty journal in CMS:2014ata
+Warning--empty institution in CMS-DP-2019-033
+Warning--empty note in DMTheory
+Warning--empty institution in CMS_NOTE_2018-323
+You've used 32 entries,
+            1791 wiz_defined-function locations,
+            600 strings with 8178 characters,
+and the built_in function-call counts, 4328 in all, are:
+= -- 351
+> -- 123
+< -- 2
++ -- 62
+- -- 30
+* -- 139
+:= -- 690
+add.period$ -- 82
+call.type$ -- 32
+change.case$ -- 22
+chr.to.int$ -- 0
+cite$ -- 37
+duplicate$ -- 210
+empty$ -- 558
+format.name$ -- 30
+if$ -- 990
+int.to.chr$ -- 0
+int.to.str$ -- 32
+missing$ -- 14
+newline$ -- 149
+num.names$ -- 28
+pop$ -- 118
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 135
+stack$ -- 0
+substring$ -- 99
+swap$ -- 30
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 5
+while$ -- 34
+width$ -- 34
+write$ -- 289
+(There were 5 warnings)

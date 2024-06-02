@@ -1,0 +1,85 @@
+\begin{thebibliography}{10}
+
+\bibitem{VBFHinvAnalysisPaper}
+CMS Collaboration.
+\newblock {Search for invisible decays of the Higgs boson produced via vector
+  boson fusion in proton-proton collisions at $\sqrt{s}=13$ TeV}.
+\newblock {\em Phys. Rev. D}, 105:092007, May 2022.
+
+\bibitem{paper:VBF_HToInv_2016}
+CMS Collaboration.
+\newblock {Search for invisible decays of a Higgs boson produced through vector
+  boson fusion in proton-proton collisions at $\sqrt{s} = 13$ TeV}.
+\newblock {\em Physics Letters B}, 793, 2019.
+
+\bibitem{CMS:2021xjt}
+{Sirunyan, Albert M. \textit{et. al.}}
+\newblock {Precision luminosity measurement in proton-proton collisions at
+  $\sqrt{s} =$ 13 TeV in 2015 and 2016 at CMS}.
+\newblock {\em Eur. Phys. J. C}, 81:800, 2021.
+
+\bibitem{Cowan:2010js}
+Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
+\newblock Asymptotic formulae for likelihood-based tests of new physics.
+\newblock {\em Eur. Phys. J. C}, 71:1554, 2011.
+
+\bibitem{Junk:1999kv}
+Thomas Junk.
+\newblock Confidence level computation for combining searches with small
+  statistics.
+\newblock {\em Nucl. Instrum. Meth. A}, 434:435, 1999.
+
+\bibitem{Read:2002av}
+A.~L. Read.
+\newblock {Presentation of search results: the ${\textrm{CL}_{\textrm{s}}}$
+  technique}.
+\newblock {\em J. Phys. G}, 28:2693, 2002.
+
+\bibitem{Djouadi:2011aa}
+Abdelhak Djouadi, Oleg Lebedev, Yann Mambrini, and Jeremie Quevillon.
+\newblock {Implications of LHC searches for Higgs--portal dark matter}.
+\newblock {\em Phys. Lett. B}, 709:65--69, 2012.
+
+\bibitem{Hoferichter:2017olk}
+Martin Hoferichter, Philipp Klos, Javier Men{\'e}ndez, and Achim Schwenk.
+\newblock Improved limits for {H}iggs-portal dark matter from {LHC} searches.
+\newblock {\em Phys. Rev. Lett.}, 119:181803, 2017.
+
+\bibitem{Heinemeyer:2013tqa}
+{LHC Higgs Cross Section Working Group}.
+\newblock Handbook of {LHC} {H}iggs cross sections: 3. {H}iggs properties.
+\newblock 2013.
+
+\bibitem{Aprile:2018dbl}
+{Aprile, E. \textit{et. al.}}
+\newblock Dark matter search results from a one ton-year exposure of {XENON1T}.
+\newblock {\em Phys. Rev. Lett.}, 121:111302, 2018.
+
+\bibitem{Angloher:2015ewa}
+{Angloher, G. \textit{et. al.}}
+\newblock Results on light dark matter particles with a low-threshold
+  {CRESST-II} detector.
+\newblock {\em Eur. Phys. J. C}, 76:25, 2016.
+
+\bibitem{Agnese:2015nto}
+{Agnese, R. \textit{et. al.}}
+\newblock New results from the search for low-mass weakly interacting massive
+  particles with the {CDMS} low ionization threshold experiment.
+\newblock {\em Phys. Rev. Lett.}, 116:071301, 2016.
+
+\bibitem{Akerib:2016vxi}
+{Akerib, D. S. \textit{et. al.}}
+\newblock Results from a search for dark matter in the complete {LUX} exposure.
+\newblock {\em Phys. Rev. Lett.}, 118:021303, 2017.
+
+\bibitem{PandaX-4T:2021bab}
+{Meng, Yue \textit{et. al.}}
+\newblock {Dark Matter Search Results from the PandaX-4T Commissioning Run}.
+\newblock 7 2021.
+
+\bibitem{Agnes:2018ves}
+{Agnes, P. \textit{et. al.}}
+\newblock Low-mass dark matter search with the {DarkSide-50 Experiment}.
+\newblock {\em Phys. Rev. Lett.}, 121:081307, 2018.
+
+\end{thebibliography}

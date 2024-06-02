@@ -11,6 +11,7 @@
 % \usepackage{natbib}
 % \usepackage{apalike}
 \usepackage{float}
+\usepackage[sectionbib]{chapterbib}
 % \usepackage{subcaption}
 \usepackage[bf]{caption}       
 \captionsetup{margin=0.5in}
@@ -74,33 +75,33 @@
 % -------------------------------------
 % CHAPTER 1: THEORY BACKGROUND
 % -------------------------------------
-\include{1_TheoreticalBackground/theory.tex}
+\include{1_TheoreticalBackground/theory}
 \cleardoublepage
 
 % -------------------------------------
 % CHAPTER 2: THE BODY OF THESIS
 % -------------------------------------
-\include{2_Experimental_Apparatus/apparatus.tex}
+\include{2_Experimental_Apparatus/apparatus}
 \cleardoublepage
 
 
 % -------------------------------------
 % CHAPTER 3: IMPORTANT DETAILS
 % -------------------------------------
-\include{3_DataAnalysisStrategy/strategy.tex}
+\include{3_DataAnalysisStrategy/strategy}
 \cleardoublepage
 
 % -------------------------------------
 % CHAPTER 4: RESULTS
 % -------------------------------------
-\include{4_Results/results.tex}
+\include{4_Results/results}
 % \include{4_Conclusions/conclusions}
 \cleardoublepage
 
 % -------------------------------------
 % CHAPTER 5: OUTLOOK
 % -------------------------------------
-\include{5_Outlook/outlook.tex}
+\include{5_Outlook/outlook}
 \cleardoublepage
 
 %\appendix
@@ -109,17 +110,17 @@
 \end{appendices}
 %==========================================================================%
 % Bibliography
-\newpage
-\singlespace
-\bibliographystyle{unsrt}
+% \newpage
+% \singlespace
+% \bibliographystyle{unsrt}
 
-% each subdirectory can have its own BiBTeX file
-\bibliography{thesis}
-\cleardoublepage
+% % each subdirectory can have its own BiBTeX file
+% \bibliography{thesis}
+% \cleardoublepage
 
 %==========================================================================%
 % Curriculum Vitae
-\include{0_Prelim/cv} 
+% \include{0_Prelim/cv} 
 
 %==========================================================================%
 \end{document}
