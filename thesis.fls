@@ -565,6 +565,13 @@ INPUT 0_Prelim/ack.tex
 INPUT ./0_Prelim/ack.tex
 INPUT ./0_Prelim/ack.tex
 INPUT 0_Prelim/ack.tex
+INPUT ./0_Prelim/foreword.tex
+INPUT ./0_Prelim/foreword.tex
+INPUT ./0_Prelim/foreword.tex
+INPUT 0_Prelim/foreword.tex
+INPUT ./0_Prelim/foreword.tex
+INPUT ./0_Prelim/foreword.tex
+INPUT 0_Prelim/foreword.tex
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT ./thesis.toc
