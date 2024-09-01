@@ -6,43 +6,43 @@ Database file #1: thesis.bib
 Warning--there's a number but no volume in CMS:TrackerUpgradeStatus
 You've used 10 entries,
             1791 wiz_defined-function locations,
-            507 strings with 4992 characters,
-and the built_in function-call counts, 1495 in all, are:
-= -- 130
-> -- 40
+            511 strings with 5222 characters,
+and the built_in function-call counts, 1820 in all, are:
+= -- 143
+> -- 90
 < -- 0
-+ -- 20
-- -- 10
-* -- 68
-:= -- 267
++ -- 36
+- -- 26
+* -- 118
+:= -- 328
 add.period$ -- 29
 call.type$ -- 10
 change.case$ -- 9
 chr.to.int$ -- 0
 cite$ -- 11
-duplicate$ -- 81
-empty$ -- 164
-format.name$ -- 10
-if$ -- 321
+duplicate$ -- 83
+empty$ -- 177
+format.name$ -- 26
+if$ -- 381
 int.to.chr$ -- 0
 int.to.str$ -- 10
 missing$ -- 9
 newline$ -- 52
 num.names$ -- 10
-pop$ -- 23
+pop$ -- 19
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 30
+skip$ -- 31
 stack$ -- 0
-substring$ -- 49
+substring$ -- 76
 swap$ -- 11
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 13
+while$ -- 15
 width$ -- 12
-write$ -- 104
+write$ -- 106
 (There was 1 warning)

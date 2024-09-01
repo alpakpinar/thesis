@@ -1,14 +1,16 @@
 \begin{thebibliography}{10}
 
 \bibitem{CMS:ApolloPaper}
-A.~Albert \textit{et. al.}
-\newblock {The Apollo ATCA Platform}.
-\newblock {\em arXiv:1911.06452}, 2020.
+Eric~Shearer Hazen, A.~Albert, J.~Butler, Z.~Demiragli, K.~Finelli, D.~Gastler,
+  E.~Hazen, J.~Rohlf, S.~Yuan, Thiago Costa De~Paiva, V~Martinez~Outschoorn,
+  S.~Willocq, C.~Strohman, P.~Wittich, R.~Glein, and K.~Ulmer.
+\newblock {The APOLLO ATCA Platform}.
+\newblock {\em PoS}, TWEPP2019:120, 2020.
 
 \bibitem{CMS:ParticleNetPaper}
-Loukas~Gouskos Huilin~Qu.
-\newblock {ParticleNet: Jet Tagging via Particle Clouds}.
-\newblock {\em arXiv:1902.08570}, 2020.
+Huilin Qu and Loukas Gouskos.
+\newblock Jet tagging via particle clouds.
+\newblock {\em Phys. Rev. D}, 101:056019, Mar 2020.
 
 \bibitem{VBFHinvAnalysisPaper}
 CMS Collaboration.
